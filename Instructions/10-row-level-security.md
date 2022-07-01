@@ -2,28 +2,27 @@
 lab:
   title: Appliquer la sécurité au niveau des lignes
   module: Module 12 - Row-Level Security
-ms.openlocfilehash: 6ccc19e9835dca06ec613e386c82fb0270a28ed5
-ms.sourcegitcommit: 51f448b208842f1333cb683b7775618edb41c126
+ms.openlocfilehash: f47cc7c54428589aaa9d6b37afd9ee4d11c5884e
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "145197110"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650106"
 ---
 # <a name="enforce-row-level-security"></a>**Appliquer la sécurité au niveau des lignes**
 
 **La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
-Dans ce labo, vous allez créer une relation plusieurs-à-plusieurs entre la table **Salesperson** et la table **Sales**. Vous appliquerez également la sécurité au niveau des lignes pour vous assurer qu’un vendeur ne peut analyser les données de ventes que pour la ou les régions qui lui sont attribuées.
+Dans ce labo, vous appliquerez la sécurité au niveau des lignes pour vous assurer qu’un vendeur ne peut analyser les données de ventes que pour la ou les régions qui lui sont attribuées.
 
 Dans ce labo, vous allez découvrir comment :
 
-- Configurer des relations plusieurs-à-plusieurs
 
 - Appliquer la sécurité au niveau des lignes
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 

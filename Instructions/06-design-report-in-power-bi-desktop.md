@@ -2,12 +2,12 @@
 lab:
   title: Concevoir un rapport dans Power BI Desktop, partie 1
   module: Module 7 - Create Reports
-ms.openlocfilehash: 952409822e622f744edcaef603bea5058670c3e8
-ms.sourcegitcommit: 40a8c8608a0adde23300c2b6833db02193f36dfe
+ms.openlocfilehash: 426892501790aaecbe21ed2e7f9161c4490c9e3b
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "146072493"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650214"
 ---
 # <a name="design-a-report-in-power-bi-desktop-part-1"></a>**Concevoir un rapport dans Power BI Desktop (partie 1)**
 
@@ -23,7 +23,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
@@ -71,7 +71,7 @@ Dans cette tâche, vous configurez l’environnement nécessaire pour le labo en
 
 1. Si vous êtes invité à mettre à jour le mot de passe, entrez à nouveau le mot de passe fourni, puis entrez et confirmez un nouveau mot de passe.
 
-    *Important : N’oubliez pas de noter votre nouveau mot de passe quelque part.*
+    *Important : N’oubliez pas de noter votre nouveau mot de passe.*
 
 1. Terminez le processus de connexion.
 

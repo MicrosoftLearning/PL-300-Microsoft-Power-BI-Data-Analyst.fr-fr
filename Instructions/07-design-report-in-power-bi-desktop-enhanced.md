@@ -2,12 +2,12 @@
 lab:
   title: Concevoir un rapport dans Power BI Desktop, partie 2
   module: Module 7 - Create Reports
-ms.openlocfilehash: 113abb71cee132e348d3513f171efe6cec317046
-ms.sourcegitcommit: f09183b2093a7f8de629f89b54d70bcad85598b6
+ms.openlocfilehash: 72d571e81320d4c0311f9e566d1805725439f961
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "146109731"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650205"
 ---
 # <a name="design-a-report-in-power-bi-desktop-part-2"></a>**Concevoir un rapport dans Power BI Desktop (partie 2)**
 
@@ -27,7 +27,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
