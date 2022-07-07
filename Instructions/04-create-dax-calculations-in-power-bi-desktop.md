@@ -2,12 +2,12 @@
 lab:
   title: Créer des calculs DAX dans Power BI Desktop (partie 1)
   module: Module 5 - Create Model Calculations using DAX in Power BI
-ms.openlocfilehash: 3bbdf3dfb4b302a9b3c28005976ff34764c1c542
-ms.sourcegitcommit: d88b7941fe3805f0bc2979ea864c5483ec289c75
+ms.openlocfilehash: 743fdd6a85236a40008fcdb3b466c61c617a55fb
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "146071654"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "147015336"
 ---
 # <a name="create-dax-calculations-in-power-bi-desktop-part-1"></a>**Créer des calculs DAX dans Power BI Desktop (partie 1)**
 
@@ -25,7 +25,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 

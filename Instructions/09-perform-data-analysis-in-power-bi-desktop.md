@@ -2,12 +2,12 @@
 lab:
   title: Analyser les données dans Power BI Desktop
   module: Module 9 - Identify Patterns and Trends
-ms.openlocfilehash: e58af011b5603e4cd6e5def7c4353156fc67c879
-ms.sourcegitcommit: 6853b027da7f5e739951c3eef54f4cd458854c66
+ms.openlocfilehash: 42ec8ac1a9fd160fe2181ae8d966d85d04b9b82d
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "146274797"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "147015327"
 ---
 # <a name="perform-data-analysis-in-power-bi-desktop"></a>**Analyser les données dans Power BI Desktop**
 
@@ -25,7 +25,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
@@ -105,7 +105,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en créant un 
 
 4. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\08-create-power-bi-dashboard\Solution**.
 
-5. Sélectionnez le fichier **Sales Analysis.pbix**, puis cliquez sur **Ouvrir**.
+5. Sélectionnez le fichier **Sales Analysis.pbix**, puis clqiuez sur **Ouvrir**.
 
 6. Lorsque vous êtes invité à remplacer le jeu de données, cliquez sur **Remplacer**.
 

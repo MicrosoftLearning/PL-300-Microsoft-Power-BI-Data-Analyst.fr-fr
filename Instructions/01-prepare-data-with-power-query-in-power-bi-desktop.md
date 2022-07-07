@@ -2,12 +2,12 @@
 lab:
   title: Préparer des données dans Power BI Desktop
   module: Module 2 - Get Data in Power BI
-ms.openlocfilehash: c44eb33136e3d429a44f6e091897388f4eed4135
-ms.sourcegitcommit: 6853b027da7f5e739951c3eef54f4cd458854c66
+ms.openlocfilehash: 56cc5b93dfb545367ae8f5fe3996a9318203f151
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "146274812"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "147015345"
 ---
 # <a name="prepare-data-in-power-bi-desktop"></a>**Préparer des données dans Power BI Desktop**
 
@@ -29,7 +29,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
 
 1. **Préparer des données dans Power BI Desktop**
 
