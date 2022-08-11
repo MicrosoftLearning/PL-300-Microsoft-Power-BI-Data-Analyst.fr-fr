@@ -11,9 +11,9 @@ ms.locfileid: "147015345"
 ---
 # <a name="prepare-data-in-power-bi-desktop"></a>**Préparer des données dans Power BI Desktop**
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+**La durée estimée de ce labo est de 45 minutes.**
 
-Dans ce labo, vous commencez le développement d’une solution Power BI Desktop pour la société Adventure Works. Elle implique la connexion aux données sources, l’affichage de l’aperçu des données et l’utilisation de techniques d’aperçu des données pour comprendre les caractéristiques et la qualité des données sources.
+Au cours de ce labo, vous lancez le développement d’une solution Power BI Desktop pour la société Adventure Works. Elle implique la connexion aux données sources, l’affichage de l’aperçu des données et l’utilisation de techniques d’aperçu des données pour comprendre les caractéristiques et la qualité des données sources.
 
 Dans ce labo, vous allez découvrir comment :
 
@@ -25,7 +25,7 @@ Dans ce labo, vous allez découvrir comment :
 
 - Obtenir un aperçu des données sources
 
-- Utilisez des techniques d’aperçu des données pour mieux comprendre les données
+- Utiliser des techniques d’aperçu des données pour mieux comprendre les données
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
@@ -91,23 +91,23 @@ Dans cette tâche, vous allez d’abord enregistrer le fichier Power BI Desktop.
 
 Dans cette tâche, vous allez définir les options de Power BI Desktop.
 
-1. Dans Power BI Desktop, cliquez sur l’onglet du ruban **Fichier** pour ouvrir le mode Backstage.
+1. Dans Power BI Desktop, cliquez sur l’onglet **Fichier** dans le ruban pour ouvrir le mode Backstage.
 
 1. Sur la gauche, sélectionnez **Options et paramètres**, puis sélectionnez **Options**.
 
     ![Image 1](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image7.png)
 
-1. Dans la fenêtre **Options**, à gauche, dans le groupe **Fichier actif**, sélectionnez **Chargement des données**.
+1. Dans le volet gauche de la fenêtre **Options**, sélectionnez **Chargement des données** dans le groupe **Fichier actif**.
 
     ![Image 5](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image8.png)
 
     Les paramètres de **Chargement des données** pour le fichier actif permettent de définir des options qui déterminent les comportements par défaut lors de la modélisation.
 
-1. Dans le groupe **Relations**, décochez les deux options qui sont cochées.
+1. Dans le groupe **Relations**, désactivez les deux options activées.
 
     ![Image 7](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image9.png)
 
-    Même si ces deux options peuvent être utiles lors du développement d’un modèle de données, elles ont été désactivées pour prendre en charge l’expérience du labo. Lorsque vous créez des relations dans le labo **Charger des données dans Power BI Desktop**, vous découvrirez pourquoi vous ajoutez chacun d’eux.
+    Même si ces deux options peuvent être utiles lors du développement d’un modèle de données, elles ont été désactivées pour prendre en charge l’expérience du labo. Lorsque vous créerez des relations dans le labo **Charger des données dans Power BI Desktop**, vous découvrirez pourquoi vous les avez ajoutées.
 
 1. Cliquez sur **OK**.
 
@@ -119,7 +119,7 @@ Dans cette tâche, vous allez définir les options de Power BI Desktop.
 
 Dans cette tâche, vous allez créer des requêtes basées sur des tables SQL Server.
 
-1. Sous l’onglet du ruban **Accueil**, dans le groupe **Données**, cliquez sur **SQL Server**.
+1. Sous l’onglet **Accueil** du ruban, cliquez sur **SQL Server** dans le groupe **Données**.
 
     ![Image 19](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image11.png)
 
@@ -193,9 +193,9 @@ Dans cette tâche, vous allez afficher un aperçu des données des requêtes SQL
 
 5. Notez que les cinq dernières colonnes contiennent des liens **Table** ou **Valeur**.
 
-    Ces cinq colonnes représentent les relations avec d’autres tables de la base de données. Elles peuvent être utilisées pour joindre des tables ensemble. Vous allez joindre des tables dans le labo **Charger des données dans Power BI Desktop**.
+    Ces cinq colonnes représentent les relations avec d’autres tables de la base de données. Elles peuvent être utilisées pour relier des tables entre elles. Vous allez joindre des tables dans le labo **Charger des données dans Power BI Desktop**.
 
-6. Pour évaluer la qualité des colonnes, sous l’onglet du ruban **Afficher**, à l’intérieur du groupe **Aperçu des données**, cochez **Qualité de la colonne**.
+6. Pour évaluer la **qualité des colonnes**, cliquez sur l'onglet Affichage dans le ruban et activez l'option Qualité des colonnes dans le groupe **Aperçu des données**.
 
     ![Image 35](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image23.png)
 
@@ -205,7 +205,7 @@ Dans cette tâche, vous allez afficher un aperçu des données des requêtes SQL
 
     ![Image 38](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image24.png)
 
-8. Pour évaluer la distribution de la colonne, sous l’onglet du ruban **Afficher**, à l’intérieur du groupe **Aperçu des données**, cochez **Distribution des colonnes**.
+8. Pour évaluer la distribution des colonnes, cliquez sur l’onglet Affichage dans le ruban et activez l'option **Distribution des colonnes** dans le groupe **Aperçu des données**.
 
     ![Image 40](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image25.png)
 
@@ -347,7 +347,7 @@ Dans cette tâche, vous terminez le labo.
 
     ![Image 86](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image42.png)
 
-    L’application des requêtes va charger leurs données dans le modèle de données. Vous n’êtes pas prêt à faire cela, car de nombreuses transformations doivent d’abord être appliquées.
+    L’application des requêtes va charger leurs données dans le modèle de données, ce qui n'est pas encore possible étant donné que de nombreuses transformations doivent d’abord être appliquées.
 
 4. Si vous avez l’intention de démarrer le labo suivant, laissez Power BI Desktop ouvert.
 

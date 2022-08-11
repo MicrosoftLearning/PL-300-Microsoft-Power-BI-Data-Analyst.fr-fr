@@ -11,7 +11,7 @@ ms.locfileid: "146650106"
 ---
 # <a name="enforce-row-level-security"></a>**Appliquer la sécurité au niveau des lignes**
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+**La durée estimée de ce labo est de 45 minutes.**
 
 Dans ce labo, vous appliquerez la sécurité au niveau des lignes pour vous assurer qu’un vendeur ne peut analyser les données de ventes que pour la ou les régions qui lui sont attribuées.
 
@@ -80,9 +80,9 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 4](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image5.png)
 
-1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
+1. Fermez toutes les fenêtres d’information ouvertes.
 
-1. Pour créer une copie du fichier, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
+1. Pour créer une copie du fichier, sélectionnez l'onglet **Fichier** dans le ruban afin de passer en mode Backstage.
 
 1. Sélectionnez **Enregistrer sous**.
 
@@ -144,7 +144,7 @@ Dans cet tâche, vous appliquez la sécurité au niveau des lignes pour vous ass
 
     ![Image 5708](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image27.png)
 
-12. Dans la fenêtre **Afficher comme rôles**, cochez l’élément **Autre utilisateur**, puis dans la zone correspondante, entrez : **michael-blythe@adventureworks.com**
+12. Dans la fenêtre **Afficher comme rôles**, activez la case à cocher  **Autre utilisateur**, puis dans la zone correspondante, entrez : **michael-blythe@adventureworks.com**
 
 13. Sélectionnez le rôle **Salespeople**.
 
@@ -170,7 +170,7 @@ Dans cet tâche, vous appliquez la sécurité au niveau des lignes pour vous ass
 
     *Une fois que le fichier Power BI Desktop aura été publié sur le service Power BI, vous devrez effectuer une tâche de post-publication pour mapper les principaux de sécurité au rôle **Salespeople**. Vous n’effectuerez pas cette tâche durant ce labo.*
 
-18. Pour supprimer le rôle, sous l’onglet de ruban **Modélisation**, dans le groupe **Sécurité**, sélectionnez **Gérer les rôles**.
+18. Pour supprimer le rôle, cliquez sur l'onglet **Modélisation** dans le ruban et sélectionnez **Gérer les rôles** dans le groupe **Sécurité**.
 
     ![Image 16](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image33.png)
 

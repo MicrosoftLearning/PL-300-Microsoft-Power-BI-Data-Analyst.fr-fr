@@ -11,7 +11,7 @@ ms.locfileid: "146650214"
 ---
 # <a name="design-a-report-in-power-bi-desktop-part-1"></a>**Concevoir un rapport dans Power BI Desktop (partie 1)**
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+**La durée estimée de ce labo est de 45 minutes.**
 
 Dans ce labo, vous allez créer un rapport de trois pages. Vous publierez ensuite ce rapport dans Power BI, puis vous l'ouvrirez et interagirez avec lui.
 
@@ -167,7 +167,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en ouvrant le 
 
     ![Image 4](Linked_image_Files/07-design-report-in-power-bi-desktop_image11.png)
 
-### <a name="task-4-design-page-1"></a>**Tâche 4 : Conception de page 1**
+### <a name="task-4-design-page-1"></a>**Tâche 4 : Conception de la page 1**
 
 Au cours de cette tâche, vous allez créer la première page du rapport. Une fois créée, la page se présentera comme suit :
 
@@ -315,7 +315,7 @@ Au cours de cette tâche, vous allez créer la première page du rapport. Une fo
 
     *La conception de la première page est maintenant terminée.*
 
-### <a name="task-5-design-page-2"></a>**Tâche 5 : Conception de page 2**
+### <a name="task-5-design-page-2"></a>**Tâche 5 : Conception de la page 2**
 
 Dans cette tâche, vous allez créer la deuxième page du rapport. Une fois créée, la page se présentera comme suit :
 
@@ -389,9 +389,9 @@ Dans cette tâche, vous allez créer la deuxième page du rapport. Une fois cré
 
     *La conception de la deuxième page est maintenant terminée.*
 
-### <a name="task-6-design-page-3"></a>**Tâche 6 : Conception de page 3**
+### <a name="task-6-design-page-3"></a>**Tâche 6 : Conception de la page 3**
 
-Dans cette tâche, vous allez concevoir la troisième page du rapport, qui est aussi la dernière. Une fois créée, la page se présentera comme suit :
+Dans cette tâche, vous allez créer la troisième et dernière page du rapport Une fois créée, la page se présentera comme suit :
 
 ![Image de la page 3, comprenant un segment et trois visuels.](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
 

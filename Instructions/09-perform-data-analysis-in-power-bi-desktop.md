@@ -11,7 +11,7 @@ ms.locfileid: "147015327"
 ---
 # <a name="perform-data-analysis-in-power-bi-desktop"></a>**Analyser les données dans Power BI Desktop**
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+**La durée estimée de ce labo est de 45 minutes**
 
 Dans ce labo, vous allez créer le rapport **Exploration des ventes**.
 
@@ -25,7 +25,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
@@ -293,7 +293,7 @@ Dans cette tâche, vous allez créer une prévision pour déterminer le chiffre 
 
     *La zone grise représente la confiance. Plus la confiance est importante, moins la prévision est susceptible d’être stable et précise.*
 
-    *Quand vous connaissez la durée du cycle (« annuel » dans le cas présent), vous devez entrer les points relatifs au caractère saisonnier. Parfois ce peut être hebdomadaire (7) ou mensuel (30).*
+    *Quand vous connaissez la durée du cycle (« annuel » dans le cas présent), vous devez entrer les points relatifs au caractère saisonnier. Le cycle peut aussi être hebdomadaire (7) ou mensuel (30).*
 
 13. Dans le volet **Filtres**, filtrez sur **Habillement** uniquement, puis notez que cela produit un résultat différent.
 
@@ -308,7 +308,7 @@ Dans cette tâche, vous terminez le labo.
 
 2. Enregistrez le fichier Power BI Desktop.
 
-3. Pour publier le fichier dans votre **Mon espace de travail**, sous l’onglet de ruban **Accueil**, dans le groupe **Partager**, cliquez sur **Publier**, puis cliquez sur **Sélectionner** pour publier.
+3. Pour publier le fichier dans **Mon espace de travail**, sous l’onglet **Accueil** du ruban, cliquez sur **Publier** dans le groupe **Partager** puis cliquez sur **Sélectionner** pour publier.
 
     ![Image 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
 

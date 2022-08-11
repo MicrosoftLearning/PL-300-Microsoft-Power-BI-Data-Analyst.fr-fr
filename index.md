@@ -11,7 +11,7 @@ ms.locfileid: "145197313"
 ---
 # <a name="content-directory"></a>Répertoire de contenu
 
-Les liens hypertexte vers chaque exercice et démonstration de labo sont répertoriés ci-dessous.
+Les liens hypertexte vers chaque exercice de labo et chaque démo sont présentés ci-dessous.
 
 ## <a name="labs"></a>Laboratoires
 

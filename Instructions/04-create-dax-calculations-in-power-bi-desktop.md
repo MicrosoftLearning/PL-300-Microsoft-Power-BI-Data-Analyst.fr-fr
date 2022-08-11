@@ -11,7 +11,7 @@ ms.locfileid: "147015336"
 ---
 # <a name="create-dax-calculations-in-power-bi-desktop-part-1"></a>**Créer des calculs DAX dans Power BI Desktop (partie 1)**
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+**La durée estimée de ce labo est de 45 minutes.**
 
 Dans ce labo, vous allez créer des tables calculées, des colonnes calculées et des mesures simples à l’aide de DAX (Data Analysis Expressions).
 
@@ -25,7 +25,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
@@ -65,7 +65,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 49](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image2.png)
 
-1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
+1. Pour ouvrir le fichier de démarrage de Power BI Desktop, sélectionnez **Fichier** dans le ruban afin de passer en mode Backstage.
 
 1. Sélectionnez **Ouvrir un rapport**.
 
@@ -159,7 +159,7 @@ Au cours de cette tâche, vous allez créer la table **Salesperson** (Vendeur), 
 
     *Pour rappel, les descriptions apparaissent sous forme d’info-bulles dans le volet **Champs** lorsque l’utilisateur place le curseur sur une table ou un champ.*
 
-12. Pour la table **Salesperson (Performance)** (Vendeur (Performance)), définissez la description sur : **Salesperson related to region(s)** (Vendeur lié à Région(s))
+12. Pour la table **Salesperson (Performance)**, définissez la description **Salesperson related to region(s)**
 
     *Le modèle de données offre désormais deux possibilités pour l’analyse des vendeurs. La table **Salesperson** permet d’analyser les ventes effectuées par un vendeur, tandis que le tableau **Salesperson (Performance)** permet d’analyser les ventes effectuées dans la ou les régions de vente affectées au vendeur.*
 
@@ -314,7 +314,7 @@ Dans cette tâche, vous allez terminer la conception de la table **Date** en mas
 
 3. Dans le volet **Champs** à droite, sélectionnez la table **Date**, cliquez avec le bouton droit sur la colonne **Année**, puis sélectionnez **Créer une hiérarchie**. 
 
-4. Renommez la hiérarchie nouvellement créée **Fiscal** en cliquant avec le bouton droit sur **Renommer**. 
+4. Cliquez avec le bouton droit sur **Renommer** et remplacez le nom de la hiérarchie nouvellement créée par « Fiscal ». 
 5. Ajoutez les deux champs restants suivants à la hiérarchie Fiscal en les sélectionnant dans le volet Champs, en cliquant avec le bouton droit et en sélectionnant **Ajouter à la hiérarchie** -> **Fiscal**.
     
     - Quarter (Trimestre)

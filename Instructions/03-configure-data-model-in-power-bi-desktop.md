@@ -11,7 +11,7 @@ ms.locfileid: "147015363"
 ---
 # <a name="model-data-in-power-bi-desktop"></a>**Modéliser les données dans Power BI Desktop**
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+**La durée estimée de ce labo est de 45 minutes.**
 
 Dans ce labo, vous allez commencer à développer le modèle de données. Pour cela, vous créerez des relations entre les tables, puis configurerez des propriétés de table et de colonne pour améliorer la convivialité du modèle de données. Vous créerez également des hiérarchies et des mesures rapides.
 
@@ -26,7 +26,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
@@ -66,7 +66,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 11](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image2.png)
 
-1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
+1. Pour ouvrir le fichier de démarrage de Power BI Desktop, sélectionnez **Fichier** dans le ruban afin de passer en mode Backstage.
 
 1. Sélectionnez **Ouvrir un rapport**.
 
@@ -92,7 +92,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 5](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image6.png)
 
-1. Si vous êtes invité à appliquer les modifications, cliquez **Appliquer**.
+1. Si vous êtes invité à appliquer les modifications, cliquez sur **Appliquer**.
 
     ![Image 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image7.png)
 
@@ -210,7 +210,7 @@ Dans cette tâche, vous allez créer des relations de modèle.
 
     - **Salesperson \| EmployeeKey** vers **Sales \| EmployeeKey**
 
-25. Dans le diagramme, organisez les tables afin que la table **Sales** soit positionnée au centre du diagramme et que les tables associées soient organisées à ce sujet. Placez les tables déconnectées sur le côté.
+25. Dans le diagramme, organisez les tables de manière à ce que la table **Sales** soit placée au centre du diagramme et que les tables associées soient disposées autour d'elle. Placez les tables déconnectées sur le côté.
 
     ![Image 340](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image23.png)
 
@@ -277,7 +277,7 @@ Dans cette tâche, vous allez configurer la table **Region**.
 
     - Country
 
-    - Région
+    - Region
 
     ![Image 350](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image31.png)
 
@@ -313,7 +313,7 @@ Dans cette tâche, vous allez configurer la table **Reseller**.
 
     ![Image 353](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image34.png)
 
-3. Définissez la **catégorie de données** pour les colonnes **Pays-Région**, **État-Province**, et **Ville** (non le niveau hiérarchique) sur **Pays/Région**, **État ou Province**, et **Ville**, respectivement. 
+3. Définissez la **catégorie de données** pour les colonnes **Pays-Region**, **État-Province**, et **Ville** (non le niveau hiérarchique) sur **Pays/Region**, **État ou Province**, et **Ville**, respectivement. 
 
 ### <a name="task-4-configure-the-sales-table"></a>**Tâche 4 : Configurer la table Sales**
 

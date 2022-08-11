@@ -11,7 +11,7 @@ ms.locfileid: "146650196"
 ---
 # <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>**Créer des calculs DAX dans Power BI Desktop (partie 2)**
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+**La durée estimée de ce labo est de 45 minutes.**
 
 Dans ce labo, vous allez créer des mesures avec des expressions DAX impliquant une manipulation du contexte de filtre.
 
@@ -63,7 +63,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 11](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image2.png)
 
-1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
+1. Pour ouvrir le fichier de démarrage de Power BI Desktop, sélectionnez **Fichier** dans le ruban afin de passer en mode Backstage.
 
 1. Sélectionnez **Ouvrir un rapport**.
 

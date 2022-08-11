@@ -11,7 +11,7 @@ ms.locfileid: "146650223"
 ---
 # <a name="load-data-in-power-bi-desktop"></a>**Charger des données dans Power BI Desktop**
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+**La durée estimée de ce labo est de 45 minutes.**
 
 Dans ce labo, vous allez commencer à appliquer des transformations à chacune des requêtes créées dans le labo précédent. Vous appliquerez ensuite les requêtes pour charger chacune d’elles sous forme de table dans le modèle de données.
 
@@ -54,7 +54,7 @@ Dans cet exercice, vous allez appliquer des transformations à chacune des requ�
 
 Dans cette tâche, vous configurez l’environnement pour le labo.
 
-*Important : Si vous venez d’effectuer le labo précédent (et que vous l’avez entièrement terminé), ignorez cette tâche et passez directement à la tâche suivante.*
+*Important : si vous venez d’effectuer le labo précédent (et que vous l’avez entièrement terminé), ignorez cette tâche et passez directement à la tâche suivante.*
 
 1. Pour ouvrir Power BI Desktop, accédez à la barre des tâches et cliquez sur le raccourci Microsoft Power BI Desktop.
 
@@ -64,7 +64,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 7](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image2.png)
 
-1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
+1. Pour ouvrir le fichier de démarrage de Power BI Desktop, sélectionnez **Fichier** dans le ruban afin de passer en mode Backstage.
 
 1. Sélectionnez **Ouvrir un rapport**.
 
@@ -82,7 +82,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 12](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image5.png)
 
-1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
+1. Fermez toutes les fenêtres d’information ouvertes.
 
 1. Notez qu’un message d’avertissement jaune est affiché sous le ruban.
 
@@ -134,7 +134,7 @@ Dans cette tâche, vous allez configurer la requête **Salesperson**.
 
     ![Image 88](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
-    *Conseil : Cette technique est pratique quand une requête contient de nombreuses colonnes. S’il n’y a pas beaucoup de colonnes, vous pouvez simplement faire défiler horizontalement pour localiser la colonne.*
+    *Conseil : cette technique est pratique quand une requête contient de nombreuses colonnes. S’il n’y a pas beaucoup de colonnes, vous pouvez simplement faire défiler horizontalement pour localiser la colonne.*
 
 5. Dans la fenêtre **Accéder à la colonne**, pour trier la liste par nom de colonne, cliquez sur le bouton de tri **AZ**, puis sélectionnez **Nom**.
 
@@ -160,7 +160,7 @@ Dans cette tâche, vous allez configurer la requête **Salesperson**.
 
     ![Image 99](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image18.png)
 
-11. Dans la fenêtre **Choisir des colonnes**, pour décocher toutes les colonnes, décochez l’élément **(Sélectionner toutes les colonnes)**.
+11. Dans la fenêtre **Choisir des colonnes**, pour désactiver toutes les colonnes, desactivez la case à cocher **Sélectionner toutes les**.
 
     ![Image 102](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image19.png)
 
@@ -212,17 +212,17 @@ Dans cette tâche, vous allez configurer la requête **Salesperson**.
 
 22. Remplacez le texte par **EmployeeID**, puis appuyez sur **Entrée**.
 
-    *Important : Quand il vous est demandé de renommer des colonnes, il est important de les renommer exactement comme c’est décrit.*
+    *Important : quand il vous est demandé de renommer des colonnes, il est important de les renommer exactement comme c’est décrit.*
 
 23. Utilisez les étapes précédentes pour renommer la colonne **EmailAddress** en **UPN**.
 
-    *UPN est un acronyme pour User Principal Name (Nom d’utilisateur principal).*
+    *UPN est l'acronyme de « User Principal Name » (Nom d’utilisateur principal).*
 
 24. En bas à gauche, dans la barre d’état, vérifiez que la requête a bien 5 colonnes et 18 lignes.
 
     ![Image 5638](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image26.png)
 
-    *Important : Il est important de ne pas continuer si votre requête ne produit pas le résultat correct, sinon il ne vous sera pas possible d’effectuer les labos ultérieurs. Si les colonnes ou les lignes de la requête ne correspondent pas, revenez aux étapes antérieures de cette tâche pour identifier et corriger le problème.*
+    *Important : il est important de ne pas continuer si votre requête ne produit pas le résultat correct, sinon il ne vous sera pas possible d’effectuer les labos ultérieurs. Si les colonnes ou les lignes de la requête ne correspondent pas, revenez aux étapes antérieures de cette tâche pour identifier et corriger le problème.*
 
 ### <a name="task-3-configure-the-salespersonregion-query"></a>**Tâche 3 : Configurer la requête SalespersonRegion**
 
@@ -250,7 +250,7 @@ Dans cette tâche, vous allez configurer la requête **SalespersonRegion**.
 
 Dans cette tâche, vous allez configurer la requête **Product**.
 
-*Important : Des instructions détaillées ayant déjà été fournies, les étapes du labo vont désormais faire l’objet d’instructions plus concises. Si vous avez besoin d’instructions détaillées, vous pouvez vous reporter aux étapes des tâches antérieures.*
+*Important : des instructions détaillées ayant déjà été fournies, les étapes du labo vont désormais faire l’objet d’instructions plus concises. Si vous avez besoin d’instructions détaillées, vous pouvez vous reporter aux étapes des tâches antérieures.*
 
 1. Sélectionnez la requête **DimProduct**.
 

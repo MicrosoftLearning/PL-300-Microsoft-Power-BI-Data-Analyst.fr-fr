@@ -11,7 +11,7 @@ ms.locfileid: "147015354"
 ---
 # <a name="create-a-power-bi-dashboard"></a>**Créer un tableau de bord Power BI**
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+**La durée estimée de ce labo est de 45 minutes.**
 
 Dans ce labo, vous allez créer le tableau de bord **Surveillance des ventes**.
 
@@ -45,7 +45,7 @@ Ce labo est l’un des nombreux labos d’une série qui a été conçue comme u
 
 11. Appliquer la sécurité au niveau des lignes
 
-## <a name="exercise-1-create-a-dashboard"></a>**Exercise 1 : Créez un tableau de bord**
+## <a name="exercise-1-create-a-dashboard"></a>**Exercise 1 : Créer un tableau de bord**
 
 Dans cet exercice, vous allez créer le tableau de bord **Surveillance des ventes**. Le tableau de bord terminé se présente comme suit :
 
@@ -337,7 +337,7 @@ Dans cette tâche, vous allez ouvrir le fichier **Analyse des ventes** Power BI 
 
 2. Une fois l’actualisation terminée, enregistrez le fichier Power BI Desktop.
 
-3. Pour publier le fichier dans votre espace de travail, sous l’onglet de ruban **Accueil**, dans le groupe **Partager**, cliquez sur **Publier**, puis cliquez sur **Sélectionner** pour publier.
+3. Pour publier le fichier dans votre espace de travail, cliquez sur l’onglet **Accueil** dans le ruban puis, dans le groupe **Partager**, cliquez sur **Publier**, puis sur **Sélectionner** pour publier.
 
     ![Image 59](Linked_image_Files/09-create-power-bi-dashboard_image48.png)
 
@@ -359,7 +359,7 @@ Dans cette tâche, vous allez examiner le tableau de bord pour voir les ventes m
 
 1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, affichez le tableau de bord **Surveillance des ventes**.
 
-2. Dans la vignette **Ventes, marge bénéficiaire**, dans le sous-titre, notez que les données ont été actualisées **MAINTENANT**.
+2. Dans la titre **Marge bénéficiaire de la vignette Ventes**, notez que dans le sous-titre, les données ont été actualisées **MAINTENANT**.
 
 3. Notez également qu’il y a désormais une colonne pour **juin 2020**.
 

@@ -11,7 +11,7 @@ ms.locfileid: "146650205"
 ---
 # <a name="design-a-report-in-power-bi-desktop-part-2"></a>**Concevoir un rapport dans Power BI Desktop (partie 2)**
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+**La durée estimée de ce labo est de 45 minutes.**
 
 Dans ce labo, vous allez améliorer le rapport **Sales Analysis** (Analyse des ventes) avec des fonctionnalités de conception avancées.
 
@@ -27,7 +27,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
@@ -81,7 +81,7 @@ Dans cette tâche, vous configurez l’environnement nécessaire pour le labo en
 
 1. Si Microsoft Edge vous invite à rester connecté, sélectionnez **Oui**.
 
-1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, dans le volet **Navigation**, développez **Mon espace de travail**.
+1. Dans la fenêtre du navigateur Microsoft Edge, développez **Mon espace de travail** dans le service Power BI du volet **Navigation**.
 
     ![Image 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
 
@@ -127,7 +127,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en ouvrant le 
 
 11. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-12. Pour créer une copie du fichier, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
+12. Pour créer une copie du fichier, sélectionnez l'onglet **Fichier** dans le ruban afin de passer en mode Backstage.
 
 13. Sélectionnez **Enregistrer sous**.
 
@@ -221,7 +221,7 @@ Dans cette tâche, vous allez créer une page et la configurer comme page d’ex
 
 7. Faites glisser le champ **Product \| Category** dans l’objet visuel Carte.
 
-8. Configurez les options de mise en forme pour l’objet visuel, puis activez la propriété **Étiquette de catégorie** sur **Désactiver**.
+8. Configurez les options de mise en forme pour l’objet visuel, puis désactivez la propriété **Étiquette de la catégorie**.
 
     ![Image 103](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image25.png)
 
