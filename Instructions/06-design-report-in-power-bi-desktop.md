@@ -391,7 +391,7 @@ Dans cette tâche, vous allez créer la deuxième page du rapport. Une fois cré
 
 ### <a name="task-6-design-page-3"></a>**Tâche 6 : Conception de la page 3**
 
-Dans cette tâche, vous allez créer la troisième et dernière page du rapport Une fois créée, la page se présentera comme suit :
+Dans cette tâche, vous allez créer la troisième et dernière page du rapport. Une fois créée, la page se présentera comme suit :
 
 ![Image de la page 3, comprenant un segment et trois visuels.](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
 

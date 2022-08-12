@@ -160,7 +160,7 @@ Dans cette tâche, vous allez configurer la requête **Salesperson**.
 
     ![Image 99](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image18.png)
 
-11. Dans la fenêtre **Choisir des colonnes**, pour désactiver toutes les colonnes, desactivez la case à cocher **Sélectionner toutes les**.
+11. Dans la fenêtre **Choisir des colonnes**, pour désactiver toutes les colonnes, desactivez la case à cocher **Sélectionner toutes les colonnes**.
 
     ![Image 102](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image19.png)
 

@@ -45,7 +45,7 @@ Ce labo est l’un des nombreux labos d’une série qui a été conçue comme u
 
 11. Appliquer la sécurité au niveau des lignes
 
-## <a name="exercise-1-create-a-dashboard"></a>**Exercise 1 : Créer un tableau de bord**
+## <a name="exercise-1-create-a-dashboard"></a>**Exercice 1 : Créer un tableau de bord**
 
 Dans cet exercice, vous allez créer le tableau de bord **Surveillance des ventes**. Le tableau de bord terminé se présente comme suit :
 
@@ -309,7 +309,7 @@ Dans cette tâche, vous allez modifier les détails de deux vignettes.
 
     *Dans l’exercice suivant, vous allez actualiser le jeu de données. En règle générale, cette opération s’effectue dans le cadre d’une actualisation planifiée, auquel cas Power BI utilise une passerelle pour se connecter à la base de données SQL Server. Toutefois, en raison des contraintes liées à la configuration de la classe, il n’y a pas de passerelle. Vous allez donc ouvrir Power BI Desktop, effectuer une actualisation manuelle des données, puis charger le fichier dans votre espace de travail.*
 
-## <a name="exercise-2-refresh-the-dataset"></a>**Exercise 2 : Actualiser le jeu de données**
+## <a name="exercise-2-refresh-the-dataset"></a>**Exercice 2 : Actualiser le jeu de données**
 
 Dans cet exercice, vous allez commencer par charger les données de commande client pour juin 2020 dans la base de données **AdventureWorksDW2020**. Ensuite, vous ouvrirez votre fichier Power BI Desktop, vous actualiserez les données, puis vous chargerez le fichier dans votre espace de travail.
 
@@ -359,7 +359,7 @@ Dans cette tâche, vous allez examiner le tableau de bord pour voir les ventes m
 
 1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, affichez le tableau de bord **Surveillance des ventes**.
 
-2. Dans la titre **Marge bénéficiaire de la vignette Ventes**, notez que dans le sous-titre, les données ont été actualisées **MAINTENANT**.
+2. Dans le titre **Marge bénéficiaire de la vignette Ventes**, notez que dans le sous-titre, les données ont été actualisées **MAINTENANT**.
 
 3. Notez également qu’il y a désormais une colonne pour **juin 2020**.
 

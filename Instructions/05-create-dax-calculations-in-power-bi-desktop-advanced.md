@@ -320,7 +320,7 @@ Dans cette tâche, vous allez créer plusieurs mesures avec des expressions DAX 
 
 19. Enregistrez le fichier Power BI Desktop.
 
-    *Les mesures ajoutées à la table **Sales** ont modifié le contexte de filtre pour produire une navigation hiérarchique. Comme vous pouvez le constater, le modèle permettant d’effectuer le calcul d’un sous-total implique de supprimer certaines colonnes du contexte de filtre ; pour obtenir le total général, vous devez supprimer toutes les colonnes.*
+    *Les mesures ajoutées à la table **Sales** ont modifié le contexte de filtre pour produire une navigation hiérarchique. Comme vous pouvez le constater, le modèle permettant d’effectuer le calcul d’un sous-total implique de supprimercertaines colonnes du contexte de filtre. Pour obtenir le total général, vous devez supprimer toutes les colonnes.*
 
 ## <a name="exercise-2-work-with-time-intelligence"></a>**Exercice 2 : Utiliser Time Intelligence**
 
