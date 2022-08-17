@@ -261,11 +261,11 @@ Dans cette tâche, vous allez améliorer la page d’extraction avec une mise en
 
 1. Désélectionnez l’objet visuel Tableau.
 
-2. Dans le volet de visualisation, cliquez sur la flèche vers le bas de la valeur **Marge bénéficiaire**, puis sélectionnez **Mise en forme conditionnelle \| Icônes**.
+2. Dans le volet de visualisation, cliquez sur la flèche vers le bas de la valeur **Marge bénéficiaire,** puis sélectionnez **Mise en forme conditionnelle \| Icônes**.
 
     ![Image 107](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image29.png)
 
-3. Dans la fenêtre **Icônes** Marge bénéficiaire **, dans la liste déroulante** Disposition des icônes, sélectionnez **À droite des données**.
+3. Dans la fenêtre **Icônes** Marge bénéficiaire,**dans la liste déroulante** Disposition des icônes, sélectionnez **À droite des données**.
 
     ![Image 108](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image30.png)
 
