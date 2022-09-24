@@ -1,17 +1,13 @@
 ---
 lab:
-  title: Créer des calculs DAX dans Power BI Desktop (partie 2)
+  title: "Créer des calculs DAX dans Power\_BI Desktop (partie\_2)"
   module: Module 5 - Create Model Calculations using DAX in Power BI
-ms.openlocfilehash: 064f5bb2c313448f7d15b01bd0e69a84aa85811f
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650196"
 ---
+
+
 # <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>**Créer des calculs DAX dans Power BI Desktop (partie 2)**
 
-**La durée estimée de ce labo est de 45 minutes.**
+**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
 Dans ce labo, vous allez créer des mesures avec des expressions DAX impliquant une manipulation du contexte de filtre.
 
@@ -23,7 +19,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Préparer des données dans Power BI Desktop
 
@@ -63,7 +59,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 11](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image2.png)
 
-1. Pour ouvrir le fichier de démarrage de Power BI Desktop, sélectionnez **Fichier** dans le ruban afin de passer en mode Backstage.
+1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
 
 1. Sélectionnez **Ouvrir un rapport**.
 
@@ -73,7 +69,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter**.
+1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter**.
 
 1. Sélectionnez le fichier **Sales Analysis** (Analyse des ventes).
 
@@ -83,7 +79,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
 1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-1. Pour créer une copie du fichier, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
+1. Pour créer une copie du fichier, sélectionnez l'onglet **Fichier** dans le ruban afin de passer en mode Backstage.
 
 1. Sélectionnez **Enregistrer sous**.
 
@@ -125,11 +121,13 @@ Au cours de cette tâche, vous allez créer un visuel matrice pour gérer les te
 
     *Pour rappel, la hiérarchie **Regions** comporte les niveaux **Group**, **Country**, et **Region**.*
 
-7. Pour mettre en forme le visuel, sélectionnez le volet **Mise en forme** dans le volet **Visualisations**.
+7. Pour mettre en forme le visuel, sélectionnez le volet **Mise en forme** sous le volet **Visualisations**.
 
     ![Image 14](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
 
 8. Dans la zone **Recherche**, entrez **Échelonné**.
+
+    ![Image 15](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image13.png)
 
 9. **Désactivez** la propriété **Disposition échelonnée**.
 
@@ -149,7 +147,7 @@ Dans cette tâche, vous allez créer plusieurs mesures avec des expressions DAX 
 
 1. Ajoutez une mesure à la table **Sales** (Ventes), à partir de l’expression suivante :
 
-    *Par souci pratique, toutes les définitions DAX de ce labo peuvent être copiées à partir du fichier **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt**.*
+    *Par souci pratique, toutes les définitions DAX de ce labo peuvent être copiées à partir du fichier **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt**.*
 
 
     **DAX**

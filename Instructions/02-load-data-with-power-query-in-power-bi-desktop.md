@@ -1,19 +1,14 @@
 ---
 lab:
-  title: Charger des données dans Power BI Desktop
-  module: Module 3 - Clean, Transform, and Load Data in Power BI
-ms.openlocfilehash: aced37b7bfdd2ccf94a9d3e7bdb8f8ff7013c125
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650223"
+  title: "Charger des données dans Power\_BI Desktop"
+  module: 'Module 3 - Clean, Transform, and Load Data in Power BI'
 ---
+
 # <a name="load-data-in-power-bi-desktop"></a>**Charger des données dans Power BI Desktop**
 
-**La durée estimée de ce labo est de 45 minutes.**
+**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
-Dans ce labo, vous allez commencer à appliquer des transformations à chacune des requêtes créées dans le labo précédent. Vous appliquerez ensuite les requêtes pour charger chacune d’elles sous forme de table dans le modèle de données.
+In this lab you will commence apply transformations to each of the queries created in the previous lab. You will then apply the queries to load each as a table to the data model.
 
 Dans ce labo, vous allez découvrir comment :
 
@@ -23,7 +18,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Préparer des données dans Power BI Desktop
 
@@ -54,7 +49,7 @@ Dans cet exercice, vous allez appliquer des transformations à chacune des requ�
 
 Dans cette tâche, vous configurez l’environnement pour le labo.
 
-*Important : si vous venez d’effectuer le labo précédent (et que vous l’avez entièrement terminé), ignorez cette tâche et passez directement à la tâche suivante.*
+*Important : Si vous venez d’effectuer le labo précédent (et que vous l’avez entièrement terminé), ignorez cette tâche et passez directement à la tâche suivante.*
 
 1. Pour ouvrir Power BI Desktop, accédez à la barre des tâches et cliquez sur le raccourci Microsoft Power BI Desktop.
 
@@ -64,7 +59,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 7](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image2.png)
 
-1. Pour ouvrir le fichier de démarrage de Power BI Desktop, sélectionnez **Fichier** dans le ruban afin de passer en mode Backstage.
+1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
 
 1. Sélectionnez **Ouvrir un rapport**.
 
@@ -82,7 +77,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 12](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image5.png)
 
-1. Fermez toutes les fenêtres d’information ouvertes.
+1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
 1. Notez qu’un message d’avertissement jaune est affiché sous le ruban.
 
@@ -216,7 +211,7 @@ Dans cette tâche, vous allez configurer la requête **Salesperson**.
 
 23. Utilisez les étapes précédentes pour renommer la colonne **EmailAddress** en **UPN**.
 
-    *UPN est l'acronyme de « User Principal Name » (Nom d’utilisateur principal).*
+    *UPN est un acronyme pour User Principal Name (Nom d’utilisateur principal). Les valeurs de cette colonne seront utilisées quand vous configurerez la sécurité au niveau des lignes dans le labo **Modéliser les données dans Power BI Desktop (partie 2)** .*
 
 24. En bas à gauche, dans la barre d’état, vérifiez que la requête a bien 5 colonnes et 18 lignes.
 
@@ -349,6 +344,7 @@ Dans cette tâche, vous allez configurer la requête **Reseller**.
     ![Image 2](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image38.png)
 
   
+‎ 
 
 6. Cliquez avec le bouton droit sur l’en-tête de colonne **Business Type**, puis sélectionnez **Remplacer les valeurs**.
 
@@ -647,7 +643,7 @@ Dans cette tâche, vous allez mettre à jour la requête **Product** en fusionna
 
     ![Image 5690](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image70.png)
 
-2. Pour fusionner la requête **ColorFormats**, sous l’onglet du ruban **Accueil**, cliquez sur la flèche vers le bas **Combiner**, puis sur **Fusionner des requêtes**.
+2. Pour fusionner la requête **ColorFormats**, sous l’onglet du ruban **Accueil**, dans le groupe **Combiner**, cliquez sur **Fusionner des requêtes**.
 
     ![Image 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
@@ -705,7 +701,7 @@ Dans cette tâche, vous allez mettre à jour **ColorFormats** de façon à désa
 
     ![Image 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
 
-    Désactiver le chargement signifie qu’elle ne sera pas chargée en tant que table dans le modèle de données. La raison en est que la requête a été fusionnée avec la requête **Product**, dont le chargement dans le modèle de données est activé.
+    Disabling the load means it will not load as a table to the data model. This is done because the query was merged with the <bpt id="p1">**</bpt>Product<ept id="p1">**</ept> query, which is enabled to load to the data model.
 
 4. Cliquez sur **OK**.
 
@@ -747,4 +743,4 @@ Dans cette tâche, vous terminez le labo.
 
 5. Si vous avez l’intention de démarrer le labo suivant, laissez Power BI Desktop ouvert.
 
-    *Vous configurerez les tables et les relations du modèle de données dans le labo **Modéliser les données dans Power BI Desktop (partie 1)** .*
+    *Vous allez configurer les tables et les relations du modèle de données dans le labo **Modéliser les données dans Power BI Desktop (partie 1)** .*

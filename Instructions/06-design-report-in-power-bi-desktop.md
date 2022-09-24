@@ -1,19 +1,15 @@
 ---
 lab:
-  title: Concevoir un rapport dans Power BI Desktop, partie 1
+  title: "Concevoir un rapport dans Power\_BI Desktop, partie\_1"
   module: Module 7 - Create Reports
-ms.openlocfilehash: 426892501790aaecbe21ed2e7f9161c4490c9e3b
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650214"
 ---
+
+
 # <a name="design-a-report-in-power-bi-desktop-part-1"></a>**Concevoir un rapport dans Power BI Desktop (partie 1)**
 
-**La durée estimée de ce labo est de 45 minutes.**
+**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
-Dans ce labo, vous allez créer un rapport de trois pages. Vous publierez ensuite ce rapport dans Power BI, puis vous l'ouvrirez et interagirez avec lui.
+In this lab you will create a three-page report. You will then publish it to Power BI, whereupon you will open and interact with the report.
 
 Dans ce labo, vous allez découvrir comment :
 
@@ -23,7 +19,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Préparer des données dans Power BI Desktop
 
@@ -59,7 +55,7 @@ Dans cette tâche, vous configurez l’environnement nécessaire pour le labo en
 
     ![Image 65](Linked_image_Files/07-design-report-in-power-bi-desktop_image1.png)
 
-1. Dans la fenêtre du navigateur Microsoft Edge, accédez à **https://powerbi.microsoft.com**.
+1. Dans la fenêtre du navigateur Microsoft Edge, accédez à **https://powerbi.com**.
 
     *Conseil : Vous pouvez également utiliser le favori Service Power BI dans la barre des favoris Microsoft Edge.*
 
@@ -92,7 +88,7 @@ Dans cette tâche, vous allez activer le mappage et les visuels de carte choropl
 
     ![Image 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
 
-1. Faites défiler la page vers le bas vers les paramètres d’intégration. Cliquez sur la flèche pour développer l’option mappage et visuels de carte choroplèthe.
+1. Scroll down the page to Integration settings. Click the arrow to expand the Map and filled map visuals option.
 
     ![Image 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
 
@@ -141,7 +137,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en ouvrant le 
 
     ![Image 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
 
-8. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter**.
+8. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\07-design-report-in-power-bi-desktop\Starter**.
 
 9. Sélectionnez le fichier **Sales Analysis** (Analyse des ventes).
 
@@ -151,7 +147,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en ouvrant le 
 
 11. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-12. Pour créer une copie du fichier, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
+12. Pour créer une copie du fichier, sélectionnez l'onglet **Fichier** dans le ruban afin de passer en mode Backstage.
 
 13. Sélectionnez **Enregistrer sous**.
 
@@ -169,7 +165,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en ouvrant le 
 
 ### <a name="task-4-design-page-1"></a>**Tâche 4 : Conception de la page 1**
 
-Au cours de cette tâche, vous allez créer la première page du rapport. Une fois créée, la page se présentera comme suit :
+In this task you will design the first report page. When you’ve completed the design, the page will look like the following:
 
 ![Image de la page 1, comprenant un logo, deux segments et trois visuels.](Linked_image_Files/07-design-report-in-power-bi-desktop_image12.png)
 
@@ -230,6 +226,21 @@ Au cours de cette tâche, vous allez créer la première page du rapport. Une fo
 
     ![Image 21](Linked_image_Files/07-design-report-in-power-bi-desktop_image22.png)
 
+17. Pour mettre en forme le segment, sélectionnez le volet **Format** sous le volet **Visualisations**.
+
+    ![Image 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png)
+
+18. Développez le groupe **Contrôles de sélection**.
+
+    ![Image 23](Linked_image_Files/07-design-report-in-power-bi-desktop_image24.png)
+
+19. Définissez l’**option « Sélectionner tout »** sur **Activé**.
+
+    ![Image 24](Linked_image_Files/07-design-report-in-power-bi-desktop_image25.png)
+
+20. Dans le segment **Région**, notez que le premier élément est maintenant **Sélectionner tout**.
+
+    *Lorsque cette option est sélectionnée, l’élément sélectionne ou désélectionne tous les éléments. Elle facilite pour les utilisateurs du rapport la définition des éléments de segment requis.*
 
 21. Désélectionnez le segment en cliquant sur une zone vide de la page de rapport.
 
@@ -247,13 +258,13 @@ Au cours de cette tâche, vous allez créer la première page du rapport. Une fo
 
     - Sales \| Sales
 
-25. Dans le volet des champs du visuel (et non dans le volet **Champs**, le volet des champs du visuel se trouve sous le volet **Visualisations**), notez que les champs sont affectés aux barres d’outils/zones **Axe X** et **Colonne axe Y**.
+25. Dans le volet des champs du visuel (et non dans le volet **Champs**, le volet des champs du visuel se trouve sous le volet **Visualisations**), notez que les champs sont affectés aux barres d’outils/zones **Axe partagé** et **Valeurs de colonne**.
 
     ![Image 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28.png)
 
     *Si vous faites glisser des champs dans un visuel, ils sont ajoutés aux barres d’outils/zones par défaut. Pour préciser, vous pouvez faire glisser des champs directement dans les barres d’outils/zones, comme vous allez le faire maintenant.*
 
-26. Dans le volet **Champs**, faites glisser le champ **Ventes \| Marge bénéficiaire** dans la barre d’outils/zone **Ligne axe Y**.
+26. Dans le volet **Champs**, faites glisser le champ **Ventes \| Marge bénéficiaire** dans la barre d’outils/zone **Valeurs de ligne**.
 
     ![Image 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -261,7 +272,7 @@ Au cours de cette tâche, vous allez créer la première page du rapport. Une fo
 
     *Le dernier mois de l’année, juin 2020, ne dispose (encore) d’aucune vente. Par défaut, le visuel a éliminé les mois avec des ventes VIERGES. Vous allez maintenant configurer le visuel pour afficher tous les mois.*
 
-28. Dans le volet des champs du visuel, dans la barre d’outils/zone **Axe X**, pour le champ **Mois**, cliquez sur la flèche vers le bas, puis sélectionnez **Afficher les éléments sans données**.
+28. Dans le volet des champs du visuel, dans la barre d’outils/zone **Axe partagé**, pour le champ **Mois**, cliquez sur la flèche vers le bas, puis sélectionnez **Afficher les éléments sans données**.
 
     ![Image 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
 
@@ -305,7 +316,7 @@ Au cours de cette tâche, vous allez créer la première page du rapport. Une fo
 
     ![Image 3](Linked_image_Files/07-design-report-in-power-bi-desktop_image35.png)
 
-39. Développez le groupe **Barres** puis **Couleurs**, puis affectez à la propriété **Couleur par défaut** une couleur appropriée (par opposition au graphique en courbes/histogrammes).
+39. Développez le groupe **Couleurs des données**, puis affectez à la propriété **Couleur par défaut** une couleur appropriée (pour compléter le graphique en colonnes ou en courbes).
 
 40. Définissez la propriété **Étiquettes de données** sur **Activé**.
 
@@ -317,7 +328,7 @@ Au cours de cette tâche, vous allez créer la première page du rapport. Une fo
 
 ### <a name="task-5-design-page-2"></a>**Tâche 5 : Conception de la page 2**
 
-Dans cette tâche, vous allez créer la deuxième page du rapport. Une fois créée, la page se présentera comme suit :
+Dans ce labo, vous allez créer un rapport de trois pages.
 
 ![Image de la page 2, comprenant un segment et une matrice.](Linked_image_Files/07-design-report-in-power-bi-desktop_image37.png)
 
@@ -332,10 +343,11 @@ Dans cette tâche, vous allez créer la deuxième page du rapport. Une fois cré
     ![Image 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
 
   
+‎ 
 
 3. Ajoutez un segment en fonction du champ **Region \| Region**.
 
-4. Utilisez le volet **Format** pour activer l’option « Sélectionner tout » (dans le groupe **Sélection**).
+4. Utilisez le volet **Format** pour activer l’option « Sélectionner tout » (dans le groupe **Contrôles de sélection**).
 
 5. Redimensionnez et positionnez le segment de manière à ce qu’il se trouve à gauche de la page de rapport et qu’il soit de la moitié de la hauteur de la page.
 
@@ -391,7 +403,7 @@ Dans cette tâche, vous allez créer la deuxième page du rapport. Une fois cré
 
 ### <a name="task-6-design-page-3"></a>**Tâche 6 : Conception de la page 3**
 
-Dans cette tâche, vous allez créer la troisième et dernière page du rapport. Une fois créée, la page se présentera comme suit :
+Vous publierez ensuite ce rapport dans Power BI, puis vous l'ouvrirez et interagirez avec lui.
 
 ![Image de la page 3, comprenant un segment et trois visuels.](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
 
@@ -401,7 +413,7 @@ Dans cette tâche, vous allez créer la troisième et dernière page du rapport.
     
     ![Image du champ Salesperson dans le volet de filtre.](Linked_image_Files/07-design-report-in-power-bi-desktop_image999.png) 
 
-1. Sélectionnez **Michael Blythe**. Les données de la page de rapport **Mes performances** seront désormais filtrées pour afficher les données pour Michael Blythe uniquement.
+1. Select <bpt id="p1">**</bpt>Michael Blythe<ept id="p1">**</ept>. Data on the <bpt id="p1">**</bpt>My Performance<ept id="p1">**</ept> report page will now be filtered to display data for Michael Blythe only.
 
 1. Ajoutez un segment de liste déroulante au champ **Date \| Year**, puis redimensionnez-le et positionnez-le afin qu’il se trouve dans l’angle supérieur gauche de la page.
 
@@ -429,7 +441,7 @@ Dans cette tâche, vous allez créer la troisième et dernière page du rapport.
 
 1. Mettez le visuel en forme :
 
-    - Dans le groupe **Valeurs de légende**, augmentez la propriété **Taille du texte** à **28pt**
+    - Dans le groupe **Étiquettes de données**, augmentez la propriété **Taille du texte** à **28pt**
 
     - Dans le groupe **Arrière-plan**, définissez la **Couleur** sur une couleur gris clair
 
