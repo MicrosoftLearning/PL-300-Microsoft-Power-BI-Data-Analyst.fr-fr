@@ -2,16 +2,12 @@
 lab:
   title: Créer un tableau de bord Power BI
   module: Module 8 - Create Dashboards
-ms.openlocfilehash: 0f8abb8670c71f5063dc28032daa321bf4b742f9
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "147015354"
 ---
+
+
 # <a name="create-a-power-bi-dashboard"></a>**Créer un tableau de bord Power BI**
 
-**La durée estimée de ce labo est de 45 minutes.**
+**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
 Dans ce labo, vous allez créer le tableau de bord **Surveillance des ventes**.
 
@@ -23,7 +19,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Préparer des données dans Power BI Desktop
 
@@ -47,7 +43,7 @@ Ce labo est l’un des nombreux labos d’une série qui a été conçue comme u
 
 ## <a name="exercise-1-create-a-dashboard"></a>**Exercice 1 : Créer un tableau de bord**
 
-Dans cet exercice, vous allez créer le tableau de bord **Surveillance des ventes**. Le tableau de bord terminé se présente comme suit :
+In this exercise you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. The completed dashboard will look like the following:
 
 ![Image du tableau de bord terminé, comprenant trois vignettes.](Linked_image_Files/09-create-power-bi-dashboard_image1.png)
 
@@ -61,7 +57,7 @@ Dans cette tâche, vous configurez l’environnement nécessaire pour le labo en
 
     ![Image 42](Linked_image_Files/09-create-power-bi-dashboard_image2.png)
 
-2. Dans la fenêtre du navigateur Microsoft Edge, accédez à **https://powerbi.microsoft.com**.
+2. Dans la fenêtre du navigateur Microsoft Edge, accédez à **https://powerbi.com**.
 
     *Conseil : Vous pouvez également utiliser le favori Service Power BI dans la barre des favoris Microsoft Edge.*
 
@@ -115,7 +111,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en ouvrant le 
 
     ![Image 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\08-create-power-bi-dashboard\Starter**.
+8. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\09-create-power-bi-dashboard\Starter**.
 
 9. Sélectionnez le fichier **Sales Analysis** (Analyse des ventes).
 
@@ -125,7 +121,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en ouvrant le 
 
 11. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-12. Pour créer une copie du fichier, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
+12. Pour créer une copie du fichier, sélectionnez l'onglet **Fichier** dans le ruban afin de passer en mode Backstage.
 
 13. Sélectionnez **Enregistrer sous**.
 
@@ -159,7 +155,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en créant un 
 
     ![Image 5](Linked_image_Files/09-create-power-bi-dashboard_image16.png)
 
-4. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\08-create-power-bi-dashboard\Solution**.
+4. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Solution**.
 
 5. Sélectionnez le fichier **Sales Analysis.pbix**, puis clqiuez sur **Ouvrir**.
 
@@ -167,7 +163,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en créant un 
 
 ### <a name="task-4-create-a-dashboard"></a>**Tâche 4 : Créer un tableau de bord**
 
-Lors de cette tâche, vous allez créer le tableau de bord **Surveillance des ventes**. Vous épinglez un visuel à partir du rapport, vous ajoutez une vignette basée sur un URI de données image, puis vous utilisez Questions et réponses pour créer une vignette.
+In this task you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. You will pin a visual from the report, and add a tile based on an image data URI, and use Q&amp;A to create a tile.
 
 1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, ouvrez le rapport **Analyse des ventes**.
 
@@ -193,7 +189,7 @@ Lors de cette tâche, vous allez créer le tableau de bord **Surveillance des ve
 
     ![Image 1](Linked_image_Files/09-create-power-bi-dashboard_image20.png)
 
-8. Ouvrez le volet **Navigation**, sélectionnez **Mon espace de travail** puis ouvrez le tableau de bord **Surveillance des ventes**.
+8. Ouvrez le volet **Navigation**, puis ouvrez le tableau de bord **Surveillance des ventes**.
 
     ![Image 44](Linked_image_Files/09-create-power-bi-dashboard_image21.png)
 
@@ -239,7 +235,7 @@ Lors de cette tâche, vous allez créer le tableau de bord **Surveillance des ve
 
     ![Image 17](Linked_image_Files/09-create-power-bi-dashboard_image29.png)
 
-20. Pour revenir au tableau de bord, dans l’angle supérieur gauche, cliquez sur **Quitter Q** R&amp;.
+20. Pour revenir au tableau de bord, dans l’angle supérieur gauche, cliquez sur **Quitter Q**R&amp;.
 
     ![Image 16](Linked_image_Files/09-create-power-bi-dashboard_image30.png)
 
@@ -311,7 +307,7 @@ Dans cette tâche, vous allez modifier les détails de deux vignettes.
 
 ## <a name="exercise-2-refresh-the-dataset"></a>**Exercice 2 : Actualiser le jeu de données**
 
-Dans cet exercice, vous allez commencer par charger les données de commande client pour juin 2020 dans la base de données **AdventureWorksDW2020**. Ensuite, vous ouvrirez votre fichier Power BI Desktop, vous actualiserez les données, puis vous chargerez le fichier dans votre espace de travail.
+In this exercise you will first load sales order data for June 2020 into the <bpt id="p1">**</bpt>AdventureWorksDW2020<ept id="p1">**</ept> database. You will then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
 
 ### <a name="task-1-update-the-lab-database"></a>**Tâche 1 : Mettre à jour la base de données du labo**
 
@@ -337,7 +333,7 @@ Dans cette tâche, vous allez ouvrir le fichier **Analyse des ventes** Power BI 
 
 2. Une fois l’actualisation terminée, enregistrez le fichier Power BI Desktop.
 
-3. Pour publier le fichier dans votre espace de travail, cliquez sur l’onglet **Accueil** dans le ruban puis, dans le groupe **Partager**, cliquez sur **Publier**, puis sur **Sélectionner** pour publier.
+3. Pour publier le fichier dans votre espace de travail, sous l’onglet de ruban **Accueil**, dans le groupe **Partager**, cliquez sur **Publier**.
 
     ![Image 59](Linked_image_Files/09-create-power-bi-dashboard_image48.png)
 
@@ -351,11 +347,11 @@ Dans cette tâche, vous allez ouvrir le fichier **Analyse des ventes** Power BI 
 
 ## <a name="exercise-3-review-the-dashboard"></a>**Exercice 3 : Examiner le tableau de bord**
 
-Dans cet exercice, vous allez examiner le tableau de bord pour voir les ventes mises à jour.
+Dans cet exercice, vous allez examiner le tableau de bord pour voir les ventes mises à jour et constater que l’alerte a été déclenchée.
 
 ### <a name="task-1-review-the-dashboard"></a>**Tâche 1 : Examiner le tableau de bord**
 
-Dans cette tâche, vous allez examiner le tableau de bord pour voir les ventes mises à jour.
+Dans cette tâche, vous allez examiner le tableau de bord pour voir les ventes mises à jour et constater que l’alerte a été déclenchée.
 
 1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, affichez le tableau de bord **Surveillance des ventes**.
 
@@ -367,6 +363,22 @@ Dans cette tâche, vous allez examiner le tableau de bord pour voir les ventes m
 
     ![Image 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
 
-    
+    *L’alerte sur la vignette **Ventes actuelles** devrait également avoir été déclenchée. Après quelques instants, l’alerte doit vous informer que les ventes dépassent maintenant la valeur de seuil configurée.*
 
-4. Pour fermer le volet, cliquez sur **Fermer**.
+4. Notez que la vignette **Ventes actuelles** a été mise à jour à **37M$**.
+
+5. Vérifiez que la vignette **Ventes actuelles** affiche une icône de notification d’alerte.
+
+    *Si vous ne voyez pas la notification, il se peut que vous deviez appuyer sur **F5** pour recharger le navigateur. Si vous ne voyez toujours pas la notification, patientez quelques minutes supplémentaires.*
+
+    ![Image 35](Linked_image_Files/09-create-power-bi-dashboard_image51.png)
+
+    *Les notifications d’alerte s’affichent dans la vignette du tableau de bord et peuvent être remises par e-mail et par notifications push sur les applications mobiles, y compris Apple Watch.*
+
+6. Dans l’angle supérieur droit de la page web, cliquez sur l’icône **Notifications**.
+
+    ![Image 58](Linked_image_Files/09-create-power-bi-dashboard_image52.png)
+
+7. Dans le volet **Toutes les notifications**, examinez les détails de la notification d’alerte.
+
+8. Pour fermer le volet, cliquez sur **Fermer**.

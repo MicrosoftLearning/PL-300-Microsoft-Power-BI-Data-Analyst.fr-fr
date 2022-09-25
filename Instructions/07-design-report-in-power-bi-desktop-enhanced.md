@@ -1,17 +1,13 @@
 ---
 lab:
-  title: Concevoir un rapport dans Power BI Desktop, partie 2
+  title: "Concevoir un rapport dans Power\_BI Desktop, partie\_2"
   module: Module 7 - Create Reports
-ms.openlocfilehash: 72d571e81320d4c0311f9e566d1805725439f961
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650205"
 ---
+
+
 # <a name="design-a-report-in-power-bi-desktop-part-2"></a>**Concevoir un rapport dans Power BI Desktop (partie 2)**
 
-**La durée estimée de ce labo est de 45 minutes.**
+**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
 Dans ce labo, vous allez améliorer le rapport **Sales Analysis** (Analyse des ventes) avec des fonctionnalités de conception avancées.
 
@@ -27,7 +23,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Préparer des données dans Power BI Desktop
 
@@ -63,7 +59,7 @@ Dans cette tâche, vous configurez l’environnement nécessaire pour le labo en
 
     ![Image 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
 
-1. Dans la fenêtre du navigateur Microsoft Edge, accédez à **https://powerbi.microsoft.com**.
+1. Dans la fenêtre du navigateur Microsoft Edge, accédez à **https://powerbi.com**.
 
     *Conseil : Vous pouvez également utiliser le favori Service Power BI dans la barre des favoris Microsoft Edge.*
 
@@ -81,7 +77,7 @@ Dans cette tâche, vous configurez l’environnement nécessaire pour le labo en
 
 1. Si Microsoft Edge vous invite à rester connecté, sélectionnez **Oui**.
 
-1. Dans la fenêtre du navigateur Microsoft Edge, développez **Mon espace de travail** dans le service Power BI du volet **Navigation**.
+1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, dans le volet **Navigation**, développez **Mon espace de travail**.
 
     ![Image 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
 
@@ -117,7 +113,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en ouvrant le 
 
     ![Image 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
 
-8. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter**.
+8. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Starter**.
 
 9. Sélectionnez le fichier **Sales Analysis** (Analyse des ventes).
 
@@ -179,7 +175,7 @@ Dans cette tâche, vous allez synchroniser les segments **Année** et **Région*
 
 ## <a name="exercise-2-configure-drill-through"></a>**Exercice 2 : Configurer l’extraction**
 
-Dans cet exercice, vous allez créer une page et la configurer en tant que page d’extraction. Une fois créée, la page se présentera comme suit :
+In this exercise you will create a new page and configure it as a drill through page. When you’ve completed the design, the page will look like the following:
 
 ![Image de la nouvelle page, comprenant un visuel de carte et un visuel de tableau.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image17.png)
 
@@ -245,13 +241,13 @@ Dans cette tâche, vous allez créer une page et la configurer comme page d’ex
 
     - Sales \| Profit Margin
 
-12. Configurez les options de mise en forme pour l’objet visuel, puis dans la section **Valeurs**, définissez la propriété **Taille du texte** sur **20pt**.
+12. Configurez les options de mise en forme pour l’objet visuel, puis dans la section **Grille**, définissez la propriété **Taille du texte** sur **20pt**.
 
     *La conception de la page d’extraction est presque terminée. Dans l’exercice suivant, vous allez améliorer la page avec une mise en forme conditionnelle.*
 
 ## <a name="exercise-3-add-conditional-formatting"></a>**Exercice 3 : Ajouter une mise en forme conditionnelle**
 
-Dans cet exercice, vous allez améliorer la page d’extraction avec une mise en forme conditionnelle. Une fois créée, la page se présentera comme suit :
+In this exercise you will enhance the drill through page with conditional formatting. When you’ve completed the design, the page will look like the following:
 
 ![Image d’une page mise à jour, révélant les valeurs et les icônes mises en forme des couleurs.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image28.png)
 
@@ -265,7 +261,7 @@ Dans cette tâche, vous allez améliorer la page d’extraction avec une mise en
 
     ![Image 107](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image29.png)
 
-3. Dans la fenêtre **Icônes** Marge bénéficiaire,**dans la liste déroulante** Disposition des icônes, sélectionnez **À droite des données**.
+3. Dans la fenêtre **Icônes**Marge bénéficiaire,** dans la liste déroulante**Disposition des icônes, sélectionnez**À droite des données**.
 
     ![Image 108](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image30.png)
 
@@ -307,11 +303,11 @@ Dans cette tâche, vous allez améliorer la page d’extraction avec une mise en
 
 9. Configurez la mise en forme conditionnelle de couleur d’arrière-plan pour le champ **Couleur**.
 
-10. Dans la fenêtre **Couleur d’arrière-plan -- Couleur**, dans la liste déroulante **Mettre en forme le style**, sélectionnez **Valeur du champ**.
+10. Dans la fenêtre **Couleur d’arrière-plan – Couleur**, dans la liste déroulante **Mettre en forme par**, sélectionnez **Valeur du champ**.
 
-    
+    ![Image 113](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image35.png)
 
-11. Dans la liste déroulante **Dans quel champ devons-nous baser cette option ?** , sélectionnez **Produit \| Mise en forme \| Format de couleur d’arrière-plan**.
+11. Dans la liste déroulante **Basé sur le champ**, sélectionnez **Produit \| Mise en forme \| Format de couleur d’arrière-plan**.
 
     ![Image 114](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image36.png)
 
@@ -325,7 +321,7 @@ Dans cette tâche, vous allez améliorer la page d’extraction avec une mise en
 
 ## <a name="exercise-4-add-bookmarks-and-buttons"></a>**Exercice 4 : Ajouter des signets et des boutons**
 
-Dans cet exercice, vous allez améliorer la page **My Performance** avec des boutons, ce qui permet à l’utilisateur du rapport de sélectionner le type d’objet visuel à afficher. Une fois créée, la page se présentera comme suit :
+In this exercise you will enhance the <bpt id="p1">**</bpt>My Performance<ept id="p1">**</ept> page with buttons, allowing the report user to select the visual type to display. When you’ve completed the design, the page will look like the following:
 
 ![Image d’une page 3 mise à jour, montrant deux boutons et maintenant seulement deux visuels.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image38.png)
 
@@ -401,15 +397,15 @@ Dans cette tâche, vous allez ajouter deux boutons et affecter des actions de si
 
 2. Positionnez le bouton juste en dessous du segment **Année**.
 
-3. Sélectionnez le bouton, puis, dans le volet **Bouton de format**, cliquez sur **Général** et passez la propriété **Mosaïque** sur **Activé**.
+3. Sélectionnez le bouton, puis, dans le volet **Bouton Mettre en forme**, réglez la propriété **Texte du bouton** sur **Activer**.
 
     ![Image 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49.png)
 
-4. Développez la section **Titre**, puis dans la zone **Texte**, entrez **Graphique à barres**.
+4. Développez la section **Texte du bouton**, puis dans la zone **Texte du bouton**, entrez **Graphique à barres**.
 
 5. Développez la section **Arrière-plan**, puis définissez une couleur d’arrière-plan en utilisant une couleur complémentaire.
 
-6. Cliquez sur **Bouton** et passez la propriété **Action** sur **Activé**.
+6. Réglez la propriété **Action** sur **Activer** (près du bas de la liste).
 
     ![Image 127](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image50.png)
 
@@ -471,7 +467,7 @@ Dans cet exercice, vous allez explorer le rapport dans le service Power BI.
 
 Dans cette tâche, vous explorez le rapport dans le service Power BI.
 
-1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, dans le volet **Navigation**, sélectionnez **Mon espace de travail**, puis cliquez sur le rapport **Sales Analysis** (Analyse des ventes).
+1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, dans le volet **Navigation**, cliquez sur le rapport **Sales Analysis** (Analyse des ventes).
 
 2. Pour tester le rapport d’extraction, dans la page **Vue d’ensemble**, dans le visuel **Quantity by Category**, cliquez avec le bouton droit sur la barre **Clothing**, puis sélectionnez **Extraire \| Product Details**.
 

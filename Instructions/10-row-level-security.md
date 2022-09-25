@@ -1,28 +1,25 @@
 ---
 lab:
   title: Appliquer la sécurité au niveau des lignes
-  module: Module 12 - Row-Level Security
-ms.openlocfilehash: f47cc7c54428589aaa9d6b37afd9ee4d11c5884e
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650106"
+  module: Module 13 - Row-Level Security
 ---
+
+
 # <a name="enforce-row-level-security"></a>**Appliquer la sécurité au niveau des lignes**
 
-**La durée estimée de ce labo est de 45 minutes.**
+**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
-Dans ce labo, vous appliquerez la sécurité au niveau des lignes pour vous assurer qu’un vendeur ne peut analyser les données de ventes que pour la ou les régions qui lui sont attribuées.
+In this lab you will create a many-to-many relationship between the <bpt id="p1">**</bpt>Salesperson<ept id="p1">**</ept> table and the <bpt id="p2">**</bpt>Sales<ept id="p2">**</ept> table. You will also enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
 
 Dans ce labo, vous allez découvrir comment :
 
+- Configurer des relations plusieurs-à-plusieurs
 
 - Appliquer la sécurité au niveau des lignes
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Préparer des données dans Power BI Desktop
 
@@ -72,7 +69,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\10-row-level-security\Starter**.
+1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\12-row-level-security\Starter**.
 
 1. Sélectionnez le fichier **Sales Analysis** (Analyse des ventes).
 
@@ -80,7 +77,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 4](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image5.png)
 
-1. Fermez toutes les fenêtres d’information ouvertes.
+1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
 1. Pour créer une copie du fichier, sélectionnez l'onglet **Fichier** dans le ruban afin de passer en mode Backstage.
 
@@ -184,7 +181,7 @@ Dans cet tâche, vous appliquez la sécurité au niveau des lignes pour vous ass
 
     ![Image 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
 
-### <a name="task-3-finish-up"></a>**Tâche 3 : Terminer**
+### <a name="task-2-finish-up"></a>**Tâche 2 : Terminer**
 
 Dans cette tâche, vous terminez le labo.
 

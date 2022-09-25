@@ -1,17 +1,13 @@
 ---
 lab:
-  title: Créer des calculs DAX dans Power BI Desktop (partie 1)
+  title: "Créer des calculs DAX dans Power\_BI Desktop (partie\_1)"
   module: Module 5 - Create Model Calculations using DAX in Power BI
-ms.openlocfilehash: 743fdd6a85236a40008fcdb3b466c61c617a55fb
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "147015336"
 ---
+
+
 # <a name="create-dax-calculations-in-power-bi-desktop-part-1"></a>**Créer des calculs DAX dans Power BI Desktop (partie 1)**
 
-**La durée estimée de ce labo est de 45 minutes.**
+**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
 Dans ce labo, vous allez créer des tables calculées, des colonnes calculées et des mesures simples à l’aide de DAX (Data Analysis Expressions).
 
@@ -25,7 +21,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Préparer des données dans Power BI Desktop
 
@@ -49,7 +45,7 @@ Ce labo est l’un des nombreux labos d’une série qui a été conçue comme u
 
 ## <a name="exercise-1-create-calculated-tables"></a>**Exercice 1 : Créer des tables calculées**
 
-Dans cet exercice, vous allez créer deux tables calculées. La première est la table **Salesperson** (Vendeur), qui permettra d’établir une relation directe avec la table **Sales** (Ventes). La seconde est la table **Date**.
+In this exercise you will create two calculated tables. The first will be the <bpt id="p1">**</bpt>Salesperson<ept id="p1">**</ept> table, to allow a direct relationship between it and the <bpt id="p2">**</bpt>Sales<ept id="p2">**</ept> table. The second will be the <bpt id="p1">**</bpt>Date<ept id="p1">**</ept> table.
 
 ### <a name="task-1-get-started"></a>**Tâche 1 : Démarrer**
 
@@ -65,7 +61,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 49](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image2.png)
 
-1. Pour ouvrir le fichier de démarrage de Power BI Desktop, sélectionnez **Fichier** dans le ruban afin de passer en mode Backstage.
+1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
 
 1. Sélectionnez **Ouvrir un rapport**.
 
@@ -75,7 +71,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Starter**.
+1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter**.
 
 1. Sélectionnez le fichier **Sales Analysis** (Analyse des ventes).
 
@@ -85,7 +81,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
 1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-1. Pour créer une copie du fichier, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
+1. Pour créer une copie du fichier, sélectionnez l'onglet **Fichier** dans le ruban afin de passer en mode Backstage.
 
 1. Sélectionnez **Enregistrer sous**.
 
@@ -113,7 +109,7 @@ Au cours de cette tâche, vous allez créer la table **Salesperson** (Vendeur), 
 
     ![Image 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
-    *Par souci pratique, toutes les définitions DAX de ce labo peuvent être copiées à partir du fichier **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+    *Par souci pratique, toutes les définitions DAX de ce labo peuvent être copiées à partir du fichier **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
     *Pour créer une table calculée, commencez par entrer son nom, suivi du symbole égal (=), puis d’une formule DAX qui retourne une table. Notez que le nom de la table ne doit pas être déjà utilisé dans le modèle de données.*
 
@@ -141,7 +137,7 @@ Au cours de cette tâche, vous allez créer la table **Salesperson** (Vendeur), 
 
     ![Image 2](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image12.png)
 
-8. Lorsqu’il vous est demandé de confirmer la suppression, cliquez sur **OK**.
+8. Lorsqu’il vous est demandé de confirmer la suppression, cliquez sur **Supprimer**.
 
     ![Image 3](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image13.png)
 
@@ -206,9 +202,9 @@ Dans cette tâche, vous allez créer la table **Date**.
 
 ### <a name="task-4-create-calculated-columns"></a>**Tâche 4 :** **Créer des colonnes calculées**
 
-Dans cette tâche, vous allez ajouter des colonnes supplémentaires pour permettre le filtrage et le regroupement selon différentes périodes. Vous allez également créer une colonne calculée qui contrôlera l’ordre de tri des autres colonnes.
+In this task you will add additional columns to enable filtering and grouping by different time periods. You will also create a calculated column to control the sort order of other columns.
 
-*Par souci pratique, toutes les définitions DAX de ce labo peuvent être copiées à partir du fichier **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+*Par souci pratique, toutes les définitions DAX de ce labo peuvent être copiées à partir du fichier **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
 1. Dans le groupe **Calculs** du ruban contextuel **Outils de table**, cliquez sur **Nouvelle colonne**.
 
@@ -306,7 +302,7 @@ Dans cette tâche, vous allez ajouter des colonnes supplémentaires pour permett
 
 ### <a name="task-5-complete-the-date-table"></a>**Tâche 5 :** **Terminer la table Date**
 
-Dans cette tâche, vous allez terminer la conception de la table **Date** en masquant une colonne et en créant une hiérarchie. Vous allez ensuite créer des relations avec les tables **Sales** (Ventes) et **Targets** (Objectifs).
+In this task you will complete the design of the <bpt id="p1">**</bpt>Date<ept id="p1">**</ept> table by hiding a column and creating a hierarchy. You will then create relationships to the <bpt id="p1">**</bpt>Sales<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Targets<ept id="p2">**</ept> tables.
 
 1. Basculez vers l’affichage Modèle.
 
@@ -367,7 +363,7 @@ Dans cet exercice, vous allez créer et mettre en forme plusieurs mesures.
 
 ### <a name="task-1-create-simple-measures"></a>**Tâche 1 : Créer des mesures simples**
 
-Dans cette tâche, vous allez créer des mesures simples. Les mesures simples agrègent des valeurs dans une seule colonne ou comptent des lignes d’une table.
+In this task you will create simple measures. Simple measures aggregate values in a single column or count rows of a table.
 
 1. Dans l’affichage Rapport, dans le volet **Champs** de la **Page 2**, faites glisser le champ **Sales \| Unit Price** (Ventes | Prix unitaire) dans le visuel matrice.
 
@@ -375,7 +371,7 @@ Dans cette tâche, vous allez créer des mesures simples. Les mesures simples ag
 
     ![Image 27](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image35.png)
 
-    *Dans le labo **Modéliser les données dans Power BI Desktop (partie 2)** , vous définissez la colonne **Unit Price** pour afficher une synthèse par **moyenne**. Le résultat affiché dans le visuel matrice est le prix unitaire moyen mensuel (qui correspond à la somme des valeurs de prix unitaire divisée par le nombre de prix unitaires).*
+    *Dans le labo **Modéliser les données dans Power BI Desktop (partie 2)** , vous définissez la colonne **Unit Price** pour afficher une synthèse par **Moyenne**. Le résultat affiché dans le visuel matrice est le prix unitaire moyen mensuel (qui correspond à la somme des valeurs de prix unitaire divisée par le nombre de prix unitaires).*
 
 2. Comme vous pouvez constater dans le volet Champs du visuel (situé sous le volet **Visualisations**), **Unit Price** figure dans la zone **Valeurs**.
 
@@ -473,96 +469,9 @@ Dans cette tâche, vous allez créer des mesures simples. Les mesures simples ag
 
     ![Image 39](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image43.png)
 
-### <a name="task-2-create-additional-measures"></a>**Tâche 2 : Créer des mesures supplémentaires**
-
-Dans cette tâche, vous allez créer des mesures supplémentaires qui utilisent des formules plus complexes.
-
-1. Dans l’affichage Rapport, sélectionnez **Page 1**.
-
-    ![Image 40](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image44.png)
-
-2. Examinez le visuel table, et notamment le total de la colonne **Target** (Objectif).
-
-    ![Image 41](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image45.png)
-
-    
-
-3. Sélectionnez le visuel table et, dans le volet **Visualisations**, supprimez le champ **Target**.
-
-    ![Image 42](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image46.png)
-
-4. Renommez la colonne **Targets \| Target** en **Targets \| TargetAmount**.
-
-    *Conseil : Il existe plusieurs façons de renommer la colonne dans l’affichage Rapport : Dans le volet **Champs**, vous pouvez soit cliquer avec le bouton droit sur la colonne et sélectionner **Renommer**, soit double-cliquer sur la colonne, soit appuyer sur **F2**.*
-
-    *Vous allez créer une mesure nommée **Target** (Objectif). Il n’est pas possible d’avoir une colonne et une mesure du même nom dans la même table.*
-
-5. Créez la mesure suivante sur la table **Targets** (Objectifs) :
 
 
-    **DAX**
-
-
-    ```
-    Target =
-
-    IF(
-
-    HASONEVALUE('Salesperson (Performance)'[Salesperson]),
-
-    SUM(Targets[TargetAmount])
-
-    )
-    ```
-
-
-    *La fonction HASONEVALUE() teste si une valeur unique est filtrée dans la colonne **Salesperson**. Si c’est le cas, l’expression retourne la somme des objectifs chiffrés (pour ce vendeur en particulier). Sinon, elle retourne la valeur vide (BLANK).*
-
-6. Mettez en forme la mesure **Target** (Objectif) sans décimale.
-
-    *Conseil : Vous pouvez utiliser le ruban contextuel **Outils de mesure**.*
-
-7. Masquez la colonne **TargetAmount** (ObjectifChiffré).
-
-    *Conseil : Vous pouvez cliquer avec le bouton droit sur la colonne dans le volet **Champs**, puis sélectionner **Masquer**.*
-
-8. Ajoutez la mesure **Target** (Objectif) au visuel table.
-
-9. Comme vous pouvez le constater, le total de la colonne **Target** (Objectif) est maintenant vide.
-
-    ![Image 43](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image47.png)
-
-10. Utilisez la définition des fichiers d’extraits de code afin de créer les deux mesures suivantes pour la table **Targets** (Objectifs) :
-
-    - Variance
-
-    - Variance Margin (Marge de variance)
-
-11. Mettez en forme la mesure **Variance** sans décimale.
-
-12. Paramétrez la mesure **Variance Margin** (Marge de variance) sous forme de pourcentage à deux décimales.
-
-13. Ajoutez les mesures **Variance** et **Variance Margin** (Marge de variance) au visuel table.
-
-14. Redimensionnez le visuel table pour afficher la totalité des colonnes et des lignes.
-
-    ![Image 44](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image48.png)
-
-    *S’il apparaît que tous les vendeurs n’atteignent pas les objectifs, n’oubliez pas que le visuel de la table n’est pas filtré sur une période de temps spécifique. Vous générerez des rapports des performances des ventes, filtrés selon une période choisie par l’utilisateur dans le labo **Concevoir un rapport dans Power BI Desktop (partie 1)** .*
-
-15. Réduisez, puis développez et rouvrez le volet **Champs** en haut à droite.
-
-    ![Image 45](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image49.png)
-
-    *Le fait de réduire puis de rouvrir le volet permet de réinitialiser le contenu.*
-
-16. Comme vous pouvez le constater, la table **Targets** (Objectifs) apparaît maintenant en haut de la liste.
-
-    ![Image 46](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image50.png)
-
-    *Les tables qui comportent uniquement des mesures visibles figurent automatiquement en haut de la liste.*
-
-### <a name="task-3-finish-up"></a>**Tâche 3 : Terminer**
+### <a name="task-2-finish-up"></a>**Tâche 2 : Terminer**
 
 Dans cette tâche, vous terminez le labo.
 
