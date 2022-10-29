@@ -8,7 +8,7 @@ lab:
 
 **La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
-In this lab you commence the development of a Power BI Desktop solution for the Adventure Works company. It involves connecting to source data, previewing the data, and using data preview techniques to understand the characteristics and quality of the source data.
+Au cours de ce labo, vous lancez le développement d’une solution Power BI Desktop pour la société Adventure Works. Elle implique la connexion aux données sources, l’affichage de l’aperçu des données et l’utilisation de techniques d’aperçu des données pour comprendre les caractéristiques et la qualité des données sources.
 
 Dans ce labo, vous allez découvrir comment :
 
@@ -24,7 +24,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. **Préparer des données dans Power BI Desktop**
 
@@ -48,7 +48,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## <a name="exercise-1-prepare-data"></a>**Exercice 1 : Préparer les données**
 
-In this exercise you will create eight Power BI Desktop queries. Six queries will source data from SQL Server, and two from CSV files.
+Dans cet exercice, vous allez créer huit requêtes Power BI Desktop. Six requêtes vont récupérer des données dans SQL Server et deux dans des fichiers CSV.
 
 ### <a name="task-1-save-the-power-bi-desktop-file"></a>**Tâche 1 : Enregistrer le fichier Power BI Desktop**
 
@@ -102,7 +102,7 @@ Dans cette tâche, vous allez définir les options de Power BI Desktop.
 
     ![Image 7](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image9.png)
 
-    While having these two options enabled can be helpful when developing a data model, you disabled them earlier to support the lab experience. When you create relationships in the <bpt id="p1">**</bpt>Load Data in Power BI Desktop<ept id="p1">**</ept> lab, you’ll learn why you are adding each one.
+    Même si ces deux options peuvent être utiles lors du développement d’un modèle de données, elles ont été désactivées pour prendre en charge l’expérience du labo. Lorsque vous créerez des relations dans le labo **Charger des données dans Power BI Desktop**, vous découvrirez pourquoi vous les avez ajoutées.
 
 1. Cliquez sur **OK**.
 
@@ -122,7 +122,7 @@ Dans cette tâche, vous allez créer des requêtes basées sur des tables SQL Se
 
     ![Image 21](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image12.png)
 
-    Au cours de ce labo, vous lancez le développement d’une solution Power BI Desktop pour la société Adventure Works.
+    Dans ce labo, vous allez vous connecter à la base de données SQL Server en utilisant **localhost**. Cette pratique n’est pas recommandée lors de la création de vos propres solutions. La raison en est que les sources de données de passerelle ne peuvent pas résoudre **localhost**.
 
 3. Cliquez sur **OK**.
 
@@ -130,7 +130,7 @@ Dans cette tâche, vous allez créer des requêtes basées sur des tables SQL Se
 
 4. Dans la fenêtre **Navigateur**, à gauche, développez la base de données **AdventureWorksDW2020**.
 
-    Elle implique la connexion aux données sources, l’affichage de l’aperçu des données et l’utilisation de techniques d’aperçu des données pour comprendre les caractéristiques et la qualité des données sources.
+    La base de données **AdventureWorksDW2020** est basée sur l’exemple de base de données **AdventureWorksDW2017**. Elle a été modifiée pour prendre en charge les objectifs d’apprentissage des labos du cours.
 
     ![Image 28](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image17.png)
 
@@ -158,13 +158,13 @@ Dans cette tâche, vous allez créer des requêtes basées sur des tables SQL Se
 
 8. Pour appliquer des transformations aux données des tables sélectionnées, cliquez sur **Transformer les données**.
 
-    You won’t be transforming the data in this lab. The objectives of this lab focus on exploring and profiling the data in the <bpt id="p1">**</bpt>Power Query Editor<ept id="p1">**</ept> window.
+    Vous n’allez pas transformer les données dans ce labo. Les objectifs de ce labo sont d’explorer et de profiler les données dans la fenêtre **Éditeur Power Query**.
 
     ![Image 30](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image19.png)
 
 ### <a name="task-4-preview-sql-server-queries"></a>**Tâche 4 : Afficher un aperçu des requêtes SQL Server**
 
-In this task you will preview the data of the SQL Server queries. First, you will learn relevant information about the data. You will also use column quality, column distribution, and column profile tools to understand the data and to assess data quality.
+Dans cette tâche, vous allez afficher un aperçu des données des requêtes SQL Server. Vous allez d’abord découvrir des informations pertinentes sur les données. Vous allez aussi utiliser la qualité des colonnes, la distribution des colonnes et les outils de profilage de colonne pour comprendre les données et évaluer leur qualité.
 
 1. Dans la fenêtre **Éditeur Power Query**, à gauche, notez la présence du volet **Requêtes**.
 
@@ -176,7 +176,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
     ![Image 33](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image21.png)
 
-    The <bpt id="p1">**</bpt>DimEmployee<ept id="p1">**</ept> table in the SQL Server database stores one row for each employee. A subset of the rows from this table represents the salespeople, which will be relevant to the model you’ll develop.
+    La table **DimEmployee** dans la base de données SQL Server stocke une ligne pour chaque employé. Un sous-ensemble des lignes de cette table représente les commerciaux, qui sont pertinents pour le modèle que vous allez développer.
 
 3. En bas à gauche, dans la barre d’état, notez les statistiques de la table : elle contient 33 colonnes et 296 lignes.
 
@@ -186,7 +186,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 5. Notez que les cinq dernières colonnes contiennent des liens **Table** ou **Valeur**.
 
-    These five columns represent relationships to other tables in the database. They can be used to join tables together. You’ll join tables in the <bpt id="p1">**</bpt>Load Data in Power BI Desktop<ept id="p1">**</ept> lab.
+    Ces cinq colonnes représentent les relations avec d’autres tables de la base de données. Elles peuvent être utilisées pour joindre des tables ensemble. Vous allez joindre des tables dans le labo **Charger des données dans Power BI Desktop**.
 
 6. Pour évaluer la **qualité des colonnes**, cliquez sur l'onglet Affichage dans le ruban et activez l'option Qualité des colonnes dans le groupe **Aperçu des données**.
 
@@ -208,13 +208,13 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
     ![Image 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
 
-    When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some model tables have unique columns. These unique columns can be used to create one-to-many relationships, which you will do in the <bpt id="p1">**</bpt>Model Data in Power BI Desktop, Part 1<ept id="p1">**</ept> lab.
+    Quand les nombres de valeurs distinctes et uniques sont identiques, cela signifie que la colonne contient des valeurs uniques. Lors de la modélisation, il est important que certaines tables de modèle contiennent des colonnes uniques. Ces colonnes uniques peuvent être utilisées pour créer des relations un-à-plusieurs. C’est ce que vous ferez dans le labo **Modéliser les données dans Power BI Desktop (partie 1)** .
 
 11. Dans le volet **Requêtes**, sélectionnez la requête **DimEmployeeSalesTerritory**.
 
     ![Image 44](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image27.png)
 
-    The <bpt id="p1">**</bpt>DimEmployeeSalesTerritory<ept id="p1">**</ept> table stores one row for each employee and the sales territory regions they manage. The table supports relating many regions to a single employee. Some employees manage one, two, or possibly more regions. When you model this data, you’ll need to define a many-to-many relationship, which you’ll do in the <bpt id="p1">**</bpt>Model Data in Power BI Desktop, Part 2<ept id="p1">**</ept> lab.
+    La table **DimEmployeeSalesTerritory** stocke une ligne pour chaque employé et les régions du secteur de vente qu’il gère. La table prend en charge la relation de nombreuses régions à un même employé. Certains employés gèrent une, deux ou éventuellement davantage de régions. Lorsque vous modélisez ces données, vous devez définir une relation plusieurs-à-plusieurs. C’est ce que vous ferez dans le labo **Modéliser les données dans Power BI Desktop (partie 2)**.
 
 12. Dans le volet **Requêtes**, sélectionnez la requête **DimProduct**.
 
@@ -232,7 +232,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
     ![Image 49](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image29.png)
 
-    The <bpt id="p1">**</bpt>DimReseller<ept id="p1">**</ept> table contains one row per reseller. Resellers sell, distribute, or value add to the Adventure Works products.
+    La table **DimReseller** contient une ligne par revendeur. Les revendeurs vendent, distribuent ou apportent de la valeur ajoutée aux produits Adventure Works.
 
 16. Pour visualiser les valeurs des colonnes, sous l’onglet du ruban **Afficher**, à l’intérieur du groupe **Aperçu des données**, cochez **Profil de colonne**.
 
@@ -256,7 +256,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
     ![Image 52](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image32.png)
 
-    The <bpt id="p1">**</bpt>DimSalesTerritory<ept id="p1">**</ept> table contains one row per sales region, including <bpt id="p2">**</bpt>Corporate HQ<ept id="p2">**</ept> (headquarters). Regions are assigned to a country, and countries are assigned to groups. In the <bpt id="p1">**</bpt>Model Data in Power BI Desktop, Part 1<ept id="p1">**</ept> lab, you’ll create a hierarchy to support analysis at region, country, or group level.
+    La table **DimSalesTerritory** contient une ligne par région commerciale, y compris **Corporate HQ** (siège social de l’entreprise). Les régions sont affectées à un pays, et les pays sont affectés à des groupes. Dans le labo **Modéliser les données dans Power BI Desktop (partie 1)**, vous créerez une hiérarchie pour prendre en charge l’analyse au niveau de la région, du pays ou du groupe.
 
 23. Dans le volet **Requêtes**, sélectionnez la requête **FactResellerSales**.
 
@@ -268,7 +268,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
     ![Image 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image34.png)
 
-    Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord.
+    Les valeurs manquantes de la colonne **TotalProductCost** sont un problème de qualité des données. Vous pourrez résoudre le problème dans le labo **Charger des données dans Power BI Desktop**, où vous appliquerez des transformations pour renseigner les valeurs manquantes en utilisant le coût standard du produit, qui est stocké dans la table **DimProduct** associée.
 
 ### <a name="task-5-get-data-from-a-csv-file"></a>**Tâche 5 : Obtenir des données d’un fichier CSV**
 
@@ -295,7 +295,7 @@ Dans cette tâche, vous allez créer une requête basée sur un fichier CSV.
 
     ![Image 72](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image37.png)
 
-    Vous pouvez effectuer ces labos dans l’ordre de votre choix.
+    Le fichier CSV **ResellerSalesTargets** contient une ligne par vendeur, par année. Chaque ligne enregistre 12 objectifs de ventes mensuels (exprimés en milliers). Notez que l’année fiscale de la société Adventure Works commence le 1er juillet.
 
 7. Notez qu’aucune colonne ne contient de valeurs vides.
 
@@ -305,7 +305,7 @@ Dans cette tâche, vous allez créer une requête basée sur un fichier CSV.
 
     ![Image 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image38.png)
 
-    Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
+    Les icônes représentent le type de données de la colonne. **123** représente un nombre entier et **ABC** représente du texte.
 
     Dans le labo **Charger des données dans Power BI Desktop**, vous appliquerez de multiples transformations pour obtenir un résultat mis en forme différemment, composé de ces trois colonnes uniquement : **Date**, **EmployeeKey** et **TargetAmount**.
 
@@ -317,7 +317,7 @@ Dans cette tâche, vous allez créer une requête supplémentaire basée sur un 
 
     ![Image 75](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image39.png)
 
-    The <bpt id="p1">**</bpt>ColorFormats<ept id="p1">**</ept> CSV file contains one row per product color. Each row records the HEX codes to format background and font colors. You’ll integrate this data with the <bpt id="p1">**</bpt>DimProduct<ept id="p1">**</ept> query data in the <bpt id="p2">**</bpt>Load Data in Power BI Desktop<ept id="p2">**</ept> lab.
+    Le fichier CSV **ColorFormats** contient une ligne par couleur de produit. Chaque ligne enregistre les codes hexadécimaux pour mettre en forme les couleurs d’arrière-plan et de police. Vous intégrerez ces données avec les données de requête **DimProduct** dans le labo **Charger des données dans Power BI Desktop**.
 
 ### <a name="task-7-finish-up"></a>**Tâche 7 : Terminer**
 
@@ -341,7 +341,7 @@ Dans cette tâche, vous terminez le labo.
 
     ![Image 86](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image42.png)
 
-    Applying the queries will load their data to the data model. You’re not ready to do that, as there are many transformations that must be applied first.
+    L’application des requêtes va charger leurs données dans le modèle de données. Vous n’êtes pas prêt à faire cela, car de nombreuses transformations doivent d’abord être appliquées.
 
 4. Si vous avez l’intention de démarrer le labo suivant, laissez Power BI Desktop ouvert.
 

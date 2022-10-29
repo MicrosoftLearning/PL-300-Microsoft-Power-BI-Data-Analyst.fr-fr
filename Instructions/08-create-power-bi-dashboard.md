@@ -19,7 +19,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
@@ -43,7 +43,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## <a name="exercise-1-create-a-dashboard"></a>**Exercice 1 : Créer un tableau de bord**
 
-In this exercise you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. The completed dashboard will look like the following:
+Dans cet exercice, vous allez créer le tableau de bord **Surveillance des ventes**. Le tableau de bord terminé se présente comme suit :
 
 ![Image du tableau de bord terminé, comprenant trois vignettes.](Linked_image_Files/09-create-power-bi-dashboard_image1.png)
 
@@ -121,7 +121,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en ouvrant le 
 
 11. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-12. Pour créer une copie du fichier, sélectionnez l'onglet **Fichier** dans le ruban afin de passer en mode Backstage.
+12. Pour créer une copie du fichier, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
 
 13. Sélectionnez **Enregistrer sous**.
 
@@ -163,7 +163,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en créant un 
 
 ### <a name="task-4-create-a-dashboard"></a>**Tâche 4 : Créer un tableau de bord**
 
-In this task you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. You will pin a visual from the report, and add a tile based on an image data URI, and use Q&amp;A to create a tile.
+Lors de cette tâche, vous allez créer le tableau de bord **Surveillance des ventes**. Vous épinglez un visuel à partir du rapport, vous ajoutez une vignette basée sur un URI de données image, puis vous utilisez Questions et réponses pour créer une vignette.
 
 1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, ouvrez le rapport **Analyse des ventes**.
 
@@ -307,7 +307,7 @@ Dans cette tâche, vous allez modifier les détails de deux vignettes.
 
 ## <a name="exercise-2-refresh-the-dataset"></a>**Exercice 2 : Actualiser le jeu de données**
 
-In this exercise you will first load sales order data for June 2020 into the <bpt id="p1">**</bpt>AdventureWorksDW2020<ept id="p1">**</ept> database. You will then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
+Dans cet exercice, vous allez commencer par charger les données de commande client pour juin 2020 dans la base de données **AdventureWorksDW2020**. Ensuite, vous ouvrirez votre fichier Power BI Desktop, vous actualiserez les données, puis vous chargerez le fichier dans votre espace de travail.
 
 ### <a name="task-1-update-the-lab-database"></a>**Tâche 1 : Mettre à jour la base de données du labo**
 

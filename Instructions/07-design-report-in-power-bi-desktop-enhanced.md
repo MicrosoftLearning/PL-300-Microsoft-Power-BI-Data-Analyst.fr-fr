@@ -23,7 +23,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
@@ -123,7 +123,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en ouvrant le 
 
 11. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-12. Pour créer une copie du fichier, sélectionnez l'onglet **Fichier** dans le ruban afin de passer en mode Backstage.
+12. Pour créer une copie du fichier, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
 
 13. Sélectionnez **Enregistrer sous**.
 
@@ -175,7 +175,7 @@ Dans cette tâche, vous allez synchroniser les segments **Année** et **Région*
 
 ## <a name="exercise-2-configure-drill-through"></a>**Exercice 2 : Configurer l’extraction**
 
-In this exercise you will create a new page and configure it as a drill through page. When you’ve completed the design, the page will look like the following:
+Dans cet exercice, vous allez créer une page et la configurer en tant que page d’extraction. Une fois créée, la page se présentera comme suit :
 
 ![Image de la nouvelle page, comprenant un visuel de carte et un visuel de tableau.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image17.png)
 
@@ -247,7 +247,7 @@ Dans cette tâche, vous allez créer une page et la configurer comme page d’ex
 
 ## <a name="exercise-3-add-conditional-formatting"></a>**Exercice 3 : Ajouter une mise en forme conditionnelle**
 
-In this exercise you will enhance the drill through page with conditional formatting. When you’ve completed the design, the page will look like the following:
+Dans cet exercice, vous allez améliorer la page d’extraction avec une mise en forme conditionnelle. Une fois créée, la page se présentera comme suit :
 
 ![Image d’une page mise à jour, révélant les valeurs et les icônes mises en forme des couleurs.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image28.png)
 
@@ -321,7 +321,7 @@ Dans cette tâche, vous allez améliorer la page d’extraction avec une mise en
 
 ## <a name="exercise-4-add-bookmarks-and-buttons"></a>**Exercice 4 : Ajouter des signets et des boutons**
 
-In this exercise you will enhance the <bpt id="p1">**</bpt>My Performance<ept id="p1">**</ept> page with buttons, allowing the report user to select the visual type to display. When you’ve completed the design, the page will look like the following:
+Dans cet exercice, vous allez améliorer la page **My Performance** avec des boutons, ce qui permet à l’utilisateur du rapport de sélectionner le type d’objet visuel à afficher. Une fois créée, la page se présentera comme suit :
 
 ![Image d’une page 3 mise à jour, montrant deux boutons et maintenant seulement deux visuels.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image38.png)
 
