@@ -8,7 +8,7 @@ lab:
 
 **La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
-In this lab you will commence apply transformations to each of the queries created in the previous lab. You will then apply the queries to load each as a table to the data model.
+Dans ce labo, vous allez commencer à appliquer des transformations à chacune des requêtes créées dans le labo précédent. Vous appliquerez ensuite les requêtes pour charger chacune d’elles sous forme de table dans le modèle de données.
 
 Dans ce labo, vous allez découvrir comment :
 
@@ -18,7 +18,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
@@ -701,7 +701,7 @@ Dans cette tâche, vous allez mettre à jour **ColorFormats** de façon à désa
 
     ![Image 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
 
-    Disabling the load means it will not load as a table to the data model. This is done because the query was merged with the <bpt id="p1">**</bpt>Product<ept id="p1">**</ept> query, which is enabled to load to the data model.
+    Désactiver le chargement signifie qu’elle ne sera pas chargée en tant que table dans le modèle de données. La raison en est que la requête a été fusionnée avec la requête **Product**, dont le chargement dans le modèle de données est activé.
 
 4. Cliquez sur **OK**.
 

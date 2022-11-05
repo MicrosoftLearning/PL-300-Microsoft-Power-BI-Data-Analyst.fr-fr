@@ -9,7 +9,7 @@ lab:
 
 **La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
-In this lab you will create a three-page report. You will then publish it to Power BI, whereupon you will open and interact with the report.
+Dans ce labo, vous allez créer un rapport de trois pages. Vous publierez ensuite ce rapport dans Power BI, puis vous l'ouvrirez et interagirez avec lui.
 
 Dans ce labo, vous allez découvrir comment :
 
@@ -19,7 +19,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
@@ -88,7 +88,7 @@ Dans cette tâche, vous allez activer le mappage et les visuels de carte choropl
 
     ![Image 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
 
-1. Scroll down the page to Integration settings. Click the arrow to expand the Map and filled map visuals option.
+1. Faites défiler la page vers le bas vers les paramètres d’intégration. Cliquez sur la flèche pour développer l’option mappage et visuels de carte choroplèthe.
 
     ![Image 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
 
@@ -147,7 +147,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en ouvrant le 
 
 11. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-12. Pour créer une copie du fichier, sélectionnez l'onglet **Fichier** dans le ruban afin de passer en mode Backstage.
+12. Pour créer une copie du fichier, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
 
 13. Sélectionnez **Enregistrer sous**.
 
@@ -165,7 +165,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en ouvrant le 
 
 ### <a name="task-4-design-page-1"></a>**Tâche 4 : Conception de la page 1**
 
-In this task you will design the first report page. When you’ve completed the design, the page will look like the following:
+Au cours de cette tâche, vous allez créer la première page du rapport. Une fois créée, la page se présentera comme suit :
 
 ![Image de la page 1, comprenant un logo, deux segments et trois visuels.](Linked_image_Files/07-design-report-in-power-bi-desktop_image12.png)
 
@@ -328,7 +328,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 ### <a name="task-5-design-page-2"></a>**Tâche 5 : Conception de la page 2**
 
-Dans ce labo, vous allez créer un rapport de trois pages.
+Dans cette tâche, vous allez créer la deuxième page du rapport. Une fois créée, la page se présentera comme suit :
 
 ![Image de la page 2, comprenant un segment et une matrice.](Linked_image_Files/07-design-report-in-power-bi-desktop_image37.png)
 
@@ -403,7 +403,7 @@ Dans ce labo, vous allez créer un rapport de trois pages.
 
 ### <a name="task-6-design-page-3"></a>**Tâche 6 : Conception de la page 3**
 
-Vous publierez ensuite ce rapport dans Power BI, puis vous l'ouvrirez et interagirez avec lui.
+Dans cette tâche, vous allez créer la troisième et dernière page du rapport. Une fois créée, la page se présentera comme suit :
 
 ![Image de la page 3, comprenant un segment et trois visuels.](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
 
@@ -413,7 +413,7 @@ Vous publierez ensuite ce rapport dans Power BI, puis vous l'ouvrirez et interag
     
     ![Image du champ Salesperson dans le volet de filtre.](Linked_image_Files/07-design-report-in-power-bi-desktop_image999.png) 
 
-1. Select <bpt id="p1">**</bpt>Michael Blythe<ept id="p1">**</ept>. Data on the <bpt id="p1">**</bpt>My Performance<ept id="p1">**</ept> report page will now be filtered to display data for Michael Blythe only.
+1. Sélectionnez **Michael Blythe**. Les données de la page de rapport **Mes performances** seront désormais filtrées pour afficher les données pour Michael Blythe uniquement.
 
 1. Ajoutez un segment de liste déroulante au champ **Date \| Year**, puis redimensionnez-le et positionnez-le afin qu’il se trouve dans l’angle supérieur gauche de la page.
 

@@ -9,7 +9,7 @@ lab:
 
 **La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
-In this lab you will commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You will also create hierarchies and create quick measures.
+Dans ce labo, vous allez commencer à développer le modèle de données. Pour cela, vous créerez des relations entre les tables, puis configurerez des propriétés de table et de colonne pour améliorer la convivialité du modèle de données. Vous créerez également des hiérarchies et des mesures rapides.
 
 Dans ce labo, vous allez découvrir comment :
 
@@ -22,7 +22,7 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
@@ -82,7 +82,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
 1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-1. Pour créer une copie du fichier, sélectionnez l'onglet **Fichier** dans le ruban afin de passer en mode Backstage.
+1. Pour créer une copie du fichier, sélectionnez l’onglet de ruban **Fichier** afin de passer en mode Backstage.
 
 1. Sélectionnez **Enregistrer sous**.
 
@@ -208,7 +208,7 @@ Dans cette tâche, vous allez créer des relations de modèle.
 
     *Dans ce labo, les tables **SalespersonRegion** et **Targets** restent déconnectées. Il existe une relation plusieurs-à-plusieurs entre les vendeurs et les régions, et vous utiliserez ce scénario avancé dans le labo **Modéliser les données dans Power BI Desktop (Partie 2)** .*
 
-25. In the diagram, arrange the tables so that the <bpt id="p1">**</bpt>Sales<ept id="p1">**</ept> table is positioned in the center of the diagram, and the related tables are arranged about it. Position the disconnected tables to the side.
+25. Dans le diagramme, organisez les tables de manière à ce que la table **Sales** soit placée au centre du diagramme et que les tables associées soient disposées autour d'elle. Placez les tables déconnectées sur le côté.
 
     ![Image 340](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image23.png)
 
@@ -348,7 +348,7 @@ Dans cette tâche, vous allez configurer la table **Sales**.
 
 ### <a name="task-5-bulk-update-properties"></a>**Tâche 5 : Mettre à jour en bloc les propriétés**
 
-In this task you will update multiple columns using single bulk updates. You will use this approach to hide columns, and format column values.
+Dans cette tâche, vous allez mettre à jour plusieurs colonnes à l’aide une seule mise à jour en bloc. Vous suivrez cette approche pour masquer les colonnes et mettre en forme les valeurs des colonnes.
 
 1. Dans le volet **Champs**, sélectionnez la colonne **Product \| ProductKey**.
 
