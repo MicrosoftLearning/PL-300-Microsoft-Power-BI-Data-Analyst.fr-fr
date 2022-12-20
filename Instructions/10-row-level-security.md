@@ -1,7 +1,7 @@
 ---
 lab:
   title: Appliquer la sécurité au niveau des lignes
-  module: Module 13 - Row-Level Security
+  module: 12 - Row-Level Security
 ---
 
 
@@ -9,37 +9,35 @@ lab:
 
 **La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
-Dans ce labo, vous allez créer une relation plusieurs-à-plusieurs entre la table **Salesperson** et la table **Sales**. Vous appliquerez également la sécurité au niveau des lignes pour vous assurer qu’un vendeur ne peut analyser les données de ventes que pour la ou les régions qui lui sont attribuées.
+Dans ce labo, vous appliquerez la sécurité au niveau des lignes pour vous assurer qu’un vendeur ne peut analyser les données de ventes que pour la ou les régions qui lui sont attribuées.
 
 Dans ce labo, vous allez découvrir comment :
-
-- Configurer des relations plusieurs-à-plusieurs
 
 - Appliquer la sécurité au niveau des lignes
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
 2. Charger des données dans Power BI Desktop
 
-3. Modéliser les données dans Power BI Desktop
+3. Concevoir un modèle de données dans Power BI
 
-5. Créer des calculs DAX dans Power BI Desktop (partie 1)
+4. Créer des calculs DAX dans Power BI Desktop (partie 1)
 
-6. Créer des calculs DAX dans Power BI Desktop (partie 2)
+5. Créer des calculs DAX dans Power BI Desktop (partie 2)
 
-7. Concevoir un rapport dans Power BI Desktop, partie 1
+6. Concevoir un rapport dans Power BI Desktop, partie 1
 
-8. Concevoir un rapport dans Power BI Desktop, partie 2
+7. Concevoir un rapport dans Power BI Desktop, partie 2
+
+8. Analyser les données avec des visuels IA
 
 9. Créer un tableau de bord Power BI
 
-10. Analyser les données dans Power BI Desktop
-
-11. **Appliquer la sécurité au niveau des lignes**
+10. **Appliquer la sécurité au niveau des lignes**
 
 ## <a name="exercise-1-enforce-row-level-security"></a>**Exercise 1 : Appliquer la sécurité au niveau des lignes**
 
@@ -69,7 +67,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\12-row-level-security\Starter**.
+1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\10-row-level-security\Starter**.
 
 1. Sélectionnez le fichier **Sales Analysis** (Analyse des ventes).
 
@@ -181,7 +179,7 @@ Dans cet tâche, vous appliquez la sécurité au niveau des lignes pour vous ass
 
     ![Image 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
 
-### <a name="task-2-finish-up"></a>**Tâche 2 : Terminer**
+### <a name="task-3-finish-up"></a>**Tâche 3 : Terminer**
 
 Dans cette tâche, vous terminez le labo.
 

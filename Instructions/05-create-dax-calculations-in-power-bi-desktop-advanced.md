@@ -1,11 +1,11 @@
 ---
 lab:
   title: "Créer des calculs DAX dans Power\_BI Desktop (partie\_2)"
-  module: Module 5 - Create Model Calculations using DAX in Power BI
+  module: 5 - Create Model Calculations using DAX in Power BI
 ---
 
 
-# <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>**Créer des calculs DAX dans Power BI Desktop (partie 2)**
+# <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>Créer des calculs DAX dans Power BI Desktop (partie 2)
 
 **La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
@@ -19,27 +19,27 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
 2. Charger des données dans Power BI Desktop
 
-3. Modéliser les données dans Power BI Desktop
+3. Concevoir un modèle de données dans Power BI
 
-5. Créer des calculs DAX dans Power BI Desktop (partie 1)
+4. Créer des calculs DAX dans Power BI Desktop (partie 1)
 
-6. **Créer des calculs DAX dans Power BI Desktop (partie 2)**
+5. **Créer des calculs DAX dans Power BI Desktop (partie 2)**
 
-7. Concevoir un rapport dans Power BI Desktop, partie 1
+6. Concevoir un rapport dans Power BI Desktop, partie 1
 
-8. Concevoir un rapport dans Power BI Desktop, partie 2
+7. Concevoir un rapport dans Power BI Desktop, partie 2
+
+8. Analyser les données avec des visuels IA
 
 9. Créer un tableau de bord Power BI
 
-10. Analyser les données dans Power BI Desktop
-
-11. Appliquer la sécurité au niveau des lignes
+10. Appliquer la sécurité au niveau des lignes
 
 ## <a name="exercise-1-work-with-filter-context"></a>**Exercice 1 : Utiliser le contexte de filtre**
 
@@ -69,7 +69,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo.
 
     ![Image 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter**.
+1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter**.
 
 1. Sélectionnez le fichier **Sales Analysis** (Analyse des ventes).
 
@@ -121,13 +121,11 @@ Au cours de cette tâche, vous allez créer un visuel matrice pour gérer les te
 
     *Pour rappel, la hiérarchie **Regions** comporte les niveaux **Group**, **Country**, et **Region**.*
 
-7. Pour mettre en forme le visuel, sélectionnez le volet **Mise en forme** sous le volet **Visualisations**.
+7. Pour mettre en forme le visuel, sélectionnez le volet **Mise en forme** dans le volet **Visualisations**.
 
     ![Image 14](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
 
 8. Dans la zone **Recherche**, entrez **Échelonné**.
-
-    ![Image 15](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image13.png)
 
 9. **Désactivez** la propriété **Disposition échelonnée**.
 
@@ -147,7 +145,7 @@ Dans cette tâche, vous allez créer plusieurs mesures avec des expressions DAX 
 
 1. Ajoutez une mesure à la table **Sales** (Ventes), à partir de l’expression suivante :
 
-    *Par souci pratique, toutes les définitions DAX de ce labo peuvent être copiées à partir du fichier **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt**.*
+    *Par souci pratique, toutes les définitions DAX de ce labo peuvent être copiées à partir du fichier **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt**.*
 
 
     **DAX**
