@@ -1,10 +1,10 @@
 ---
 lab:
   title: "Préparer des données dans Power\_BI Desktop"
-  module: Module 2 - Get Data in Power BI
+  module: 2 - Get Data in Power BI
 ---
 
-# <a name="prepare-data-in-power-bi-desktop"></a>**Préparer des données dans Power BI Desktop**
+# <a name="prepare-data-in-power-bi-desktop"></a>Préparer des données dans Power BI Desktop
 
 **La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
@@ -22,29 +22,29 @@ Dans ce labo, vous allez découvrir comment :
 
 - Utilisez des techniques d’aperçu des données pour mieux comprendre les données
 
-### <a name="lab-story"></a>**Histoire du labo**
+## <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, nous vous suggérons de suivre cet ordre :
 
 1. **Préparer des données dans Power BI Desktop**
 
 2. Charger des données dans Power BI Desktop
 
-3. Modéliser les données dans Power BI Desktop
+3. Concevoir un modèle de données dans Power BI
 
-5. Créer des calculs DAX dans Power BI Desktop (partie 1)
+4. Créer des calculs DAX dans Power BI Desktop (partie 1)
 
-6. Créer des calculs DAX dans Power BI Desktop (partie 2)
+5. Créer des calculs DAX dans Power BI Desktop (partie 2)
 
-7. Concevoir un rapport dans Power BI Desktop, partie 1
+6. Concevoir un rapport dans Power BI Desktop, partie 1
 
-8. Concevoir un rapport dans Power BI Desktop, partie 2
+7. Concevoir un rapport dans Power BI Desktop, partie 2
+
+8. Analyser les données avec des visuels IA
 
 9. Créer un tableau de bord Power BI
 
-10. Analyser les données dans Power BI Desktop
-
-11. Appliquer la sécurité au niveau des lignes
+10. Appliquer la sécurité au niveau des lignes
 
 ## <a name="exercise-1-prepare-data"></a>**Exercice 1 : Préparer les données**
 
@@ -127,6 +127,8 @@ Dans cette tâche, vous allez créer des requêtes basées sur des tables SQL Se
 3. Cliquez sur **OK**.
 
     ![Image 22](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image13.png)
+
+4. Si vous y êtes invité, dans la fenêtre **Base données SQL Server**, sélectionnez **Utiliser mes informations d’identification actuelles**. Ensuite, **connectez-vous**.
 
 4. Dans la fenêtre **Navigateur**, à gauche, développez la base de données **AdventureWorksDW2020**.
 
@@ -214,7 +216,7 @@ Dans cette tâche, vous allez afficher un aperçu des données des requêtes SQL
 
     ![Image 44](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image27.png)
 
-    La table **DimEmployeeSalesTerritory** stocke une ligne pour chaque employé et les régions du secteur de vente qu’il gère. La table prend en charge la relation de nombreuses régions à un même employé. Certains employés gèrent une, deux ou éventuellement davantage de régions. Lorsque vous modélisez ces données, vous devez définir une relation plusieurs-à-plusieurs. C’est ce que vous ferez dans le labo **Modéliser les données dans Power BI Desktop (partie 2)**.
+    La table **DimEmployeeSalesTerritory** stocke une ligne pour chaque employé et les régions du secteur de vente qu’il gère. La table prend en charge la relation de nombreuses régions à un même employé. Certains employés gèrent une, deux ou éventuellement davantage de régions. Lors de la modélisation de ces données, vous devrez définir une relation plusieurs-à-plusieurs.
 
 12. Dans le volet **Requêtes**, sélectionnez la requête **DimProduct**.
 
@@ -256,7 +258,7 @@ Dans cette tâche, vous allez afficher un aperçu des données des requêtes SQL
 
     ![Image 52](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image32.png)
 
-    La table **DimSalesTerritory** contient une ligne par région commerciale, y compris **Corporate HQ** (siège social de l’entreprise). Les régions sont affectées à un pays, et les pays sont affectés à des groupes. Dans le labo **Modéliser les données dans Power BI Desktop (partie 1)**, vous créerez une hiérarchie pour prendre en charge l’analyse au niveau de la région, du pays ou du groupe.
+    La table **DimSalesTerritory** contient une ligne par région commerciale, y compris **Corporate HQ** (siège social de l’entreprise). Les régions sont affectées à un pays, et les pays sont affectés à des groupes. Dans le labo **Modéliser les données dans Power BI Desktop**, vous créerez une hiérarchie pour prendre en charge l’analyse au niveau de la région, du pays ou du groupe.
 
 23. Dans le volet **Requêtes**, sélectionnez la requête **FactResellerSales**.
 
@@ -269,6 +271,7 @@ Dans cette tâche, vous allez afficher un aperçu des données des requêtes SQL
     ![Image 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image34.png)
 
     Les valeurs manquantes de la colonne **TotalProductCost** sont un problème de qualité des données. Vous pourrez résoudre le problème dans le labo **Charger des données dans Power BI Desktop**, où vous appliquerez des transformations pour renseigner les valeurs manquantes en utilisant le coût standard du produit, qui est stocké dans la table **DimProduct** associée.
+
 
 ### <a name="task-5-get-data-from-a-csv-file"></a>**Tâche 5 : Obtenir des données d’un fichier CSV**
 
@@ -287,9 +290,7 @@ Dans cette tâche, vous allez créer une requête basée sur un fichier CSV.
 5. Cliquez sur **OK**.
 
     ![Image 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image36.png)
-
-  
-‎ 
+ 
 
 6. Dans le volet **Requêtes**, notez l’ajout de la requête **ResellerSalesTargets**.
 
