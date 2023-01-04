@@ -1,10 +1,10 @@
 ---
 lab:
   title: "Charger des données dans Power\_BI Desktop"
-  module: 'Module 3 - Clean, Transform, and Load Data in Power BI'
+  module: '3 - Clean, Transform, and Load Data in Power BI'
 ---
 
-# <a name="load-data-in-power-bi-desktop"></a>**Charger des données dans Power BI Desktop**
+# <a name="load-data-in-power-bi-desktop"></a>Charger des données dans Power BI Desktop
 
 **La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
@@ -16,30 +16,29 @@ Dans ce labo, vous allez découvrir comment :
 
 - Appliquer des requêtes pour les charger dans le modèle de données
 
-### <a name="lab-story"></a>**Histoire du labo**
+## <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
 2. **Charger des données dans Power BI Desktop**
 
-3. Modéliser les données dans Power BI Desktop
+3. Concevoir un modèle de données dans Power BI
 
+4. Créer des calculs DAX dans Power BI Desktop (partie 1)
 
-5. Créer des calculs DAX dans Power BI Desktop (partie 1)
+5. Créer des calculs DAX dans Power BI Desktop (partie 2)
 
-6. Créer des calculs DAX dans Power BI Desktop (partie 2)
+6. Concevoir un rapport dans Power BI Desktop, partie 1
 
-7. Concevoir un rapport dans Power BI Desktop, partie 1
+7. Concevoir un rapport dans Power BI Desktop, partie 2
 
-8. Concevoir un rapport dans Power BI Desktop, partie 2
+8. Analyser les données avec des visuels IA
 
 9. Créer un tableau de bord Power BI
 
-10. Analyser les données dans Power BI Desktop
-
-11. Appliquer la sécurité au niveau des lignes
+10. Appliquer la sécurité au niveau des lignes
 
 ## <a name="exercise-1-load-data"></a>**Exercice 1 : Charger des données**
 
@@ -211,7 +210,7 @@ Dans cette tâche, vous allez configurer la requête **Salesperson**.
 
 23. Utilisez les étapes précédentes pour renommer la colonne **EmailAddress** en **UPN**.
 
-    *UPN est un acronyme pour User Principal Name (Nom d’utilisateur principal). Les valeurs de cette colonne seront utilisées quand vous configurerez la sécurité au niveau des lignes dans le labo **Modéliser les données dans Power BI Desktop (partie 2)** .*
+    *UPN est l'acronyme de « User Principal Name » (Nom d’utilisateur principal).*
 
 24. En bas à gauche, dans la barre d’état, vérifiez que la requête a bien 5 colonnes et 18 lignes.
 
@@ -344,7 +343,6 @@ Dans cette tâche, vous allez configurer la requête **Reseller**.
     ![Image 2](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image38.png)
 
   
-‎ 
 
 6. Cliquez avec le bouton droit sur l’en-tête de colonne **Business Type**, puis sélectionnez **Remplacer les valeurs**.
 
@@ -386,11 +384,7 @@ Dans cette tâche, vous allez configurer la requête **Region**.
 
 2. Renommez la requête en **Region**.
 
-3. Appliquez un filtre à la colonne **SalesTerritoryAlternateKey** pour supprimer la valeur 0 (zéro).
-
-    ![Image 5660](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image44.png)
-
-4. Supprimez toutes les colonnes, à l’exception des suivantes :
+3. Supprimez toutes les colonnes, à l’exception des suivantes :
 
     - SalesTerritoryKey
 
@@ -400,7 +394,7 @@ Dans cette tâche, vous allez configurer la requête **Region**.
 
     - SalesTerritoryGroup
 
-5. Renommez les trois colonnes suivantes :
+4. Renommez les trois colonnes suivantes :
 
     - **SalesTerritoryRegion** en **Region**
 
@@ -408,7 +402,7 @@ Dans cette tâche, vous allez configurer la requête **Region**.
 
     - **SalesTerritoryGroup** en **Group**
 
-6. Dans la barre d’état, vérifiez que la requête a bien 4 colonnes et 10 lignes.
+5. Dans la barre d’état, vérifiez que la requête a bien 4 colonnes et 10 lignes.
 
     ![Image 5661](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image45.png)
 
@@ -460,28 +454,26 @@ Dans cette tâche, vous allez configurer la requête **Sales**.
 
 7. Dans la zone **Formule de colonne personnalisée**, entrez l’expression suivante (après le symbole Égal) :
 
-8. Pour plus de commodité, vous pouvez copier l’expression à partir du fichier **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.
-
-
-   **Power Query**
-   ```
+   `
    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
-   ```
-
+   `
 
 *Cette expression teste si la valeur de **TotalProductCost** est manquante. Si c’est le cas, produisez une valeur en multipliant la valeur de **OrderQuantity** par la valeur de **StandardCost** ; sinon, elle utilise la valeur existante de **TotalProductCost**.*
 
-9. Cliquez sur **OK**.
+Pour plus de commodité, vous pouvez copier l’expression à partir du fichier **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.
+
+8. Cliquez sur **OK**.
 
     ![Image 5666](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image49.png)
 
-10. Supprimez les deux colonnes suivantes :
+
+9. Supprimez les deux colonnes suivantes :
 
     - TotalProductCost
 
     - StandardCost
 
-11. Renommez les trois colonnes suivantes :
+10. Renommez les trois colonnes suivantes :
 
     - **OrderQuantity** en **Quantity**
 
@@ -489,13 +481,13 @@ Dans cette tâche, vous allez configurer la requête **Sales**.
 
     - **SalesAmount** en **Sales**
 
-12. Pour modifier le type de données de la colonne, dans l’en-tête de la colonne **Quantity**, à gauche du nom de la colonne, cliquez sur l’icône **1.2**, puis sélectionnez **Nombre entier**.
+11. Pour modifier le type de données de la colonne, dans l’en-tête de la colonne **Quantity**, à gauche du nom de la colonne, cliquez sur l’icône **1.2**, puis sélectionnez **Nombre entier**.
 
     ![Image 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
 
     *Il est important de configurer le type de données correct. Quand la colonne contient une valeur numérique, il est également important de choisir le type correct si vous prévoyez d’effectuer des calculs mathématiques.*
 
-13. Modifiez les types de données des trois colonnes suivantes en **Nombre décimal fixe**.
+12. Modifiez les types de données des trois colonnes suivantes en **Nombre décimal fixe**.
 
     - Unit Price
 
@@ -507,7 +499,7 @@ Dans cette tâche, vous allez configurer la requête **Sales**.
 
     *Le type de données Nombre décimal fixe stocke des valeurs avec une précision complète, ce qui nécessite un espace de stockage plus grand que pour un nombre décimal. Il est important d’utiliser le type Nombre décimal fixe pour les valeurs financières ou les taux (comme les taux de change).*
 
-14. Dans la barre d’état, vérifiez que la requête a bien 10 colonnes et 999+ lignes.
+13. Dans la barre d’état, vérifiez que la requête a bien 10 colonnes et 999+ lignes.
 
     ![Image 5669](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image52.png)
 
@@ -565,7 +557,7 @@ Dans cette tâche, vous allez configurer la requête **Targets**.
 
 13. Notez que la première ligne est pour l’année **2017** et que le numéro du mois est **7**.
 
-14. Dans la colonne **Colonne1**, dans la première cellule de la grille, entrez **7/1/2017**, puis appuyez sur **Entrée**.
+14. Dans la colonne **Colonne1**, dans la première cellule de la grille, entrez **07/01/2017**, puis appuyez sur **Entrée**.
 
     *La machine virtuelle utilise les paramètres régionaux États-Unis, donc cette date est en fait le 1er juillet 2017.*
 
@@ -643,7 +635,7 @@ Dans cette tâche, vous allez mettre à jour la requête **Product** en fusionna
 
     ![Image 5690](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image70.png)
 
-2. Pour fusionner la requête **ColorFormats**, sous l’onglet du ruban **Accueil**, dans le groupe **Combiner**, cliquez sur **Fusionner des requêtes**.
+2. Pour fusionner la requête **ColorFormats**, sous l’onglet du ruban **Accueil**, cliquez sur la flèche vers le bas **Combiner**, puis sur **Fusionner des requêtes**.
 
     ![Image 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
@@ -743,4 +735,4 @@ Dans cette tâche, vous terminez le labo.
 
 5. Si vous avez l’intention de démarrer le labo suivant, laissez Power BI Desktop ouvert.
 
-    *Vous allez configurer les tables et les relations du modèle de données dans le labo **Modéliser les données dans Power BI Desktop (partie 1)** .*
+    *Vous configurerez les tables et les relations du modèle de données dans le labo **Modéliser les données dans Power BI Desktop (partie 1)** .*

@@ -4,7 +4,7 @@ Ce référentiel contient des travaux pratiques en labo liés au cours Microsoft
 
 - **Êtes-vous un MCT ?** - Consultez notre [Guide de l’utilisateur GitHub pour MCT](https://microsoftlearning.github.io/MCT-User-Guide/)
 - **Vous devez générer manuellement les instructions de labo ?** - Les instructions sont disponibles dans le référentiel [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build)
-- **Avez-vous besoin d’un actualisateur sur quels labos vont avec quel module ?** - Consultez la [page GitHub](https://microsoftlearning.github.io/DA-100-Analyzing-Data-with-Power-BI/)
+- **Avez-vous besoin d’un petit rappel pour savoir quels labos vont avec quelle présentation de cours ?** - Consultez la [page GitHub](https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/)
 
 ## <a name="what-are-we-doing"></a>Que faisons-nous ?
 
