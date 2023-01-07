@@ -1,11 +1,11 @@
 ---
 lab:
   title: "Concevoir un rapport dans Power\_BI Desktop, partie\_1"
-  module: Module 7 - Create Reports
+  module: 7 - Create Reports
 ---
 
 
-# <a name="design-a-report-in-power-bi-desktop-part-1"></a>**Concevoir un rapport dans Power BI Desktop (partie 1)**
+# <a name="design-a-report-in-power-bi-desktop-part-1"></a>Concevoir un rapport dans Power BI Desktop, partie 1
 
 **La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
@@ -19,27 +19,27 @@ Dans ce labo, vous allez découvrir comment :
 
 ### <a name="lab-story"></a>**Histoire du labo**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez faire plusieurs labos, pour les dix premiers d’entre eux, nous vous suggérons de suivre cet ordre :
+Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
 
 2. Charger des données dans Power BI Desktop
 
-3. Modéliser les données dans Power BI Desktop
+3. Concevoir un modèle de données dans Power BI
 
-5. Créer des calculs DAX dans Power BI Desktop (partie 1)
+4. Créer des calculs DAX dans Power BI Desktop (partie 1)
 
-6. Créer des calculs DAX dans Power BI Desktop (partie 2)
+5. Créer des calculs DAX dans Power BI Desktop (partie 2)
 
-7. **Concevoir un rapport dans Power BI Desktop (partie 1)**
+6. **Concevoir un rapport dans Power BI Desktop (partie 1)**
 
-8. Concevoir un rapport dans Power BI Desktop, partie 2
+7. Concevoir un rapport dans Power BI Desktop, partie 2
+
+8. Analyser les données avec des visuels IA
 
 9. Créer un tableau de bord Power BI
 
-10. Analyser les données dans Power BI Desktop
-
-11. Appliquer la sécurité au niveau des lignes
+10. Appliquer la sécurité au niveau des lignes
 
 ## <a name="exercise-1-create-a-report"></a>**Exercice 1 : Créer un rapport**
 
@@ -55,19 +55,13 @@ Dans cette tâche, vous configurez l’environnement nécessaire pour le labo en
 
     ![Image 65](Linked_image_Files/07-design-report-in-power-bi-desktop_image1.png)
 
-1. Dans la fenêtre du navigateur Microsoft Edge, accédez à **https://powerbi.com**.
+1. Dans la fenêtre du navigateur Microsoft Edge, accédez à **https://powerbi.microsoft.com**.
 
     *Conseil : Vous pouvez également utiliser le favori Service Power BI dans la barre des favoris Microsoft Edge.*
 
 1. Cliquez sur **Se connecter** (en haut à droite).
 
     ![Image 63](Linked_image_Files/07-design-report-in-power-bi-desktop_image2.png)
-
-1. Entrez les détails du compte que l’on vous a fournis (consultez les **ressources**).
-
-1. Si vous êtes invité à mettre à jour le mot de passe, entrez à nouveau le mot de passe fourni, puis entrez et confirmez un nouveau mot de passe.
-
-    *Important : N’oubliez pas de noter votre nouveau mot de passe.*
 
 1. Terminez le processus de connexion.
 
@@ -77,35 +71,36 @@ Dans cette tâche, vous configurez l’environnement nécessaire pour le labo en
 
 ### <a name="task-2-get-started--enable-map-and-filled-map-visuals"></a>**Tâche 2 : Démarrage : Activer le mappage et les visuels de carte choroplèthe**
 
-Dans cette tâche, vous allez activer le mappage et les visuels de carte choroplèthe dans l’environnement du labo en mettant à jour les paramètres d’intégration dans le portail administration Power BI. 
+Dans cette tâche, vous allez activer les visuels de carte et de carte choroplèthe dans l’environnement du labo en mettant à jour les paramètres généraux dans Power BI Desktop et les paramètres d’intégration dans le portail d’administration Power BI.
 
+1. Dans Power BI Desktop, accédez à **Options > Options et paramètres > Global** et cochez la case **Utiliser les visuels Carte et Carte choroplèthe**.
 
-1. Pour ouvrir le portail administration Power BI, en haut à droite du navigateur, cliquez sur l’icône **Paramètres**.
+![Picture103b](Linked_image_Files/07-design-report-in-power-bi-desktop_image103b.png)
+
+2. Pour ouvrir le portail d’administration Power BI, en haut à droite du navigateur Edge, cliquez sur l’icône **Paramètres**.
 
     ![Image 101](Linked_image_Files/07-design-report-in-power-bi-desktop_image101.png)
 
-1. Sélectionnez **Portail d’administration**.
+3. Sélectionnez **Portail d’administration**.
 
     ![Image 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
 
-1. Faites défiler la page vers le bas vers les paramètres d’intégration. Cliquez sur la flèche pour développer l’option mappage et visuels de carte choroplèthe.
+4. Faites défiler la page vers le bas vers les paramètres d’intégration. Cliquez sur la flèche pour développer l’option mappage et visuels de carte choroplèthe.
 
     ![Image 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
 
-1. Définissez l’option mappage et les visuels de carte choroplèthe sur **Activé**.
+5. Définissez l’option mappage et les visuels de carte choroplèthe sur **Activé**.
 
-1. Cliquez sur **Appliquer** pour appliquer les modifications. 
+6. Cliquez sur **Appliquer** pour appliquer les modifications. 
 
     ![Image 104](Linked_image_Files/07-design-report-in-power-bi-desktop_image104.png)
 
-1. Un message s’affiche en haut à droite du navigateur indiquant que les modifications apportées aux paramètres du locataire seront appliquées au cours des 15 prochaines minutes. 
+7. Un message s’affiche en haut à droite du navigateur indiquant que les modifications apportées aux paramètres du locataire seront appliquées au cours des 15 prochaines minutes.
 
 
     ![Image 105](Linked_image_Files/07-design-report-in-power-bi-desktop_image105.png)
 
-
-
-1. Laissez la fenêtre du navigateur Microsoft Edge ouverte.
+8. Laissez la fenêtre du navigateur Microsoft Edge ouverte.
 
 ### <a name="task-3-get-started--open-report"></a>**Tâche 3 : Démarrer : Ouvrir un rapport**
 
@@ -137,7 +132,7 @@ Dans cette tâche, vous configurez l’environnement pour le labo en ouvrant le 
 
     ![Image 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
 
-8. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\07-design-report-in-power-bi-desktop\Starter**.
+8. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter**.
 
 9. Sélectionnez le fichier **Sales Analysis** (Analyse des ventes).
 
@@ -226,21 +221,6 @@ Au cours de cette tâche, vous allez créer la première page du rapport. Une fo
 
     ![Image 21](Linked_image_Files/07-design-report-in-power-bi-desktop_image22.png)
 
-17. Pour mettre en forme le segment, sélectionnez le volet **Format** sous le volet **Visualisations**.
-
-    ![Image 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png)
-
-18. Développez le groupe **Contrôles de sélection**.
-
-    ![Image 23](Linked_image_Files/07-design-report-in-power-bi-desktop_image24.png)
-
-19. Définissez l’**option « Sélectionner tout »** sur **Activé**.
-
-    ![Image 24](Linked_image_Files/07-design-report-in-power-bi-desktop_image25.png)
-
-20. Dans le segment **Région**, notez que le premier élément est maintenant **Sélectionner tout**.
-
-    *Lorsque cette option est sélectionnée, l’élément sélectionne ou désélectionne tous les éléments. Elle facilite pour les utilisateurs du rapport la définition des éléments de segment requis.*
 
 21. Désélectionnez le segment en cliquant sur une zone vide de la page de rapport.
 
@@ -258,13 +238,13 @@ Au cours de cette tâche, vous allez créer la première page du rapport. Une fo
 
     - Sales \| Sales
 
-25. Dans le volet des champs du visuel (et non dans le volet **Champs**, le volet des champs du visuel se trouve sous le volet **Visualisations**), notez que les champs sont affectés aux barres d’outils/zones **Axe partagé** et **Valeurs de colonne**.
+25. Dans le volet des champs du visuel (et non dans le volet **Champs**, le volet des champs du visuel se trouve sous le volet **Visualisations**), notez que les champs sont affectés aux barres d’outils/zones **Axe X** et **Colonne axe Y**.
 
-    ![Image 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28.png)
+    ![Image 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28_N.png)
 
     *Si vous faites glisser des champs dans un visuel, ils sont ajoutés aux barres d’outils/zones par défaut. Pour préciser, vous pouvez faire glisser des champs directement dans les barres d’outils/zones, comme vous allez le faire maintenant.*
 
-26. Dans le volet **Champs**, faites glisser le champ **Ventes \| Marge bénéficiaire** dans la barre d’outils/zone **Valeurs de ligne**.
+26. Dans le volet **Champs**, faites glisser le champ **Ventes \| Marge bénéficiaire** dans la barre d’outils/zone **Ligne axe Y**.
 
     ![Image 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -272,7 +252,7 @@ Au cours de cette tâche, vous allez créer la première page du rapport. Une fo
 
     *Le dernier mois de l’année, juin 2020, ne dispose (encore) d’aucune vente. Par défaut, le visuel a éliminé les mois avec des ventes VIERGES. Vous allez maintenant configurer le visuel pour afficher tous les mois.*
 
-28. Dans le volet des champs du visuel, dans la barre d’outils/zone **Axe partagé**, pour le champ **Mois**, cliquez sur la flèche vers le bas, puis sélectionnez **Afficher les éléments sans données**.
+28. Dans le volet des champs du visuel, dans la barre d’outils/zone **Axe X**, pour le champ **Mois**, cliquez sur la flèche vers le bas, puis sélectionnez **Afficher les éléments sans données**.
 
     ![Image 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
 
@@ -316,7 +296,7 @@ Au cours de cette tâche, vous allez créer la première page du rapport. Une fo
 
     ![Image 3](Linked_image_Files/07-design-report-in-power-bi-desktop_image35.png)
 
-39. Développez le groupe **Couleurs des données**, puis affectez à la propriété **Couleur par défaut** une couleur appropriée (pour compléter le graphique en colonnes ou en courbes).
+39. Développez le groupe **Barres** puis **Couleurs**, puis affectez à la propriété **Couleur par défaut** une couleur appropriée (par opposition au graphique en courbes/histogrammes).
 
 40. Définissez la propriété **Étiquettes de données** sur **Activé**.
 
@@ -343,11 +323,10 @@ Dans cette tâche, vous allez créer la deuxième page du rapport. Une fois cré
     ![Image 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
 
   
-‎ 
 
 3. Ajoutez un segment en fonction du champ **Region \| Region**.
 
-4. Utilisez le volet **Format** pour activer l’option « Sélectionner tout » (dans le groupe **Contrôles de sélection**).
+4. Utilisez le volet **Format** pour activer l’option « Sélectionner tout » (dans le groupe **Sélection**).
 
 5. Redimensionnez et positionnez le segment de manière à ce qu’il se trouve à gauche de la page de rapport et qu’il soit de la moitié de la hauteur de la page.
 
@@ -441,7 +420,7 @@ Dans cette tâche, vous allez créer la troisième et dernière page du rapport.
 
 1. Mettez le visuel en forme :
 
-    - Dans le groupe **Étiquettes de données**, augmentez la propriété **Taille du texte** à **28pt**
+    - Dans le groupe **Valeurs de légende**, augmentez la propriété **Taille du texte** à **28pt**
 
     - Dans le groupe **Arrière-plan**, définissez la **Couleur** sur une couleur gris clair
 
@@ -455,9 +434,9 @@ Dans cette tâche, vous allez créer la troisième et dernière page du rapport.
 
 1. Ajoutez les champs suivants aux barres d’outils/zones des visuels :
 
-    - Axe : **Date \| Mois**
+    - Axe Y : **Date \| Mois**
 
-    - Valeur : **Ventes \| Ventes** et **Cibles \| Cible**
+    - Axe X : **Ventes \| Ventes** et **Cibles \| Cible**
 
     ![Image 80](Linked_image_Files/07-design-report-in-power-bi-desktop_image56.png)
 
@@ -523,7 +502,9 @@ Dans cet tâche, vous allez explorer le rapport qui a été publié sur Power B
 
 3. Pour ouvrir le rapport, sélectionnez le rapport **Sales Analysis** (Analyse des ventes).
 
-4. À gauche, dans le volet **Pages**, sélectionnez la page **Vue d’ensemble**. 
+4. À gauche, dans le volet **Pages**, sélectionnez la page **Vue d’ensemble**.
+ 
+    ***Remarque** : Si vous voyez une erreur indiquant que le visuel de carte est désactivé, actualisez votre navigateur.*
 
 5. Dans le segment **Régions**, tout en appuyant sur la touche **Ctrl**, sélectionnez plusieurs régions.
 
