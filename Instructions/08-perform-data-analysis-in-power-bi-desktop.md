@@ -1,311 +1,212 @@
 ---
 lab:
   title: "Faire une analyse des données dans Power\_BI"
-  module: 8 - Identify Patterns and Trends
+  module: 8 - Perform Data Analysis in Power BI
 ---
 
 
-# <a name="perform-data-analysis-in-power-bi"></a>**Faire une analyse des données dans Power BI**
+# **Faire une analyse des données dans Power BI**
 
 **La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
 
-Dans ce labo, vous allez créer le rapport **Exploration des ventes**.
+Dans ce labo, vous allez créer le rapport **Sales Exploration** (Exploration des ventes).
 
 Dans ce labo, vous allez découvrir comment :
 
 - Créer des graphiques à nuages de points animés
-
 - Utiliser un visuel pour établir des prévisions sur les valeurs
 
-
-
-### <a name="lab-story"></a>**Histoire du labo**
+### **Histoire du labo**
 
 Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
 
 1. Préparer des données dans Power BI Desktop
+1. Charger des données dans Power BI Desktop
+1. Modéliser les données dans Power BI Desktop
+1. Créer des calculs DAX dans Power BI Desktop
+1. Créer des calculs DAX avancés dans Power BI Desktop
+1. Concevoir un rapport dans Power BI Desktop
+1. Améliorer un rapport dans Power BI Desktop
+1. **Faire une analyse des données dans Power BI**
+1. Créer un tableau de bord Power BI
+1. Appliquer la sécurité au niveau des lignes
 
-2. Charger des données dans Power BI Desktop
+## **Exercice 1 : Créer le rapport**
 
-3. Modéliser les données dans Power BI Desktop
+Dans cet exercice, vous allez créer le rapport **Sales Exploration**.
 
-5. Créer des calculs DAX dans Power BI Desktop (partie 1)
+### **Tâche 1 : Démarrer – Se connecter**
 
-6. Créer des calculs DAX dans Power BI Desktop (partie 2)
+Au cours de cette tâche, vous allez configurer l’environnement nécessaire pour le labo en vous connectant à Power BI.
 
-7. Concevoir un rapport dans Power BI Desktop, partie 1
+*Remarque : Si vous êtes déjà connecté à Power BI, passez à la tâche suivante.*
 
-8. Concevoir un rapport dans Power BI Desktop, partie 2
+1. Pour ouvrir Microsoft Edge, dans la barre des tâches, sélectionnez le raccourci du programme Microsoft Edge.
 
-8. **Faire une analyse des données dans Power BI**
+     ![Image 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
 
-9. Créer un tableau de bord Power BI
-
-11. Appliquer la sécurité au niveau des lignes
-
-## <a name="exercise-1-create-the-report"></a>**Exercice 1 : Créer le rapport**
-
-Dans cet exercice, vous allez créer le rapport **Sales Exploration** (Exploration des ventes).
-
-### <a name="task-1-get-started--sign-in"></a>**Tâche 1 : Démarrer – Se connecter**
-
-Dans cette tâche, vous configurez l’environnement nécessaire pour le labo en vous connectant à Power BI.
-
-*Important : Si vous vous êtes déjà connecté à Power BI dans le cadre d’un labo précédent, passez à la tâche suivante.*
-
-1. Pour ouvrir Microsoft Edge, dans la barre des tâches, cliquez sur le raccourci du programme Microsoft Edge.
-
-    ![Image 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
-
-1. Dans la fenêtre du navigateur Microsoft Edge, accédez à **https://powerbi.microsoft.com**.
+1. Dans la fenêtre du navigateur Microsoft Edge, accédez à **https://app.powerbi.com**.
 
     *Conseil : Vous pouvez également utiliser le favori Service Power BI dans la barre des favoris Microsoft Edge.*
 
-1. Cliquez sur **Se connecter** (en haut à droite).
+1. Effectuez le processus de connexion avec vos informations d’identification organisationnelles (ou fournies). Si Microsoft Edge vous invite à rester connecté, sélectionnez **Oui**.
 
-    ![Image 5](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image2.png)
+1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, dans le volet **Navigation**, développez **Mon espace de travail**. Laissez la fenêtre du navigateur Microsoft Edge ouverte.
 
-1. Entrez les détails du compte qui vous ont été fournis.
+     ![Image 22](Linked_image_Files/07-my-workspace-new.png)
 
-1. Si vous êtes invité à mettre à jour le mot de passe, entrez à nouveau le mot de passe fourni, puis entrez et confirmez un nouveau mot de passe.
+### **Tâche 2 : Démarrer – Créer un jeu de données**
 
-    *Important : N’oubliez pas de noter votre nouveau mot de passe.*
+Au cours de cette tâche, vous allez configurer l’environnement pour le labo en créant un jeu de données. *Si vous avez déjà publié le jeu de données, passez à la tâche suivante.*
 
-1. Terminez le processus de connexion.
+1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, accédez à **Mon espace de travail**.
 
-1. Si Microsoft Edge vous invite à rester connecté, sélectionnez **Oui**.
+1. Sélectionnez **Charger > Parcourir**.
 
-1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, dans le volet **Navigation**, développez **Mon espace de travail**.
+1. Accédez au dossier **D:\PL300\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter**.
 
-    ![Image 4](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image3.png)
+1. Sélectionnez le fichier **Sales Analysis.pbix**, puis sélectionnez **Ouvrir**.
 
-1. Laissez la fenêtre du navigateur Microsoft Edge ouverte.
+    *Si vous êtes invité à remplacer le jeu de données, sélectionnez **Remplacer**.*
 
-### <a name="task-2-get-started--create-a-dataset"></a>**Tâche 2 : Démarrer – Créer un jeu de données**
+*Cette méthode crée un rapport et un jeu de données. Nous utiliserons uniquement le jeu de données pour créer un rapport dans cet exercice. Ce même processus peut être effectué avec un jeu de données existant à partir d’un rapport différent au lieu d’en charger un nouveau. En outre, si vous n’utilisez pas le rapport, les bonnes pratiques en matière d’espace de travail vous suggèrent de supprimer le fichier inutile.*
 
-Dans cette tâche, vous configurez l’environnement pour le labo en créant un jeu de données.
+### **Tâche 3 : Créer le rapport**
 
-*Important : Si vous avez déjà publié le jeu de données dans le cadre du labo **Créer un tableau de bord Power BI**, passez directement à la tâche suivante.*
+Au cours de cette tâche, vous allez créer une connexion active au jeu de données Power BI créé durant la dernière tâche, puis créer un rapport **Sales Exploration**.
 
-1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, en bas dans le volet **Navigation**, cliquez sur **Obtenir les données**.
+1. Ouvrez Power BI Desktop.
 
-    ![Image 8](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image4.png)
-
-2. Dans la vignette **Fichiers**, sélectionnez **Obtenir**.
-
-    ![Image 10](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image5.png)
-
-3. Sélectionnez la vignette **Fichier local**.
-
-    ![Image 11](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image6.png)
-
-4. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter**.
-
-5. Sélectionnez le fichier **Sales Analysis.pbix**, puis clqiuez sur **Ouvrir**.
-
-6. Lorsque vous êtes invité à remplacer le jeu de données, cliquez sur **Remplacer**.
-
-### <a name="task-3-create-the-report"></a>**Tâche 3 : Créer le rapport**
-
-Dans cette tâche, vous créez le rapport **Sales Exploration** (Exploration des ventes).
-
-1. Pour ouvrir Power BI Desktop, accédez à la barre des tâches et cliquez sur le raccourci Microsoft Power BI Desktop.
+    ![Icône Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
     *Important : Si vous avez déjà ouvert Power BI Desktop (dans le cadre d’un labo précédent), fermez cette instance.*
 
-    ![Image 14](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image7.png)
+    *Conseil : Par défaut, la boîte de dialogue Prise en main s’ouvre par-dessus Power BI Desktop. Vous pouvez choisir de vous connecter, puis de fermer la fenêtre contextuelle.*
 
-2. Pour fermer la fenêtre de démarrage, en haut à gauche de cette fenêtre, sélectionnez **X**.
+1. Dans le ruban Accueil, sélectionnez **Obtenir des données > Jeux de données Power BI**.
 
-    ![Image 13](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image8.png)
+1. Dans la fenêtre **Hub de données**, sélectionnez le jeu de données **Sales Analysis** dans **Mon espace de travail**, puis **Se connecter** ou double-cliquez pour charger le jeu de données.
 
-3. Si Power BI Desktop n’est pas connecté au service Power BI, sélectionnez **Se connecter** en haut à droite.
+1. Accédez à **Fichier > Enregistrer** et enregistrez le fichier sous le nom **Sales Exploration** dans le dossier **D:\PL300\MySolution**.
 
-    ![Image 16](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image9.png)
+*Vous allez maintenant créer deux pages de rapport et, sur chaque page, vous allez utiliser un visuel différent pour analyser et explorer les données.*
 
-4. Terminez le processus de connexion en utilisant le même compte que celui utilisé pour vous connecter au service Power BI.
-
-5. Pour enregistrer le fichier, sélectionnez l’onglet de ruban **Fichier** pour ouvrir le mode Backstage.
-
-6. Sélectionnez **Enregistrer**.
-
-    ![Image 12](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image10.png)
-
-7. Dans la fenêtre **Enregistrer sous**, accédez au dossier **D:\PL300\MySolution**.
-
-8. Dans la zone **Nom du fichier**, entrez **Sales Exploration** (Exploration des ventes), puis cliquez sur **Enregistrer**.
-
-    ![Image 1](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image11.png)
-
-9. Pour créer une connexion active au jeu de données **Sales Analysis**, sous l’onglet de ruban **Accueil**, dans le groupe **Données**, cliquez sur **Jeux de données Power BI**.
-
-    ![Image 15](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image12.png)
-
-10. Dans la fenêtre **Sélectionner un jeu de données pour créer un rapport**, sélectionnez le jeu de données **Analyse des ventes**.
-
-11. Cliquez sur **Créer**.
-
-    ![Image 17](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image13.png)
-
-12. Enregistrez le fichier Power BI Desktop.
-
-    *Vous allez maintenant créer deux pages de rapport et, sur chaque page, vous allez utiliser un visuel différent pour analyser et explorer les données.*
-
-## <a name="exercise-2-create-a-scatter-chart"></a>**Exercise 2 : Créer un graphique à nuages de points**
+## **Exercise 2 : Créer un graphique à nuages de points**
 
 Dans cet exercice, vous allez créer un graphique à nuages de points qui peut être animé.
 
-### <a name="task-1-create-an-animated-scatter-chart"></a>**Tâche 1 : Créer un graphique à nuages de points animé**
+### **Tâche 1 : Créer un graphique à nuages de points animé**
 
-Dans cette tâche, vous allez créer un graphique à nuages de points qui peut être animé.
+Dans cette tâche, vous créez un graphique à nuages de points qui peut être animé.
 
 1. Renommez la **Page 1** en **Graphique à nuages de points**.
 
-    ![Image 67](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image14.png)
-
-2. Ajoutez un visuel de **Graphique à nuages de points** à la page de rapport, puis positionnez-le et redimensionnez-le afin qu’il remplisse toute la page.
-
-    ![Image 18](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image15.png)
-
-    ![Image 75](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image16.png)
-
-3. Ajoutez les champs suivants aux barres d’outils/zones des visuels :
-
-    Les labos utilisent une notation abrégée pour référencer un champ. Voici le résultat : **Reseller** **\|** **Business Type**. Dans cet exemple, **Reseller** est le nom de la table et **Business Type** correspond au nom du champ.
-
+1. Ajoutez un visuel de **Graphique à nuages de points** à la page de rapport, puis positionnez-le et redimensionnez-le afin qu’il remplisse toute la page.
     
-
-    - Axe des X : **Sales \| Sales** 
-
-    - Axe des Y : **Sales \| Profit Margin**
-
-    - Légende : **Reseller \| Business Type**
-
-    - Taille : **Sales \| Quantity**
-
-    - Axe de lecture : **Date \| Quarter**
-
-    ![Image 39](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image17.png)
-
     *Le graphique peut être animé quand un champ est ajouté à la barre d’outils/zone **Axe de lecture**.*
 
-4. Dans le volet **Filtres**, ajoutez le champ **Product \| Category** à la barre d’outils/zone **Filtres dans cette page**.
+     ![Image 18](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image15.png)
 
-5. Dans la carte de filtre, filtrez sur **Vélos**.
+     ![Image 75](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image16.png)
 
-    ![Image 40](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image18.png)
+1. Ajoutez les champs suivants aux barres d’outils/zones des visuels :
+    
+    *Les labos utilisent une notation abrégée pour référencer un champ, à savoir : **Reseller** **\|** **Business Type**. Dans cet exemple, **Reseller** est le nom de la table et **Business Type** est le nom du champ.*
 
-6. Pour animer le graphique, en bas à gauche, cliquez sur **Lire**.
+     - Axe des X : **Sales \| Sales**
+     - Axe des Y : **Sales \| Profit Margin**
+     - Légende : **Reseller \| Business Type**
+     - Taille : **Sales \| Quantity**
+     - Axe de lecture : **Date \| Quarter**
+
+1. Dans le volet **Filtres**, ajoutez le champ **Product \| Category** à la barre d’outils/zone **Filtres dans cette page**.
+
+1. Dans la carte de filtre, filtrez sur **Vélos**.
+
+1. Pour animer le graphique, dans le coin inférieur gauche, sélectionnez **Lire**.
 
     ![Image 41](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image19.png)
 
-7. Regardez la totalité du cycle d’animation de **FY2018 T1** à **FY2020 T4**.
-
+1. Regardez la totalité du cycle d’animation de **FY2018 T1** à **FY2020 T4**.
+    
     *Le graphique à nuages de points permet de comprendre les valeurs de mesure simultanément ; dans le cas présent, la quantité de commandes, le chiffre d’affaires et la marge bénéficiaire.*
-
+    
     *Chaque bulle représente un type d’activité de revendeur. Les changements apportés à la taille des bulles reflètent l’augmentation ou la diminution des quantités de commandes. Tandis que les mouvements horizontaux représentent les augmentations/diminutions du chiffre d’affaires, les mouvements verticaux représentent les augmentations/diminutions de la rentabilité.*
 
-8. Quand l’animation s’arrête, cliquez sur l’une des bulles pour afficher son suivi au fil du temps.
+1. Quand l’animation s’arrête, sélectionnez l’une des bulles pour afficher son suivi au fil du temps.
 
-9. Placez le curseur sur une bulle pour afficher une info-bulle décrivant les valeurs de mesure du type de revendeur à ce moment précis.
+1. Placez le curseur sur une bulle pour afficher une info-bulle décrivant les valeurs de mesure du type de revendeur à ce moment précis.
 
-10. Dans le volet **Filtres**, filtrez sur **Habillement** uniquement, puis notez que cela produit un résultat très différent.
+1. Dans le volet **Filtres**, filtrez sur **Habillement** uniquement, puis notez que cela produit un résultat très différent.
 
-11. Enregistrez le fichier Power BI Desktop.
+1. Enregistrez le fichier Power BI Desktop.
 
-## <a name="exercise-3-create-a-forecast"></a>**Exercise 3 : Créer une prévision**
+## **Exercise 3 : Créer une prévision**
 
 Dans cet exercice, vous allez créer une prévision pour déterminer le chiffre d’affaires futur potentiel.
 
-### <a name="task-1-create-a-forecast"></a>**Tâche 1 : Créer une prévision**
+### **Tâche 1 : Créer une prévision**
 
-Dans cette tâche, vous allez créer une prévision pour déterminer le chiffre d’affaires futur potentiel.
+Au cours de cette tâche, vous allez créer une prévision pour déterminer le chiffre d’affaires futur potentiel.
 
 1. Ajoutez une nouvelle page, puis renommez-la **Prévision**.
 
-    ![Image 66](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image20.png)
+1. Ajoutez un visuel de **Graphique en courbes** à la page de rapport, puis positionnez-le et redimensionnez-le afin qu’il remplisse toute la page.
 
-2. Ajoutez un visuel de **Graphique en courbes** à la page de rapport, puis positionnez-le et redimensionnez-le afin qu’il remplisse toute la page.
+     ![Image 19](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image21.png)
 
-    ![Image 19](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image21.png)
+     ![Image 74](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image22.png)
 
-    ![Image 74](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image22.png)
+1. Ajoutez les champs suivants aux barres d’outils/zones des visuels :
 
-  
+     - Axe des X : **Date \| Date**
+     - Axe des Y : **Sales \| Sales**
 
-3. Ajoutez les champs suivants aux barres d’outils/zones des visuels :
+1. Dans le volet **Filtres**, ajoutez le champ **Date \| Year** à la barre d’outils/zone **Filtres dans cette page**.
 
-    - Axe des X : **Date \| Date**
-
-    - Axe des Y : **Sales \| Sales** 
-
-    ![Image 46](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image23.png)
-
-4. Dans le volet **Filtres**, ajoutez le champ **Date \| Year** à la barre d’outils/zone **Filtres dans cette page**.
-
-5. Dans la carte de filtre, filtrez sur deux années : **FY2019** et **FY2020**.
-
-    ![Image 47](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image24.png)
-
+1. Dans la carte de filtre, filtrez sur deux années : **FY2019** et **FY2020**.
+    
     *Lors d’une prévision dans le temps, vous avez besoin d’au moins deux cycles (années) de données pour produire une prévision précise et stable.*
 
-  
+1. Ajoutez également le champ **Product \| Category** à la barre d’outils/zone **Filtres dans cette page**, puis filtrez sur **Vélos**.
 
-6. Ajoutez également le champ **Product \| Category** à la barre d’outils/zone **Filtres dans cette page**, puis filtrez sur **Vélos**.
+1. Pour ajouter une prévision, sous le volet **Visualisations**, sélectionnez le volet **Analytique**.
 
-    ![Image 48](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image25.png)
-
-7. Pour ajouter une prévision, sous le volet **Visualisations**, sélectionnez le volet **Analytique**.
-
-    ![Image 20](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image26.png)
+     ![Image 20](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image26.png)
 
 8. Développez la section **Prévision**.
-
-
-
+    
     *Si la section **Prévision** n’est pas disponible, cela est probablement dû au fait que le visuel n’a pas été correctement configuré. La prévision est disponible uniquement quand deux conditions sont remplies : l’axe a un seul champ de type date et il n’y a qu’un seul champ de valeur.*
 
-9. Passez l’option **Prévision** sur **Activé**.
+1. Passez l’option **Prévision** sur **Activé**.
 
-    ![Image 51](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image28.png)
+1. Configurez les propriétés de prévision suivantes, puis sélectionnez **Appliquer** :
 
-10. Configurez les propriétés de prévision suivantes :
-
-    - Unités : Mois
-
-    - Longueur de la prévision : 1 mois
-
-    - Caractère saisonnier : 365
-    
-    - Intervalle de confiance : 80 %
-
-
-
-11. Cliquez sur **Appliquer**.
+    - Unités : **Mois**
+    - Longueur de la prévision : **1 mois**
+    - Caractère saisonnier : **365**
+    - Intervalle de confiance : **80 %**
 
     ![Image 52](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image29.png)
 
-12. Dans le visuel de graphique en courbes, notez que la prévision s’est étendue d’un mois au-delà des données d’historique.
-
+1. Dans le visuel de graphique en courbes, notez que la prévision s’est étendue d’un mois au-delà des données d’historique.
+    
     *La zone grise représente la confiance. Plus la confiance est importante, moins la prévision est susceptible d’être stable et précise.*
-
+    
     *Quand vous connaissez la durée du cycle (« annuel » dans le cas présent), vous devez entrer les points relatifs au caractère saisonnier. Le cycle peut aussi être hebdomadaire (7) ou mensuel (30).*
 
-13. Dans le volet **Filtres**, filtrez sur **Habillement** uniquement, puis notez que cela produit un résultat différent.
+1. Dans le volet **Filtres**, filtrez sur **Habillement** uniquement, puis notez que cela produit un résultat différent.
 
-14. Enregistrez le fichier Power BI Desktop.
+### **Tâche 2 : Terminer**
 
-
-### <a name="task-2-finish-up"></a>**Tâche 2 : Terminer**
-
-Dans cette tâche, vous terminez le labo.
+Au cours de cette tâche, vous allez terminer le labo dans Power BI Desktop.
 
 1. Sélectionnez la page **Graphique à nuages de points**.
 
-2. Enregistrez le fichier Power BI Desktop.
+1. Enregistrez le fichier Power BI Desktop.
 
-3. Pour publier le fichier dans **Mon espace de travail**, sous l’onglet **Accueil**du ruban, cliquez sur **Publier** dans le groupe **Partager** puis cliquez sur **Sélectionner** pour publier.
+1. Pour publier le fichier dans **Mon espace de travail**, sous l’onglet de ruban **Accueil**, dans le groupe **Partager**, sélectionnez **Publier**, puis **Sélectionner** pour publier.
 
     ![Image 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
 
-4.  Fermez Power BI Desktop.
+1.  Fermez Power BI Desktop.
