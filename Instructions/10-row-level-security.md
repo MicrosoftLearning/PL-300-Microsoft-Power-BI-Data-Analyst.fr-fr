@@ -1,40 +1,24 @@
 ---
 lab:
   title: Appliquer la sécurité au niveau des lignes
-  module: 12 - Row-Level Security
+  module: Enforce Row-Level Security
 ---
 
 
 # **Appliquer la sécurité au niveau des lignes**
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+## **Histoire du labo**
 
 Dans ce labo, vous allez appliquer la sécurité au niveau des lignes pour vous assurer qu’un vendeur ne peut analyser les données de ventes que pour la ou les régions qui lui sont affectées.
 
 Dans ce labo, vous allez découvrir comment :
 
 - Appliquer la sécurité au niveau des lignes
+- Choisir entre des méthodes dynamiques et statiques
 
-### **Histoire du labo**
+**Ce labo devrait prendre environ 45 minutes.**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
-
-1. Préparer des données dans Power BI Desktop
-1. Charger des données dans Power BI Desktop
-1. Concevoir un modèle de données dans Power BI
-1. Créer des calculs DAX dans Power BI Desktop
-1. Créer des calculs DAX avancés dans Power BI Desktop
-1. Concevoir un rapport dans Power BI Desktop
-1. Améliorer un rapport dans Power BI Desktop
-1. Analyser les données dans Power BI Desktop
-1. Créer un tableau de bord Power BI
-1. **Appliquer la sécurité au niveau des lignes**
-
-## **Exercise 1 : Appliquer la sécurité au niveau des lignes**
-
-Dans cet exercice, vous allez appliquer la sécurité au niveau des lignes pour vous assurer qu’un vendeur ne peut voir que les ventes réalisées dans la ou les régions qui lui sont affectées.
-
-### **Tâche 1 : Démarrer**
+## **Prise en main**
 
 Au cours de cette tâche, vous allez configurer l’environnement pour le labo.
 
@@ -60,7 +44,7 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo.
 
 1. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
 
-### **Tâche 2 : Appliquer la sécurité au niveau des lignes**
+## **Appliquer la sécurité au niveau des lignes**
 
 Au cours de cette tâche, vous allez appliquer la sécurité au niveau des lignes pour vous assurer qu’un vendeur ne peut voir que les ventes réalisées dans la ou les régions qui lui sont affectées.
 
@@ -68,7 +52,7 @@ Au cours de cette tâche, vous allez appliquer la sécurité au niveau des ligne
 
    ![Image 5701](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image20.png)
 
-1. Dans le volet **Champs**, sélectionnez la table **Salesperson (Performance)**.
+1. Dans le volet **Données**, sélectionnez la table **Salesperson (Performance)** (Vendeur - Performances).
 
 
 1. Examinez les données. Notez que Michael Blythe (EmployeeKey 281) a cette valeur UPN : **michael-blythe@adventureworks.com**
@@ -126,6 +110,10 @@ Au cours de cette tâche, vous allez appliquer la sécurité au niveau des ligne
 1. Dans la fenêtre **Gérer les rôles**, sélectionnez **Supprimer**. Lorsque vous êtes invité à confirmer la suppression, sélectionnez **Oui, Supprimer**.
 
    ![Image 17](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image34.png)
+
+### **Terminer**
+
+Dans cette tâche, vous allez terminer le labo.
 
 1. Sélectionnez **Enregistrer**, puis enregistrez le fichier Power BI Desktop pour mettre fin au labo.
 

@@ -1,44 +1,24 @@
 ---
 lab:
   title: "Créer des calculs DAX avancés dans Power\_BI Desktop"
-  module: 5 - Create Model Calculations using DAX in Power BI
+  module: Create Model Calculations using DAX in Power BI
 ---
 
 
 # Créer des calculs DAX avancés dans Power BI Desktop
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+## **Histoire du labo**
 
 Dans ce labo, vous allez créer des mesures avec des expressions DAX impliquant une manipulation du contexte de filtre.
 
 Dans ce labo, vous allez découvrir comment :
 
 - Utiliser la fonction CALCULATE() pour manipuler le contexte de filtre
-
 - Utiliser les fonctions Time Intelligence
 
-### **Histoire du labo**
+**Ce labo devrait prendre environ 45 minutes.**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
-
-1. Préparer des données dans Power BI Desktop
-1. Charger des données dans Power BI Desktop
-1. Concevoir un modèle de données dans Power BI
-1. Créer des calculs DAX dans Power BI Desktop
-1. **Créer des calculs DAX avancés dans Power BI Desktop**
-1. Concevoir un rapport dans Power BI Desktop
-1. Améliorer un rapport dans Power BI Desktop
-1. Faire une analyse des données dans Power BI
-1. Créer un tableau de bord Power BI
-1. Appliquer la sécurité au niveau des lignes
-
-## **Exercice 1 : Utiliser le contexte de filtre**
-
-Dans cet exercice, vous allez créer des mesures avec des expressions DAX impliquant une manipulation du contexte de filtre.
-
-### **Tâche 1 : Démarrer**
-
-Au cours de cette tâche, vous allez configurer l’environnement pour le labo.
+## **Utiliser le contexte de filtre**
 
 *Important : Si vous venez d’effectuer le labo précédent (et que vous l’avez entièrement terminé), ignorez cette tâche et passez directement à la suivante.*
 
@@ -62,7 +42,7 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo.
 
 1. Pour créer une copie du fichier, accédez à **Fichier > Enregistrer sous** et enregistrez-le dans le dossier **D:\PL300\MySolution**.
 
-### **Tâche 2 : Créer un visuel matrice**
+## **Créer un visuel matrice**
 
 Au cours de cette tâche, vous allez créer un visuel matrice pour prendre en charge les tests de vos nouvelles mesures.
 
@@ -74,7 +54,7 @@ Au cours de cette tâche, vous allez créer un visuel matrice pour prendre en ch
 
 1. Redimensionnez le visuel matrice de façon à ce qu’il remplisse toute la page.
 
-1. Pour configurer les champs du visuel matrice, faites glisser la hiérarchie **Region \| Regions** du volet **Champs** vers le visuel.
+1. Pour configurer les champs du visuel matrice, depuis le volet **Données**, faites glisser la hiérarchie **Region \| Regions** (Région | Régions) vers le visuel.
     
     *Les labos utilisent une notation abrégée pour référencer un champ ou une hiérarchie. Voici le résultat : **Region \| Regions**. Dans cet exemple, **Region** est le nom de la table et **Regions** correspond au nom de la hiérarchie.*
 
@@ -104,7 +84,7 @@ Au cours de cette tâche, vous allez créer un visuel matrice pour prendre en ch
 
     *Vous allez créer plusieurs mesures dans cet exercice, puis les tester en les ajoutant au visuel matrice.*
 
-### **Tâche 3 : Manipuler le contexte de filtre**
+## **Manipuler le contexte de filtre**
 
 Au cours de cette tâche, vous allez créer plusieurs mesures avec des expressions DAX qui utilisent la fonction CALCULATE() pour manipuler le contexte de filtre.
 
@@ -137,7 +117,7 @@ Au cours de cette tâche, vous allez créer plusieurs mesures avec des expressio
 
     *La nouvelle mesure n’offre pas encore un résultat intéressant. Lorsque l’on divise les ventes d’un groupe, d’un pays ou d’une région par cette valeur, on obtient un ratio utile connu sous le nom de « pourcentage du total général ».*
 
-1. Dans le volet **Champs**, vérifiez que la mesure **Sales All Region** est sélectionnée (elle a alors un arrière-plan gris foncé), puis, dans la barre de formule, remplacez le nom de la mesure et la formule par la formule suivante :
+1. Dans le volet **Données**, vérifiez que la mesure **Sales All Region** (Ventes toutes régions) est sélectionnée (elle a alors un arrière-plan gris foncé) puis, dans la barre de formule, remplacez le nom de la mesure et la formule par la formule suivante :
 
     *Conseil : Pour remplacer la formule existante, commencez par copier l’extrait de code. Ensuite, sélectionnez à l’intérieur de la barre de formule et appuyez sur **Ctrl+A** pour sélectionner tout le texte. Ensuite, appuyez sur **Ctrl+V** pour coller l’extrait de code et ainsi remplacer le texte sélectionné. Appuyez enfin sur **Entrée**.*
 
@@ -283,11 +263,11 @@ Au cours de cette tâche, vous allez créer plusieurs mesures avec des expressio
 
 *Les mesures ajoutées à la table **Sales** ont modifié le contexte de filtre pour produire une navigation hiérarchique. Comme vous pouvez le constater, le modèle permettant d’effectuer le calcul d’un sous-total implique de supprimercertaines colonnes du contexte de filtre. Pour obtenir le total général, vous devez supprimer toutes les colonnes.*
 
-## **Exercice 2 : Utiliser Time Intelligence**
+## **Utilisation de Time Intelligence**
 
 Dans cet exercice, vous allez créer une mesure de ventes cumulées annuelles jusqu’à ce jour et une mesure de croissance des ventes en glissement annuel.
 
-### **Tâche 1 : Créer une mesure de ventes cumulées annuelles jusqu'à ce jour**
+## **Créer une mesure de ventes cumulées annuelles jusqu’à ce jour (YTD)**
 
 Au cours de cette tâche, vous allez créer une mesure de ventes cumulées annuelles jusqu’à ce jour.
 
@@ -319,7 +299,7 @@ Au cours de cette tâche, vous allez créer une mesure de ventes cumulées annue
 
     *De nombreuses fonctions Time Intelligence sont disponibles dans DAX pour gérer les manipulations de filtre de temps courantes.*
 
-### **Tâche 2 : Créer une mesure de croissance en glissement annuel**
+## **Créer une mesure de croissance en glissement annuel (YoY)**
 
 Au cours de cette tâche, vous allez créer une mesure de croissance des ventes en glissement annuel.
 
@@ -398,7 +378,7 @@ Au cours de cette tâche, vous allez créer une mesure de croissance des ventes 
 
     ![Image 63](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image24.png)
 
-### **Tâche 3 : Terminer**
+### **Terminer**
 
 Dans cette tâche, vous allez terminer le labo.
 

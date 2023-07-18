@@ -1,41 +1,24 @@
 ---
 lab:
   title: "Concevoir un rapport dans Power\_BI Desktop"
-  module: 7 - Create Reports
+  module: Create Reports in Power BI Desktop
 ---
 
 
 # Concevoir un rapport dans Power BI Desktop
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+## **Histoire du labo**
 
-Dans ce labo, vous allez créer un rapport de trois pages. Vous publierez ensuite ce rapport dans Power BI, puis vous l’ouvrirez et interagirez avec lui.
+Dans ce labo, vous allez créer un rapport de trois pages. Vous allez ensuite le publier sur Power BI, puis vous allez ouvrir et interagir avec le rapport.
 
 Dans ce labo, vous allez découvrir comment :
 
 - Créer un rapport
 - Configurer les champs visuels et les propriétés de mise en forme
 
-### **Histoire du labo**
+**Ce labo devrait prendre environ 45 minutes.**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
-
-1. Préparer des données dans Power BI Desktop
-1. Charger des données dans Power BI Desktop
-1. Concevoir un modèle de données dans Power BI
-1. Créer des calculs DAX dans Power BI Desktop
-1. Créer des calculs DAX avancés dans Power BI Desktop
-1. **Concevoir un rapport dans Power BI Desktop**
-1. Améliorer un rapport dans Power BI Desktop
-1. Faire une analyse des données dans Power BI
-1. Créer un tableau de bord Power BI
-1. Appliquer la sécurité au niveau des lignes
-
-## **Exercice 1 : Créer un rapport**
-
-Dans cet exercice, vous allez créer un rapport de trois pages intitulé **État des ventes**.
-
-### **Tâche 1 : Démarrer – Ouvrir un rapport**
+## **Créer un rapport**
 
 Au cours de cette tâche, vous allez configurer l’environnement pour le labo en ouvrant le rapport de démarrage.
 
@@ -45,7 +28,7 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
 
 1. Créez une copie du fichier en accédant à **Fichier** > **Enregistrer sous**, puis enregistrez-la dans le dossier **D:\PL300\MySolution**.
 
-### **Tâche 2 : Concevoir la première page**
+## **Créer la page 1**
 
 Au cours de cette tâche, vous allez créer la première page du rapport. Une fois créée, la page se présentera comme suit :
 
@@ -71,7 +54,7 @@ Au cours de cette tâche, vous allez créer la première page du rapport. Une fo
 
      ![Image 49](Linked_image_Files/07-design-report-in-power-bi-desktop_image18.png)
 
-1. Dans le volet **Champs**, faites glisser le champ **Date \| Année** (et non le niveau **Année** de la hiérarchie) vers le segment **Champ** du volet Visualisations.
+1. Dans le volet **Données**, faites glisser le champ **Date \| Year** (et pas non le niveau **Year** de la hiérarchie) vers le sélecteur **Champ** du volet Visualisations.
     
     *Les labos utilisent une notation abrégée pour référencer un champ. Voici le résultat : **Date \| Year**. Dans cet exemple, **Date** est le nom de la table et **Year** correspond au nom du champ.*
 
@@ -111,13 +94,13 @@ Au cours de cette tâche, vous allez créer la première page du rapport. Une fo
      - Date \| Month
      - Sales \| Sales
 
-1. Dans le volet des champs du visuel (et non dans le volet **Champs**, le volet des champs du visuel se trouve sous le volet **Visualisations**), notez que les champs sont affectés aux barres d’outils/zones **Axe X** et **Colonne axe Y**.
+1. Dans le volet des champs du visuel (qui se trouve sous le volet **Visualisations**), notez que les champs sont affectés aux barres d’outils/zones **Axe X** et **Colonne axe Y**.
     
     *Si vous faites glisser des champs dans un visuel, ils sont ajoutés aux barres d’outils/zones par défaut. Pour plus de précision, vous pouvez faire glisser des champs directement dans les barres d’outils/zones, comme vous allez le faire maintenant.*
 
      ![Image 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28_N.png)
 
-1. Dans le volet **Champs**, faites glisser le champ **Ventes \| Marge bénéficiaire** dans la barre d’outils/zone **Ligne axe Y**.
+1. Dans le volet **Données**, faites glisser le champ **Sales \| Profit Margin** (Ventes | Marge bénéficiaire) dans la barre d’outils/zone **Ligne axe Y**.
 
      ![Image 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -176,7 +159,7 @@ Au cours de cette tâche, vous allez créer la première page du rapport. Une fo
 
 *La conception de la première page est maintenant terminée.*
 
-### **Tâche 3 : Concevoir la deuxième page**
+## **Conception de page 2**
 
 Au cours de cette tâche, vous allez créer la deuxième page du rapport. Une fois créée, la page se présentera comme suit :
 
@@ -216,7 +199,7 @@ Au cours de cette tâche, vous allez créer la deuxième page du rapport. Une fo
 
      ![Image 57](Linked_image_Files/07-design-report-in-power-bi-desktop_image44.png)
 
-1. Depuis le volet **Champs**, faites glisser le champ **Produit \| Catégorie** dans la barre d’outils/zone **Filtre sur cette page**.
+1. Depuis le volet **Données**, faites glisser le champ **Product \| Category** (Produit | Catégorie) dans la barre d’outils/zone **Filtre sur cette page**.
     
     *Les champs ajoutés au volet **Filtres** peuvent obtenir le même résultat qu’un segment. L’une des différences est qu’ils n’occupent pas de place sur la page de rapport. Une autre différence est qu’ils peuvent être configurés pour remplir des exigences de filtrage plus sophistiquées.*
 
@@ -234,7 +217,7 @@ Au cours de cette tâche, vous allez créer la deuxième page du rapport. Une fo
 
  *La conception de la deuxième page est maintenant terminée.*
 
-### **Tâche 4 : Concevoir la troisième page**
+## **Conception de page 3**
 
 Au cours de cette tâche, vous allez concevoir la troisième et dernière page du rapport. Une fois créée, la page se présentera comme suit :
 
@@ -304,11 +287,7 @@ Au cours de cette tâche, vous allez concevoir la troisième et dernière page d
 
  *La conception de la troisième et dernière page est maintenant terminée.*
 
-## **Exercice 2 : Explorer le rapport**
-
-Dans cet exercice, vous allez publier le rapport sur le service Power BI et explorer le rapport du consommateur en lecture seule.
-
-### **Tâche 1 : Publier le rapport**
+## **Publier le rapport**
 
 Au cours de cette tâche, vous allez publier le rapport sur le service Power BI.
 
@@ -327,7 +306,7 @@ Au cours de cette tâche, vous allez publier le rapport sur le service Power BI
 1. Pour publier le rapport, choisissez **Sélectionner**. Cette opération peut prendre du temps. 
 1. Une fois la publication réussie, sélectionnez **OK**.
 
-### **Tâche 2 : Explorer le rapport**
+## **Explorer le rapport**
 
 Au cours de cette tâche, vous allez explorer le rapport qui a été publié sur Power BI.
 
@@ -410,7 +389,7 @@ Au cours de cette tâche, vous allez explorer le rapport qui a été publié sur
 
      ![Image 91](Linked_image_Files/07-design-report-in-power-bi-desktop_image71.png)
 
-### **Tâche 3 : Terminer**
+### **Terminer**
 
 Dans cette tâche, vous allez terminer le labo.
 

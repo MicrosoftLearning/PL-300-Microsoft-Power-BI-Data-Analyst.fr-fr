@@ -1,43 +1,26 @@
 ---
 lab:
   title: "Améliorer un rapport dans Power\_BI Desktop"
-  module: 7 - Create Reports
+  module: Create Reports in Power BI desktop
 ---
 
 
 # Améliorer un rapport dans Power BI Desktop
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+## **Histoire du labo**
 
 Dans ce labo, vous allez améliorer le rapport **Sales Analysis** avec des fonctionnalités de conception avancées.
 
 Dans ce labo, vous allez découvrir comment :
 
 - Synchroniser les segments
-- Créer une page d'extraction
+- Créer une page d’extraction
 - Appliquer une mise en forme conditionnelle
 - Créer et utiliser des signets
 
-### **Histoire du labo**
+**Ce labo devrait prendre environ 45 minutes.**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
-
-1. Préparer des données dans Power BI Desktop
-1. Charger des données dans Power BI Desktop
-1. Concevoir un modèle de données dans Power BI
-1. Créer des calculs DAX dans Power BI Desktop
-1. Créer des calculs DAX avancés dans Power BI Desktop
-1. Concevoir un rapport dans Power BI Desktop
-1. **Améliorer un rapport dans Power BI Desktop**
-1. Faire une analyse des données dans Power BI
-1. Créer un tableau de bord Power BI
-1. Appliquer la sécurité au niveau des lignes
-
-## **Exercice 1 : Configurer des segments de synchronisation**
-
-Dans cet exercice, vous allez synchroniser les segments de page de rapport.
-
-### Tâche 1 : Démarrer - Se connecter
+## **Démarrer - Se connecter**
 
 Au cours de cette tâche, vous allez configurer l’environnement nécessaire pour le labo en vous connectant à Power BI.
 
@@ -57,7 +40,7 @@ Au cours de cette tâche, vous allez configurer l’environnement nécessaire po
 
      ![Image 22](Linked_image_Files/07-my-workspace-new.png)
 
-### Tâche 2 : Démarrer – Ouvrir un rapport
+## **Démarrer - Ouvrir un rapport**
 
 Au cours de cette tâche, vous allez configurer l’environnement pour le labo en ouvrant le rapport de démarrage.
 
@@ -75,7 +58,7 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
 
 1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-1. Notez qu’un message d’avertissement jaune est affiché sous le ruban. 
+1. Notez qu’un message d’avertissement jaune est affiché sous le ruban.
 
     *Ce message vous avertit que les requêtes n’ont pas été appliquées pour se charger en tant que tables de modèle. Vous appliquerez les requêtes plus tard dans ce labo.*
 
@@ -85,14 +68,14 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
 
 1. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
 
-### **Tâche 3 : Synchroniser les segments**
+## **Synchroniser les segments**
 
 Au cours de cette tâche, vous allez synchroniser les segments **Année** et **Région**, en continuant le développement du rapport créé dans le labo **Concevoir un rapport dans Power BI Desktop**.
 
 1. Dans Power BI Desktop, dans la page **Vue d’ensemble**, définissez le segment **Year** (Année) sur **FY2018** (Exercice 2018).
 
 1. Accédez à la page **Mes performances**, puis notez que le segment **Année** est une valeur différente.
-    
+
     *Lorsque les segments ne sont pas synchronisés, cela peut contribuer à une représentation incorrecte des données et à la frustration pour les utilisateurs des rapports. Vous allez maintenant synchroniser les segments du rapport.*
 
 1. Revenez à la page **Vue d’ensemble**, puis sélectionnez le segment **Year**.
@@ -115,24 +98,24 @@ Au cours de cette tâche, vous allez synchroniser les segments **Année** et **R
 
 1. Pour fermer la page **Synchroniser les segments**, sélectionnez le **X** situé en haut à droite du volet.
 
-## **Exercice 2 : Configurer l’extraction**
+## **Configurer l’extraction**
 
 Dans cet exercice, vous allez créer une page et la configurer en tant que page d’extraction. Une fois créée, la page se présentera comme suit :
 
 ![Image de la nouvelle page, comprenant un visuel de carte et un visuel de tableau.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image17.png)
 
-### **Tâche 1 : Créer une page d’extraction**
+## **Créer une page d’extraction**
 
 Au cours de cette tâche, vous allez créer une page et la configurer comme page d’extraction.
 
 1. Ajoutez une nouvelle page de rapport nommée **Détails du produit**.
 
 1. Cliquez avec le bouton droit sur l’onglet de la page **Détails du produit**, puis sélectionnez **Masquer la page**.
-    
+
     *Les utilisateurs des rapports ne seront pas en mesure d’accéder directement à la page d’extraction. Ils doivent y accéder à partir de visuels sur d’autres pages. Vous allez apprendre à accéder à la page dans l’exercice final de ce labo.*
 
 1. Sous le volet **Visualisations**, dans la section **Extraire**, ajoutez le champ **Product \| Category** à la zone **Ajouter des champs d'extraction ici**.
-    
+
     *Les labos utilisent une notation abrégée pour référencer un champ. Voici le résultat : **Product \| Category**. Dans cet exemple, **Product** est le nom de la table et **Category** correspond au nom du champ.*
 
      ![Image 96](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image20.png)
@@ -142,7 +125,7 @@ Au cours de cette tâche, vous allez créer une page et la configurer comme page
      ![Image 99](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image21.png)
 
 1. En haut à gauche de la page du rapport, notez le bouton fléché.
-    
+
     *Un bouton fléché est ajouté automatiquement quand un champ est ajouté à la barre d’outils/zone d’extraction. Il permet aux utilisateurs de rapport de revenir à la page à partir de laquelle ils ont lancé l’extraction.*
 
 1. Ajoutez un objet visuel **Carte** à la page, puis redimensionnez-le et positionnez-le pour qu’il se trouve à droite du bouton et remplisse la largeur restante de la page.
@@ -179,13 +162,13 @@ Au cours de cette tâche, vous allez créer une page et la configurer comme page
 
 *La conception de la page d’extraction est presque terminée. Dans l’exercice suivant, vous allez améliorer la page avec une mise en forme conditionnelle.*
 
-## **Exercice 3 : Ajouter une mise en forme conditionnelle**
+## **Ajouter une mise en forme conditionnelle**
 
 Dans cet exercice, vous allez améliorer la page d’extraction avec une mise en forme conditionnelle. Une fois créée, la page se présentera comme suit :
 
 ![Image d’une page mise à jour, révélant les valeurs et les icônes mises en forme des couleurs.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image28.png)
 
-### **Tâche 1 : Ajouter une mise en forme conditionnelle**
+## **Ajouter une mise en forme conditionnelle**
 
 Au cours de cette tâche, vous allez améliorer la page d’extraction avec une mise en forme conditionnelle.
 
@@ -209,7 +192,7 @@ Au cours de cette tâche, vous allez améliorer la page d’extraction avec une 
     - Dans le sixième contrôle, sélectionnez **Nombre**
 
 1. Configurez la deuxième règle (cercle vert) comme suit, puis sélectionnez **OK** :
-    
+
     *Les règles peuvent être interprétées comme suit : afficher un losange rouge si la valeur de la marge bénéficiaire est inférieure à 0 ; sinon, si la valeur est supérieure ou égale à zéro, afficher un cercle vert.*
 
      - Dans le deuxième contrôle, entrez **0**
@@ -235,13 +218,13 @@ Au cours de cette tâche, vous allez améliorer la page d’extraction avec une 
 
 *Vous vous souvenez peut-être que les couleurs de police et d’arrière-plan ont été récupérées du fichier **ColorFormats.csv** dans le labo **Préparer des données dans Power BI Desktop**, puis intégrées à la requête **Produit** dans le labo **Charger des données dans Power BI Desktop**.*
 
-## **Exercice 4 : Ajouter des signets et des boutons**
+## **Ajouter des signets et des boutons**
 
 Dans cet exercice, vous allez améliorer la page **My Performance** avec des boutons, ce qui permet à l’utilisateur du rapport de sélectionner le type de visuel à afficher. Une fois créée, la page se présentera comme suit :
 
 ![Image d’une page 3 mise à jour, montrant deux boutons et maintenant seulement deux visuels.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image38.png)
 
-### **Tâche 1 : Ajouter des signets**
+## **Ajouter des signets**
 
 Au cours de cette tâche, vous allez ajouter deux signets, un pour afficher chacun des visuels de ventes mensuelles/objectifs.
 
@@ -256,7 +239,7 @@ Au cours de cette tâche, vous allez ajouter deux signets, un pour afficher chac
      ![Image 120](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image41.png)
 
 1. Dans le volet **Signets**, sélectionnez **Ajouter**.
-    
+
     *Pour renommer le signet, double-cliquez sur le signet.*
 
      ![Image 121](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image42.png)
@@ -270,11 +253,11 @@ Au cours de cette tâche, vous allez ajouter deux signets, un pour afficher chac
      ![Image 16](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image43.png)
 
 1. Pour mettre à jour le signet, resélectionnez les points de suspension, puis sélectionnez **Mettre à jour**.
-     
+
      *Dans les étapes suivantes, vous allez créer et configurer un second signet pour afficher le deuxième visuel.*
 
 1. Dans le volet **Sélection**, basculez la visibilité des deux éléments **Sales and Target by Month**.
-     
+
      *En d’autres termes, masquez l’objet visuel visible et rendez visible l’objet visuel masqué.*
 
      ![Image 122](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image45.png)
@@ -288,7 +271,7 @@ Au cours de cette tâche, vous allez ajouter deux signets, un pour afficher chac
 1. Dans le volet **Sélection**, pour rendre les deux objets visuels visibles, il suffit d’afficher l’objet visuel masqué.
 
 1. Redimensionnez et repositionnez les deux visuels afin qu’ils remplissent la page sous l’objet visuel à plusieurs cartes et se chevauchent entièrement.
-    
+
     *Pour sélectionner le visuel qui est couvert, sélectionnez-le dans le volet **Sélection**.*
 
     ![Image 124](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image47.png)
@@ -297,7 +280,7 @@ Au cours de cette tâche, vous allez ajouter deux signets, un pour afficher chac
 
 *L’étape suivante de la conception consiste à ajouter deux boutons à la page, ce qui permettra à l’utilisateur du rapport de sélectionner les signets.*
 
-### **Tâche 2 : Ajouter des boutons**
+## **Ajouter des boutons**
 
 Au cours de cette tâche, vous allez ajouter deux boutons et affecter des actions de signet à chacun d’eux.
 
@@ -334,7 +317,7 @@ Au cours de cette tâche, vous allez ajouter deux boutons et affecter des action
 
 *La conception du rapport Sales Analysis (Analyse des ventes) est maintenant terminée.*
 
-### **Tâche 3 : Publier le rapport**
+## **Publier le rapport**
 
 Au cours de cette tâche, vous allez publier le rapport.
 
@@ -345,7 +328,7 @@ Au cours de cette tâche, vous allez publier le rapport.
 1. Dans le segment **Région**, sélectionnez **Sélectionner tout**.
 
 1. Enregistrez le fichier Power BI Desktop.
-    
+
     *Prenez soin de toujours enregistrer le fichier avant de le publier sur le service Power BI.*
 
 1. Sous l’onglet de ruban **Accueil**, dans le groupe **Partager**, sélectionnez **Publier**.
@@ -362,11 +345,7 @@ Au cours de cette tâche, vous allez publier le rapport.
 
 *Dans l’exercice suivant, vous allez explorer le rapport dans le service Power BI.*
 
-## **Exercise 5 : Explorer le rapport**
-
-Dans cet exercice, vous allez explorer le rapport dans le service Power BI.
-
-### **Tâche 1 : Explorer le rapport**
+## **Explorer le rapport**
 
 Au cours de cette tâche, vous allez explorer le rapport dans le service Power BI.
 
@@ -381,13 +360,13 @@ Au cours de cette tâche, vous allez explorer le rapport dans le service Power 
 1. Pour revenir à la page source, dans le coin supérieur gauche, sélectionnez le bouton fléché.
 
 1. Sélectionnez la page **Mes performances**.
-    
+
     *Sélectionnez chacun des boutons. Vous pouvez remarquer qu’un visuel différent s’affiche.*
 
-### **Tâche 2 : Terminer**
+### **Terminer**
 
 Dans cette tâche, vous allez terminer le labo.
 
 Pour revenir à votre espace de travail, dans la bannière dans la page web de la fenêtre, sélectionnez **Mon espace de travail**.
 
- ![Image 23](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image56.png)
+![Image 23](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image56.png)

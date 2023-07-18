@@ -1,13 +1,13 @@
 ---
 lab:
-  title: "Faire une analyse des données dans Power\_BI"
-  module: 8 - Perform Data Analysis in Power BI
+  title: "Effectuer de l’analytique avancée dans Power\_BI"
+  module: Perform Data Analysis in Power BI
 ---
 
 
 # **Faire une analyse des données dans Power BI**
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+## **Histoire du labo**
 
 Dans ce labo, vous allez créer le rapport **Sales Exploration** (Exploration des ventes).
 
@@ -16,26 +16,9 @@ Dans ce labo, vous allez découvrir comment :
 - Créer des graphiques à nuages de points animés
 - Utiliser un visuel pour établir des prévisions sur les valeurs
 
-### **Histoire du labo**
+**Ce labo devrait prendre environ 30 minutes.**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
-
-1. Préparer des données dans Power BI Desktop
-1. Charger des données dans Power BI Desktop
-1. Modéliser les données dans Power BI Desktop
-1. Créer des calculs DAX dans Power BI Desktop
-1. Créer des calculs DAX avancés dans Power BI Desktop
-1. Concevoir un rapport dans Power BI Desktop
-1. Améliorer un rapport dans Power BI Desktop
-1. **Faire une analyse des données dans Power BI**
-1. Créer un tableau de bord Power BI
-1. Appliquer la sécurité au niveau des lignes
-
-## **Exercice 1 : Créer le rapport**
-
-Dans cet exercice, vous allez créer le rapport **Sales Exploration**.
-
-### **Tâche 1 : Démarrer – Se connecter**
+## **Démarrer - Se connecter**
 
 Au cours de cette tâche, vous allez configurer l’environnement nécessaire pour le labo en vous connectant à Power BI.
 
@@ -55,7 +38,7 @@ Au cours de cette tâche, vous allez configurer l’environnement nécessaire po
 
      ![Image 22](Linked_image_Files/07-my-workspace-new.png)
 
-### **Tâche 2 : Démarrer – Créer un jeu de données**
+## **Démarrer - Créer un jeu de données**
 
 Au cours de cette tâche, vous allez configurer l’environnement pour le labo en créant un jeu de données. *Si vous avez déjà publié le jeu de données, passez à la tâche suivante.*
 
@@ -71,7 +54,7 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
 
 *Cette méthode crée un rapport et un jeu de données. Nous utiliserons uniquement le jeu de données pour créer un rapport dans cet exercice. Ce même processus peut être effectué avec un jeu de données existant à partir d’un rapport différent au lieu d’en charger un nouveau. En outre, si vous n’utilisez pas le rapport, les bonnes pratiques en matière d’espace de travail vous suggèrent de supprimer le fichier inutile.*
 
-### **Tâche 3 : Créer le rapport**
+## **Créer le rapport**
 
 Au cours de cette tâche, vous allez créer une connexion active au jeu de données Power BI créé durant la dernière tâche, puis créer un rapport **Sales Exploration**.
 
@@ -91,11 +74,7 @@ Au cours de cette tâche, vous allez créer une connexion active au jeu de donn�
 
 *Vous allez maintenant créer deux pages de rapport et, sur chaque page, vous allez utiliser un visuel différent pour analyser et explorer les données.*
 
-## **Exercise 2 : Créer un graphique à nuages de points**
-
-Dans cet exercice, vous allez créer un graphique à nuages de points qui peut être animé.
-
-### **Tâche 1 : Créer un graphique à nuages de points animé**
+## **Créer un graphique à nuages de points animé**
 
 Dans cette tâche, vous créez un graphique à nuages de points qui peut être animé.
 
@@ -141,11 +120,8 @@ Dans cette tâche, vous créez un graphique à nuages de points qui peut être a
 
 1. Enregistrez le fichier Power BI Desktop.
 
-## **Exercise 3 : Créer une prévision**
 
-Dans cet exercice, vous allez créer une prévision pour déterminer le chiffre d’affaires futur potentiel.
-
-### **Tâche 1 : Créer une prévision**
+## **Créer une prévision**
 
 Au cours de cette tâche, vous allez créer une prévision pour déterminer le chiffre d’affaires futur potentiel.
 
@@ -197,7 +173,7 @@ Au cours de cette tâche, vous allez créer une prévision pour déterminer le c
 
 1. Dans le volet **Filtres**, filtrez sur **Habillement** uniquement, puis notez que cela produit un résultat différent.
 
-### **Tâche 2 : Terminer**
+### **Terminer**
 
 Au cours de cette tâche, vous allez terminer le labo dans Power BI Desktop.
 
@@ -209,4 +185,4 @@ Au cours de cette tâche, vous allez terminer le labo dans Power BI Desktop.
 
     ![Image 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
 
-1.  Fermez Power BI Desktop.
+1. Fermez Power BI Desktop.
