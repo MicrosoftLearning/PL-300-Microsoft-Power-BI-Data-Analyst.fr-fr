@@ -1,44 +1,27 @@
 ---
 lab:
   title: "Créer des calculs DAX dans Power\_BI Desktop"
-  module: 5 - Create Model Calculations using DAX in Power BI
+  module: Create Model Calculations using DAX in Power BI
 ---
 
 
 # Créer des calculs DAX dans Power BI Desktop
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+## **Histoire du labo**
 
 Dans ce labo, vous allez créer des tables calculées, des colonnes calculées et des mesures simples à l’aide de DAX (Data Analysis Expressions).
 
 Dans ce labo, vous allez découvrir comment :
 
- - Créer des tables calculées
- - Créer des colonnes calculées
- - Créer des mesures
+- Créer des tables calculées
+- Créer des colonnes calculées
+- Créer des mesures
 
-### **Histoire du labo**
+**Ce labo devrait prendre environ 45 minutes.**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
-
-1. Préparer des données dans Power BI Desktop
-1. Charger des données dans Power BI Desktop
-1. Concevoir un modèle de données dans Power BI
-1. **Créer des calculs DAX dans Power BI Desktop**
-1. Créer des calculs DAX avancés dans Power BI Desktop
-1. Concevoir un rapport dans Power BI Desktop
-1. Améliorer un rapport dans Power BI Desktop
-1. Faire une analyse des données dans Power BI
-1. Créer un tableau de bord Power BI
-1. Appliquer la sécurité au niveau des lignes
-
-## **Exercice 1 : Créer des tables calculées**
+## **Créer des tables calculées**
 
 Dans cet exercice, vous allez créer deux tables calculées. La première est la table **Salesperson** (Vendeur), qui permettra d’établir une relation directe avec la table **Sales** (Ventes). La seconde est la table **Date**.
-
-### **Tâche 1 : Démarrer**
-
-Au cours de cette tâche, vous allez configurer l’environnement pour le labo.
 
 *Important : Si vous venez d’effectuer le labo précédent (et que vous l’avez entièrement terminé), ignorez cette tâche et passez directement à la suivante.*
 
@@ -54,17 +37,17 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo.
 
 1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-1. Notez qu’un message d’avertissement jaune est affiché sous le ruban. 
+1. Notez qu’un message d’avertissement jaune est affiché sous le ruban.
 
     *Ce message vous avertit que les requêtes n’ont pas été appliquées pour se charger en tant que tables de modèle. Vous appliquerez les requêtes plus tard dans ce labo.*
-    
+
     *Pour fermer le message d’avertissement, à droite du message d’avertissement jaune, sélectionnez **X**.*
 
 1. Pour créer une copie du fichier, accédez à **Fichier > Enregistrer sous** et enregistrez-le dans le dossier **D:\PL300\MySolution**.
 
 1. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
 
-### **Tâche 2 : Créer la table Salesperson (Vendeur)**
+## **Créer la table Salesperson** (Vendeur)
 
 Au cours de cette tâche, vous allez créer la table calculée **Salesperson**, qui a une relation directe avec la table **Sales**.
 
@@ -77,7 +60,7 @@ La barre de formule accepte la saisie d’une formule DAX valide. Elle comprend 
      ![Image 1](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image9.png)
 
 2. Dans la barre de formule (qui s’ouvre directement sous le ruban lors de la création ou de la modification de calculs), tapez **Salesperson =**, appuyez sur **Maj+Entrée**, tapez **'Salesperson (Performance)'**, puis appuyez sur **Entrée**.
-    
+
     *Par souci pratique, toutes les définitions DAX de ce labo peuvent être copiées à partir du fichier **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
      ![Image 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
@@ -86,7 +69,7 @@ La barre de formule accepte la saisie d’une formule DAX valide. Elle comprend 
 
      *Conseil : Il est recommandé d’entrer un « espace blanc » (c’est-à-dire des retours chariot et des tabulations) pour écrire des formules dans un format intuitif et facile à lire, en particulier si elles sont longues et complexes. Pour entrer un retour chariot, appuyez sur **Maj+Entrée**. L’« espace blanc » est facultatif.*
 
-1. Comme vous pouvez le constater dans le volet **Champs**, l’icône de table apparaît dans une nuance de bleu (indiquant une table calculée).
+1. Dans le volet **Données**, notez que l’icône de la table est de couleur bleue (ce qui indique qu’il s’agit d’une table calculée).
 
     ![Image 10](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image11.png)
 
@@ -110,13 +93,13 @@ La barre de formule accepte la saisie d’une formule DAX valide. Elle comprend 
 
 1. Dans la zone **Description** du volet **Propriétés**, entrez : **Salesperson related to Sales** (Vendeur lié à Ventes)
     
-    *Pour rappel, les descriptions apparaissent sous forme d’info-bulles dans le volet **Champs** lorsque l’utilisateur place le curseur sur une table ou un champ.*
+    *Pour rappel, les descriptions apparaissent sous forme d’info-bulles dans le volet **Données** quand l’utilisateur place le curseur sur une table ou un champ.*
 
 1. Pour la table **Salesperson (Performance)**, définissez la description **Salesperson related to region(s)**
 
 *Le modèle de données offre désormais deux possibilités pour l’analyse des vendeurs. La table **Salesperson** permet d’analyser les ventes effectuées par un vendeur, tandis que le tableau **Salesperson (Performance)** permet d’analyser les ventes effectuées dans la ou les régions de vente affectées au vendeur.*
 
-### **Tâche 3 : Créer la table Date**
+## **Créer la table Date**
 
 Dans cette tâche, vous allez créer la table **Date**.
 
@@ -135,7 +118,7 @@ Dans cette tâche, vous allez créer la table **Date**.
 
     ![Image 6](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image16.png)
 
-    
+
     *La fonction CALENDARAUTO() retourne une table à une colonne composée de valeurs de date. Le comportement « automatique » consiste à analyser toutes les colonnes de date du modèle de données pour trouver les valeurs de date les plus anciennes et les plus récentes stockées dans le modèle de données. Une ligne est ensuite créée pour chaque date de cette plage, en étendant la plage dans les deux sens pour que les années de données stockées soient complètes.*
 
     *Cette fonction accepte un seul argument facultatif, à savoir le dernier numéro de mois d’une année. Quand elle n’est pas précisée, la valeur est 12, c’est-à-dire que décembre est considéré comme le dernier mois de l’année. Dans le cas présent, on entre 6 pour indiquer que juin est le dernier mois de l’année.*
@@ -150,7 +133,7 @@ Dans cette tâche, vous allez créer la table **Date**.
 
     ![Image 9](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image18.png)
 
-### **Tâche 4 :** **Créer des colonnes calculées**
+## **Créer des colonnes calculées**
 
 Au cours de cette tâche, vous allez ajouter des colonnes supplémentaires pour permettre le filtrage et le regroupement selon différentes périodes. Vous allez également créer une colonne calculée qui contrôlera l’ordre de tri des autres colonnes.
 
@@ -199,7 +182,7 @@ Au cours de cette tâche, vous allez ajouter des colonnes supplémentaires pour 
 
     ![Image 51](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image23.png)
 
-1. Dans la table **Date** du volet **Champs**, faites glisser le champ **Year** (Année) dans la zone **Lignes**.
+1. Dans la table **Date** du volet **Données**, faites glisser le champ **Year** (Années) dans la barre d’outils/zone **Lignes**.
 
     ![Image 17](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image24.png)
 
@@ -237,7 +220,7 @@ Au cours de cette tâche, vous allez ajouter des colonnes supplémentaires pour 
 
     ![Image 21](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image28.png)
 
-1. Revenez dans la vue Rapport. Dans le volet **Champs**, vérifiez que le champ **Month** (Mois) est sélectionné (il a alors un arrière-plan gris foncé).
+1. Revenez dans la vue Rapport. Dans le volet **Données**, vérifiez que le champ **Month** (Mois) est sélectionné (il a alors un arrière-plan gris foncé).
 
 1. Dans le groupe **Trier** du ruban contextuel **Outils de colonne**, sélectionnez **Trier par colonne**, puis sélectionnez **MonthKey** (CléMois).
 
@@ -247,18 +230,20 @@ Au cours de cette tâche, vous allez ajouter des colonnes supplémentaires pour 
 
     ![Image 23](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image30.png)
 
-### **Tâche 5 :** **Terminer la table Date**
+## **Terminer la table Date**
 
 Dans cette tâche, vous allez procéder à la conception de la table **Date** en masquant une colonne et en créant une hiérarchie. Vous allez ensuite créer des relations avec les tables **Sales** (Ventes) et **Targets** (Objectifs).
 
 1. Basculez vers l’affichage Modèle. Dans la table **Date**, masquez la colonne **MonthKey** (définissez **Is Hidden** sur **Yes**).
 
-1. Dans le volet **Champs** à droite, sélectionnez la table **Date**, cliquez avec le bouton droit sur la colonne **Année**, puis sélectionnez **Créer une hiérarchie**. 
 
-1. Renommez la hiérarchie nouvellement créée **Fiscal** en cliquant avec le bouton droit sur **Renommer**. 
+1. Dans le volet **Données** à droite, sélectionnez la table **Date**, cliquez avec le bouton droit sur la colonne **Year**, puis sélectionnez **Créer une hiérarchie**. 
 
-1. Ajoutez les deux champs restants suivants à la hiérarchie Fiscal en les sélectionnant dans le volet Champs, en cliquant avec le bouton droit et en sélectionnant **Ajouter à la hiérarchie** -> **Fiscal**.
-    
+1. Renommez la hiérarchie nouvellement créée **Fiscal** en cliquant avec le bouton droit sur **Renommer**.
+
+
+1. Ajoutez les deux champs restants suivants à la hiérarchie Fiscal en les sélectionnant dans le volet **Données**, en cliquant avec le bouton droit et en sélectionnant **Ajouter à la hiérarchie** -> **Fiscal**.
+
     - Quarter (Trimestre)
     - Month (Mois)
 
@@ -274,11 +259,11 @@ Dans cette tâche, vous allez procéder à la conception de la table **Date** en
     - Sales \| OrderDate
     - Targets \| TargetMonth
 
-### **Tâche 6 : Marquer la table Date**
+## **Marquer la table Date**
 
 Au cours de cette tâche, vous allez marquer la table **Date** comme table de dates.
 
-1. Basculez vers l’affichage Rapport. Dans le volet **Champs**, sélectionnez la table **Date** (et non le champ **Date**).
+1. Basculez vers l’affichage Rapport. Dans le volet **Données**, sélectionnez la table **Date** (et non pas le champ **Date**).
 
 1. Dans le groupe **Calendriers** du ruban contextuel **Outils de table**, sélectionnez **Marquer comme table de dates**, puis sélectionnez **Marquer comme table de dates**.
 
@@ -294,15 +279,11 @@ Au cours de cette tâche, vous allez marquer la table **Date** comme table de da
 
     *Cette approche de la conception d’une table de dates est pertinente si votre source de données n’en comporte pas. Si vous avez un entrepôt de données, il est préférable de charger les données de date à partir de sa table de dimension de dates plutôt que de redéfinir la logique de date dans votre modèle de données.*
 
-## **Exercice 2 : Créer des mesures**
-
-Dans cet exercice, vous allez créer et mettre en forme plusieurs mesures.
-
-### **Tâche 1 : Créer des mesures simples**
+## **Créer des mesures simples**
 
 Dans cette tâche, vous allez créer des mesures simples. Les mesures simples agrègent des valeurs dans une seule colonne ou comptent des lignes d’une table.
 
-1. Dans l’affichage Rapport, dans le volet **Champs** de la **Page 2**, faites glisser le champ **Sales \| Unit Price** (Ventes | Prix unitaire) dans le visuel matrice.
+1. Dans la vue Rapport, dans le volet **Données** de la **Page 2**, faites glisser le champ **Sales \| Unit Price** (Ventes | Prix unitaire) dans le visuel matrice.
 
     *Les labos utilisent une notation abrégée pour référencer un champ. Voici le résultat : **Sales \| Unit Price**. Dans cet exemple, **Sales** est le nom de la table et **Unit Price** correspond au nom du champ.*
 
@@ -320,7 +301,7 @@ Dans cette tâche, vous allez créer des mesures simples. Les mesures simples ag
 
     *Les colonnes numériques visibles permettent aux auteurs de déterminer au moment de la conception le mode de synthèse des valeurs de colonne (le cas échéant). Cela peut se révéler non pertinent. Toutefois, certains modélisateurs de données n’aiment pas s’en remettre au hasard et choisissent de masquer ces colonnes pour exposer à la place la logique d’agrégation définie par les mesures. C’est l’approche que vous allez maintenant appliquer dans ce labo.*
 
-1. Pour créer une mesure, cliquez avec le bouton droit sur le tableau **Sales** (Ventes) dans le volet **Champs**, puis sélectionnez **Nouvelle mesure**.
+1. Pour créer une mesure, cliquez avec le bouton droit sur la table **Sales** dans le volet **Données**, puis sélectionnez **Nouvelle mesure**.
 
 1. Dans la barre de formule, ajoutez la définition de mesure suivante :
 
@@ -395,7 +376,7 @@ Dans cette tâche, vous allez créer des mesures simples. Les mesures simples ag
 
     ![Image 39](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image43.png)
 
-### **Tâche 2 : Créer des mesures supplémentaires**
+## **Créer des mesures supplémentaires**
 
 Au cours de cette tâche, vous allez créer des mesures supplémentaires qui utilisent des formules plus complexes.
 
@@ -408,7 +389,7 @@ Au cours de cette tâche, vous allez créer des mesures supplémentaires qui uti
 
 1. Renommez la colonne **Targets \| Target** en **Targets \| TargetAmount**.
 
-    *Conseil : Il existe plusieurs façons de renommer la colonne dans l’affichage Rapport : Dans le volet **Champs**, vous pouvez soit cliquer avec le bouton droit sur la colonne et sélectionner **Renommer**, soit double-cliquer sur la colonne, soit appuyer sur **F2**.*
+    *Conseil : Il existe plusieurs façons de renommer la colonne dans la vue Rapport : dans le volet **Données**, vous pouvez cliquer avec le bouton droit sur la colonne et sélectionner **Renommer**, ou double-cliquer sur la colonne, ou encore appuyer sur **F2**.*
 
     *Vous allez créer une mesure nommée **Target** (Objectif). Il n’est pas possible d’avoir une colonne et une mesure du même nom dans la même table.*
 
@@ -437,7 +418,7 @@ Au cours de cette tâche, vous allez créer des mesures supplémentaires qui uti
 
 1. Masquez la colonne **TargetAmount** (ObjectifChiffré).
 
-    *Conseil : Vous pouvez cliquer avec le bouton droit sur la colonne dans le volet **Champs**, puis sélectionner **Masquer**.*
+    *Conseil : Vous pouvez cliquer avec le bouton droit sur la colonne dans le volet **Données**, puis sélectionner **Masquer**.*
 
 1. Ajoutez la mesure **Target** (Objectif) au visuel table.
 
@@ -462,7 +443,7 @@ Au cours de cette tâche, vous allez créer des mesures supplémentaires qui uti
 
     *S’il apparaît que tous les vendeurs n’atteignent pas les objectifs, n’oubliez pas que le visuel de la table n’est pas filtré sur une période de temps spécifique. Vous générerez des rapports des performances des ventes, filtrés selon une période choisie par l’utilisateur dans le labo **Concevoir un rapport dans Power BI Desktop**.*
 
-1. Réduisez, puis développez et rouvrez le volet **Champs** en haut à droite.
+1. Dans le coin supérieur droit du volet **Données**, réduisez, puis développez et rouvrez le volet.
 
     *Le fait de réduire puis de rouvrir le volet permet de réinitialiser le contenu.*
 
@@ -472,9 +453,7 @@ Au cours de cette tâche, vous allez créer des mesures supplémentaires qui uti
 
     *Les tables qui comportent uniquement des mesures visibles figurent automatiquement en haut de la liste.*
 
-### **Tâche 3 : Terminer**
-
-Dans cette tâche, vous allez terminer le labo.
+### **Terminer**
 
 Enregistrez le fichier Power BI Desktop.
 
