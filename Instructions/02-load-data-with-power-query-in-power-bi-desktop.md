@@ -1,47 +1,30 @@
 ---
 lab:
-  title: "Charger des données dans Power\_BI Desktop"
-  module: '3 - Clean, Transform, and Load Data in Power BI'
+  title: "Charger des données transformées dans Power\_BI Desktop"
+  module: 'Clean, Transform, and Load Data in Power BI'
 ---
 
-# Charger des données dans Power BI Desktop
+# Charger des données transformées dans Power BI Desktop
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+## **Histoire du labo**
 
-Dans ce labo, vous allez appliquer des transformations à chacune des requêtes créées dans le labo précédent. Vous appliquerez ensuite les requêtes pour charger chacune d’elles sous forme de table dans le modèle de données.
+Dans ce labo, vous allez utiliser des techniques de nettoyage et de transformation des données pour commencer à mettre en forme votre modèle de données. Vous appliquerez ensuite les requêtes pour charger chacune d’elles sous forme de table dans le modèle de données.
 
 Dans ce labo, vous allez découvrir comment :
 
 - Appliquer différentes transformations
-- Appliquer des requêtes pour les charger dans le modèle de données
+- Charger des requêtes sur le modèle de données
 
-## **Histoire du labo**
+**Ce labo devrait prendre environ 45 minutes.**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
-
-1. Préparer des données dans Power BI Desktop
-1. **Charger des données dans Power BI Desktop**
-1. Concevoir un modèle de données dans Power BI
-1. Créer des calculs DAX dans Power BI Desktop
-1. Créer des calculs DAX avancés dans Power BI Desktop
-1. Concevoir un rapport dans Power BI Desktop
-1. Améliorer un rapport dans Power BI Desktop
-1. Faire une analyse des données dans Power BI
-1. Créer un tableau de bord Power BI
-1. Appliquer la sécurité au niveau des lignes
-
-## **Exercice 1 : Charger des données**
-
-Dans cet exercice, vous allez appliquer des transformations à chacune des requêtes créées dans le labo précédent.
-
-### **Tâche 1 : Démarrer**
+## **Prise en main**
 
 Durant cette tâche, vous configurez l’environnement pour le labo.
 
 *Important : Si vous avez effectué le labo précédent sur la même machine virtuelle, passez à la tâche suivante.*
 
 1. Ouvrez Power BI Desktop.
-    
+
     *Conseil : Par défaut, la boîte de dialogue Prise en main s’ouvre par-dessus Power BI Desktop. Vous pouvez choisir de vous connecter, puis de fermer la fenêtre contextuelle.*
 
     ![Icône Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
@@ -52,17 +35,17 @@ Durant cette tâche, vous configurez l’environnement pour le labo.
 
 1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-1. Notez qu’un message d’avertissement jaune est affiché sous le ruban. 
+1. Notez qu’un message d’avertissement jaune est affiché sous le ruban.
 
     *Ce message vous avertit que les requêtes n’ont pas été appliquées pour se charger en tant que tables de modèle. Vous appliquerez les requêtes plus tard dans ce labo.*
-    
+
     Pour fermer le message d’avertissement, à droite du message d’avertissement jaune, sélectionnez **X**.
 
 1. Pour créer une copie du fichier, accédez à **Fichier > Enregistrer sous** et enregistrez-le dans le dossier **D:\PL300\MySolution**.
 
 1. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
 
-### **Tâche 2 : Configurer la requête Salesperson**
+## **Configurer la requête Salesperson**
 
 Durant cette tâche, vous allez utiliser l’Éditeur Power Query pour configurer la requête **Salesperson**.
 
@@ -77,11 +60,11 @@ Durant cette tâche, vous allez utiliser l’Éditeur Power Query pour configure
      ![Image 1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
 
 1. Pour renommer la requête, dans le volet **Paramètres de la requête** (situé à droite), dans la zone **Nom**, remplacez le texte par **Salesperson**, puis appuyez sur **Entrée**. Vérifiez ensuite que le nom a été mis à jour dans le volet **Requêtes**.
-    
+
     *Le nom de la requête détermine le nom de la table du modèle. Il est recommandé de définir des noms concis et conviviaux.*
 
 1. Pour trouver une colonne spécifique, sous l’onglet du ruban **Accueil**, dans le groupe **Gérer les colonnes**, sélectionnez la flèche vers le bas **Choisir des colonnes**, puis **Accéder à la colonne**.
-    
+
     *Accéder à la colonne est une fonctionnalité utile avec de nombreuses colonnes. Sinon, vous pouvez faire défiler horizontalement pour recherches des colonnes.*
 
      ![Gérer les colonnes > Choisir des colonnes > Accéder à la colonne](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
@@ -90,12 +73,10 @@ Durant cette tâche, vous allez utiliser l’Éditeur Power Query pour configure
 
      ![Options de tri d’Accéder à la colonne](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image14.png)
 
-1. Sélectionnez l’en-tête de colonne **SalesPersonFlag**, sélectionnez la flèche vers le bas, puis **FALSE**, puis cliquez sur **OK**.
-    
-    *Cette action filtre les lignes pour récupérer uniquement les employés qui sont des vendeurs.*
+1. Recherchez la colonne **SalesPersonFlag**, puis filtrez la colonne pour sélectionner seulement Salespeople (c’est-à-dire **TRUE**), puis cliquez sur **OK**.
 
 1. Dans le volet **Paramètres de la requête**, dans la liste **Étapes appliquées**, notez l’ajout de l’étape **Lignes filtrées**.
-    
+
     *Chaque transformation que vous créez produit une autre logique d’étape. Il est possible de modifier ou de supprimer des étapes. Il est également possible de sélectionner une étape pour afficher un aperçu des résultats de la requête à cette phase de la transformation.*
 
      ![Étapes appliquées](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image17.png)
@@ -122,7 +103,7 @@ Durant cette tâche, vous allez utiliser l’Éditeur Power Query pour configure
      ![Sélectionner deux colonnes pour créer une colonne unique](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image22.png)
 
 1. Cliquez avec le bouton droit sur un des en-têtes de colonne puis, dans le menu contextuel, sélectionnez **Fusionner les colonnes**.
-    
+
     *De nombreuses transformations courantes peuvent être appliquées en cliquant avec le bouton droit sur l’en-tête de colonne, puis en les sélectionnant dans le menu contextuel. Cependant, d’autres transformations sont disponibles dans le ruban.*
 
 1. Dans la fenêtre **Fusionner les colonnes**, dans la liste déroulante **Séparateur**, sélectionnez **Espace**.
@@ -132,12 +113,12 @@ Durant cette tâche, vous allez utiliser l’Éditeur Power Query pour configure
 1. Pour renommer la colonne **EmployeeNationalIDAlternateKey**, double-cliquez sur l’en-tête de colonne **EmployeeNationalIDAlternateKey**, remplacez le texte par **EmployeeID**, puis appuyez sur **Entrée**.
 
 1. Utilisez les étapes précédentes pour renommer la colonne **EmailAddress** en **UPN**.
-    
+
     *UPN est l'acronyme de « User Principal Name » (Nom d’utilisateur principal).*
 
 1. En bas à gauche, dans la barre d’état, vérifiez que la requête a bien 5 colonnes et 18 lignes.
 
-### **Tâche 3 : Configurer la requête SalespersonRegion**
+## **Configurer la requête SalespersonRegion**
 
 Dans cette tâche, vous allez configurer la requête **SalespersonRegion**.
 
@@ -153,7 +134,7 @@ Dans cette tâche, vous allez configurer la requête **SalespersonRegion**.
 
 1. Dans la barre d’état, vérifiez que la requête a bien 2 colonnes et 39 lignes.
 
-### **Tâche 4 : Configurer la requête Product**
+## **Configurer la requête Product**
 
 Dans cette tâche, vous allez configurer la requête **Product**.
 
@@ -179,9 +160,9 @@ Dans cette tâche, vous allez configurer la requête **Product**.
 
 1. Consultez la liste complète des colonnes, puis cliquez sur la case **Sélectionner toutes les colonnes** pour désélectionner toutes les colonnes.
 2. Sélectionnez **EnglishProductSubcategoryName** et **DimProductCategory**, puis décochez la case **Utiliser le nom de la colonne d’origine comme préfixe** avant de sélectionner **OK**.
-    
+
     *Ces deux colonnes étant sélectionnées, une transformation sera appliquée de façon à établir une jointure avec la table **DimProductSubcategory**, puis ces colonnes seront incluses. La colonne **DimProductCategory** est en fait une autre table associée dans la source de données.*
-    
+
     *Les noms des colonnes d’une requête doivent toujours être uniques. Si elle est cochée, cette case à cocher va préfixer chaque colonne du nom de colonne développé (dans ce cas **DimProductSubcategory**). Comme les colonnes sélectionnées n’entrent pas en conflit avec des colonnes dans la requête **Product**, l’option est désélectionnée.*
 
 1. Notez que la transformation a entraîné l’ajout de deux colonnes et que la colonne **DimProductSubcategory** a été supprimée.
@@ -197,7 +178,7 @@ Dans cette tâche, vous allez configurer la requête **Product**.
 
 1. Dans la barre d’état, vérifiez que la requête a bien 6 colonnes et 397 lignes.
 
-### **Tâche 5 : Configurer la requête Reseller**
+## **Configurer la requête Reseller**
 
 Lors de cette tâche, vous allez configurer la requête **Reseller**.
 
@@ -236,14 +217,14 @@ Lors de cette tâche, vous allez configurer la requête **Reseller**.
 
 1. Dans la barre d’état, vérifiez que la requête a bien 6 colonnes et 701 lignes.
 
-### **Tâche 6 : Configurer la requête Region**
+## **Configurer la requête Region**
 
 Dans cette tâche, vous configurez la requête **Region**.
 
 1. Sélectionnez la requête **DimSalesTerritory** et renommez-la **Region**.
 
 1. Appliquez un filtre à la colonne **SalesTerritoryAlternateKey** pour supprimer la valeur 0 (zéro).
-    
+
     *Cela supprime une ligne.*
 
 1. Supprimez toutes les colonnes, **à l’exception** des suivantes :
@@ -261,7 +242,7 @@ Dans cette tâche, vous configurez la requête **Region**.
 
 1. Dans la barre d’état, vérifiez que la requête a bien 4 colonnes et 10 lignes.
 
-### **Tâche 7 : Configurer la requête Sales**
+## **Configurer la requête Sales**
 
 Lors de cette tâche, vous allez configurer la requête **Sales**.
 
@@ -280,7 +261,7 @@ Lors de cette tâche, vous allez configurer la requête **Sales**.
     - TotalProductCost
     - SalesAmount
     - DimProduct
-        
+
         *Remarque : Vous vous souvenez peut-être que dans le labo **Préparer des données dans Power BI Desktop**, un petit pourcentage des lignes **FactResellerSales** ne contenait pas de valeurs pour **TotalProductCost**. La colonne **DimProduct** a été ajoutée de façon à récupérer la colonne de coût standard du produit et faciliter la correction du problème des valeurs manquantes.*
 
 1. Développez la colonne **DimProduct**, décochez les colonnes, puis incluez la colonne **StandardCost**.
@@ -294,7 +275,7 @@ Lors de cette tâche, vous allez configurer la requête **Sales**.
 1. Dans la zone **Formule de colonne personnalisée**, entrez l’expression suivante (après le symbole Égal) :
     - *Vous pouvez copier l’expression à partir du fichier **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.*
     - *Cette expression teste si la valeur de **TotalProductCost** est manquante. Si c’est le cas, elle génère une valeur en multipliant la valeur de **OrderQuantity** par la valeur de **StandardCost** ; sinon, elle utilise la valeur existante de **TotalProductCost**.*
-    
+
 
     `
     if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
@@ -312,13 +293,13 @@ Lors de cette tâche, vous allez configurer la requête **Sales**.
     - **SalesAmount** en **Sales**
 
 1. Pour modifier le type de données de la colonne, dans l’en-tête de la colonne **Quantity**, à gauche du nom de la colonne, sélectionnez l’icône **1.2**, puis **Nombre entier**.
-    
+
     *Il est important de configurer le type de données correct. Quand la colonne contient une valeur numérique, il est également important de choisir le type correct si vous prévoyez d’effectuer des calculs mathématiques.*
 
      ![Image 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
 
 1. Modifiez les types de données des trois colonnes suivantes en **Nombre décimal fixe**.
-    
+
     *Le type de données Nombre décimal fixe autorise 19 chiffres et permet d’obtenir une meilleure précision pour éviter les erreurs d’arrondi. Il est important d’utiliser le type Nombre décimal fixe pour les valeurs financières ou les taux (comme les taux de change).*
 
     - Unit Price
@@ -326,10 +307,10 @@ Lors de cette tâche, vous allez configurer la requête **Sales**.
     - Coût
 
 1. Dans la barre d’état, vérifiez que la requête a bien 10 colonnes et 999+ lignes.
-    
+
     *Un maximum de 1 000 lignes seront chargées comme aperçu des données pour chaque requête.*
 
-### **Tâche 8 : Configurer la requête Targets**
+## **Configurer la requête Targets**
 
 Dans cette tâche, vous allez configurer la requête **Targets**.
 
@@ -351,7 +332,7 @@ Dans cette tâche, vous allez configurer la requête **Targets**.
     - **Valeur** en **Target**
 
 1. Pour préparer les valeurs de la colonne **MonthNumber**, cliquez avec le bouton droit sur l’en-tête de colonne **MonthNumber**, puis sélectionnez **Remplacer les valeurs**.
-        
+
     *Vous allez maintenant appliquer des transformations pour produire une colonne de date. La date sera dérivée des colonnes **Year** et **MonthNumber**. Vous allez créer la colonne en utilisant la fonctionnalité **Colonne à partir d’exemples**.*
 
 1. Dans la fenêtre **Remplacer les valeurs**, dans la zone **Valeur à rechercher**, entrez **M** et laissez **Remplacer par** vide.
@@ -365,11 +346,11 @@ Dans cette tâche, vous allez configurer la requête **Targets**.
 1. Notez que la première ligne est pour l’année **2017** et que le numéro du mois est **7**.
 
 1. Dans la colonne **Colonne1**, dans la première cellule de la grille, entrez **7/1/2017**, puis appuyez sur **Entrée**.
-    
+
     *La machine virtuelle utilise les paramètres régionaux des États-Unis ; cette date est donc en fait le 1er juillet 2017. D’autres paramètres régionaux peuvent nécessiter un **0** avant la date.*
 
 1. Notez que les cellules de la grille sont mises à jour avec des valeurs prédites.
-    
+
     *La fonctionnalité a prédit exactement que vous combinez des valeurs provenant des colonnes **Year** et **MonthNumber**.*
 
 1. Notez également la formule présentée au-dessus de la grille de la requête.
@@ -389,7 +370,7 @@ Dans cette tâche, vous allez configurer la requête **Targets**.
     - **TargetMonth** en Date
 
 1. Pour multiplier les valeurs de **Targets** par 1000, sélectionnez l’en-tête de colonne **Target** puis, sous l’onglet de ruban **Transformer**, dans le groupe **Colonne Nombre**, sélectionnez **Standard**, puis **Multiplier**.
-    
+
     *Rappelez-vous : les valeurs cibles ont été stockées sous forme de milliers.*
 
      ![Image 5682](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image63.png)
@@ -398,7 +379,7 @@ Dans cette tâche, vous allez configurer la requête **Targets**.
 
 1. Dans la barre d’état, vérifiez que la requête a bien 3 colonnes et 809 lignes.
 
-### **Tâche 9 : Configurer la requête ColorFormats**
+## **Configurer la requête ColorFormats**
 
 Dans cette tâche, vous allez configurer la requête **ColorFormats**.
 
@@ -410,14 +391,14 @@ Dans cette tâche, vous allez configurer la requête **ColorFormats**.
 
 1. Dans la barre d’état, vérifiez que la requête a bien 3 colonnes et 10 lignes.
 
-### **Tâche 10 : Mettre à jour la requête Product**
+## **Mettre à jour la requête Product**
 
 Dans cette tâche, vous allez mettre à jour la requête **Product** en fusionnant la requête **ColorFormats**.
 
 1. Sélectionnez la requête **Product**.
 
 1. Pour fusionner la requête **ColorFormats**, sous l’onglet du ruban **Accueil**, sélectionnez la flèche vers le bas **Combiner**, puis **Fusionner des requêtes**.
-    
+
     *La fusion de requêtes permet d’intégrer des données, provenant dans le cas présent de différentes sources de données (SQL Server et un fichier CSV).*
 
      ![Image 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
@@ -433,7 +414,7 @@ Dans cette tâche, vous allez mettre à jour la requête **Product** en fusionna
 1. Dans la grille de la requête **ColorFormats**, sélectionnez l’en-tête de colonne **Color**.
 
 1. Quand la fenêtre **Niveaux de confidentialité** s’ouvre, pour chacune des deux sources de données, dans la liste déroulante correspondante, sélectionnez **Organisationnel**, puis **Enregistrer**.
-    
+
     *Des niveaux de confidentialité peuvent être configurés pour la source de données afin de déterminer si les données peuvent être partagées entre les sources. La définition de chaque source de données sur **Organisationnel** leur permet de partager des données si nécessaire. Les sources de données privées ne peuvent jamais être partagées avec d’autres sources de données. Cela ne signifie pas que les données privées ne peuvent pas être partagées, mais que le moteur de Power Query ne peut pas partager des données entre les sources.*
 
      ![Image 5691](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image74.png)
@@ -447,7 +428,7 @@ Dans cette tâche, vous allez mettre à jour la requête **Product** en fusionna
 
 1. Dans la barre d’état, vérifiez que la requête a maintenant 8 colonnes et 397 lignes.
 
-### **Tâche 11 : Mettre à jour la requête ColorFormats**
+## **Mettre à jour la requête ColorFormats**
 
 Dans cette tâche, vous allez mettre à jour **ColorFormats** de façon à désactiver son chargement.
 
@@ -458,12 +439,12 @@ Dans cette tâche, vous allez mettre à jour **ColorFormats** de façon à désa
      ![Image 322](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image80.png)
 
 1. Dans la fenêtre **Propriétés de la requête**, décochez la case **Activer le chargement vers le rapport**.
-    
+
     *La désactivation de la charge signifie qu’elle ne sera pas chargée en tant que table dans le modèle de données. Cela est dû au fait que la requête a été fusionnée avec la requête **Product**, qui est activée pour être chargée dans le modèle de données.*
 
      ![Image 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
 
-### **Tâche 12 : Terminer**
+### **Terminer**
 
 Dans cette tâche, vous allez terminer le labo.
 
@@ -479,12 +460,12 @@ Dans cette tâche, vous allez terminer le labo.
     - ColorFormats (qui ne sera pas chargée dans le modèle de données)
 
 1. Pour charger le modèle de données, en mode Backstage **Fichier**, sélectionnez **Fermer et appliquer**.
-    
+
     *Toutes les requêtes dont le chargement est activé sont maintenant chargées dans le modèle de données.*
 
      ![Image 326](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image83.png)
 
-1. Dans le volet **Champs** (situé à droite), notez les sept tables chargées dans le modèle de données.
+1. Dans le volet **Données** (situé à droite), notez les sept tables chargées dans le modèle de données.
 
      ![Image 3](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image84.png)
 

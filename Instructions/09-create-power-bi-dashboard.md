@@ -1,43 +1,24 @@
 ---
 lab:
   title: Créer un tableau de bord Power BI
-  module: 11 - Create Dashboards
+  module: Create Dashboards
 ---
 
 
 # **Créer un tableau de bord Power BI**
 
-**La durée estimée pour effectuer ce tutoriel est de 45 minutes.**
+## **Histoire du labo**
 
-Dans ce labo, vous allez créer le tableau de bord **Surveillance des ventes**.
+Dans ce labo, vous allez créer le tableau de bord **Sales Monitoring** (Supervision des ventes) dans le service Power BI en utilisant un rapport existant.
 
 Dans ce labo, vous allez découvrir comment :
 
 - Épingler des visuels à un tableau de bord
 - Utilisez Questions et réponses pour créer des vignettes de tableau de bord
 
-### **Histoire du labo**
+**Ce labo devrait prendre environ 45 minutes.**
 
-Ce labo est l’un des nombreux labos d’une série qui a été conçue comme une histoire complète allant de la préparation des données jusqu’à leur publication sous forme de rapports et de tableaux de bord. Vous pouvez effectuer ces labos dans l’ordre de votre choix. Toutefois, si vous comptez suivre plusieurs labos, pour les dix premiersd’entre eux, nous vous suggérons de suivre cet ordre :
-
-1. Préparer des données dans Power BI Desktop
-1. Charger des données dans Power BI Desktop
-1. Modéliser les données dans Power BI Desktop
-1. Créer des calculs DAX dans Power BI Desktop
-1. Créer des calculs DAX avancés dans Power BI Desktop
-1. Concevoir un rapport dans Power BI Desktop
-1. Améliorer un rapport dans Power BI Desktop
-1. Analyser les données dans Power BI Desktop
-1. **Créer un tableau de bord Power BI**
-1. Appliquer la sécurité au niveau des lignes
-
-## **Exercice 1 : Créer un tableau de bord**
-
-Dans cet exercice, vous allez créer le tableau de bord **Surveillance des ventes**. Le tableau de bord terminé se présente comme suit :
-
-![Image du tableau de bord terminé, comprenant trois vignettes.](Linked_image_Files/09-create-power-bi-dashboard_image1.png)
-
-### **Tâche 1 : Démarrer – Se connecter**
+## **Démarrer - Se connecter**
 
 Au cours de cette tâche, vous allez configurer l’environnement nécessaire pour le labo en vous connectant à Power BI.
 
@@ -57,7 +38,7 @@ Au cours de cette tâche, vous allez configurer l’environnement nécessaire po
 
      ![Image 22](Linked_image_Files/07-my-workspace-new.png)
 
-### **Tâche 2 : Démarrer – Ouvrir un rapport**
+## **Démarrer - Ouvrir un rapport**
 
 Au cours de cette tâche, vous allez configurer l’environnement pour le labo en ouvrant le rapport de démarrage.
 
@@ -83,7 +64,7 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
 
 1. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
 
-### **Tâche 3 : Démarrer – Publier le rapport**
+## **Démarrer - Publier le rapport**
 
 Au cours de cette tâche, vous allez configurer l’environnement pour le labo en créant un jeu de données. *Si vous avez déjà publié le jeu de données, passez à la tâche suivante.*
 
@@ -97,7 +78,7 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
 
 *Si vous êtes invité à remplacer le jeu de données, sélectionnez **Remplacer**.*
 
-### **Tâche 4 : Créer un tableau de bord**
+## **Création d’un tableau de bord**
 
 Au cours de cette tâche, vous allez créer le tableau de bord **Surveillance des ventes**. Vous épinglez un visuel à partir du rapport, vous ajoutez une vignette basée sur un URI de données image, puis vous utilisez Questions et réponses pour créer une vignette.
 
@@ -173,7 +154,7 @@ Au cours de cette tâche, vous allez créer le tableau de bord **Surveillance de
 
     ![Image 52](Linked_image_Files/09-create-power-bi-dashboard_image35.png)
 
-### **Tâche 5 : Modifier les détails des vignettes**
+## **Modifier des détails de la vignette**
 
 Au cours de cette tâche, vous allez modifier les détails de deux vignettes.
 
@@ -197,11 +178,11 @@ Au cours de cette tâche, vous allez modifier les détails de deux vignettes.
 
 *Vous actualiserez le jeu de données dans l’exercice suivant. En fonction de vos données et de votre rapport, vous pouvez effectuer une actualisation des données ad hoc à tout moment ou définir une planification. Toutefois, les actualisations planifiées nécessitent des passerelles que nous ne sommes pas en mesure de configurer pour ce labo. Ainsi, à partir de Power BI Desktop, vous allez effectuer une actualisation manuelle des données, puis charger le fichier dans votre espace de travail.*
 
-## **Exercice 2 : Actualiser le jeu de données**
+## **Actualiser le jeu de données**
 
 Dans cet exercice, vous commencerez par charger les données des commandes client pour juin 2020 dans la base de données **AdventureWorksDW2020**. Ensuite, vous ouvrirez votre fichier Power BI Desktop, vous actualiserez les données, puis vous chargerez le fichier dans votre espace de travail.
 
-### **Tâche 1 : Mettre à jour la base de données du labo**
+## **Mettre à jour la base de données du labo**
 
 Dans cette tâche, vous exécutez un script PowerShell pour mettre à jour les données contenues dans la base de données **AdventureWorksDW2020**.
 
@@ -215,11 +196,11 @@ Dans cette tâche, vous exécutez un script PowerShell pour mettre à jour les d
 
 *La base de données **AdventureWorksDW2020** inclut maintenant les commandes client pour juin 2020.*
 
-### **Tâche 2 : Actualiser le fichier Power BI Desktop**
+## **Actualiser le fichier Power BI Desktop**
 
 Au cours de cette tâche, vous allez ouvrir le fichier **Sales Analysis** Power BI Desktop, effectuer une actualisation des données, puis charger le fichier dans votre espace de travail **Analyse des ventes**.
 
-1. Dans le fichier Power BI Desktop, dans le volet **Champs**, cliquez avec le bouton droit sur la table **Ventes**, puis sélectionnez **Actualiser les données**.
+1. Dans le fichier Power BI Desktop, dans le volet **Données**, cliquez avec le bouton droit sur la table **Sales** (Ventes), puis sélectionnez **Actualiser les données**.
 
     ![Image 55](Linked_image_Files/09-create-power-bi-dashboard_image47.png)
 
@@ -235,11 +216,7 @@ Au cours de cette tâche, vous allez ouvrir le fichier **Sales Analysis** Power�
 
 *Le jeu de données dans le service Power BI contient maintenant des données de ventes pour juin 2020.*
 
-## **Exercice 3 : Examiner le tableau de bord**
-
-Dans cet exercice, vous allez examiner le tableau de bord pour voir les ventes mises à jour.
-
-### **Tâche 1 : Examiner le tableau de bord**
+### **Examiner le tableau de bord**
 
 Au cours de cette tâche, vous allez examiner le tableau de bord pour voir les ventes mises à jour.
 
@@ -252,3 +229,9 @@ Au cours de cette tâche, vous allez examiner le tableau de bord pour voir les v
     *Si vous ne voyez pas de données pour le mois de juin 2020, essayez d’actualiser le navigateur en appuyant sur **F5**.*
 
     ![Image 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
+
+### **Terminer**
+
+Dans cette tâche, vous allez terminer le labo.
+
+1. Enregistrez le rapport et fermez votre navigateur.
