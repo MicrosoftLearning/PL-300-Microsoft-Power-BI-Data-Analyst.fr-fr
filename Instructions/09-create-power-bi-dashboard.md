@@ -16,7 +16,7 @@ Dans ce labo, vous allez découvrir comment :
 - Épingler des visuels à un tableau de bord
 - Utilisez Questions et réponses pour créer des vignettes de tableau de bord
 
-**Ce labo devrait prendre environ 45 minutes.**
+**Ce labo devrait prendre environ 30 minutes.**
 
 ## **Démarrer - Se connecter**
 
