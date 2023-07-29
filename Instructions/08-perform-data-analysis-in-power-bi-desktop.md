@@ -1,6 +1,6 @@
 ---
 lab:
-  title: "Effectuer de l’analytique avancée dans Power\_BI"
+  title: Effectuer une analytique avancée avec des visuels IA
   module: Perform Data Analysis in Power BI
 ---
 

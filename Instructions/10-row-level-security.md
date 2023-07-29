@@ -16,7 +16,7 @@ Dans ce labo, vous allez découvrir comment :
 - Appliquer la sécurité au niveau des lignes
 - Choisir entre des méthodes dynamiques et statiques
 
-**Ce labo devrait prendre environ 45 minutes.**
+**Ce labo devrait prendre environ 20 minutes.**
 
 ## **Prise en main**
 
