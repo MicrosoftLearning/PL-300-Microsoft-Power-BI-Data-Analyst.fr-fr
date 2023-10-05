@@ -9,7 +9,7 @@ demo:
 
 1. Tout d’abord, dans le service Power BI, créez un espace de travail.
 
-1. Sélectionnez l’image `D:\PL300\Demo\Resources\Icon-Airplane.jpg` pour l’icône de l’espace de travail.
+1. Sélectionnez l’image de l’icône `D:\PL300\Demo\Resources\Icon-Airplane.jpg` de l’espace de travail.
 
 1. Dans Power BI Desktop, publiez le rapport **Sales Analysis** sur le nouvel espace de travail.
 

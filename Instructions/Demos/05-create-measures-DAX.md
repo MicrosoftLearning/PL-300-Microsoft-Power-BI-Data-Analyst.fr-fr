@@ -3,9 +3,9 @@ demo:
   "\_\_ title": Create measures using DAX in Power BI
   "\_\_ module": Create measures using DAX in Power BI
 ---
-# Créer des mesures en utilisant DAX dans Power BI
+# Créer des mesures en utilisant DAX dans Power BI
 
-> **Conseil** : Tous les calculs peuvent être copiés à partir du fichier D:\PL300\Demo\Resources\Snippets-Demo-05.txt.
+> **Conseil** : tous les calculs peuvent être copiés à partir du fichier D:\PL300\Demo\Resources\Snippets-Demo-05.txt.
 
 ## Créer une table calculée
 
