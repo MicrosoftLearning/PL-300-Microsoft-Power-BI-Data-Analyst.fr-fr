@@ -25,7 +25,7 @@ demo:
 
 1. Ouvrez le tableau de bord **Sales Monitoring**.
 
-1. Modifiez les détails de la mosaïque **Marge bénéficiaire**, puis modifiez le texte du sous-titre pour y inclure l’année (**CY2020**).
+1. Modifiez les détails de la vignette **Marge bénéficiaire**, puis modifiez le texte du sous-titre pour y inclure l’année (**CY2020**).
 
 ## Ajouter une vignette Questions et réponses
 

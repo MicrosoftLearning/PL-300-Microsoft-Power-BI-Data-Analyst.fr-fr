@@ -27,4 +27,4 @@ demo:
 
 1. Revenez à la page d’accueil du service Power BI et réduisez l’espace de travail.
 
-> **Remarque** : vous n’utiliserez plus cette solution prédéveloppée.
+> **Remarque** : vous n’utiliserez plus cette solution prédéveloppée.
