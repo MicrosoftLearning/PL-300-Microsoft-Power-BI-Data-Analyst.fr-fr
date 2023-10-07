@@ -60,8 +60,6 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
     
     *Pour fermer le message d’avertissement, à droite du message d’avertissement jaune, sélectionnez **X**.*
 
-1. Pour créer une copie du fichier, accédez à **Fichier > Enregistrer sous** et enregistrez-le dans le dossier **D:\PL300\MySolution**.
-
 1. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
 
 ## **Démarrer - Publier le rapport**
