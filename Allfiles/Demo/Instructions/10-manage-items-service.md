@@ -1,56 +1,56 @@
 ---
 demo:
-    title: 'Manage files and datasets in Power BI'
-    module: 'Deploy and manage Power BI service items'
+  "\_\_ title": Manage files and datasets in Power BI
+  "\_\_ module": Deploy and manage Power BI service items
 ---
-# Manage files and datasets in Power BI
+# Gérer les fichiers et les jeux de données dans Power BI
 
-## Prepare for gateway data refresh
+## Préparer l’actualisation des données de la passerelle
 
-> **Note** the following steps are not needed when using the data gateway in personal mode. You can proceed directly to the next objective (setup the gateway).
+> **Notez** que les étapes suivantes ne sont pas nécessaires lors de l’utilisation de la passerelle de données en mode personnel. Vous pouvez passer directement à l’objectif suivant (configurer la passerelle).
 
-1. In Power BI Desktop, open the Power Query Editor window, and select the **ProductCost** query.
+1. Dans Power BI Desktop, ouvrez la fenêtre de l’Éditeur Power Query, puis sélectionnez la requête **ProductCost**.
 
-1. Edit the Source step, and then modify the file path to use the file share, as follows:
+1. Modifiez l’étape Source, puis modifiez le chemin du fichier pour utiliser le partage de fichiers, comme suit :
 
     `\\DATA-AI\Data\ProductCost.xlsx`
 
-1. Close and apply the Power Query Editor window.
+1. Fermez et appliquez la fenêtre Éditeur Power Query.
 
-1. Save the Power BI Desktop file.
+1. Enregistrez le fichier Power BI Desktop.
 
-1. Publish the Power BI Desktop file to the workspace, overwriting the dataset and report in the service.
+1. Publiez le fichier Power BI Desktop sur l’espace de travail, en remplaçant le jeu de données et le rapport dans le service.
 
-## Setup the gateway (personal mode)
+## Configurer la passerelle (mode personnel)
 
-1. In the Power BI service for the instructor, reload (F5) the dataset settings page.
+1. Dans le service Power BI pour l’instructeur, rechargez (F5) la page des paramètres du jeu de données.
 
-1. Expand the Gateway Connection section and point out that no gateway is installed.
+1. Développez la section Connexion à la passerelle, puis faites remarquer qu’aucune passerelle n’est installée.
 
-1. Use the download dropdown list (located at the top-right), and select Data Gateway.
+1. Utilisez la liste déroulante de téléchargement (située en haut à droite), puis sélectionnez Passerelle de données.
 
-1. In the new web page, download the personal mode gateway.
+1. Dans la nouvelle page web, téléchargez la passerelle en mode personnel.
 
-1. Once downloaded, open the downloaded file.
+1. Une fois qu’il est téléchargé, ouvrez le fichier téléchargé.
 
-1. Complete the gateway setup by using the credentials of the instructor account.
+1. Effectuez la configuration de la passerelle en utilisant les informations d’identification du compte de l’instructeur.
 
-1. Once setup, return to and reload the dataset settings page.
+1. Une fois la passerelle configurée, revenez à la page des paramètres du jeu de données et rechargez-le.
 
-1. Assign the personal gateway, and the edit the credentials for the two data sources.
+1. Affectez la passerelle personnelle et modifiez les informations d’identification pour les deux sources de données.
 
-1. For both data sources, set the authentication method to **WindowsWithoutImpersonation**, and set the privacy level to **Organizational**.
+1. Pour les deux sources de données, affectez à la méthode d’authentification la valeur **WindowsWithoutImpersonation**, puis affectez au niveau de confidentialité la valeur **Organisation**.
 
-1. Optionally, expand the **Scheduled Refresh** section, and show how to configure a recurring schedule.
+1. Si vous le souhaitez, développez la section **Actualisation planifiée**, puis montrez comment configurer une planification récurrente.
 
-## Refresh the dataset
+## Actualiser le jeu de données
 
-1. Before refreshing the dataset, open the **Sales Monitoring** dashboard.
+1. Avant d’actualiser le jeu de données, ouvrez le tableau de bord **Sales Monitoring**.
 
-1. Edit the details of the Sales, Profit Margin tile to display the last refresh time.
+1. Modifiez les détails de la vignette Sales, Profit Margin pour y afficher l’heure de la dernière actualisation.
 
-1. Right-click the `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` file, and then run with PowerShell. *This script will load December 2020 sales data into the database.*
+1. Cliquez avec le bouton droit sur le fichier `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1`, puis exécutez avec PowerShell. *Ce script va charger les données des ventes de décembre 2020 dans la base de données.*
 
-1. In the Power BI service for the instructor, from the Navigation pane, refresh the **Sales Analysis** dataset.
+1. Dans le service Power BI pour l’instructeur, dans le volet Navigation, actualisez le jeu de données **Sales Analysis**.
 
-1. When the refresh completes, point out how the dashboard tile **December 2020** column appears, and that the refresh time is **NOW**.
+1. Une fois l’actualisation terminée, montrez comment la colonne **Décembre 2020** de la vignette du tableau de bord apparaît et que l’heure d’actualisation est **MAINTENANT**.
