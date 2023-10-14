@@ -1,30 +1,30 @@
 ---
 demo:
-    title: 'Get started with Microsoft data analytics'
-    module: 'Get started with Microsoft data analytics'
+  "\_\_ title": Get started with Microsoft data analytics
+  "\_\_ module": Get started with Microsoft data analytics
 ---
-# Get started with Microsoft data analytics
+# Bien démarrer avec l’analytique données Microsoft
 
-## Explore the dashboard
+## Explorer le tableau de bord
 
-1. Show the Sales Monitoring dashboard, and explain how it can be used to get at-a-glance facts.
+1. Montrez le tableau de bord Sales Monitoring, et expliquez comment il peut être utilisé pour faire apparaître des faits en un clin d’œil.
 
-1. Click either tile to click through to the Sales Analysis report.
+1. Cliquez sur l’une des vignettes pour accéder au rapport Sales Analysis.
 
-## Explore the report
+## Explorer le rapport
 
-1. Interact with various slicers and visuals across the pages.
+1. Interagissez avec différents sélecteurs et visuels sur les pages.
 
-1. Edit the report, and then expand all fields in the Data pane.
+1. Modifiez le rapport, puis développez tous les champs dans le volet Données.
 
-## Describe the solution that will be developed during the course
+## Décrire la solution qui sera développée pendant le cours
 
-1. Explain that the data model is based on a SQL Server database and an Excel workbook, which helps to determine cost of goods sold.
+1. Expliquez que le modèle de données est basé sur une base de données SQL Server et un classeur Excel, qui permet de déterminer le coût des marchandises vendues.
 
-1. Explain that a gateway will be set up to keep data current.
+1. Expliquez qu’une passerelle sera configurée pour maintenir les données à jour.
 
-1. Explain that it will be shared with a recipient, and that recipients will only be allowed to see a subset of data being only the product categories they manage.
+1. Expliquez qu’il sera partagé avec un destinataire et que les destinataires seront autorisés à voir seulement un sous-ensemble des données, correspondant aux catégories de produits qu’ils gèrent.
 
-1. Return to the Power BI service home page, and collapse the workspace.
+1. Revenez à la page d’accueil du service Power BI et réduisez l’espace de travail.
 
-> **Note**: You will not use this pre-developed solution again.
+> **Remarque** : vous n’utiliserez plus cette solution prédéveloppée.

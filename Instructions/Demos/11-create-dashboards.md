@@ -9,7 +9,7 @@ demo:
 
 1. Tout d’abord, dans le service Power BI, créez un espace de travail.
 
-1. Sélectionnez l’image de l’icône `D:\PL300\Demo\Resources\Icon-Airplane.jpg` de l’espace de travail.
+1. Sélectionnez l’image `D:\PL300\Demo\Resources\Icon-Airplane.jpg` pour l’icône de l’espace de travail.
 
 1. Dans Power BI Desktop, publiez le rapport **Sales Analysis** sur le nouvel espace de travail.
 
@@ -25,7 +25,7 @@ demo:
 
 1. Ouvrez le tableau de bord **Sales Monitoring**.
 
-1. Modifiez les détails de la mosaïque **Marge bénéficiaire**, puis modifiez le texte du sous-titre pour y inclure l’année (**CY2020**).
+1. Modifiez les détails de la vignette **Marge bénéficiaire**, puis modifiez le texte du sous-titre pour y inclure l’année (**CY2020**).
 
 ## Ajouter une vignette Questions et réponses
 
