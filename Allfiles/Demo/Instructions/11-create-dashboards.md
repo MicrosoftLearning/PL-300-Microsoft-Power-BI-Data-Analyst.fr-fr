@@ -1,31 +1,36 @@
-# Create dashboards in the Power BI service
+---
+demo:
+  "\_\_ title": Create dashboards in the Power BI service
+  "\_\_ module": Deploy and manage Power BI service items
+---
+# Créez des tableaux de bord dans le service Power BI.
 
-## Create a dashboard
+## Création d’un tableau de bord
 
-1. First, in the Power BI service, create a new workspace.
+1. Tout d’abord, dans le service Power BI, créez un espace de travail.
 
-1. Select the `D:\PL300\Demo\Resources\Icon-Airplane.jpg` image for workspace icon.
+1. Sélectionnez l’image `D:\PL300\Demo\Resources\Icon-Airplane.jpg` pour l’icône de l’espace de travail.
 
-1. In Power BI Desktop, publish the **Sales Analysis** report to the new workspace.
+1. Dans Power BI Desktop, publiez le rapport **Sales Analysis** sur le nouvel espace de travail.
 
-1. Once published, return to the Power BI service.
+1. Une fois qu’il est publié, revenez au service Power BI.
 
-1. Open the **Sales Analysis** report, and then ensure the Year slicer is set to **CY2020**.
+1. Ouvrez le rapport **Sales Analysis**, puis vérifiez que le segment Year a la valeur **CY2020**.
 
-## Pin report visuals
+## Épingler des visuels de rapport
 
-1. Pin the line and stacked column chart to create a new dashboard named **Sales Monitoring**.
+1. Épinglez le graphique en courbes et l’histogramme empilé pour créer un tableau de bord nommé **Sales Monitoring**.
 
-1. Pin the funnel chart to the new dashboard.
+1. Épinglez le graphique en entonnoir au nouveau tableau de bord.
 
-1. Open the **Sales Monitoring** dashboard.
+1. Ouvrez le tableau de bord **Sales Monitoring**.
 
-1. Edit the details of the **Profit Margin** tile and change the subtitle text to include the year (**CY2020**).
+1. Modifiez les détails de la vignette **Marge bénéficiaire**, puis modifiez le texte du sous-titre pour y inclure l’année (**CY2020**).
 
-## Add Q&A tile
+## Ajouter une vignette Questions et réponses
 
-1. Use Q&A on the dashboard to ask the following question: **Total sales in CY2020**
+1. Utilisez les questions et réponses sur le tableau de bord pour poser la question suivante : **Total sales in CY2020 (Ventes totales en CY2020)**
 
-1. Pin the response to the dashboard.
+1. Épinglez la réponse au tableau de bord.
 
-1. Show how to resize and reposition the tiles.
+1. Montrez comment redimensionner et repositionner les vignettes.

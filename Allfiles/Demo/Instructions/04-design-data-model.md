@@ -1,47 +1,52 @@
-# Design a data model in Power BI
+---
+demo:
+  "\_\_ title": Design a data model in Power BI
+  "\_\_ module": Design a data model in Power BI
+---
+# Concevoir un modèle de données dans Power BI
 
-## Review the model
+## Passer en revue le modèle
 
-1. In the Data pane, expand all tables to reveal all fields.
+1. Dans le volet Données, développez toutes les tables pour afficher tous les champs.
 
-1. In the Sales table, point out the OrderDate hierarchy, which was created automatically.
+1. Dans la table Sales, faites remarquer la hiérarchie OrderDate, qui a été créée automatiquement.
 
-1. Explain that a Date table will be created in the next demo.
+1. Expliquez qu’une table Date sera créée dans la démonstration suivante.
 
-1. In Model view, hover over the automatically-created relationship between the two tables.
+1. Dans le vue Modèle, pointez sur la relation créée automatiquement entre les deux tables.
 
-1. Explain how filters will propagate from the Product table to the Sales table.
+1. Expliquez comment les filtres vont se propager de la table Product à la table Sales.
 
-## Create a hierarchy
+## Créer une hiérarchie
 
-1. Create a hierarchy based on the Product table Category column.
+1. Créez une hiérarchie basée sur la colonne Category de la table Product.
 
-1. Rename the hierarchy as Products.
+1. Renommez la hiérarchie Products.
 
-1. Add the Product column as the second level.
+1. Ajoutez la colonne Product en tant que deuxième niveau.
 
-## Set model properties
+## Définir les propriétés du modèle
 
-1. Hide both the ProductID columns.
+1. Masquez les deux colonnes ProductID.
 
-1. Format the Quantity column to use the thousands separator.
+1. Mettez en forme la colonne Quantity pour utiliser le séparateur des milliers.
 
-1. Multi-select the Sales and Unit Price columns, and format them to use two decimal places.
+1. Effectuez une sélection multiple incluant les colonnes Sales et Unit Price, puis mettez-les en forme pour qu’elles utilisent deux décimales.
 
-## Validate the model design with a matrix visual
+## Valider la conception du modèle avec un visuel de matrice
 
-1. In Report view, add a matrix visual to the page, and then size it to fill the entire page.
+1. Dans la vue Rapport, ajoutez un visuel de matrice à la page, puis dimensionnez-le de façon remplir la page entière.
 
-1. Add the Products hierarchy to the rows, and then add the Quantity, Sales, and Unit Price fields.
+1. Ajoutez la hiérarchie Products aux lignes, puis ajoutez les champs Quantity, Sales et Unit Price.
 
-1. Expand all levels of the Products hierarchy.
+1. Développez tous les niveaux de la hiérarchie Products.
 
-1. Point out that the Unit Price values are the sum of prices, which is not correct.
+1. Faites remarquer que les valeurs de Unit Price sont la somme des prix, ce qui n’est pas correct.
 
-1. In the Data pane, select the Unit Price field, and configure its summarization to use Average.
+1. Dans le volet Données, sélectionnez le champ Prix unitaire, puis configurez son résumé pour utiliser Moyenne.
 
-1. Remove the Sum of Unit Price column from the matrix visual, and then add the Unit Price field back again.
+1. Supprimez la colonne Somme de Unit Price du visuel de matrice, puis ajoutez à nouveau le champ Unit Price.
 
-1. Save the Power BI Desktop file.
+1. Enregistrez le fichier Power BI Desktop.
 
-1. Leave the Power BI Desktop file open for the next demo.
+1. Laissez le fichier Power BI Desktop ouvert pour la démonstration suivante.
