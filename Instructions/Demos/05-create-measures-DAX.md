@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Create measures using DAX in Power BI
-  "\_\_ module": Create measures using DAX in Power BI
+demo:
+  title: Créer des mesures en utilisant DAX dans Power BI
+  module: Create measures using DAX in Power BI
 ---
 # Créer des mesures en utilisant DAX dans Power BI
 

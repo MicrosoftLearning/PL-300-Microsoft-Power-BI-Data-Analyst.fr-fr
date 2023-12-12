@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Manage files and datasets in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  title: Gérer les fichiers et les jeux de données dans Power BI
+  module: Deploy and manage Power BI service items
 ---
 # Gérer les fichiers et les jeux de données dans Power BI
 
@@ -25,7 +25,7 @@ lab:
 
 1. Dans le service Power BI pour l’instructeur, rechargez (F5) la page des paramètres du jeu de données.
 
-1. Développez la section Connexion à la passerelle, puis faites remarquer qu’aucune passerelle n’est installée.
+1. Développez la section Connexion à la passerelle et faites remarquer qu’aucune passerelle n’est installée.
 
 1. Utilisez la liste déroulante de téléchargement (située en haut à droite), puis sélectionnez Passerelle de données.
 
@@ -47,10 +47,10 @@ lab:
 
 1. Avant d’actualiser le jeu de données, ouvrez le tableau de bord **Sales Monitoring**.
 
-1. Modifiez les détails de la vignette Sales, Profit Margin pour y afficher l’heure de la dernière actualisation.
+1. Modifiez les détails de la vignette Sales, Profit Margin pour y afficher l’heure de la dernière actualisation.
 
 1. Cliquez avec le bouton droit sur le fichier `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1`, puis exécutez avec PowerShell. *Ce script va charger les données des ventes de décembre 2020 dans la base de données.*
 
-1. Dans le service Power BI pour l’instructeur, dans le volet Navigation, actualisez le jeu de données **Sales Analysis**.
+1. Dans le service Power BI pour l’instructeur, à partir du volet de navigation, actualisez le jeu de données **Sales Analysis**.
 
 1. Une fois l’actualisation terminée, montrez comment la colonne **Décembre 2020** de la vignette du tableau de bord apparaît et que l’heure d’actualisation est **MAINTENANT**.

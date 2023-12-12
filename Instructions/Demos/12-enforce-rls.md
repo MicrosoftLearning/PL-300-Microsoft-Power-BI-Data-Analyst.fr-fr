@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": Enforce Row-level security in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  title: Renforcer la sécurité au niveau des lignes dans Power BI
+  module: Deploy and manage Power BI service items
 ---
+
 # Renforcer la sécurité au niveau des lignes dans Power BI
 
 ## Ajouter une table de sécurité au modèle
@@ -61,7 +62,7 @@ lab:
 
 ## Configurer la sécurité du jeu de données
 
-1. Dans le service Power BI pour l’instructeur, dans le volet Navigation, ouvrez la page Sécurité du jeu de données **Sales Analysis**.
+1. Dans le service Power BI pour l’instructeur, à partir du volet de navigation, ouvrez la page Sécurité pour le jeu de données **Sales Analysis**.
 
 1. Dans la section Membres, entrez le compte du destinataire (qui représente **Ty Johnston**).
 
