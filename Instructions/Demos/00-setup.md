@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": Setup demo environment
-  "\_\_ module": Setup demo environment
+demo:
+  title: Configurer votre propre environnement
+  module: Set up your own environment
 ---
+
 
 # Configuration de la démonstration
 
@@ -10,7 +11,7 @@ lab:
 
 1. Connectez-vous à l’environnement de machine virtuelle à l’aide du compte Student.
 
-1. Ouvrez Microsoft Edge, accédez à <https://powerbi.com>, puis connectez-vous à l’aide du compte d’instructeur.
+1. Ouvrez Microsoft Edge, puis accédez à <https://powerbi.com> et connectez-vous en utilisant le compte d’instructeur.
     > **Conseil** : si vous êtes invité à modifier le mot de passe, veillez à l’enregistrer dans le fichier D:\PL300\Demo\Setup\MySettings.txt.
 
 1. Dans le service Power BI, acceptez l’essai de Power BI Pro.

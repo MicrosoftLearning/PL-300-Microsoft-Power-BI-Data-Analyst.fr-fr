@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Perform data analysis in Power BI
-  "\_\_ module": Perform data analysis in Power BI
+demo:
+  title: "Effectuer une analyse des données dans Power\_BI"
+  module: Perform data analysis in Power BI
 ---
 # Effectuer une analyse des données
 
@@ -9,19 +9,19 @@ lab:
 
 1. Ajoutez une autre nouvelle page au rapport nommé **Category Analysis**.
 
-1. Copiez, collez, puis synchronisez le **segment Year** de la page **Profit Analysis** vers la nouvelle page.
+1. Copiez, collez, puis synchronisez le segment **Year** de la page **Profit Analysis** vers la nouvelle page.
 
 1. Ajoutez un nouveau groupe en fonction de la colonne **Category** de la table **Product**.
 
 1. Créez un groupe en fonction de la valeur de Trainer.
 
-1. Cochez la case **Inclure un autre groupe**.
+1. Sélectionnez la case **Inclure un autre groupe**.
 
 1. Ajoutez un visuel de matrice, puis redimensionnez-le et repositionnez-le de façon à ce qu’il remplisse la page.
 
 1. Configurez le visuel de matrice comme suit :
 
-    - Lignes : Produit | Catégorie (groupes) et Produit | Produit
+    - Lignes : Product | Category (groupes) et Product | Product
 
     - Valeurs : Quantity, Sales, Profit et Profit Margin de la table Sales
 

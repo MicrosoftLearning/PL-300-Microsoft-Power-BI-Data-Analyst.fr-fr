@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": Get started with Microsoft data analytics
-  "\_\_ module": Get started with Microsoft data analytics
+demo:
+  title: Bien démarrer avec l’analytique données Microsoft
+  module: Get started with Microsoft data analytics
 ---
+
 # Bien démarrer avec l’analytique données Microsoft
 
 ## Explorer le tableau de bord
@@ -27,4 +28,4 @@ lab:
 
 1. Revenez à la page d’accueil du service Power BI et réduisez l’espace de travail.
 
-> **Remarque** : vous n’utiliserez plus cette solution prédéveloppée.
+> **Remarque** : vous n’utiliserez plus cette solution prédéveloppée.

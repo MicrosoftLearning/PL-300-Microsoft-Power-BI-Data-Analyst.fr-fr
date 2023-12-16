@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Create and manage workspaces in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  title: Créer et gérer des espaces de travail dans Power BI
+  module: Deploy and manage Power BI service items
 ---
 
 # Créer et gérer des espaces de travail
@@ -14,27 +14,27 @@ lab:
 
 ## Ouvrir le tableau de bord partagé
 
-1. Passez à la fenêtre du service Power BI de **l'instructeur**.
+1. Passez à la fenêtre du service de l’**instructeur** Power BI.
 
 1. Ouvrez le tableau de bord **Sales Monitoring**.
 
-1. Dans le menu, cliquez sur Partager.
+1. Dans le menu, sélectionnez Partager.
 
 1. Partagez le tableau de bord avec le compte du destinataire.
 
-1. Passez à la fenêtre du service Power BI du **destinataire**.
+1. Passez à la fenêtre du service du **destinataire** Power BI.
 
-1. Ouvrez **l’affichage Partagés**, avec moi.
+1. Ouvrez **Partagé avec moi** et ouvrez le tableau de bord Sales Monitoring.
 
 1. Faites remarquer que le tableau de bord est en lecture seule.
 
 ## Créer une application
 
-1. Passez à la fenêtre du service Power BI de **l'instructeur**.
+1. Passez à la fenêtre du service de l’**instructeur** Power BI.
 
-1. Dans le volet de navigation, cliquez sur le nom de l'espace de travail.
+1. Dans le volet de navigation, cliquez sur le nom de l’espace de travail.
 
-1. En haut à droite, cliquez sur**Créer l'application**.
+1. En haut à droite, sélectionnez **Créer l’application**.
 
 1. Dans la section Configuration, entrez du texte pour la description, puis choisissez éventuellement une couleur de thème.
 
@@ -46,7 +46,7 @@ lab:
 
 ## Obtenir et ouvrir l’application
 
-1. Passez à la fenêtre du service Power BI du **destinataire**.
+1. Passez à la fenêtre du service du **destinataire** Power BI.
 
 1. Ouvrez Applications, puis récupérez l’application que vous venez de publier.
 
@@ -54,4 +54,4 @@ lab:
 
 1. Naviguez entre les pages du rapport et le tableau de bord.
 
-1. Laissez l’application ouverte. Elle servira plus tard dans la version de démonstration de sécurité au niveau des lignes.
+1. Laissez l’application ouverte. Il va servir plus tard dans la démonstration de sécurité au niveau des lignes.

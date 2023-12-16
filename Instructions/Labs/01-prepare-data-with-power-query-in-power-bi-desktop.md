@@ -24,7 +24,7 @@ Dans cette tâche, vous commencez par ouvrir un fichier Power BI (.pbix) de dé
 - Chargement des données > Importer des relations à partir de sources de données au premier chargement
 - Chargement des données > Détecter automatiquement les nouvelles relations une fois les données chargées
 
-*Remarque : Bien que l’activation de ces deux options puisse être utile lors du développement d’un modèle de données, vous les avez désactivées précédemment pour prendre en charge l’expérience du labo. Lorsque vous créerez des relations dans le labo **Charger des données dans Power BI Desktop**, vous découvrirez pourquoi vous ajoutez chacune d’elles.*
+*Remarque : bien que l’activation de ces deux options puisse être utile lors du développement d’un modèle de données, vous les avez désactivées précédemment pour prendre en charge l’expérience du labo. Lorsque vous créerez des relations dans le labo **Charger des données transformées dans Power BI Desktop**, vous découvrirez pourquoi vous ajoutez chacune d’elles.*
 
 1. Ouvrez Power BI Desktop.
 
@@ -39,6 +39,7 @@ Dans cette tâche, vous commencez par ouvrir un fichier Power BI (.pbix) de dé
 1. Sélectionnez le fichier **Sales Analysis** (Analyse des ventes).
 
 1. Enregistrez une copie du fichier avec **Enregistrer sous** dans le dossier **D:\PL300\MySolution**.
+
 
 ## **Obtenir des données de SQL Server**
 
@@ -73,8 +74,10 @@ Cette tâche vous apprend à vous connecter à une base de données SQL Server e
     - DimSalesTerritory
     - FactResellerSales
 
-1. Effectuez cette tâche en cliquant sur **Transformer les données**, ce qui ouvre l’Éditeur Power Query.
+1. Effectuez cette tâche en cliquant sur **Transformer les données**, ce qui ouvre l’Éditeur Power Query.
+    
     1. *Ce labo est uniquement destiné à se connecter aux données et à les profiler, mais pas **à transformer les données**.*
+
 
 ## **Afficher un aperçu des données dans l’Éditeur Power Query**
 
@@ -94,7 +97,7 @@ Cette tâche présente l’Éditeur Power Query, et vous permet de passer en rev
 
 1. Dans le volet Aperçu des données, faites défiler horizontalement pour passer en revue toutes les colonnes. Notez que les cinq dernières colonnes contiennent des liens **Table** ou **Valeur**.
 
-    *Ces cinq colonnes représentent des relations avec d’autres tables de la base de données. Elles peuvent être utilisées pour joindre des tables. Vous joindrez des tables dans le labo **Charger des données dans Power BI Desktop**.*
+    *Ces cinq colonnes représentent des relations avec d’autres tables de la base de données. Elles peuvent être utilisées pour joindre des tables. Vous joindrez des tables dans le labo **Charger des données transformées dans Power BI Desktop**.*
 
 1. Pour évaluer la **qualité des colonnes**, cliquez sur l'onglet Affichage dans le ruban et activez l'option Qualité des colonnes dans le groupe **Aperçu des données**. La qualité de la colonne vous permet de déterminer facilement le pourcentage de valeurs valides, en erreur ou vides trouvées dans les colonnes.
 
@@ -122,7 +125,7 @@ Cette tâche présente l’Éditeur Power Query, et vous permet de passer en rev
 
 1. Faites défiler horizontalement pour voir les dernières colonnes. Notez la colonne **DimProductSubcategory**.
 
-    *Quand vous ajouterez des transformations à cette requête dans le labo **Charger des données dans Power BI Desktop**, vous utiliserez la colonne **DimProductSubcategory** pour joindre les tables.*
+    *Lorsque vous ajouterez des transformations à cette requête dans le labo **Charger des données transformées dans Power BI Desktop**, vous utiliserez la colonne **DimProductSubcategory** pour joindre les tables.*
 
 1. Dans le volet **Requêtes**, sélectionnez la requête **DimReseller**.
 
@@ -140,7 +143,7 @@ Cette tâche présente l’Éditeur Power Query, et vous permet de passer en rev
 
 1. Placez le curseur sur la barre **Ware House** ; notez qu’il y a cinq lignes avec cette valeur.
 
-    *Vous appliquerez une transformation pour réétiqueter ces cinq lignes dans le labo **Charger des données dans Power BI Desktop**.*
+    *Vous appliquerez une transformation pour réétiqueter ces cinq lignes dans le labo **Charger des données transformées dans Power BI Desktop**.*
 
 1. Dans le volet **Requêtes**, sélectionnez la requête **DimSalesTerritory**.  
 
@@ -152,7 +155,8 @@ Cette tâche présente l’Éditeur Power Query, et vous permet de passer en rev
 
 1. Examinez la qualité de la colonne pour la colonne **TotalProductCost** ; notez que 8 % des lignes sont vides.
 
-    *Des valeurs de colonne **TotalProductCost** manquantes constituent un problème de qualité des données. Pour le résoudre, dans le labo **Charger des données dans Power BI Desktop**, vous appliquerez des transformations afin de renseigner les valeurs manquantes en utilisant le coût standard du produit, qui est stocké dans la table **DimProduct** associée.*
+    *Des valeurs de colonne **TotalProductCost** manquantes constituent un problème de qualité des données. Pour le résoudre, dans le labo **Charger des données transformées dans Power BI Desktop**, vous appliquerez des transformations afin de renseigner les valeurs manquantes en utilisant le coût standard du produit, qui est stocké dans la table **DimProduct** associée.*
+
 
 ## **Obtenir des données d’un fichier CSV**
 
@@ -181,6 +185,7 @@ Dans cette tâche, vous allez créer une requête basée sur des fichiers CSV.
 *Vous devez maintenant avoir deux nouvelles requêtes, **ResellerSalesTargets** et **ColorFormats**.*
 
  ![Liste des requêtes](Linked_image_Files/01-all-queries-loaded.png)
+
 
 ### **Terminer**
 

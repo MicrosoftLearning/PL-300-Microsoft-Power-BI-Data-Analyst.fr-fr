@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": 'Clean, transform, and load data in Power BI'
-  "\_\_ module": 'Clean, transform, and load data in Power BI'
+demo:
+  title: 'Nettoyer, transformer et charger des données dans Power BI'
+  module: 'Clean, transform, and load data in Power BI'
 ---
+
 # Nettoyer, transformer et charger des données dans Power BI
 
 ## Appliquer des transformations de requête
@@ -37,7 +38,7 @@ lab:
 
     - UnitPrice
 
-1. Changez le type de données de la colonne UnitPrice en Fixed Decimal Number.
+1. Changez le type de données de la colonne UnitPrice en Fixed Decimal Number..
 
 1. Renommez la colonne UnitPrice en Unit Price.
 
@@ -55,7 +56,7 @@ lab:
 
 1. Sélectionnez la requête Product, puis fusionnez-la avec la requête ProductCost, en mettant en relation les colonnes SKU.
 
-1. Dans la fenêtre Niveaux de confidentialité, affectez au niveau de confidentialité de D:\ la valeur Organisation.
+1. Dans la fenêtre Niveaux de confidentialité, définissez le niveau de confidentialité pour D:\ sur Organisation.
 
 1. Développez la colonne ProductCost pour inclure la colonne ProductCost (provenant de la requête ProductCost).
 
@@ -65,7 +66,7 @@ lab:
 
 1. Dans le volet Requêtes, désactivez la requête ProductCost.
 
-1. Sous l’onglet de ruban Accueil, cliquez sur l’icône Fermer et appliquer.
+1. Sous l’onglet Accueil du ruban, cliquez sur l’icône Fermer et appliquer.
 
 1. Dans Power BI Desktop, faites remarquer les deux tables dans le volet Données.
 

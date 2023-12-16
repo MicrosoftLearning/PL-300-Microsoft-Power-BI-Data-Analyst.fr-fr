@@ -1,14 +1,14 @@
 ---
 demo:
-  "\_\_ title": (Optional) Optimize model performance in Power BI
-  "\_\_ module": Optimize model performance in Power BI
+  title: "(Facultatif) Optimiser les performances d’un modèle dans Power\_BI"
+  module: Optimize model performance in Power BI
 ---
 
 # (Facultatif) Optimiser le niveau de performance d’un modèle
 
 ## Passer en revue la conception d’un modèle DirectQuery
 
-> **Remarque** : cette démonstration utilise un autre fichier Power BI Desktop.
+> **Remarque** : cette démonstration utilise un autre fichier Power BI Desktop.
 
 1. Ouvrez le fichier D:\PL300\Demo\Resources\AW Sales Analysis.pbix.
 
@@ -78,4 +78,4 @@ demo:
 
 1. Fermez Power BI Desktop.
 
-> **Remarque** : vous n’utiliserez plus cette solution Power BI Desktop.
+> **Remarque** : vous n’utiliserez plus cette solution Power BI Desktop.
