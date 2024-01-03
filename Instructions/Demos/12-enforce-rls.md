@@ -56,13 +56,13 @@ demo:
 
 1. Enregistrez le fichier Power BI Desktop.
 
-1. Publiez le fichier Power BI Desktop sur l’espace de travail, en remplaçant le jeu de données et le rapport dans le service.
+1. Publiez le fichier Power BI Desktop sur l’espace de travail, en remplaçant le modèle sémantique et le rapport dans le service.
 
 1. Fermez Power BI Desktop.
 
-## Configurer la sécurité du jeu de données
+## Configurer la sécurité du modèle sémantique
 
-1. Dans le service Power BI pour l’instructeur, à partir du volet de navigation, ouvrez la page Sécurité pour le jeu de données **Sales Analysis**.
+1. Dans le service Power BI pour l’instructeur, à partir du volet de navigation, ouvrez la page Sécurité du modèle sémantique **Sales Analysis**.
 
 1. Dans la section Membres, entrez le compte du destinataire (qui représente **Ty Johnston**).
 

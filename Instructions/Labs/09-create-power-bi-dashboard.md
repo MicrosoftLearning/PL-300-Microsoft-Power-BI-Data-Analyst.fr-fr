@@ -38,33 +38,9 @@ Au cours de cette tâche, vous allez configurer l’environnement nécessaire po
 
      ![Image 22](Linked_image_Files/07-my-workspace-new.png)
 
-## **Démarrer - Ouvrir un rapport**
-
-Au cours de cette tâche, vous allez configurer l’environnement pour le labo en ouvrant le rapport de démarrage.
-
-*Important : Si vous venez d’effectuer le labo précédent (et que vous l’avez entièrement terminé), ignorez cette tâche et passez directement à la suivante.*
-
-1. Ouvrez Power BI Desktop.
-    
-    *Par défaut, la boîte de dialogue Prise en main s’ouvre par-dessus Power BI Desktop. Connectez-vous, puis fermez la fenêtre contextuelle.*
-
-    ![Icône Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
-
-1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez **Fichier > Ouvrir le rapport > Parcourir les rapports**.
-
-1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\09-create-power-bi-dashboard\Starter**, puis ouvrez le fichier **Sales Analysis**.
-
-1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
-
-1. Notez qu’un message d’avertissement jaune est affiché sous le ruban. *Ce message vous avertit que les requêtes n’ont pas été appliquées pour se charger en tant que tables de modèle. Vous appliquerez les requêtes plus tard dans le labo.*
-    
-    *Pour fermer le message d’avertissement, à droite du message d’avertissement jaune, sélectionnez **X**.*
-
-1. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
-
 ## **Démarrer - Publier le rapport**
 
-Au cours de cette tâche, vous allez configurer l’environnement pour le labo en créant un jeu de données. *Si vous avez déjà publié le jeu de données, passez à la tâche suivante.*
+Au cours de cette tâche, vous allez configurer l’environnement pour le labo en créant un modèle sémantique. *Si vous avez déjà publié le modèle sémantique, passez à la tâche suivante.*
 
 1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, accédez à **Mon espace de travail**.
 
@@ -74,7 +50,7 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
 
 1. Sélectionnez le fichier **Sales Analysis.pbix**, puis sélectionnez **Ouvrir**.
 
-*Si vous êtes invité à remplacer le jeu de données, sélectionnez **Remplacer**.*
+*S’il vous est demandé de remplacer le modèle sémantique, sélectionnez **Remplacer**.*
 
 ## **Création d’un tableau de bord**
 
@@ -174,9 +150,9 @@ Au cours de cette tâche, vous allez modifier les détails de deux vignettes.
 
 1. Notez que la vignette décrit l’heure de la dernière actualisation (que vous avez effectuée lors du chargement du modèle de données dans Power BI Desktop).
 
-*Vous actualiserez le jeu de données dans l’exercice suivant. En fonction de vos données et de votre rapport, vous pouvez effectuer une actualisation des données ad hoc à tout moment ou définir une planification. Toutefois, les actualisations planifiées nécessitent des passerelles que nous ne sommes pas en mesure de configurer pour ce labo. Ainsi, à partir de Power BI Desktop, vous allez effectuer une actualisation manuelle des données, puis charger le fichier dans votre espace de travail.*
+*Vous actualiserez le modèle sémantique dans l’exercice suivant. En fonction de vos données et de votre rapport, vous pouvez effectuer une actualisation des données ad hoc à tout moment ou définir une planification. Toutefois, les actualisations planifiées nécessitent des passerelles que nous ne sommes pas en mesure de configurer pour ce labo. À partir de Power BI Desktop, vous allez donc effectuer une actualisation manuelle des données, puis charger le fichier dans votre espace de travail.*
 
-## **Actualiser le jeu de données**
+## **Actualiser le modèle sémantique**
 
 Dans cet exercice, vous commencerez par charger les données des commandes client pour juin 2020 dans la base de données **AdventureWorksDW2020**. Ensuite, vous ouvrirez votre fichier Power BI Desktop, vous actualiserez les données, puis vous chargerez le fichier dans votre espace de travail.
 
@@ -208,11 +184,11 @@ Au cours de cette tâche, vous allez ouvrir le fichier **Sales Analysis** Power�
 
     ![Image 59](Linked_image_Files/09-create-power-bi-dashboard_image48.png)
 
-1. Lorsque vous êtes invité à remplacer le jeu de données, sélectionnez **Remplacer**.
+1. Lorsqu’il vous est demandé de remplacer le modèle sémantique, sélectionnez **Remplacer**.
 
 1. Fermez Power BI Desktop.
 
-*Le jeu de données dans le service Power BI contient maintenant des données de ventes pour juin 2020.*
+*Le modèle sémantique dans le service Power BI contient maintenant les données des ventes de juin 2020.*
 
 ### **Examiner le tableau de bord**
 

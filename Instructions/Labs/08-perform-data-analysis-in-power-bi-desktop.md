@@ -38,9 +38,9 @@ Au cours de cette tâche, vous allez configurer l’environnement nécessaire po
 
      ![Image 22](Linked_image_Files/07-my-workspace-new.png)
 
-## **Démarrer - Créer un jeu de données**
+## **Démarrer - Créer un modèle sémantique**
 
-Au cours de cette tâche, vous allez configurer l’environnement pour le labo en créant un jeu de données. *Si vous avez déjà publié le jeu de données, passez à la tâche suivante.*
+Au cours de cette tâche, vous allez configurer l’environnement pour le labo en créant un modèle sémantique. *Si vous avez déjà publié le modèle sémantique, passez à la tâche suivante.*
 
 1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, accédez à **Mon espace de travail**.
 
@@ -50,13 +50,13 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
 
 1. Sélectionnez le fichier **Sales Analysis.pbix**, puis sélectionnez **Ouvrir**.
 
-    *Si vous êtes invité à remplacer le jeu de données, sélectionnez **Remplacer**.*
+    *S’il vous est demandé de remplacer le modèle sémantique, sélectionnez **Remplacer**.*
 
-*Cette méthode crée un rapport et un jeu de données. Nous utiliserons uniquement le jeu de données pour créer un rapport dans cet exercice. Ce même processus peut être effectué avec un jeu de données existant à partir d’un rapport différent au lieu d’en charger un nouveau. En outre, si vous n’utilisez pas le rapport, les bonnes pratiques en matière d’espace de travail vous suggèrent de supprimer le fichier inutile.*
+*Cette méthode crée un rapport et un modèle sémantique. Dans cet exercice, nous allons utiliser uniquement le modèle sémantique pour créer un rapport. Ce même processus peut être effectué avec un modèle sémantique existant à partir d’un rapport différent au lieu d’en charger un nouveau. En outre, si vous n’utilisez pas le rapport, les bonnes pratiques en matière d’espace de travail suggèrent de supprimer le fichier inutile.*
 
 ## **Créer le rapport**
 
-Au cours de cette tâche, vous allez créer une connexion active au jeu de données Power BI créé durant la dernière tâche, puis créer un rapport **Sales Exploration**.
+Dans cette tâche, vous allez créer une connexion active au modèle sémantique Power BI créé durant la dernière tâche, puis créer un rapport **Sales Exploration**.
 
 1. Ouvrez Power BI Desktop.
 
@@ -66,9 +66,9 @@ Au cours de cette tâche, vous allez créer une connexion active au jeu de donn�
 
     *Conseil : Par défaut, la boîte de dialogue Prise en main s’ouvre par-dessus Power BI Desktop. Vous pouvez choisir de vous connecter, puis de fermer la fenêtre contextuelle.*
 
-1. Dans le ruban Accueil, sélectionnez **Obtenir des données > Jeux de données Power BI**.
+1. Dans le ruban Accueil, sélectionnez **Obtenir des données > Modèles sémantiques Power BI**.
 
-1. Dans la fenêtre **Hub de données**, sélectionnez le jeu de données **Sales Analysis** dans **Mon espace de travail**, puis **Se connecter** ou double-cliquez pour charger le jeu de données.
+1. Dans la fenêtre **Hub de données**, dans **Mon espace de travail**, sélectionnez le modèle sémantique **Sales Analysis**, puis **Se connecter** ou double-cliquez pour charger le modèle sémantique.
 
 1. Accédez à **Fichier > Enregistrer** et enregistrez le fichier sous le nom **Sales Exploration** dans le dossier **D:\PL300\MySolution**.
 

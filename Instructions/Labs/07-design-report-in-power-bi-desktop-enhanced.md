@@ -338,7 +338,7 @@ Au cours de cette tâche, vous allez publier le rapport.
 1. Dans la fenêtre **Publier sur Power BI**, notez que **Mon espace de travail** est sélectionné.
 
 1. Pour publier le rapport, choisissez **Sélectionner**.
-    1. Si vous êtes invité à remplacer le jeu de données, sélectionnez **Remplacer**.
+    1. S’il vous est demandé de remplacer le modèle sémantique, sélectionnez **Remplacer**.
     1. Une fois la publication réussie, sélectionnez **OK**.
 
 1. Fermez Power BI Desktop.
