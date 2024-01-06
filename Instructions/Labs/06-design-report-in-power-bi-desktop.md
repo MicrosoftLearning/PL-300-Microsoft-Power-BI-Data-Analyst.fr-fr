@@ -316,10 +316,10 @@ Au cours de cette tâche, vous allez explorer le rapport qui a été publié sur
 
     ![Image 93](Linked_image_Files/06-my-workspace-new.png)
 
-1. Passez en revue le contenu de l’espace de travail. Notez les options de navigation Tous, Contenu et Jeux de données + flux de données.
-    1. *Il existe quatre types d’éléments qui peuvent exister dans un espace de travail, et nous allons parler des **rapports** et des **jeux de données**.*
-    1. *Vous devrez peut-être actualiser votre navigateur Microsoft Edge si le jeu de données n’est pas visible.*
-    1. *Lorsque vous avez précédemment publié le fichier Power BI Desktop, le modèle de données a été publié en tant que jeu de données.*
+1. Passez en revue le contenu de l’espace de travail. Notez les options de navigation Tous, Contenu et Modèles sémantiques + flux de données.
+    1. *Il existe quatre types d’éléments possibles dans un espace de travail, et nous allons parler des **rapports** et des **modèles sémantiques**.*
+    1. *Vous devrez peut-être actualiser votre navigateur Microsoft Edge si le modèle sémantique ne s’affiche pas.*
+    1. *Lorsque vous avez publié le fichier Power BI Desktop, le modèle de données a été publié en tant que modèle sémantique.*
 
 1. Pour explorer le rapport, sélectionnez le rapport **Sales Analysis**.
 
