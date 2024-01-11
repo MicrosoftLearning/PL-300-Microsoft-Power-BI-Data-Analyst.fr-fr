@@ -1,9 +1,8 @@
 ---
-demo:
-  title: Configurer votre propre environnement
-  module: Set up your own environment
+lab:
+  "\_\_ title": Setup demo environment
+  "\_\_ module": Setup demo environment
 ---
-
 
 # Configuration de la démonstration
 
