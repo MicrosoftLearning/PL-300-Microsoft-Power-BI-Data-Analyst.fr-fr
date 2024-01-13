@@ -1,7 +1,7 @@
 ---
-demo:
-  title: "Concevoir un modèle de données dans Power\_BI"
-  module: Design a data model in Power BI
+lab:
+  "\_\_ title": Design a data model in Power BI
+  "\_\_ module": Design a data model in Power BI
 ---
 # Concevoir un modèle de données dans Power BI
 

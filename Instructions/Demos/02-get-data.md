@@ -1,9 +1,8 @@
 ---
-demo:
-  title: "Obtenir des données dans Power\_BI"
-  module: Get data in Power BI
+lab:
+  "\_\_ title": Get data in Power BI
+  "\_\_ module": Get data in Power BI
 ---
-
 # Obtenir des données dans Power BI
 
 ## Démarrer le développement d’un rapport Power BI

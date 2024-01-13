@@ -1,7 +1,7 @@
 ---
-demo:
-  title: "Créer des tableaux de bord dans le service Power\_BI"
-  module: Deploy and manage Power BI service items
+lab:
+  "\_\_ title": Create dashboards in the Power BI service
+  "\_\_ module": Deploy and manage Power BI service items
 ---
 # Créer des tableaux de bord dans le service Power BI
 

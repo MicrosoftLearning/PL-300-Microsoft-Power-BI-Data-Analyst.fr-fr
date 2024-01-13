@@ -1,9 +1,8 @@
 ---
-demo:
-  title: Bien démarrer avec l’analytique données Microsoft
-  module: Get started with Microsoft data analytics
+lab:
+  "\_\_ title": Get started with Microsoft data analytics
+  "\_\_ module": Get started with Microsoft data analytics
 ---
-
 # Bien démarrer avec l’analytique données Microsoft
 
 ## Explorer le tableau de bord
