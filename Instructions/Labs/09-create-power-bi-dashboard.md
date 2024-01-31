@@ -1,5 +1,6 @@
 ---
 lab:
+  course: PL-300
   title: Créer un tableau de bord Power BI
   module: Create Dashboards
 ---
@@ -46,7 +47,7 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
 
 1. Sélectionnez **Charger > Parcourir**.
 
-1. Accédez au dossier **D:\PL300\Labs\09-create-power-bi-dashboard\Starter**.
+1. Accédez au dossier **D:\Allfiles\Labs\09-create-power-bi-dashboard\Starter**.
 
 1. Sélectionnez le fichier **Sales Analysis.pbix**, puis sélectionnez **Ouvrir**.
 
@@ -116,7 +117,7 @@ Au cours de cette tâche, vous allez créer le tableau de bord **Surveillance de
 
 1. Dans le volet **Ajouter une vignette** (à droite), sélectionnez la vignette **Image**, puis **Suivant**.
 
-1. Dans le volet **Ajouter une vignette d’image**, dans la zone **URL**, entrez l’URL complète fournie dans le fichier **D:\PL300\Resources\AdventureWorksLogo_DataURL.txt**, puis sélectionnez **Appliquer**.
+1. Dans le volet **Ajouter une vignette d’image**, dans la zone **URL**, entrez l’URL complète fournie dans le fichier **D:\Allfiles\Resources\AdventureWorksLogo_DataURL.txt**, puis sélectionnez **Appliquer**.
     
     *Vous pouvez incorporer une image avec son URL, ou utiliser une URL de données qui incorpore le contenu inline.*
 
@@ -160,7 +161,7 @@ Dans cet exercice, vous commencerez par charger les données des commandes clien
 
 Dans cette tâche, vous exécutez un script PowerShell pour mettre à jour les données contenues dans la base de données **AdventureWorksDW2020**.
 
-1. Dans l’Explorateur de fichiers, à l’intérieur du dossier **D:\PL300\Setup**, cliquez avec le bouton droit sur le fichier **UpdateDatabase-2-AddSales.ps1**, puis sélectionnez **Exécuter avec PowerShell**.
+1. Dans l’Explorateur de fichiers, à l’intérieur du dossier **D:\Allfiles\Setup**, cliquez avec le bouton droit sur le fichier **UpdateDatabase-2-AddSales. ps1**, puis sélectionnez **exécuter avec PowerShell**.
 
     ![Image 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
 

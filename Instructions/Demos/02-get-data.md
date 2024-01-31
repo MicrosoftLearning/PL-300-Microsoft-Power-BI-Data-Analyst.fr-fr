@@ -1,15 +1,17 @@
 ---
-lab:
-  "\_\_ title": Get data in Power BI
-  "\_\_ module": Get data in Power BI
+demo:
+  course: 'PL-300, DP-605'
+  title: "Obtenir des données dans Power\_BI"
+  module: Get data in Power BI
 ---
+
 # Obtenir des données dans Power BI
 
 ## Démarrer le développement d’un rapport Power BI
 
 1. Ouvrez Power BI Desktop, puis ignorez la page de prise en main.
 
-1. Enregistrez le fichier dans le dossier D:\PL300\Demo sous le nom Sales Analysis.
+1. Enregistrez le fichier dans le dossier D:\Allfiles\Demo sous le nom Sales Analysis.
 
 ## Se connecter à une base de données SQL Server
 
