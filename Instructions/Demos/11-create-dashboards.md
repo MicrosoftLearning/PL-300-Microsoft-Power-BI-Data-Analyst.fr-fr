@@ -1,15 +1,16 @@
 ---
-lab:
-  "\_\_ title": Create dashboards in the Power BI service
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  course: PL-300
+  title: "Créer des tableaux de bord dans le service Power\_BI"
+  module: Deploy and manage Power BI service items
 ---
 # Créer des tableaux de bord dans le service Power BI
 
-## Créer un tableau de bord
+## Création d’un tableau de bord
 
 1. Tout d’abord, dans le service Power BI, créez un espace de travail.
 
-1. Sélectionnez l’image de l’icône `D:\PL300\Demo\Resources\Icon-Airplane.jpg` de l’espace de travail.
+1. Sélectionnez l’image de l’icône `D:\Allfiles\Demo\Resources\Icon-Airplane.jpg` de l’espace de travail.
 
 1. Dans Power BI Desktop, publiez le rapport **Sales Analysis** sur le nouvel espace de travail.
 
