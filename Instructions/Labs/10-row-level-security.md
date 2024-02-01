@@ -1,5 +1,6 @@
 ---
 lab:
+  course: PL-300
   title: Appliquer la sécurité au niveau des lignes
   module: Enforce Row-Level Security
 ---
@@ -32,15 +33,15 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo.
 
 1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez **Fichier > Ouvrir le rapport > Parcourir les rapports**.
 
-1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\10-row-level-security\Starter**, puis ouvrez le fichier **Sales Analysis**.
+1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\Allfiles\Labs\10-row-level-security\Starter**, puis ouvrez le fichier **Sales Analysis**.
 
 1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-1. Notez qu’un message d’avertissement jaune est affiché sous le ruban. *Ce message vous avertit que les requêtes n’ont pas été appliquées pour se charger en tant que tables de modèle. Vous appliquerez les requêtes plus tard dans ce labo.*
+1. Notez le message d’avertissement sous le ruban. *Ce message vous avertit que les requêtes n’ont pas été appliquées pour se charger en tant que tables de modèle. Vous appliquerez les requêtes plus tard dans ce labo.*
     
-    *Pour fermer le message d’avertissement, à droite du message d’avertissement jaune, sélectionnez **X**.*
+    *Pour ignorer le message d’avertissement, sélectionnez **X** à droite.*
 
-1. Pour créer une copie du fichier, accédez à **Fichier > Enregistrer sous** et enregistrez-le dans le dossier **D:\PL300\MySolution**.
+1. Pour créer une copie du fichier, accédez à **Fichier > Enregistrer sous**, puis enregistrez dans le dossier **D:\Allfiles\MySolution**.
 
 1. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
 
