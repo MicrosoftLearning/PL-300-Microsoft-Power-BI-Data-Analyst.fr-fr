@@ -1,5 +1,6 @@
 ---
 lab:
+  course: 'PL-300, DP-605'
   title: "Concevoir un modèle de données dans Power\_BI"
   module: Design a Data Model in Power BI
 ---
@@ -31,11 +32,11 @@ Lors de cette tâche, vous allez configurer l’environnement pour le labo.
 
 1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez **Fichier > Ouvrir le rapport > Parcourir les rapports**.
 
-1. Accédez au dossier **D:\PL300\Labs\03-configure-data-model-in-power-bi-desktop\Starter** et sélectionnez le fichier **Sales Analysis**.
+1. Accédez au dossier **D:\Allfiles\Labs\03-configure-data-model-in-power-bi-desktop\Starter** et sélectionnez le fichier **Sales Analysis**.
 
 1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-1. Accédez à **Fichier > Enregistrer sous** et enregistrez le fichier dans le dossier **D:\PL300\MySolution**.
+1. Accédez à **Fichier > Enregistrer sous** et enregistrez le fichier dans le dossier **D:\Allfiles\MySolution**.
 
 ## **Créer des relations de modèle**
 
@@ -336,7 +337,7 @@ Lors de cette tâche, vous allez créer deux mesures rapides pour calculer le pr
 
 1. Faites glisser le champ **Sales** dans la zone **Valeur de base**.
 
-1. Faites glisser le champ **Cost** dans la zone **Valeur à soustraire**.
+1. Faites glisser le champ **Cost** dans la zone **Valeur à soustraire**, puis sélectionnez **Ajouter**.  
 
      ![Image 368](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image48.png)
 

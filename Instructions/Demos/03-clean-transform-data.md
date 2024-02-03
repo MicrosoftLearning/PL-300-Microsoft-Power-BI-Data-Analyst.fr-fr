@@ -1,8 +1,10 @@
 ---
-lab:
-  "\_\_ title": 'Clean, transform, and load data in Power BI'
-  "\_\_ module": 'Clean, transform, and load data in Power BI'
+demo:
+  course: 'PL-300, DP-605'
+  title: 'Nettoyer, transformer et charger des données dans Power BI'
+  module: 'Clean, transform, and load data in Power BI'
 ---
+
 # Nettoyer, transformer et charger des données dans Power BI
 
 ## Appliquer des transformations de requête
@@ -47,7 +49,7 @@ lab:
 
 ## Intégrer des requêtes
 
-1. Créez une requête à l’aide du connecteur Excel, en vous connectant au fichier D:\PL300\Demo\Data\ProductCost.xlsx.
+1. Créez une requête à l’aide du connecteur Excel, en vous connectant au fichier D:\Allfiles\Demo\Data\ProductCost.xlsx.
 
 1. Supprimez la colonne Product.
 

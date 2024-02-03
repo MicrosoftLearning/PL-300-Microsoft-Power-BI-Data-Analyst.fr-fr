@@ -1,8 +1,10 @@
 ---
-lab:
-  "\_\_ title": Setup demo environment
-  "\_\_ module": Setup demo environment
+demo:
+  course: 'PL-300, DP-605'
+  title: Configurer votre propre environnement
+  module: Set up your own environment
 ---
+
 
 # Configuration de la démonstration
 
@@ -11,15 +13,15 @@ lab:
 1. Connectez-vous à l’environnement de machine virtuelle à l’aide du compte Student.
 
 1. Ouvrez Microsoft Edge, puis accédez à <https://powerbi.com> et connectez-vous en utilisant le compte d’instructeur.
-    > **Conseil** : si vous êtes invité à modifier le mot de passe, veillez à l’enregistrer dans le fichier D:\PL300\Demo\Setup\MySettings.txt.
+    > **Conseil** : Si vous êtes invité à changer de mot de passe, veillez à l’enregistrer dans le fichier D:\Allfiles\Demo\Setup\MySettings.txt.
 
 1. Dans le service Power BI, acceptez l’essai de Power BI Pro.
 
 ## Configuration de la première démonstration
 
-1. Créez un espace de travail, puis utilisez l’image D:\PL300\Demo\Resources\Icon-Star.jpg en tant qu’icône.
+1. Créez un espace de travail et utilisez l’image D:\Allfiles\Demo\Resources\Icon-Star.jpg comme icône.
 
-1. Ouvrez le fichier D:\PL300\Demo\Setup\Sales Analysis.pbix dans Power BI Desktop.
+1. Ouvrez le fichier D:\Allfiles\Demo\Setup\Sales Analysis.pbix dans Power BI Desktop.
 
 1. Dans Power BI Desktop, connectez-vous en utilisant le compte d’instructeur.
 

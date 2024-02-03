@@ -1,5 +1,6 @@
 ---
 lab:
+  course: 'PL-300, DP-605'
   title: "Charger des données transformées dans Power\_BI Desktop"
   module: 'Clean, Transform, and Load Data in Power BI'
 ---
@@ -31,17 +32,17 @@ Durant cette tâche, vous configurez l’environnement pour le labo.
 
 1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez **Fichier > Ouvrir le rapport > Parcourir les rapports**.
 
-1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter**, puis ouvrez le fichier **Sales Analysis**.
+1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter**, puis ouvrez le fichier **Sales Analysis**.
 
 1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
-1. Notez qu’un message d’avertissement jaune est affiché sous le ruban.
+1. Notez le message d’avertissement sous le ruban.
 
     *Ce message vous avertit que les requêtes n’ont pas été appliquées pour se charger en tant que tables de modèle. Vous appliquerez les requêtes plus tard dans ce labo.*
 
-    Pour fermer le message d’avertissement, à droite du message d’avertissement jaune, sélectionnez **X**.
+    Pour ignorer le message d’avertissement, sélectionnez **X** à droite.
 
-1. Pour créer une copie du fichier, accédez à **Fichier > Enregistrer sous** et enregistrez-le dans le dossier **D:\PL300\MySolution**.
+1. Pour créer une copie du fichier, accédez à **Fichier > Enregistrer sous** et enregistrez dans le dossier **D:\Allfiles\MySolution**.
 
 1. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
 
@@ -273,7 +274,7 @@ Lors de cette tâche, vous allez configurer la requête **Sales**.
 1. Dans la fenêtre **Colonne personnalisée**, dans la zone **Nom de la nouvelle colonne**, remplacez le texte par **Cost**.
 
 1. Dans la zone **Formule de colonne personnalisée**, entrez l’expression suivante (après le symbole Égal) :
-    - *Vous pouvez copier l’expression à partir du fichier **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.*
+    - *Vous pouvez copier l’expression à partir du fichier **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.*
     - *Cette expression teste si la valeur de **TotalProductCost** est manquante. Si c’est le cas, elle génère une valeur en multipliant la valeur de **OrderQuantity** par la valeur de **StandardCost** ; sinon, elle utilise la valeur existante de **TotalProductCost**.*
 
 

@@ -1,5 +1,6 @@
 ---
 lab:
+  course: 'PL-300, DP-605'
   title: Configurer votre propre environnement
   module: Set up your own environment
 ---
@@ -9,7 +10,7 @@ lab:
 Dans l’idéal, vous devez suivre ces labos dans un environnement de labo hébergé. Si vous souhaitez les terminer sur votre propre ordinateur, vous pouvez le faire en installant le logiciel suivant.
 
 - Tous les fichiers d’installation et de ressources peuvent être [téléchargés à partir de GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/AllfilesDownload.zip).
-  - Extrayez le dossier « AllFiles » dans D:/ et renommez-le PL300.
+  - Extrayez le dossier « AllFiles » dans D:/ et renommez-le « D:\Allfiles\' ».
 
 ***Vous pouvez rencontrer des boîtes de dialogue et des comportements inattendus lors de l’utilisation de votre propre environnement. En raison du large choix de configurations locales possibles, l’équipe du cours ne peut pas prendre en charge les problèmes que vous êtes susceptible de rencontrer dans votre propre environnement.***
 
