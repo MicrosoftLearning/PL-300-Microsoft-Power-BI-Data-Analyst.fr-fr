@@ -1,9 +1,10 @@
 ---
-lab:
-  "\_\_ title": Design a data model in Power BI
-  "\_\_ module": Design a data model in Power BI
+demo:
+  course: 'PL-300, DP-605'
+  title: Concevoir un modèle de données dans Power BI
+  module: Design a data model in Power BI
 ---
-# Concevoir un modèle de données dans Power BI
+# Concevoir un modèle de données dans Power BI
 
 ## Passer en revue le modèle
 

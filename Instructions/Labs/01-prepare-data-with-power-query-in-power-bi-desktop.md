@@ -1,5 +1,6 @@
 ---
 lab:
+  course: 'PL-300, DP-605'
   title: Obtenir des données dans Power BI Desktop
   module: Get Data in Power BI
 ---
@@ -19,7 +20,7 @@ Ce labo a pour but de vous présenter l’application Power BI Desktop, et de v
 
 ## **Prise en main de Power BI Desktop**
 
-Dans cette tâche, vous commencez par ouvrir un fichier Power BI (.pbix) de démarrage. Le fichier de démarrage ne contient aucune donnée, mais a été spécialement configuré pour vous aider à suivre le labo. Les paramètres au niveau du rapport suivants ont été désactivés dans le fichier de démarrage :
+ Dans cette tâche, vous commencez par ouvrir un fichier Power BI (.pbix) de démarrage. Le fichier de démarrage ne contient aucune donnée, mais a été spécialement configuré pour vous aider à suivre le labo. Les paramètres au niveau du rapport suivants ont été désactivés dans le fichier de démarrage :
 
 - Chargement des données > Importer des relations à partir de sources de données au premier chargement
 - Chargement des données > Détecter automatiquement les nouvelles relations une fois les données chargées
@@ -34,12 +35,11 @@ Dans cette tâche, vous commencez par ouvrir un fichier Power BI (.pbix) de dé
 
 1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez **Fichier > Ouvrir le rapport > Parcourir les rapports**.
 
-1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Labs\01-load-data-with-power-query-in-power-bi-desktop\Starter**.
+1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\Allfiles\Labs\01-prepare-data-with-power-query-in-power-bi-desktop\Starter**.
 
 1. Sélectionnez le fichier **Sales Analysis** (Analyse des ventes).
 
-1. Enregistrez une copie du fichier avec **Enregistrer sous** dans le dossier **D:\PL300\MySolution**.
-
+1. Enregistrez une copie du fichier avec **Enregistrer sous** dans le dossier **D:\Allfiles\MySolution**.
 
 ## **Obtenir des données de SQL Server**
 
@@ -49,23 +49,23 @@ Cette tâche vous apprend à vous connecter à une base de données SQL Server e
 
      ![Icône Obtenir des données à partir de SQL Server](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image11.png)
 
-1. Dans la fenêtre **Base de données SQL Server**, dans la zone **Serveur**, entrez **localhost**, puis sélectionnez **OK**.
+1. Dans la fenêtre **Base de données SQL Server**, dans la zone **Serveur**, entrez **localhost** et laissez **Base de données** vide, puis sélectionnez **OK**.
 
     *Remarque : Dans ce labo, vous allez vous connecter à la base de données SQL Server à l’aide de **localhost**, car les sources de données de passerelle ne peuvent pas résoudre **localhost**. Cette pratique n’est pas recommandée lors de la création de vos propres solutions.*
 
 1. Si vous y êtes invité, dans la fenêtre **Base de données SQL Server**, sélectionnez **Utiliser mes informations d’identification actuelles**, puis **Se connecter**.
 
-1. Dans la fenêtre **Navigateur**, à gauche, développez la base de données **AdventureWorksDW2020**.
+1. Dans le volet **Navigateur**, développez la base de données **AdventureWorksDW2020**.
 
     *Remarque : La base de données **AdventureWorksDW2020** est basée sur l’exemple de base de données **AdventureWorksDW2017**. Elle a été modifiée pour prendre en charge les objectifs d’apprentissage des labos de cours.*
 
-1. Sélectionnez (mais ne cochez pas) la table **DimEmployee**.
+1. Sélectionnez la table **DimEmployee**, et notez la présence de l’aperçu des données de la table.
 
      ![Base de données AdventureWorksDW2020 avec DimEmployee mise en évidence](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image18.png)
 
-1. Notez qu’un aperçu des données de la table s’affiche dans le volet droit. L’aperçu des données vous permet de voir les colonnes et un échantillon de lignes.
+    *Remarque : L’aperçu des données vous permet de voir les colonnes et un échantillon des lignes.*
 
-1. Pour créer des requêtes, sélectionnez la case à cocher en regard des six tables suivantes :
+1. Pour importer les données des tables, **cochez la case** en regard des six tables suivantes :
 
     - DimEmployee
     - DimEmployeeSalesTerritory
@@ -75,13 +75,12 @@ Cette tâche vous apprend à vous connecter à une base de données SQL Server e
     - FactResellerSales
 
 1. Effectuez cette tâche en cliquant sur **Transformer les données**, ce qui ouvre l’Éditeur Power Query.
-    
-    1. *Ce labo est uniquement destiné à se connecter aux données et à les profiler, mais pas **à transformer les données**.*
 
+Vous avez maintenant importé des données dans Power BI et l’éditeur Power Query est ouvert pour la tâche suivante.
 
 ## **Afficher un aperçu des données dans l’Éditeur Power Query**
 
-Cette tâche présente l’Éditeur Power Query, et vous permet de passer en revue et de profiler les données. Cela vous aide à déterminer comment nettoyer et transformer les données ultérieurement.
+Cette tâche présente l’Éditeur Power Query, et vous permet de passer en revue et de profiler les données. Cela vous aide à déterminer comment nettoyer et transformer les données ultérieurement. Vous allez également passer en revue les tables de dimension préfixées de « Dim » et les tables de faits préfixées de « Fact ».
 
 1. Dans la fenêtre **Éditeur Power Query**, à gauche, notez la présence du volet **Requêtes**. Le volet **Requêtes** contient une requête pour chaque table cochée.
 
@@ -117,15 +116,9 @@ Cette tâche présente l’Éditeur Power Query, et vous permet de passer en rev
 
      ![Distribution de colonne montrant 296 valeurs distinctes et 296 valeurs uniques](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
 
-1. Dans le volet **Requêtes**, sélectionnez la requête **DimEmployeeSalesTerritory**.
+1. Dans le volet **Requêtes**, sélectionnez la requête **DimProduct**.
 
-    *La table **DimEmployeeSalesTerritory** stocke une ligne pour chaque employé et les régions du territoire de vente qu’il gère. La table prend en charge la relation de nombreuses régions à un seul employé. Certains employés gèrent une, deux ou peut-être plusieurs régions. Lorsque vous modélisez ces données, vous devez définir une relation plusieurs-à-plusieurs.*
-
-1. Dans le volet **Requêtes**, sélectionnez la requête **DimProduct**. La table **DimProduct** contient une ligne par produit vendu par l’entreprise.
-
-1. Faites défiler horizontalement pour voir les dernières colonnes. Notez la colonne **DimProductSubcategory**.
-
-    *Lorsque vous ajouterez des transformations à cette requête dans le labo **Charger des données transformées dans Power BI Desktop**, vous utiliserez la colonne **DimProductSubcategory** pour joindre les tables.*
+    *La table **DimProduct** contient une ligne par produit vendu par l’entreprise.*
 
 1. Dans le volet **Requêtes**, sélectionnez la requête **DimReseller**.
 
@@ -157,14 +150,13 @@ Cette tâche présente l’Éditeur Power Query, et vous permet de passer en rev
 
     *Des valeurs de colonne **TotalProductCost** manquantes constituent un problème de qualité des données. Pour le résoudre, dans le labo **Charger des données transformées dans Power BI Desktop**, vous appliquerez des transformations afin de renseigner les valeurs manquantes en utilisant le coût standard du produit, qui est stocké dans la table **DimProduct** associée.*
 
-
 ## **Obtenir des données d’un fichier CSV**
 
 Dans cette tâche, vous allez créer une requête basée sur des fichiers CSV.
 
 1. Pour ajouter une nouvelle requête, dans la fenêtre **Éditeur Power Query**, sous l’onglet de ruban **Accueil**, dans le groupe **Nouvelle requête**, sélectionnez la flèche vers le bas **Nouvelle source**, puis sélectionnez **Texte/CSV**.
 
-1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\PL300\Resources**, puis sélectionnez le fichier **ResellerSalesTargets.csv**. Sélectionnez **Ouvrir**.
+1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\Allfiles\Resources**, puis sélectionnez le fichier **ResellerSalesTargets.csv**. Sélectionnez **Ouvrir**.
 
 1. Dans la fenêtre **ResellerSalesTargets.csv**, examinez l’aperçu des données. Sélectionnez **OK**.
 
@@ -178,14 +170,13 @@ Dans cette tâche, vous allez créer une requête basée sur des fichiers CSV.
 
      ![Image 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image38.png)
 
-1. Répétez les étapes pour créer une requête basée sur le fichier **D:\PL300\Resources\ColorFormats.csv**.
+1. Répétez les étapes pour créer une requête basée sur le fichier **D:\Allfiles\Resources\ColorFormats.csv**.
 
     *Le fichier CSV **ColorFormats** contient une ligne par couleur de produit. Chaque ligne enregistre les codes HEX pour mettre en forme les couleurs d’arrière-plan et de police.*
 
 *Vous devez maintenant avoir deux nouvelles requêtes, **ResellerSalesTargets** et **ColorFormats**.*
 
  ![Liste des requêtes](Linked_image_Files/01-all-queries-loaded.png)
-
 
 ### **Terminer**
 
