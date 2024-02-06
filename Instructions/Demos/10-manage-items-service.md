@@ -1,9 +1,9 @@
 ---
-lab:
-  "\_\_ title": Manage files and semantic models in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  course: PL-300
+  title: "Gérer des fichiers et des modèles sémantiques dans Power\_BI"
+  module: Deploy and manage Power BI service items
 ---
-
 # Gérer des fichiers et des modèles sémantiques dans Power BI
 
 ## Préparer l’actualisation des données de la passerelle
@@ -50,7 +50,7 @@ lab:
 
 1. Modifiez les détails de la vignette Sales, Profit Margin pour y afficher l’heure de la dernière actualisation.
 
-1. Cliquez avec le bouton droit sur le fichier `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1`, puis exécutez avec PowerShell. *Ce script va charger les données des ventes de décembre 2020 dans la base de données.*
+1. Cliquez avec le bouton droit sur le fichier `D:\Allfiles\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1`, puis exécutez avec PowerShell. *Ce script va charger les données des ventes de décembre 2020 dans la base de données.*
 
 1. Dans le service Power BI pour l’instructeur, à partir du volet de navigation, actualisez le modèle sémantique **Sales Analysis**.
 
