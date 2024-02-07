@@ -1,5 +1,6 @@
 ---
 lab:
+  course: PL-300
   title: Effectuer une analytique avancée avec des visuels IA
   module: Perform Data Analysis in Power BI
 ---
@@ -46,7 +47,7 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
 
 1. Sélectionnez **Charger > Parcourir**.
 
-1. Accédez au dossier **D:\PL300\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter**.
+1. Accédez au dossier **D:\Allfiles\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter**.
 
 1. Sélectionnez le fichier **Sales Analysis.pbix**, puis sélectionnez **Ouvrir**.
 
@@ -70,7 +71,7 @@ Dans cette tâche, vous allez créer une connexion active au modèle sémantique
 
 1. Dans la fenêtre **Hub de données**, dans **Mon espace de travail**, sélectionnez le modèle sémantique **Sales Analysis**, puis **Se connecter** ou double-cliquez pour charger le modèle sémantique.
 
-1. Accédez à **Fichier > Enregistrer** et enregistrez le fichier sous le nom **Sales Exploration** dans le dossier **D:\PL300\MySolution**.
+1. Accédez à **Fichier > Enregistrer** et enregistrez le fichier sous le nom **Sales Exploration** dans le dossier **D:\Allfiles\MySolution**.
 
 *Vous allez maintenant créer deux pages de rapport et, sur chaque page, vous allez utiliser un visuel différent pour analyser et explorer les données.*
 

@@ -42,7 +42,7 @@ Durant cette tâche, vous configurez l’environnement pour le labo.
 
     Pour ignorer le message d’avertissement, sélectionnez **X** à droite.
 
-1. Pour créer une copie du fichier, accédez à **Fichier > Enregistrer sous** et enregistrez dans le dossier **D:\Allfiles\MySolution**.
+1. Pour créer une copie du fichier, accédez à **Fichier > Enregistrer sous**, puis enregistrez dans le dossier **D:\Allfiles\MySolution**.
 
 1. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
 
@@ -273,14 +273,14 @@ Lors de cette tâche, vous allez configurer la requête **Sales**.
 
 1. Dans la fenêtre **Colonne personnalisée**, dans la zone **Nom de la nouvelle colonne**, remplacez le texte par **Cost**.
 
-1. Dans la zone **Formule de colonne personnalisée**, entrez l’expression suivante (après le symbole Égal) :
-    - *Vous pouvez copier l’expression à partir du fichier **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.*
-    - *Cette expression teste si la valeur de **TotalProductCost** est manquante. Si c’est le cas, elle génère une valeur en multipliant la valeur de **OrderQuantity** par la valeur de **StandardCost** ; sinon, elle utilise la valeur existante de **TotalProductCost**.*
+1. Dans la zone **Formule de colonne personnalisée** ,saisissez l’expression suivante (après le symbole égal), puis enregistrez la nouvelle colonne :
 
+        `
+    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]  `
 
-    `
-    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
-    `
+    *Vous pouvez copier l’expression à partir du fichier **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.*
+
+    *Cette expression teste si la valeur de **TotalProductCost** est manquante. Si c’est le cas, elle génère une valeur en multipliant la valeur de **OrderQuantity** par la valeur de **StandardCost** ; sinon, elle utilise la valeur existante de **TotalProductCost**.*
 
 1. Supprimez les deux colonnes suivantes :
 
