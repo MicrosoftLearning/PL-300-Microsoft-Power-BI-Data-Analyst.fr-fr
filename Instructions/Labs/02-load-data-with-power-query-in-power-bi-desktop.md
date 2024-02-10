@@ -275,8 +275,7 @@ Lors de cette tâche, vous allez configurer la requête **Sales**.
 
 1. Dans la zone **Formule de colonne personnalisée** ,saisissez l’expression suivante (après le symbole égal), puis enregistrez la nouvelle colonne :
 
-        `
-    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]  `
+   ` if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost] `
 
     *Vous pouvez copier l’expression à partir du fichier **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.*
 
