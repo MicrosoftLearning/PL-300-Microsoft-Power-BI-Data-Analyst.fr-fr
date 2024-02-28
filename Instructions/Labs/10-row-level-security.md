@@ -41,7 +41,7 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo.
     
     *Pour ignorer le message d’avertissement, sélectionnez **X** à droite.*
 
-1. Pour créer une copie du fichier, accédez à **Fichier > Enregistrer sous**, puis enregistrez-le dans le dossier **D:\Allfiles\MySolution**.
+1. Pour créer une copie du fichier, accédez à **Fichier > Enregistrer sous**, puis enregistrez dans le dossier **D:\Allfiles\MySolution**.
 
 1. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
 

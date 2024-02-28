@@ -161,7 +161,7 @@ Dans cet exercice, vous commencerez par charger les données des commandes clien
 
 Dans cette tâche, vous exécutez un script PowerShell pour mettre à jour les données contenues dans la base de données **AdventureWorksDW2020**.
 
-1. Dans l’Explorateur de fichiers, à l’intérieur du dossier **D:\Allfiles\Setup**, cliquez avec le bouton droit sur le fichier **UpdateDatabase-2-AddSales. ps1**, puis sélectionnez **Exécuter avec PowerShell**.
+1. Dans l’Explorateur de fichiers, à l’intérieur du dossier **D:\Allfiles\Setup**, cliquez avec le bouton droit sur le fichier **UpdateDatabase-2-AddSales. ps1**, puis sélectionnez **exécuter avec PowerShell**.
 
     ![Image 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
 
