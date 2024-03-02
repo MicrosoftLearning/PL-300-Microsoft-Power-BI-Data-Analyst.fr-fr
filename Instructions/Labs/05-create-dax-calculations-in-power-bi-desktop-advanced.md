@@ -39,7 +39,7 @@ Dans ce labo, vous allez découvrir comment :
 
     *Ce message vous avertit que les requêtes n’ont pas été appliquées pour se charger en tant que tables de modèle. Vous appliquerez les requêtes plus tard dans ce labo.*
     
-    *Pour ignorer le message d’avertissement, à sa droite, sélectionnez **X**.*
+    *Pour ignorer le message d’avertissement, sélectionnez **X** à droite.*
 
 1. Pour créer une copie du fichier, accédez à **Fichier > Enregistrer sous** et enregistrez dans le dossier **D:\Allfiles\MySolution**.
 
