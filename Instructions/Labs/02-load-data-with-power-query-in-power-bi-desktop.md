@@ -26,13 +26,13 @@ Durant cette tâche, vous configurez l’environnement pour le labo.
 
 1. Ouvrez Power BI Desktop.
 
-    *Conseil : Par défaut, la boîte de dialogue Prise en main s’ouvre par-dessus Power BI Desktop. Vous pouvez choisir de vous connecter, puis de fermer la fenêtre contextuelle.*
-
     ![Icône Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez **Fichier > Ouvrir le rapport > Parcourir les rapports**.
+1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez **Ouvrir > Parcourir cet appareil**.
 
 1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter**, puis ouvrez le fichier **Sales Analysis**.
+
+   *Remarque : à ce stade, Power BI vous demande de vous connecter si ce n’est déjà fait. Vous pouvez vous connecter ou sélectionner **Annuler** et continuer le labo.*
 
 1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 

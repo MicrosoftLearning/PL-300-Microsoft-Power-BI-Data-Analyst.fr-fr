@@ -51,11 +51,11 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
 
     ![Icône Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *Conseil : Par défaut, la boîte de dialogue Prise en main s’ouvre par-dessus Power BI Desktop. Vous pouvez choisir de vous connecter, puis de fermer la fenêtre contextuelle.*
-
-1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez **Fichier > Ouvrir le rapport > Parcourir les rapports**.
+1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez **Ouvrir > Parcourir cet appareil**.
 
 1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\Allfiles\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** et ouvrez le fichier **Sales Analysis**.
+
+   *Remarque : à ce stade, Power BI vous demande de vous connecter si ce n’est déjà fait. Vous pouvez vous connecter ou sélectionner **Annuler** et continuer le labo.*
 
 1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
@@ -97,7 +97,7 @@ Au cours de cette tâche, vous allez synchroniser les segments **Année** et **R
 
 1. Testez la synchronisation des segments en sélectionnant d’autres options de filtre, puis en vérifiant que les segments synchronisés filtrent selon les mêmes options sélectionnées.
 
-1. Pour fermer la page **Synchroniser les segments**, sélectionnez le **X** situé en haut à droite du volet.
+1. Pour fermer la page **Synchroniser les segments**, sélectionnez l’option **Synchroniser les segments** située sous l’onglet de ruban **Vue**.
 
 ## **Configurer l’extraction**
 
