@@ -87,7 +87,7 @@ Au cours de cette tâche, vous allez créer le tableau de bord **Surveillance de
 
     ![Image 7](Linked_image_Files/09-create-power-bi-dashboard_image23.png)
 
-1. Sélectionnez l’une des questions suggérées sous la zone Questions et réponses, dans les zones bleues, et examinez la réponse.
+1. Sélectionnez l’une des questions suggérées sous la zone Questions et réponses, et examinez la réponse.
 
 1. Supprimez tout le texte de la zone Q&R, puis entrez les éléments suivants : **Ventes actuelles**
 
@@ -121,7 +121,7 @@ Au cours de cette tâche, vous allez créer le tableau de bord **Surveillance de
     
     *Vous pouvez incorporer une image avec son URL, ou utiliser une URL de données qui incorpore le contenu inline.*
 
-1. Pour redimensionner la vignette du logo, faites glisser l’angle inférieur droit et redimensionnez la vignette pour qu’elle ait une unité de largeur et deux unités de hauteur.
+1. Pour redimensionner la vignette du logo, faites glisser l’angle inférieur droit et redimensionnez la vignette pour qu’elle ait une unité de largeur et une unité de hauteur.
     
     *Les vignettes doivent obligatoirement être rectangulaires.*
 

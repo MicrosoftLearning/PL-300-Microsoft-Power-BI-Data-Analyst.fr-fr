@@ -65,11 +65,11 @@ Dans cette tâche, vous allez créer une connexion active au modèle sémantique
 
     *Important : Si vous avez déjà ouvert Power BI Desktop (dans le cadre d’un labo précédent), fermez cette instance.*
 
-    *Conseil : Par défaut, la boîte de dialogue Prise en main s’ouvre par-dessus Power BI Desktop. Vous pouvez choisir de vous connecter, puis de fermer la fenêtre contextuelle.*
+1. Créer un rapport.
 
-1. Dans le ruban Accueil, sélectionnez **Obtenir des données > Modèles sémantiques Power BI**.
+1. Dans le ruban Accueil, sélectionnez **Hub des données OneLake > Modèles sémantiques Power BI**.
 
-1. Dans la fenêtre **Hub de données**, dans **Mon espace de travail**, sélectionnez le modèle sémantique **Sales Analysis**, puis **Se connecter** ou double-cliquez pour charger le modèle sémantique.
+1. Dans la fenêtre **Hub de donnéesOneLake**, dans **Mon espace de travail**, sélectionnez le modèle sémantique **Sales Analysis**, puis **Se connecter** ou double-cliquez pour charger le modèle sémantique.
 
 1. Accédez à **Fichier > Enregistrer** et enregistrez le fichier sous le nom **Sales Exploration** dans le dossier **D:\Allfiles\MySolution**.
 

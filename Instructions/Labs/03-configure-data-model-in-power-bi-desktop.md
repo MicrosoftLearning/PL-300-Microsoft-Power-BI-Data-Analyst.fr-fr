@@ -28,11 +28,11 @@ Lors de cette tâche, vous allez configurer l’environnement pour le labo.
 
     ![Icône Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *Conseil : Par défaut, la boîte de dialogue Prise en main s’ouvre par-dessus Power BI Desktop. Vous pouvez choisir de vous connecter, puis de fermer la fenêtre contextuelle.*
-
-1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez **Fichier > Ouvrir le rapport > Parcourir les rapports**.
+1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez **Ouvrir > Parcourir cet appareil**.
 
 1. Accédez au dossier **D:\Allfiles\Labs\03-configure-data-model-in-power-bi-desktop\Starter** et sélectionnez le fichier **Sales Analysis**.
+
+   *Remarque : à ce stade, Power BI vous demande de vous connecter si ce n’est déjà fait. Vous pouvez vous connecter ou sélectionner **Annuler** et continuer le labo.*
 
 1. Fermez toutes les fenêtres d’information qui se sont éventuellement ouvertes.
 
@@ -76,7 +76,7 @@ Dans cette tâche, vous créez des relations de modèle. Le fichier a été conf
 
 1. Pour créer une relation, sélectionnez **Nouveau**.
 
-1. Dans la fenêtre **Créer une relation**, dans la première liste déroulante, sélectionnez la table **Product**.
+1. Dans la fenêtre **Nouvelle relation**, dans la première liste déroulante, sélectionnez la table **Product**.
 
      ![Image 333](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image16.png)
 
@@ -247,7 +247,7 @@ Lors de cette tâche, vous allez configurer la table **Sales**.
 
 Lors de cette tâche, vous allez mettre à jour plusieurs colonnes à l’aide une seule mise à jour en bloc. Vous adopterez cette approche pour masquer les colonnes et mettre en forme les valeurs des colonnes.
 
-1. Dans le volet **Données**, sélectionnez la colonne **Product \| ProductKey** (Clé de produit).
+1. Dans le volet **Vue de modèle** > **Données**, sélectionnez la colonne **Product \| ProductKey**.
 
 1. Tout en appuyant sur la touche **Ctrl**, sélectionnez les 13 colonnes suivantes (couvrant plusieurs tables) :
 
@@ -378,8 +378,6 @@ Lors de cette tâche, vous allez créer deux mesures rapides pour calculer le pr
 ## **Créer une relation plusieurs-à-plusieurs**
 
 Lors de cette tâche, vous allez créer une relation plusieurs-à-plusieurs entre la table **Salesperson** et la table **Sales**.
-
- *Les labos utilisent une notation abrégée pour référencer un champ. Voici le résultat : **Salesperson \| Salesperson**. Dans cet exemple, **Salesperson** est le nom de la table et **Salesperson** correspond au nom du champ.*
 
 1. Dans Power BI Desktop, dans le volet **Données** de la vue Rapport, cochez les deux champs suivants pour créer un visuel **table**.
 

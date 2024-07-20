@@ -31,15 +31,15 @@ Ce labo a pour but de vous présenter l’application Power BI Desktop, et de v
 
     ![Icône Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *Conseil : Par défaut, la boîte de dialogue Prise en main s’ouvre par-dessus Power BI Desktop. Vous pouvez choisir de vous connecter, puis de fermer la fenêtre contextuelle.*
-
-1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez **Fichier > Ouvrir le rapport > Parcourir les rapports**.
+1. Pour ouvrir le fichier Power BI Desktop de démarrage, sélectionnez **Ouvrir > Parcourir cet appareil**.
 
 1. Dans la fenêtre **Ouvrir**, accédez au dossier **D:\Allfiles\Labs\01-prepare-data-with-power-query-in-power-bi-desktop\Starter**.
 
 1. Sélectionnez le fichier **Sales Analysis** (Analyse des ventes).
 
-1. Enregistrez une copie du fichier avec **Enregistrer sous** dans le dossier **D:\Allfiles\MySolution**.
+    *Remarque : à ce stade, Power BI vous demande de vous connecter si ce n’est déjà fait. Vous pouvez vous connecter ou sélectionner **Annuler** et continuer le labo.*
+
+1. Enregistrez une copie du fichier avec **Fichier > Enregistrer sous** dans le dossier **D:\Allfiles\MySolution**.
 
 ## **Obtenir des données de SQL Server**
 
@@ -76,7 +76,7 @@ Cette tâche vous apprend à vous connecter à une base de données SQL Server e
 
 1. Effectuez cette tâche en cliquant sur **Transformer les données**, ce qui ouvre l’Éditeur Power Query.
 
-Vous avez maintenant importé des données dans Power BI et l’éditeur Power Query est ouvert pour la tâche suivante.
+Vous êtes maintenant connecté aux données dans Power BI et l’éditeur Power Query est ouvert pour la tâche suivante.
 
 ## **Afficher un aperçu des données dans l’Éditeur Power Query**
 

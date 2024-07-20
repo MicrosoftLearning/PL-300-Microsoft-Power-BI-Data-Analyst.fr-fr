@@ -23,9 +23,11 @@ Dans ce labo, vous allez découvrir comment :
 
 Au cours de cette tâche, vous allez configurer l’environnement pour le labo en ouvrant le rapport de démarrage.
 
-1. À partir de Power BI Desktop, accédez à **Fichier** > **Ouvrir un rapport** > **Parcourir les rapports**.
+1. À partir de Power BI Desktop, accédez à **Ouvrir > Parcourir cet appareil**.
 
 1. Ouvrez le fichier **Sales Analysis** dans le dossier **D:\Allfiles\Labs\06-design-report-in-power-bi-desktop\Starter**.
+
+   *Remarque : à ce stade, Power BI vous demande de vous connecter si ce n’est déjà fait. Vous pouvez vous connecter ou sélectionner **Annuler** et continuer le labo.*
 
 1. Créez une copie du fichier en accédant à **Fichier** > **Enregistrer sous**, puis enregistrez-la dans le dossier **D:\Allfiles\MySolution**.
 
@@ -172,7 +174,7 @@ Au cours de cette tâche, vous allez créer la deuxième page du rapport. Une fo
 
 1. Ajoutez un segment en fonction du champ **Region \| Region**.
 
-1. Utilisez le volet **Format** pour activer l’option « Sélectionner tout » (dans le groupe **Sélection**).
+1. Utilisez le volet **Format** pour activer l’option « Sélectionner tout » (dans le groupe **Paramètres du segment > Sélection**).
 
 1. Redimensionnez et positionnez le segment de manière à ce qu’il se trouve à gauche de la page de rapport et qu’il soit de la moitié de la hauteur de la page.
 
@@ -190,9 +192,9 @@ Au cours de cette tâche, vous allez créer la deuxième page du rapport. Une fo
 
      - Commandes (du dossier **Comptes**)
      - Ventes
-     - Coût
-     - Bénéfices
-     - Marge de bénéfice
+     - Cost
+     - Profit (à partir du dossier **Tarification** )
+     - Marge bénéficiaire (à partir du dossier **Tarification** )
 
      ![Image 55](Linked_image_Files/07-design-report-in-power-bi-desktop_image43.png)
 
@@ -315,9 +317,9 @@ Au cours de cette tâche, vous allez explorer le rapport qui a été publié sur
 
 1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, dans le volet **Navigation** (situé à gauche et éventuellement réduit), développez **Mon espace de travail**.
 
-    ![Image 93](Linked_image_Files/06-my-workspace-new.png)
+    ![Capture d’écran 2024-04-18 101424](https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/assets/148110824/346415bc-e559-4559-84b5-ef3a1f808461)
 
-1. Passez en revue le contenu de l’espace de travail. Notez les options de navigation Tous, Contenu et Modèles sémantiques + flux de données.
+1. Passez en revue le contenu de l’espace de travail.
     1. *Il existe quatre types d’éléments possibles dans un espace de travail, et nous allons parler des **rapports** et des **modèles sémantiques**.*
     1. *Vous devrez peut-être actualiser votre navigateur Microsoft Edge si le modèle sémantique ne s’affiche pas.*
     1. *Lorsque vous avez publié le fichier Power BI Desktop, le modèle de données a été publié en tant que modèle sémantique.*
