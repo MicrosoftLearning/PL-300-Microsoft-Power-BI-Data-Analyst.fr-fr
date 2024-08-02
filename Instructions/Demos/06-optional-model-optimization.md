@@ -1,6 +1,5 @@
 ---
 demo:
-  course: PL-300
   title: "(Facultatif) Optimiser les performances d’un modèle dans Power\_BI"
   module: Optimize model performance in Power BI
 ---

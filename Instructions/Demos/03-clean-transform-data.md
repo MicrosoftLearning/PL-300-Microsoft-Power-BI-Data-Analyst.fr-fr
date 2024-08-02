@@ -1,6 +1,5 @@
 ---
 demo:
-  course: 'PL-300, DP-605'
   title: 'Nettoyer, transformer et charger des données dans Power BI'
   module: 'Clean, transform, and load data in Power BI'
 ---
