@@ -1,14 +1,12 @@
 ---
 lab:
-  course: PL-300
   title: Effectuer une analytique avancée avec des visuels IA
   module: Perform Data Analysis in Power BI
 ---
 
+# Faire une analyse des données dans Power BI
 
-# **Faire une analyse des données dans Power BI**
-
-## **Histoire du labo**
+## Histoire du labo
 
 Dans ce labo, vous allez créer le rapport **Sales Exploration** (Exploration des ventes).
 
@@ -19,79 +17,35 @@ Dans ce labo, vous allez découvrir comment :
 
 **Ce labo devrait prendre environ 30 minutes.**
 
-## **Démarrer - Se connecter**
+## Bien démarrer
 
-Au cours de cette tâche, vous allez configurer l’environnement nécessaire pour le labo en vous connectant à Power BI.
+Pour effectuer cet exercice, ouvrez d’abord un navigateur web et entrez l’URL suivante pour télécharger le dossier zip :
 
-*Remarque : Si vous êtes déjà connecté à Power BI, passez à la tâche suivante.*
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/08-perform-data-analysis-in-power-bi-desktop/08-perform-analysis.zip`
 
-1. Pour ouvrir Microsoft Edge, dans la barre des tâches, sélectionnez le raccourci du programme Microsoft Edge.
+Extrayez le dossier dans le dossier **C:\Users\Student\Downloads\08-perform-analysis**.
 
-     ![Image 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
+1. Ouvrez le fichier **08-Starter-Sales Analysis.pbix**.
 
-1. Dans la fenêtre du navigateur Microsoft Edge, accédez à **https://app.powerbi.com**.
+> ***Remarque** : vous pouvez ignorer la connexion en sélectionnant **Annuler**. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
 
-    *Conseil : Vous pouvez également utiliser le favori Service Power BI dans la barre des favoris Microsoft Edge.*
-
-1. Effectuez le processus de connexion avec vos informations d’identification organisationnelles (ou fournies). Si Microsoft Edge vous invite à rester connecté, sélectionnez **Oui**.
-
-1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, dans le volet **Navigation**, développez **Mon espace de travail**. Laissez la fenêtre du navigateur Microsoft Edge ouverte.
-
-     ![Image 22](Linked_image_Files/07-my-workspace-new.png)
-
-## **Démarrer - Créer un modèle sémantique**
-
-Au cours de cette tâche, vous allez configurer l’environnement pour le labo en créant un modèle sémantique. *Si vous avez déjà publié le modèle sémantique, passez à la tâche suivante.*
-
-1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, accédez à **Mon espace de travail**.
-
-1. Sélectionnez **Charger > Parcourir**.
-
-1. Accédez au dossier **D:\Allfiles\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter**.
-
-1. Sélectionnez le fichier **Sales Analysis.pbix**, puis sélectionnez **Ouvrir**.
-
-    *S’il vous est demandé de remplacer le modèle sémantique, sélectionnez **Remplacer**.*
-
-*Cette méthode crée un rapport et un modèle sémantique. Dans cet exercice, nous allons utiliser uniquement le modèle sémantique pour créer un rapport. Ce même processus peut être effectué avec un modèle sémantique existant à partir d’un rapport différent au lieu d’en charger un nouveau. En outre, si vous n’utilisez pas le rapport, les bonnes pratiques en matière d’espace de travail suggèrent de supprimer le fichier inutile.*
-
-## **Créer le rapport**
-
-Dans cette tâche, vous allez créer une connexion active au modèle sémantique Power BI créé durant la dernière tâche, puis créer un rapport **Sales Exploration**.
-
-1. Ouvrez Power BI Desktop.
-
-    ![Icône Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
-
-    *Important : Si vous avez déjà ouvert Power BI Desktop (dans le cadre d’un labo précédent), fermez cette instance.*
-
-1. Créer un rapport.
-
-1. Dans le ruban Accueil, sélectionnez **Hub des données OneLake > Modèles sémantiques Power BI**.
-
-1. Dans la fenêtre **Hub de donnéesOneLake**, dans **Mon espace de travail**, sélectionnez le modèle sémantique **Sales Analysis**, puis **Se connecter** ou double-cliquez pour charger le modèle sémantique.
-
-1. Accédez à **Fichier > Enregistrer** et enregistrez le fichier sous le nom **Sales Exploration** dans le dossier **D:\Allfiles\MySolution**.
-
-*Vous allez maintenant créer deux pages de rapport et, sur chaque page, vous allez utiliser un visuel différent pour analyser et explorer les données.*
-
-## **Créer un graphique à nuages de points animé**
+## Créer un graphique à nuages de points animé
 
 Dans cette tâche, vous créez un graphique à nuages de points qui peut être animé.
 
-1. Renommez la **Page 1** en **Graphique à nuages de points**.
+1. Créez une page et nommez-la **Graphique à nuages de points**.
 
 1. Ajoutez un visuel de **Graphique à nuages de points** à la page de rapport, puis positionnez-le et redimensionnez-le afin qu’il remplisse toute la page.
-    
-    *Le graphique peut être animé quand un champ est ajouté à la barre d’outils/zone **Axe de lecture**.*
+
+    > *Le graphique peut être animé quand un champ est ajouté à la barre d’outils/zone **Axe de lecture**.*
 
      ![Image 18](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image15.png)
 
      ![Image 75](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image16.png)
 
 1. Ajoutez les champs suivants aux barres d’outils/zones des visuels :
-    
-    *Les labos utilisent une notation abrégée pour référencer un champ, à savoir : **Reseller** **\|** **Business Type**. Dans cet exemple, **Reseller** est le nom de la table et **Business Type** est le nom du champ.*
+
+    > *Les labos utilisent une notation abrégée pour référencer un champ, à savoir : **Reseller** **\|** **Business Type**. Dans cet exemple, **Reseller** est le nom de la table et **Business Type** est le nom du champ.*
 
      - Axe des X : **Sales \| Sales**
      - Axe des Y : **Sales \| Profit Margin**
@@ -108,10 +62,10 @@ Dans cette tâche, vous créez un graphique à nuages de points qui peut être a
     ![Image 41](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image19.png)
 
 1. Regardez la totalité du cycle d’animation de **FY2018 T1** à **FY2020 T4**.
-    
-    *Le graphique à nuages de points permet de comprendre les valeurs de mesure simultanément ; dans le cas présent, la quantité de commandes, le chiffre d’affaires et la marge bénéficiaire.*
-    
-    *Chaque bulle représente un type d’activité de revendeur. Les changements apportés à la taille des bulles reflètent l’augmentation ou la diminution des quantités de commandes. Tandis que les mouvements horizontaux représentent les augmentations/diminutions du chiffre d’affaires, les mouvements verticaux représentent les augmentations/diminutions de la rentabilité.*
+
+    > *Le graphique à nuages de points permet de comprendre les valeurs de mesure simultanément ; dans le cas présent, la quantité de commandes, le chiffre d’affaires et la marge bénéficiaire.*
+    > 
+    > *Chaque bulle représente un type d’activité de revendeur. Les changements apportés à la taille des bulles reflètent l’augmentation ou la diminution des quantités de commandes. Tandis que les mouvements horizontaux représentent les augmentations/diminutions du chiffre d’affaires, les mouvements verticaux représentent les augmentations/diminutions de la rentabilité.*
 
 1. Quand l’animation s’arrête, sélectionnez l’une des bulles pour afficher son suivi au fil du temps.
 
@@ -121,8 +75,7 @@ Dans cette tâche, vous créez un graphique à nuages de points qui peut être a
 
 1. Enregistrez le fichier Power BI Desktop.
 
-
-## **Créer une prévision**
+## Créer une prévision
 
 Au cours de cette tâche, vous allez créer une prévision pour déterminer le chiffre d’affaires futur potentiel.
 
@@ -142,8 +95,8 @@ Au cours de cette tâche, vous allez créer une prévision pour déterminer le c
 1. Dans le volet **Filtres**, ajoutez le champ **Date \| Year** à la barre d’outils/zone **Filtres dans cette page**.
 
 1. Dans la carte de filtre, filtrez sur deux années : **FY2019** et **FY2020**.
-    
-    *Lors d’une prévision dans le temps, vous avez besoin d’au moins deux cycles (années) de données pour produire une prévision précise et stable.*
+
+    > *Lors d’une prévision dans le temps, vous avez besoin d’au moins deux cycles (années) de données pour produire une prévision précise et stable.*
 
 1. Ajoutez également le champ **Product \| Category** à la barre d’outils/zone **Filtres dans cette page**, puis filtrez sur **Vélos**.
 
@@ -151,9 +104,9 @@ Au cours de cette tâche, vous allez créer une prévision pour déterminer le c
 
      ![Image 20](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image26.png)
 
-8. Développez la section **Prévision**.
-    
-    *Si la section **Prévision** n’est pas disponible, cela est probablement dû au fait que le visuel n’a pas été correctement configuré. La prévision est disponible uniquement quand deux conditions sont remplies : l’axe a un seul champ de type date et il n’y a qu’un seul champ de valeur.*
+1. Développez la section **Prévision**.
+
+    > *Si la section **Prévision** n’est pas disponible, cela est probablement dû au fait que le visuel n’a pas été correctement configuré. La prévision est disponible uniquement quand deux conditions sont remplies : l’axe a un seul champ de type date et il n’y a qu’un seul champ de valeur.*
 
 1. Passez l’option **Prévision** sur **Activé**.
 
@@ -167,23 +120,11 @@ Au cours de cette tâche, vous allez créer une prévision pour déterminer le c
     ![Image 52](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image29.png)
 
 1. Dans le visuel de graphique en courbes, notez que la prévision s’est étendue d’un mois au-delà des données d’historique.
-    
-    *La zone grise représente la confiance. Plus la confiance est importante, moins la prévision est susceptible d’être stable et précise.*
-    
-    *Quand vous connaissez la durée du cycle (« annuel » dans le cas présent), vous devez entrer les points relatifs au caractère saisonnier. Le cycle peut aussi être hebdomadaire (7) ou mensuel (30).*
+
+    > *La zone grise représente la confiance. Plus la confiance est importante, moins la prévision est susceptible d’être stable et précise.*
+    >
+    > *Quand vous connaissez la durée du cycle (« annuel » dans le cas présent), vous devez entrer les points relatifs au caractère saisonnier. Le cycle peut aussi être hebdomadaire (7) ou mensuel (30).*
 
 1. Dans le volet **Filtres**, filtrez sur **Habillement** uniquement, puis notez que cela produit un résultat différent.
 
-### **Terminer**
-
-Au cours de cette tâche, vous allez terminer le labo dans Power BI Desktop.
-
-1. Sélectionnez la page **Graphique à nuages de points**.
-
-1. Enregistrez le fichier Power BI Desktop.
-
-1. Pour publier le fichier dans **Mon espace de travail**, sous l’onglet de ruban **Accueil**, dans le groupe **Partager**, sélectionnez **Publier**, puis **Sélectionner** pour publier.
-
-    ![Image 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
-
-1. Fermez Power BI Desktop.
+## Labo terminé

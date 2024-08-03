@@ -1,6 +1,5 @@
 ---
 demo:
-  course: 'PL-300, DP-605'
   title: Créer et gérer des espaces de travail dans Power BI
   module: Deploy and manage Power BI service items
 ---

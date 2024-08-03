@@ -1,6 +1,5 @@
 ---
 demo:
-  course: PL-300
   title: "Gérer des fichiers et des modèles sémantiques dans Power\_BI"
   module: Deploy and manage Power BI service items
 ---

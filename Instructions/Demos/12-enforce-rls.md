@@ -1,6 +1,5 @@
 ---
 demo:
-  course: PL-300
   title: Renforcer la sécurité au niveau des lignes dans Power BI
   module: Deploy and manage Power BI service items
 ---
