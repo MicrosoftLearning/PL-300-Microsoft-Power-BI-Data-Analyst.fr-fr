@@ -19,7 +19,7 @@ Dans ce labo, vous allez découvrir comment :
 
 **Ce labo devrait prendre environ 45 minutes.**
 
-## Bien démarrer
+## Démarrage
 
 Pour effectuer cet exercice, ouvrez d’abord un navigateur web et entrez l’URL suivante pour télécharger le dossier zip :
 
@@ -45,7 +45,7 @@ La barre de formule accepte la saisie d’une formule DAX valide. Elle comprend 
 
 2. Dans la barre de formule (qui s’ouvre directement sous le ruban lors de la création ou de la modification de calculs), tapez **Salesperson =**, appuyez sur **Maj+Entrée**, tapez **'Salesperson (Performance)'**, puis appuyez sur **Entrée**.
 
-    > **Remarque** : *pour des raisons pratiques, toutes les définitions DAX de ce labo peuvent être copiées à partir du fichier d’extraits de code, situé dans **D:\Allfiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+    > **Remarque** : *pour des raisons pratiques, toutes les définitions DAX de ce labo peuvent être copiées à partir du fichier d’extrait de code, situé dans **4-intro-dax\Snippets.txt**.*
 
      ![Image 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
@@ -123,18 +123,19 @@ Au cours de cette tâche, vous allez ajouter des colonnes supplémentaires pour 
     ![Image 11](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image19.png)
 
 1. Dans la barre de formule, tapez les éléments suivants (ou copiez à partir du fichier d’extraits de code), puis appuyez sur **Entrée** :
+    > *La formule utilise la valeur d’année de la date, en y ajoutant un si le mois est postérieur au mois de juin. C’est ainsi que sont calculés les exercices chez Adventure Works.*
 
    ```DAX
    Year =
    "FY" & YEAR('Date'[Date]) + IF(MONTH('Date'[Date]) > 6, 1)
    ```
 
-    > *La formule utilise la valeur d’année de la date, en y ajoutant un si le mois est postérieur au mois de juin. C’est ainsi que sont calculés les exercices chez Adventure Works.*
+
 
 1. Utilisez la définition des fichiers d’extraits de code afin de créer les deux colonnes calculées suivantes pour la table **Date** :
 
     - Quarter (Trimestre)
-    - Month
+    - Mois
 
 1. Vérifiez que les nouvelles colonnes ont été ajoutées.
 
