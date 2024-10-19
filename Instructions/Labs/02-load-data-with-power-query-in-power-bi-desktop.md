@@ -17,7 +17,7 @@ Dans ce labo, vous allez découvrir comment :
 
 **Ce labo devrait prendre environ 45 minutes.**
 
-## Bien démarrer
+## Démarrage
 
 Pour effectuer cet exercice, ouvrez d’abord un navigateur web et entrez l’URL suivante pour télécharger le dossier zip :
 
@@ -43,6 +43,8 @@ Durant cette tâche, vous allez utiliser l’Éditeur Power Query pour configure
 
      ![Image 1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
 
+> **Remarque :** si vous recevez un message d’avertissement demandant de spécifier comment se connecter, sélectionnez **Modifier les informations d’identification**, connectez-vous à l’aide des informations d’identification actuelles, puis sélectionnez **OK** pour utiliser une connexion non chiffrée.
+ 
 1. Pour renommer la requête, dans le volet **Paramètres de la requête** (situé à droite), dans la zone **Nom**, remplacez le texte par **Salesperson**, puis appuyez sur **Entrée**. Vérifiez ensuite que le nom a été mis à jour dans le volet **Requêtes**.
 
     > *Le nom de la requête détermine le nom de la table du modèle. Il est recommandé de définir des noms concis et conviviaux.*
@@ -297,6 +299,8 @@ Lors de cette tâche, vous allez configurer la requête **Sales**.
 Dans cette tâche, vous allez configurer la requête **Targets**.
 
 1. Sélectionnez la requête **ResellerSalesTargets** et renommez-la **Targets**.
+
+> **Remarque :** si vous recevez un message d’avertissement demandant de spécifier comment se connecter, sélectionnez **Modifier les informations d’identification** et utilisez l’accès anonyme.
 
 1. Pour dépivoter les colonnes correspondant aux 12 mois (**M01**-**M12**), sélectionnez d’abord les en-têtes des colonnes **Year** et **EmployeeID**.
 

@@ -15,11 +15,11 @@ Dans ce labo, vous allez découvrir comment :
 - Synchroniser les segments
 - Créer une page d’extraction
 - Appliquer une mise en forme conditionnelle
-- Créer et utiliser des signets
+- Créer et utiliser des signets et des boutons
 
 **Ce labo devrait prendre environ 45 minutes.**
 
-## Bien démarrer
+## Démarrage
 
 Pour effectuer cet exercice, ouvrez d’abord un navigateur web et entrez l’URL suivante pour télécharger le dossier zip :
 
