@@ -135,7 +135,7 @@ Au cours de cette tâche, vous allez ajouter des colonnes supplémentaires pour 
 1. Utilisez la définition des fichiers d’extraits de code afin de créer les deux colonnes calculées suivantes pour la table **Date** :
 
     - Quarter (Trimestre)
-    - Mois
+    - Month
 
 1. Vérifiez que les nouvelles colonnes ont été ajoutées.
 

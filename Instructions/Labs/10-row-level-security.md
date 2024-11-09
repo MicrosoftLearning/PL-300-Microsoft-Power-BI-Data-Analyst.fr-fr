@@ -17,7 +17,7 @@ Dans ce labo, vous allez découvrir comment :
 
 **Ce labo devrait prendre environ 20 minutes.**
 
-## Bien démarrer
+## Démarrage
 
 Pour effectuer cet exercice, ouvrez d’abord un navigateur web et entrez l’URL suivante pour télécharger le dossier zip :
 
