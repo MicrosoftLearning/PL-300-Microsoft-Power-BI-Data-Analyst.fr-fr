@@ -17,7 +17,7 @@ Dans ce labo, vous allez découvrir comment :
 - Utilisez le paramètre Axe facultatif lors de la création de métriques de comparaison.
 - Utilisez le paramètre Réinitialiser facultatif pour personnaliser les calculs cumulatifs dans un axe à plusieurs niveaux.
 
-**Ce labo devrait prendre environ 45 minutes.**
+**Ce labo devrait prendre environ 30 minutes.**
 
 ## Démarrage
 
