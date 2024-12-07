@@ -31,8 +31,6 @@ Ouvrez le fichier **05-Starter-Sales Analysis.pbix**.
 
 > ***Remarque** : vous pouvez ignorer la connexion en sélectionnant **Annuler**. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
 
-Dans Power BI Desktop, accédez à **Fichier > Options et paramètres > Options > Fonctionnalités en version préliminaire**. Sélectionnez  **Calculs visuels**  et sélectionnez  **OK**. Les calculs visuels sont activés après le redémarrage de Power BI Desktop.
-
 ## Créer un visuel de graphique à barres
 
 Dans cette tâche, vous allez créer un graphique à barres affichant le montant des ventes, le coût total du produit et le profit par exercice financier, avec des métriques de comparaison sous forme d’info-bulles.
@@ -128,7 +126,7 @@ Dans cette tâche, vous allez créer un visuel de matrice qui compare le montant
 1. Dans la fenêtre de modification des calculs visuels, tapez et enregistrez le calcul suivant :
 
    ```DAX
-    Versus first = [Sales] - FIRST([Sales])
+    Versus first = [Sum of Sales] - FIRST([Sum of Sales])
    ```
 
 > Notez comment la matrice affiche la différence entre le montant des ventes de chaque catégorie et celui de la première catégorie.
@@ -136,7 +134,7 @@ Dans cette tâche, vous allez créer un visuel de matrice qui compare le montant
 1. Sélectionnez le champ **Par rapport au premier** dans barre d’outils/zone **Valeurs** et mettez à jour votre calcul en ajoutant la valeur ROWS du paramètre Axe à FIRST :
 
    ```DAX
-    Versus first = [Sales] - FIRST([Sales], ROWS)
+    Versus first = [Sum of Sales] - FIRST([Sum of Sales], ROWS)
    ```
 
 > Notez que rien ne change puisque ROWS est la valeur par défaut du paramètre Axe.
