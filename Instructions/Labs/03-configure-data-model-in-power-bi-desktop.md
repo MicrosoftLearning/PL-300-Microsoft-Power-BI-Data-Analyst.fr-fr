@@ -178,7 +178,7 @@ Dans cette tâche, vous allez configurer la table **Reseller** pour ajouter une 
 
     - Country-Region dans la catégorie **Pays/Région**
     - State-Province dans la catégorie **Département ou province**
-    - City** dans la catégorie **Ville**
+    - City dans la catégorie **Ville**
 
 ## Configurer la table Sales
 
@@ -257,7 +257,7 @@ Dans cette tâche, vous allez passer à la vue Rapport, examiner l’interface d
 
       ![Image 359](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image40.png)
 
-> *Important** : *ces hiérarchies n’ont pas été créées par vous. Elles sont créées automatiquement en tant que paramètre par défaut. Il y a toutefois un problème. L’exercice comptable d’Adventure Works commence le 1er juillet de chaque année. En revanche, l’année de la hiérarchie de dates qui est créée automatiquement commence le 1er janvier de l’année.*
+> **Important** : *ces hiérarchies n’ont pas été créées par vous. Elles sont créées automatiquement en tant que paramètre par défaut. Il y a toutefois un problème. L’exercice comptable d’Adventure Works commence le 1er juillet de chaque année. En revanche, l’année de la hiérarchie de dates qui est créée automatiquement commence le 1er janvier de l’année.*
 
 1. Pour désactiver le paramètre **Date/heure automatique**, accédez à **Fichier > Options et paramètres > Options**.
 
