@@ -37,13 +37,13 @@ Durant cette tâche, vous allez utiliser l’Éditeur Power Query pour configure
 
 1. Pour ouvrir la fenêtre **Éditeur Power Query**, sous l’onglet de ruban **Accueil**, dans le groupe **Requêtes**, sélectionnez l’icône **Transformer les données**.
 
-     ![Transformer des données dans le ruban Accueil](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
+    ![Transformer des données dans le ruban Accueil](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
 
 1. Dans la fenêtre **Éditeur Power Query**, dans le volet **Requêtes**, sélectionnez la requête **DimEmployee**.
 
-     ![Image 1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
+    ![Image 1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
 
-> **Remarque :** si vous recevez un message d’avertissement demandant de spécifier comment se connecter, sélectionnez **Modifier les informations d’identification**, connectez-vous à l’aide des informations d’identification actuelles, puis sélectionnez **OK** pour utiliser une connexion non chiffrée.
+    > **Remarque :** si vous recevez un message d’avertissement demandant de spécifier comment se connecter, sélectionnez **Modifier les informations d’identification**, connectez-vous à l’aide des informations d’identification actuelles, puis sélectionnez **OK** pour utiliser une connexion non chiffrée.
  
 1. Pour renommer la requête, dans le volet **Paramètres de la requête** (situé à droite), dans la zone **Nom**, remplacez le texte par **Salesperson**, puis appuyez sur **Entrée**. Vérifiez ensuite que le nom a été mis à jour dans le volet **Requêtes**.
 
@@ -53,11 +53,11 @@ Durant cette tâche, vous allez utiliser l’Éditeur Power Query pour configure
 
     > *Accéder à la colonne est une fonctionnalité utile avec de nombreuses colonnes. Sinon, vous pouvez faire défiler horizontalement pour recherches des colonnes.*
 
-     ![Gérer les colonnes > Choisir des colonnes > Accéder à la colonne](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
+    ![Gérer les colonnes > Choisir des colonnes > Accéder à la colonne](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
 1. Dans la fenêtre **Accéder à la colonne**, pour trier la liste par nom de colonne, sélectionnez le bouton de tri **AZ**, sélectionnez **Nom**, puis **SalesPersonFlag**. Cliquez sur **OK**.
 
-     ![Options de tri d’Accéder à la colonne](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image14.png)
+    ![Options de tri d’Accéder à la colonne](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image14.png)
 
 1. Recherchez la colonne **SalesPersonFlag**, puis filtrez la colonne pour sélectionner seulement Salespeople (c’est-à-dire **TRUE**), puis cliquez sur **OK**.
 
@@ -65,7 +65,7 @@ Durant cette tâche, vous allez utiliser l’Éditeur Power Query pour configure
 
     > *Chaque transformation que vous créez produit une autre logique d’étape. Il est possible de modifier ou de supprimer des étapes. Il est également possible de sélectionner une étape pour afficher un aperçu des résultats de la requête à cette phase de la transformation.*
 
-     ![Étapes appliquées](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image17.png)
+    ![Étapes appliquées](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image17.png)
 
 1. Pour supprimer des colonnes, sous l’onglet de ruban **Accueil**, sélectionnez le groupe **Gérer les colonnes**, puis l’icône **Choisir des colonnes**.
 
@@ -82,11 +82,11 @@ Durant cette tâche, vous allez utiliser l’Éditeur Power Query pour configure
 
 1. Dans la liste **Étapes appliquées**, notez l’ajout d’une autre étape de requête.
 
-     ![Étapes d’autres colonnes supprimées](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image21.png)
+    ![Étapes d’autres colonnes supprimées](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image21.png)
 
 1. Pour créer une seule colonne avec le nom, sélectionnez d’abord l’en-tête de colonne **FirstName**. Tout en appuyant sur la touche **Ctrl**, sélectionnez la colonne **LastName**.
 
-     ![Sélectionner deux colonnes pour créer une colonne unique](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image22.png)
+    ![Sélectionner deux colonnes pour créer une colonne unique](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image22.png)
 
 1. Cliquez avec le bouton droit sur un des en-têtes de colonne puis, dans le menu contextuel, sélectionnez **Fusionner les colonnes**.
 
@@ -149,7 +149,7 @@ Dans cette tâche, vous allez configurer la requête **Product**.
 1. Sélectionnez **EnglishProductSubcategoryName** et **DimProductCategory**, puis décochez la case **Utiliser le nom de la colonne d’origine comme préfixe** avant de sélectionner **OK**.
 
     > *Ces deux colonnes étant sélectionnées, une transformation sera appliquée de façon à établir une jointure avec la table **DimProductSubcategory**, puis ces colonnes seront incluses. La colonne **DimProductCategory** est en fait une autre table associée dans la source de données.*
-    >
+
     > *Les noms des colonnes d’une requête doivent toujours être uniques. Si elle est cochée, cette case à cocher va préfixer chaque colonne du nom de colonne développé (dans ce cas **DimProductSubcategory**). Comme les colonnes sélectionnées n’entrent pas en conflit avec des colonnes dans la requête **Product**, l’option est désélectionnée.*
 
 1. Notez que la transformation a entraîné l’ajout de deux colonnes et que la colonne **DimProductSubcategory** a été supprimée.
@@ -193,7 +193,7 @@ Lors de cette tâche, vous allez configurer la requête **Reseller**.
     - Dans la zone **Valeur à rechercher**, entrez **Ware House**
     - Dans la zone **Remplacer par**, entrez **Warehouse**
 
-     ![Boîte de dialogue Remplacer des valeurs](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image40.png)
+    ![Boîte de dialogue Remplacer des valeurs](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image40.png)
 
 1. Renommez les quatre colonnes suivantes :
 
@@ -255,7 +255,7 @@ Lors de cette tâche, vous allez configurer la requête **Sales**.
 
 1. Pour créer une colonne personnalisée, sous l’onglet de ruban **Ajouter une colonne**, dans le groupe **Général**, sélectionnez **Colonne personnalisée**.
 
-     ![Image 5664](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image47.png)
+    ![Image 5664](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image47.png)
 
 1. Dans la fenêtre **Colonne personnalisée**, dans la zone **Nom de la nouvelle colonne**, remplacez le texte par **Cost**.
 
@@ -282,7 +282,7 @@ Lors de cette tâche, vous allez configurer la requête **Sales**.
 
     > *Il est important de configurer le type de données correct. Quand la colonne contient une valeur numérique, il est également important de choisir le type correct si vous prévoyez d’effectuer des calculs mathématiques.*
 
-     ![Image 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
+    ![Image 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
 
 1. Modifiez les types de données des trois colonnes suivantes en **Nombre décimal fixe**.
 
@@ -300,7 +300,7 @@ Dans cette tâche, vous allez configurer la requête **Targets**.
 
 1. Sélectionnez la requête **ResellerSalesTargets** et renommez-la **Targets**.
 
-> **Remarque :** si vous recevez un message d’avertissement demandant de spécifier comment se connecter, sélectionnez **Modifier les informations d’identification** et utilisez l’accès anonyme.
+    > **Remarque :** si vous recevez un message d’avertissement demandant de spécifier comment se connecter, sélectionnez **Modifier les informations d’identification** et utilisez l’accès anonyme.
 
 1. Pour dépivoter les colonnes correspondant aux 12 mois (**M01**-**M12**), sélectionnez d’abord les en-têtes des colonnes **Year** et **EmployeeID**.
 
@@ -341,7 +341,7 @@ Dans cette tâche, vous allez configurer la requête **Targets**.
 
 1. Notez également la formule présentée au-dessus de la grille de la requête.
 
-     ![Image 5679](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image60.png)
+    ![Image 5679](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image60.png)
 
 1. Pour renommer la nouvelle colonne, double-cliquez sur l’en-tête de colonne **Fusionné** et renommez la colonne **TargetMonth**.
 
@@ -359,7 +359,7 @@ Dans cette tâche, vous allez configurer la requête **Targets**.
 
     > *Rappelez-vous : les valeurs cibles ont été stockées sous forme de milliers.*
 
-     ![Image 5682](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image63.png)
+    ![Image 5682](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image63.png)
 
 1. Dans la fenêtre **Multiplier**, dans la zone **Valeur**, entrez **1000** et sélectionnez **OK**.
 
@@ -373,7 +373,7 @@ Dans cette tâche, vous allez configurer la requête **ColorFormats**.
 
 1. Sous l’onglet du ruban **Accueil**, dans le groupe **Transformer**, sélectionnez **Utiliser la première ligne pour les en-têtes**.
 
-     ![Image 5688](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image68.png)
+    ![Image 5688](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image68.png)
 
 **Dans la barre d’état, vérifiez que la requête a bien 3 colonnes et 10 lignes.**
 
@@ -387,15 +387,15 @@ Dans cette tâche, vous allez mettre à jour la requête **Product** en fusionna
 
     > *La fusion de requêtes permet d’intégrer des données, provenant dans le cas présent de différentes sources de données (SQL Server et un fichier CSV).*
 
-     ![Image 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
+    ![Image 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
 1. Dans la fenêtre **Fusionner**, dans la grille de la requête **Product**, sélectionnez l’en-tête de colonne **Color**.
 
-     ![Image 5655](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image72.png)
+    ![Image 5655](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image72.png)
 
 1. Sous la grille de la requête **Product**, dans la liste déroulante, sélectionnez la requête **ColorFormats**.
 
-     ![Image 21](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image73.png)
+    ![Image 21](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image73.png)
 
 1. Dans la grille de la requête **ColorFormats**, sélectionnez l’en-tête de colonne **Color**.
 
@@ -403,7 +403,7 @@ Dans cette tâche, vous allez mettre à jour la requête **Product** en fusionna
 
     > *Des niveaux de confidentialité peuvent être configurés pour la source de données afin de déterminer si les données peuvent être partagées entre les sources. La définition de chaque source de données sur **Organisationnel** leur permet de partager des données si nécessaire. Les sources de données privées ne peuvent jamais être partagées avec d’autres sources de données. Cela ne signifie pas que les données privées ne peuvent pas être partagées, mais que le moteur de Power Query ne peut pas partager des données entre les sources.*
 
-     ![Image 5691](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image74.png)
+    ![Image 5691](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image74.png)
 
 1. Dans la fenêtre **Fusion**, utilisez le **Type de jointure** par défaut : conservez la sélection Externe gauche, puis sélectionnez **OK**.
 
@@ -422,33 +422,33 @@ Dans cette tâche, vous allez mettre à jour **ColorFormats** de façon à désa
 
 1. Dans le volet **Paramètres de la requête**, sélectionnez le lien **Toutes les propriétés**.
 
-     ![Image 322](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image80.png)
+    ![Image 322](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image80.png)
 
 1. Dans la fenêtre **Propriétés de la requête**, décochez la case **Activer le chargement vers le rapport**.
 
     > *La désactivation de la charge signifie qu’elle ne sera pas chargée en tant que table dans le modèle de données. Cela est dû au fait que la requête a été fusionnée avec la requête **Product**, qui est activée pour être chargée dans le modèle de données.*
 
-     ![Image 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
+    ![Image 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
 
 ### Passer en revue le produit final
 
-Dans l’Éditeur Power Query, vérifiez que vous avez **8 requêtes**, correctement nommées comme suit :
+1. Dans l’Éditeur Power Query, vérifiez que vous avez **8 requêtes**, correctement nommées comme suit :
 
-- Salesperson
-- SalespersonRegion
-- Product
-- Reseller
-- Region
-- Sales
-- Targets
-- ColorFormats (qui ne sera pas chargée dans le modèle de données)
+    - Salesperson
+    - SalespersonRegion
+    - Product
+    - Reseller
+    - Region
+    - Sales
+    - Targets
+    - ColorFormats (qui ne sera pas chargée dans le modèle de données)
 
-Sélectionnez **Fermer &amp; Appliquer** pour charger les données dans le modèle, puis fermez la fenêtre Éditeur Power Query.
+1. Sélectionnez **Fermer &amp; Appliquer** pour charger les données dans le modèle, puis fermez la fenêtre Éditeur Power Query.
 
-![Image 326](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image83.png)
+    ![Image 326](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image83.png)
 
-Vous pouvez maintenant voir le canevas dans Power BI Desktop, avec les volets Filtres, Visualisations et Données à droite. Dans le volet Données, notez les **7 tables** chargées dans le modèle de données.
+1. Vous pouvez maintenant voir le canevas dans Power BI Desktop, avec les volets Filtres, Visualisations et Données à droite. Dans le volet Données, notez les **7 tables** chargées dans le modèle de données.
 
-![Image 3](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image84.png)
+    ![Image 3](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image84.png)
 
 ## Labo terminé
