@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 # PL-300 : Analyste Données Microsoft Power BI
 
 Ce référentiel contient des travaux pratiques en labo liés au cours Microsoft [PL-300 : Analyste Données Microsoft Power BI](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00). Les laboratoires sont conçus pour accompagner les supports de cours d'apprentissage et permettre aux apprenants de s’exercer à utiliser les technologies qu'ils décrivent.
