@@ -31,7 +31,7 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
 
 1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, accédez à **Mon espace de travail**.
 
-1. Sélectionnez **Charger > Parcourir**.
+1. Sélectionnez **Importer > rapport ou rapport paginé > À partir de cet ordinateur**.
 
 1. Accédez au dossier **C:\Users\Student\Downloads\09-create-dashboard**.
 
