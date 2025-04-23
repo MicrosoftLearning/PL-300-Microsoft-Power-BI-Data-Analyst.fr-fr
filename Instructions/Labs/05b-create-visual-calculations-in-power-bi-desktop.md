@@ -89,7 +89,7 @@ Dans cette tâche, vous allez créer un graphique à barres affichant le montant
 
    - Somme des ventes
    - Somme des coûts
-   - Bénéfices
+   - Bénéfice
 
    ![Image 07](Linked_image_Files/05b-create-visual-calculations-in-power-bi-desktop_image07.png)
 
