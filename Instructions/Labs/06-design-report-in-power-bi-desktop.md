@@ -360,7 +360,7 @@ Dans cet exercice, vous allez publier le rapport sur le service Power BI et exp
 
      ![Image 86](Linked_image_Files/07-design-report-in-power-bi-desktop_image66.png)
 
-1. Replacez le curseur sur l’un des visuels puis, en haut à droite, sélectionnez l’ellipse (...) et examinez les options de menu. Essayez chacune des options, à l’exception de **Converser dans Teams**.
+1. Replacez le curseur sur l’un des visuels puis, en haut à droite, sélectionnez l’ellipse (...) et examinez les options de menu. Essayez chacune des options, à l’exception des options de **partage**.
 
      ![Image 97](Linked_image_Files/07-design-report-in-power-bi-desktop_image67.png)
 
