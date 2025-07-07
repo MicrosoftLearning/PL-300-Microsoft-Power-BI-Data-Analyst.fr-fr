@@ -1,7 +1,7 @@
 ---
 demo:
   title: Renforcer la sécurité au niveau des lignes dans Power BI
-  module: Deploy and manage Power BI service items
+  module: Secure data access in Power BI
 ---
 
 # Renforcer la sécurité au niveau des lignes dans Power BI
