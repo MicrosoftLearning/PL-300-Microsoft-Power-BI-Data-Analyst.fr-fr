@@ -7,22 +7,14 @@ demo:
 
 # Configuration de la démonstration
 
-## Configuration de la machine virtuelle
-
-1. Connectez-vous à l’environnement de machine virtuelle à l’aide du compte Student.
-
-1. Ouvrez Microsoft Edge, puis accédez à <https://powerbi.com> et connectez-vous en utilisant le compte d’instructeur.
+1. Ouvrez Microsoft Edge, puis accédez à <https://powerbi.com> un compte professionnel ou scolaire (organisationnel) et connectez-vous.
     > **Conseil** : Si vous êtes invité à changer de mot de passe, veillez à l’enregistrer dans le fichier D:\Allfiles\Demo\Setup\MySettings.txt.
-
-1. Dans le service Power BI, acceptez l’essai de Power BI Pro.
-
-## Configuration de la première démonstration
 
 1. Créez un espace de travail et utilisez l’image D:\Allfiles\Demo\Resources\Icon-Star.jpg comme icône.
 
 1. Ouvrez le fichier D:\Allfiles\Demo\Setup\Sales Analysis.pbix dans Power BI Desktop.
 
-1. Dans Power BI Desktop, connectez-vous en utilisant le compte d’instructeur.
+1. Dans Power BI Desktop, connectez-vous avec le même compte d’organisation.
 
 1. Publiez le rapport sur l’espace de travail que vous avez créé précédemment.
 

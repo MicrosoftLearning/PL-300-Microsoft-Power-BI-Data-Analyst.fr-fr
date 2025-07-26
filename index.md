@@ -8,7 +8,9 @@ layout: home
 
 Les liens hypertexte vers chaque exercice et démonstration de labo sont répertoriés ci-dessous.
 
-## Laboratoires
+> **Remarque** : Si vous rencontrez des bogues avec le contenu, [créez un problème dans le dépôt GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/issues/new/choose).
+
+## Exercices du labo
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
 | Module | Laboratoire |
@@ -19,7 +21,8 @@ Les liens hypertexte vers chaque exercice et démonstration de labo sont répert
 ## Démonstrations
 
 {% assign demos = site.pages | where_exp:"page", "page.url contains ’/Instructions/Demos’" %}
-| Module | Démonstration |
-| --- | --- | 
-{% for activity in demos  %} |{{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
+
+| Démo |
+| --- |
+{% for activity in demos  %}| [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
