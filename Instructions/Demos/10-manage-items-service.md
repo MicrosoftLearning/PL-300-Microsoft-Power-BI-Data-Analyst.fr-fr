@@ -5,25 +5,9 @@ demo:
 ---
 # Gérer des fichiers et des modèles sémantiques dans Power BI
 
-## Préparer l’actualisation des données de la passerelle
-
-> **Notez** que les étapes suivantes ne sont pas nécessaires lors de l’utilisation de la passerelle de données en mode personnel. Vous pouvez passer directement à l’objectif suivant (configurer la passerelle).
-
-1. Dans Power BI Desktop, ouvrez la fenêtre de l’Éditeur Power Query, puis sélectionnez la requête **ProductCost**.
-
-1. Modifiez l’étape Source, puis modifiez le chemin du fichier pour utiliser le partage de fichiers, comme suit :
-
-    `\\DATA-AI\Data\ProductCost.xlsx`
-
-1. Fermez et appliquez la fenêtre Éditeur Power Query.
-
-1. Enregistrez le fichier Power BI Desktop.
-
-1. Publiez le fichier Power BI Desktop sur l’espace de travail, en remplaçant le modèle sémantique et le rapport dans le service.
-
 ## Configurer la passerelle (mode personnel)
 
-1. Dans le service Power BI pour l’instructeur, rechargez (F5) la page des paramètres du modèle sémantique.
+1. Dans le service Power BI, rechargez (F5) la page des paramètres du modèle sémantique.
 
 1. Développez la section Connexion à la passerelle et faites remarquer qu’aucune passerelle n’est installée.
 
@@ -33,7 +17,7 @@ demo:
 
 1. Une fois qu’il est téléchargé, ouvrez le fichier téléchargé.
 
-1. Effectuez la configuration de la passerelle en utilisant les informations d’identification du compte de l’instructeur.
+1. Terminez la configuration de la passerelle à l’aide de votre compte d’organisation.
 
 1. Une fois la passerelle configurée, revenez à la page des paramètres du modèle sémantique et rechargez-la.
 
