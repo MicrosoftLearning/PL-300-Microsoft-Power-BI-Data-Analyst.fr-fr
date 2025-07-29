@@ -100,10 +100,6 @@ Dans cet exercice, vous allez améliorer la page d’extraction avec une mise en
 
     ![Image 9](Linked_image_Files/09-enhance-power-bi-reports_image29.png)
 
-1. Dans la fenêtre **Icônes – Marge bénéficiaire**, dans la liste déroulante **Appliquer à** la liste déroulante, sélectionnez **Valeurs et totaux**.
-
-    ![Image 10](Linked_image_Files/09-enhance-power-bi-reports_image30a.png)
-
 1. Dans la fenêtre **Icônes**Marge bénéficiaire,** dans la liste déroulante**Disposition des icônes, sélectionnez**À droite des données**.
 
     ![Image 11](Linked_image_Files/09-enhance-power-bi-reports_image30.png)
@@ -129,6 +125,10 @@ Dans cet exercice, vous allez améliorer la page d’extraction avec une mise en
     ![Image 13](Linked_image_Files/09-enhance-power-bi-reports_image32.png)
 
     > _Les règles peuvent être interprétées comme suit : afficher un losange rouge si la valeur de la marge bénéficiaire est inférieure à 0 ; sinon, si la valeur est supérieure ou égale à zéro, afficher un cercle vert._
+
+1. Dans la fenêtre **Icônes – Marge bénéficiaire**, dans la liste déroulante **Appliquer à** la liste déroulante, sélectionnez **Valeurs et totaux**.
+
+    ![Image 10](Linked_image_Files/09-enhance-power-bi-reports_image30a.png)
 
 1. Cliquez sur **OK**.
 
@@ -249,6 +249,8 @@ Dans cet exercice, vous allez améliorer la page _My Performance_ avec des bouto
 
 Dans cet exercice, vous allez publier le rapport sur le service Power BI et explorer le comportement du rapport publié.
 
+> _**Note** : Vous aurez besoin d’au moins une licence gratuite **Power BI** pour publier le rapport. Ouvrez le navigateur Microsoft Edge, puis connectez-vous à l’adresse `https://app.powerbi.com`. Lorsque vous êtes invité à résoudre une énigme ou à commencer un essai gratuit de Fabric, vous pouvez ignorer cette étape et fermer le navigateur.
+
 > _**Remarque** : Vous pouvez passer en revue le reste de l’exercice, même si vous n’avez pas accès au service Power BI pour effectuer les tâches directement._
 
 1. Sélectionnez la page _Vue d’ensemble_.
@@ -277,7 +279,7 @@ Dans cet exercice, vous allez publier le rapport sur le service Power BI et exp
 
 1. Dans la fenêtre du navigateur Microsoft Edge, dans le service Power BI, dans le volet **Navigation** (situé à gauche et éventuellement réduit), sélectionnez **Mon espace de travail**.
 
-1. Pour explorer le rapport, sélectionnez le rapport _Analyse des ventes 07-Starter_.
+1. Pour explorer le rapport, sélectionnez le rapport _Analyse des ventes 09-Starter_.
 
 1. Pour tester la fonctionnalité d’extraction, dans la page _Vue d’ensemble_, dans le visuel _Somme des quantités par catégorie_, faites un clic droit sur la barre de _Vêtements_, puis sélectionnez **Extraction > Détails du produit**.
 

@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Créer des tableaux de bord dans Power BI
+  title: (Facultatif) Créer des tableaux de bord dans Power BI
   module: Create dashboards in Power BI
 ---
 
@@ -24,6 +24,8 @@ Pour effectuer cet exercice, ouvrez d’abord un navigateur web et entrez l’UR
 `https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/12-create-power-bi-dashboard/12-create-dashboard.zip`
 
 Extrayez le dossier vers le dossier **C:\Users\Student\Downloads\12-create-dashboard**.
+
+> _**Note** : Vous aurez besoin d’au moins une licence gratuite **Power BI** pour publier le rapport. Ouvrez le navigateur Microsoft Edge, puis connectez-vous à l’adresse `https://app.powerbi.com`. Lorsque vous êtes invité à résoudre une énigme ou à commencer un essai gratuit de Fabric, vous pouvez ignorer cette étape et fermer le navigateur.
 
 ## **Publier le rapport**
 
