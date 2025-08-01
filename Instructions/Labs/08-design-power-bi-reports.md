@@ -325,6 +325,8 @@ Dans cette tâche, vous allez synchroniser les segments _Année_ et _Région_.
 
 Au cours de cet exercice, vous allez publier le rapport sur le service Power BI. Vous allez ensuite explorer le comportement du rapport publié.
 
+> _**Note** : Vous aurez besoin d’au moins une licence gratuite **Power BI** pour publier le rapport. Ouvrez le navigateur Microsoft Edge, puis connectez-vous à l’adresse `https://app.powerbi.com`. Lorsque vous êtes invité à résoudre une énigme ou à commencer un essai gratuit de Fabric, vous pouvez ignorer cette étape et fermer le navigateur.
+
 > _**Remarque** : Vous pouvez passer en revue le reste de l’exercice, même si vous n’avez pas accès au service Power BI pour effectuer les tâches directement._
 
 1. Sélectionnez la page _Vue d’ensemble_, puis enregistrez le fichier Power BI Desktop.
