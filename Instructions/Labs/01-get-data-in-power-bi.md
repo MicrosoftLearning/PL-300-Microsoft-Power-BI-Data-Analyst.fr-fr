@@ -6,7 +6,7 @@ lab:
 
 # Obtenir des données dans Power BI
 
-## **Histoire du labo**
+## Histoire du labo
 
 Ce labo a pour but de vous présenter l’application Power BI Desktop, et de vous expliquer comment se connecter aux données et comment utiliser des techniques d’aperçu des données pour comprendre les caractéristiques et la qualité des données sources.
 
@@ -44,7 +44,7 @@ Cette tâche vous apprend à vous connecter à une base de données SQL Server e
 
 1. Dans la fenêtre **Base de données SQL Server**, dans la zone **Serveur**, entrez **localhost** et laissez **Base de données** vide, puis sélectionnez **OK**.
 
-    > ***Remarque** : Dans ce labo, vous allez vous connecter à la base de données SQL Server en utilisant **localhost**. Bien que cette approche fonctionne ici, il n’est pas recommandé pour vos propres solutions, car les sources de données de passerelle ne peuvent pas résoudre **localhost**.*
+    > ***Remarque** : Dans ce labo, vous allez vous connecter à la base de données SQL Server en utilisant **localhost**. Bien que cela convienne pour le laboratoire, cela n’est pas considéré comme une bonne pratique pour les solutions concrètes.*
 
 1. Si vous y êtes invité, sélectionnez **Windows > Utiliser mes informations d’identification actuelles**, puis **Se connecter**.
 
@@ -60,7 +60,7 @@ Cette tâche vous apprend à vous connecter à une base de données SQL Server e
 
     > ***Remarque** : l’aperçu des données vous permet de voir les colonnes et un échantillon des lignes.*
 
-1. Pour importer les données des tables, **cochez la case** en regard des six tables suivantes :
+1. Sélectionnez les tableaux suivants **en cochant les cases** en regard de leurs noms.
 
     - DimEmployee
     - DimEmployeeSalesTerritory
@@ -73,7 +73,7 @@ Cette tâche vous apprend à vous connecter à une base de données SQL Server e
 
 Vous êtes maintenant connecté à six tables à partir d’une base de données SQL Server.
 
-## **Afficher un aperçu des données dans l’Éditeur Power Query**
+## Afficher un aperçu des données dans l’Éditeur Power Query
 
 Cette tâche présente l’Éditeur Power Query, et vous permet de passer en revue et de profiler les données. Cela vous aide à déterminer comment nettoyer et transformer les données ultérieurement. Vous allez également passer en revue les tables de dimension préfixées de « Dim » et les tables de faits préfixées de « Fact ».
 
@@ -81,7 +81,7 @@ Cette tâche présente l’Éditeur Power Query, et vous permet de passer en rev
 
      ![Liste des requêtes chargées](Linked_image_Files/01-get-data-in-power-bi_image20.png)
 
-1. Sélectionnez la première requête **DimEmployee**.
+1. Sélectionnez la requête **DimEmployee**.
 
     > *La table **DimEmployee** de la base de données SQL Server stocke une ligne pour chaque employé. Un sous-ensemble des lignes de cette table représente les vendeurs, qui seront pertinents pour le modèle que vous développerez.*
 
@@ -141,7 +141,7 @@ Cette tâche présente l’Éditeur Power Query, et vous permet de passer en rev
 
     > *Les valeurs manquantes de la colonne **TotalProductCost** sont un problème de qualité des données.*
 
-## **Obtenir des données d’un fichier CSV**
+## Obtenir des données d’un fichier CSV
 
 Dans cette tâche, vous allez créer une requête basée sur des fichiers CSV.
 
@@ -155,7 +155,7 @@ Dans cette tâche, vous allez créer une requête basée sur des fichiers CSV.
 
     > *Le fichier CSV **ResellerSalesTargets** contient une ligne par vendeur et par an. Chaque ligne enregistre 12 cibles de ventes mensuelles (exprimées en milliers). L’année commerciale de la société Adventure Works commence le 1er juillet.*
 
-1. Notez qu’aucune colonne ne contient de valeurs vides.  Quand il n’y a pas d’objectif de ventes mensuel, un caractère de trait d’union est stocké à la place.
+1. Notez qu’aucune colonne ne contient de valeurs vides.  Si une cible de ventes mensuelles est manquante, la colonne affiche un trait d’union à la place.
 
 1. Passez en revue les icônes dans chaque en-tête de colonne, à gauche du nom de la colonne. Les icônes représentent le type de données de la colonne. **123** représente un nombre entier et **ABC** représente du texte.
 
@@ -170,3 +170,12 @@ Vous devez maintenant avoir deux nouvelles requêtes, **ResellerSalesTargets** e
  ![Liste des requêtes](Linked_image_Files/01-get-data-in-power-bi_image43.png)
 
 ## Labo terminé
+
+Vous pouvez choisir d’enregistrer votre rapport Power BI, même s’il n’est pas nécessaire pour ce labo. Dans l’exercice suivant, vous allez utiliser un fichier de démarrage prédéfini.
+
+1. Accédez au menu **« Fichier »** dans le coin supérieur gauche, puis sélectionnez **« Enregistrer sous ».** 
+1. Sélectionnez **Parcourir cet appareil**.
+1. Sélectionnez le dossier dans lequel vous souhaitez enregistrer le fichier et donnez-lui un nom descriptif. 
+1. Sélectionnez le bouton **Enregistrer** pour enregistrer votre rapport en tant que fichier .pbix. 
+1. Si une boîte de dialogue s’affiche pour vous inviter à appliquer des modifications de requête en attente, sélectionnez **Appliquer**.
+1. Fermez Power BI Desktop.

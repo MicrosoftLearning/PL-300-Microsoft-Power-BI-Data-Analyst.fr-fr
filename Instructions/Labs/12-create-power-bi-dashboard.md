@@ -27,7 +27,7 @@ Extrayez le dossier vers le dossier **C:\Users\Student\Downloads\12-create-dashb
 
 > _**Note** : Vous aurez besoin d’au moins une licence gratuite **Power BI** pour publier le rapport. Ouvrez le navigateur Microsoft Edge, puis connectez-vous à l’adresse `https://app.powerbi.com`. Lorsque vous êtes invité à résoudre une énigme ou à commencer un essai gratuit de Fabric, vous pouvez ignorer cette étape et fermer le navigateur.
 
-## **Publier le rapport**
+## Publier le rapport
 
 Au cours de cette tâche, vous allez configurer l’environnement pour le labo en créant un modèle sémantique.
 
@@ -41,7 +41,7 @@ Au cours de cette tâche, vous allez configurer l’environnement pour le labo e
 
     > *S’il vous est demandé de remplacer le modèle sémantique, sélectionnez **Remplacer**.*
 
-## **Création d’un tableau de bord**
+## Création d’un tableau de bord
 
 Au cours de cette tâche, vous allez créer le tableau de bord **Surveillance des ventes**. Vous épinglez un visuel à partir du rapport, vous ajoutez une vignette basée sur un URI de données image, puis vous utilisez Questions et réponses pour créer une vignette.
 
@@ -119,7 +119,7 @@ Au cours de cette tâche, vous allez créer le tableau de bord **Surveillance de
 
     ![Image 52](Linked_image_Files/12-create-power-bi-dashboard_image35.png)
 
-## **Modifier des détails de la vignette**
+## Modifier des détails de la vignette
 
 Au cours de cette tâche, vous allez modifier les détails de deux vignettes.
 
@@ -143,13 +143,13 @@ Au cours de cette tâche, vous allez modifier les détails de deux vignettes.
 
 *Vous actualiserez le modèle sémantique dans l’exercice suivant. En fonction de vos données et de votre rapport, vous pouvez effectuer une actualisation des données ad hoc à tout moment ou définir une planification. Toutefois, les actualisations planifiées nécessitent des passerelles que nous ne sommes pas en mesure de configurer pour ce labo. À partir de Power BI Desktop, vous allez donc effectuer une actualisation manuelle des données, puis charger le fichier dans votre espace de travail.*
 
-## **Actualiser le modèle sémantique**
+## Actualiser le modèle sémantique
 
 Dans cet exercice, vous commencerez par charger les données des commandes client pour juin 2020 dans la base de données **AdventureWorksDW2020**. Ensuite, vous ouvrirez votre fichier Power BI Desktop, vous actualiserez les données, puis vous chargerez le fichier dans votre espace de travail.
 
 > ***Remarque** : Si vous ne parvenez pas à vous connecter à la base de données, vous pouvez utiliser le fichier **12-Solution-Sales-Analysis.pbix**. Au lieu de mettre à jour la base de données et d’actualiser le modèle sémantique, chargez le fichier solution dans **Mon espace de travail** et vérifiez les modifications référencées dans les tâches suivantes.*
 
-## **Mettre à jour la base de données du labo**
+## Mettre à jour la base de données du labo
 
 Dans cette tâche, vous exécutez un script PowerShell pour mettre à jour les données contenues dans la base de données **AdventureWorksDW2020**.
 
@@ -163,7 +163,7 @@ Dans cette tâche, vous exécutez un script PowerShell pour mettre à jour les d
 
 *La base de données **AdventureWorksDW2020** inclut maintenant les commandes client pour juin 2020.*
 
-## **Actualiser le fichier Power BI Desktop**
+## Actualiser le fichier Power BI Desktop
 
 Dans cette tâche, vous allez ouvrir le fichier Power BI Desktop **12-Starter-Sales Analysis**. Actualisez les données, puis téléchargez le fichier dans votre espace de travail **Sales Analysis**.
 
@@ -183,7 +183,7 @@ Dans cette tâche, vous allez ouvrir le fichier Power BI Desktop **12-Starter-
 
 *Le modèle sémantique dans le service Power BI contient maintenant les données des ventes de juin 2020.*
 
-### **Examiner le tableau de bord**
+## Examiner le tableau de bord
 
 Au cours de cette tâche, vous allez examiner le tableau de bord pour voir les ventes mises à jour.
 
@@ -198,3 +198,5 @@ Au cours de cette tâche, vous allez examiner le tableau de bord pour voir les v
     ![Image 33](Linked_image_Files/12-create-power-bi-dashboard_image50.png)
 
 ## Labo terminé
+
+1. Fermez la fenêtre du navigateur Microsoft Edge.

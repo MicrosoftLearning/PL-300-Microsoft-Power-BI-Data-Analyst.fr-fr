@@ -27,7 +27,7 @@ Extrayez le dossier dans celui de **C:\Users\Student\Downloads\02-load-data**.
 
 Ouvrez le fichier **02-Starter-Sales Analysis.pbix**.
 
-> ***Remarque** : vous pouvez ignorer la connexion en sélectionnant **Annuler**. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
+> _**Remarque** : Une boîte de dialogue de connexion peut s’afficher au fur et à mesure que le fichier se charge. Sélectionnez **Annuler** pour ignorer la boîte de dialogue de connexion. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
 
 ## Configurer la requête Salesperson
 
@@ -51,11 +51,11 @@ Durant cette tâche, vous allez utiliser l’Éditeur Power Query pour configure
 
 1. Pour trouver une colonne spécifique, sous l’onglet de ruban **Accueil**, dans le groupe **Gérer les colonnes**, sélectionnez la flèche vers le bas **Choisir des colonnes**, puis sélectionnez **Accéder à la colonne**.
 
-    > *Accéder à la colonne est une fonctionnalité utile avec de nombreuses colonnes. Sinon, vous pouvez faire défiler horizontalement pour recherches des colonnes.*
+    > _**Accéder à la colonne** est une fonctionnalité utile avec de nombreuses colonnes. Sinon, vous pouvez faire défiler horizontalement pour trouver des colonnes._
 
     ![Gérer les colonnes > Choisir des colonnes > Accéder à la colonne](Linked_image_Files/02-transform-data-power-bi_image13.png)
 
-1. Dans la fenêtre **Accéder à la colonne**, pour trier la liste par nom de colonne, sélectionnez le bouton de tri **AZ**, sélectionnez **Nom**, puis **SalesPersonFlag**. Cliquez sur **OK**.
+1. Dans la fenêtre **Accéder à la colonne**, pour trier la liste par nom de colonne, sélectionnez le bouton de tri **AZ**, puis sélectionnez **Nom**. 
 
     ![Options de tri d’Accéder à la colonne](Linked_image_Files/02-transform-data-power-bi_image14.png)
 
@@ -90,7 +90,7 @@ Durant cette tâche, vous allez utiliser l’Éditeur Power Query pour configure
 
 1. Cliquez avec le bouton droit sur un des en-têtes de colonne puis, dans le menu contextuel, sélectionnez **Fusionner les colonnes**.
 
-    > *De nombreuses transformations courantes peuvent être appliquées en cliquant avec le bouton droit sur l’en-tête de colonne, puis en les sélectionnant dans le menu contextuel. Cependant, d’autres transformations sont disponibles dans le ruban.*
+    > *De nombreuses transformations courantes peuvent être appliquées en cliquant avec le bouton droit sur l’en-tête de colonne, puis en les sélectionnant dans le menu contextuel. Notez que des transformations supplémentaires sont disponibles dans le ruban.*
 
 1. Dans la fenêtre **Fusionner les colonnes**, dans la liste déroulante **Séparateur**, sélectionnez **Espace**.
 
@@ -98,13 +98,13 @@ Durant cette tâche, vous allez utiliser l’Éditeur Power Query pour configure
 
 1. Pour renommer la colonne **EmployeeNationalIDAlternateKey**, double-cliquez sur l’en-tête de colonne **EmployeeNationalIDAlternateKey**, remplacez le texte par **EmployeeID**, puis appuyez sur **Entrée**.
 
-1. Utilisez les étapes précédentes pour renommer la colonne **EmailAddress** en **UPN**.
+1. Renommez la colonne **EmailAddress** en **UPN**.
 
     > *UPN est l'acronyme de « User Principal Name » (Nom d’utilisateur principal).*
 
-**En bas à gauche, dans la barre d’état, vérifiez que la requête a bien 5 colonnes et 18 lignes.**
+**Dans la barre d’état située en bas à gauche de l’éditeur Power Query, vérifiez que la requête comporte 5 colonnes et 18 lignes.**
 
-## **Configurer la requête SalespersonRegion**
+## Configurer la requête SalespersonRegion
 
 Dans cette tâche, vous allez configurer la requête **SalespersonRegion**.
 
@@ -186,9 +186,9 @@ Lors de cette tâche, vous allez configurer la requête **Reseller**.
     - StateProvinceName
     - EnglishCountryRegionName
 
-1. Dans l’en-tête de colonne **Business Type**, sélectionnez la flèche vers le bas, puis examinez les valeurs de colonne distinctes : vous constatez la présence des deux valeurs **Warehouse** et **Ware House**.
+1. Dans l’en-tête de colonne **BusinessType**, sélectionnez la flèche vers le bas, puis passez en revue les valeurs de colonne distinctes, puis notez les valeurs **Warehouse** et **Ware House**.
 
-1. Cliquez avec le bouton droit sur l’en-tête de colonne **Business Type**, puis sélectionnez **Remplacer les valeurs**.
+1. Cliquez avec le bouton droit sur l’en-tête de colonne **BusinessType**, puis sélectionnez **Remplacer les valeurs**.
 
 1. Dans la fenêtre **Remplacer les valeurs**, configurez les valeurs suivantes :
 
@@ -432,7 +432,7 @@ Dans cette tâche, vous allez mettre à jour **ColorFormats** de façon à désa
 
     ![Image 323](Linked_image_Files/02-transform-data-power-bi_image81.png)
 
-### Passer en revue le produit final
+## Passer en revue le produit final
 
 1. Dans l’Éditeur Power Query, vérifiez que vous avez **8 requêtes**, correctement nommées comme suit :
 
@@ -454,3 +454,12 @@ Dans cette tâche, vous allez mettre à jour **ColorFormats** de façon à désa
     ![Image 3](Linked_image_Files/02-transform-data-power-bi_image84.png)
 
 ## Labo terminé
+
+Vous pouvez choisir d’enregistrer votre rapport Power BI, même s’il n’est pas nécessaire pour ce labo. Dans l’exercice suivant, vous allez utiliser un fichier de démarrage prédéfini.
+
+1. Accédez au menu **« Fichier »** dans le coin supérieur gauche, puis sélectionnez **« Enregistrer sous ».** 
+1. Sélectionnez **Parcourir cet appareil**.
+1. Sélectionnez le dossier dans lequel vous souhaitez enregistrer le fichier et donnez-lui un nom descriptif. 
+1. Sélectionnez le bouton **Enregistrer** pour enregistrer votre rapport en tant que fichier .pbix. 
+1. Si une boîte de dialogue s’affiche pour vous inviter à appliquer des modifications de requête en attente, sélectionnez **Appliquer**.
+1. Fermez Power BI Desktop.

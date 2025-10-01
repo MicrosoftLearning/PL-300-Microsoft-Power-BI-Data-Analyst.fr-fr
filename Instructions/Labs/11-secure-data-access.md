@@ -8,12 +8,7 @@ lab:
 
 ## Histoire du labo
 
-Dans ce labo, vous allez appliquer la sécurité au niveau des lignes pour vous assurer qu’un vendeur ne peut analyser les données de ventes que pour la ou les régions qui lui sont affectées.
-
-Dans ce labo, vous découvrez comment :
-
-- Appliquer la sécurité au niveau des lignes.
-- Choisir entre des méthodes dynamiques et statiques.
+Dans ce labo, vous allez appliquer la sécurité au niveau des lignes pour vous assurer qu’un vendeur ne peut analyser les données de ventes que pour la ou les régions qui lui sont affectées. Vous allez appliquer la sécurité au niveau des lignes à l’aide de la méthode dynamique.
 
 **Ce labo devrait prendre environ 20 minutes.**
 
@@ -27,13 +22,13 @@ Extrayez le dossier dans celui de **C:\Users\Student\Downloads\11-secure-data**.
 
 Ouvrez le fichier **11-Starter-Sales Analysis.pbix**.
 
-> ***Remarque** : vous pouvez ignorer la connexion en sélectionnant **Annuler**. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
+> _**Remarque** : Une boîte de dialogue de connexion peut s’afficher au fur et à mesure que le fichier se charge. Sélectionnez **Annuler** pour ignorer la boîte de dialogue de connexion. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
 
 ## Appliquer la sécurité au niveau des lignes
 
 Au cours de cette tâche, vous allez appliquer la sécurité au niveau des lignes pour vous assurer qu’un vendeur ne peut voir que les ventes réalisées dans la ou les régions qui lui sont affectées.
 
-1. Revenez à la vue Table.
+1. Revenez à la **vue Table**.
 
    ![Image 5701](Linked_image_Files/11-secure-data-access_image20.png)
 
@@ -104,3 +99,13 @@ Au cours de cette tâche, vous allez appliquer la sécurité au niveau des ligne
 *Remarque : Une fois que le fichier Power BI Desktop aura été publié sur le service Power BI, vous devrez effectuer une tâche de post-publication pour mapper les principaux de sécurité au rôle **Salespeople**. Vous n’effectuerez pas cette tâche durant ce labo.*
 
 ## Labo terminé
+
+Vous pouvez choisir d’enregistrer votre rapport Power BI, même s’il n’est pas nécessaire pour ce labo. 
+
+1. Fermez la fenêtre du navigateur Microsoft Edge.
+1. Dans Power BI Desktop, accédez au menu **« Fichier »** dans le coin supérieur gauche, puis sélectionnez **« Enregistrer sous »**. 
+1. Sélectionnez **Parcourir cet appareil**.
+1. Sélectionnez le dossier dans lequel vous souhaitez enregistrer le fichier et donnez-lui un nom descriptif. 
+1. Sélectionnez le bouton **Enregistrer** pour enregistrer votre rapport en tant que fichier .pbix. 
+1. Si une boîte de dialogue s’affiche pour vous inviter à appliquer des modifications de requête en attente, sélectionnez **Appliquer**.
+1. Fermez Power BI Desktop.

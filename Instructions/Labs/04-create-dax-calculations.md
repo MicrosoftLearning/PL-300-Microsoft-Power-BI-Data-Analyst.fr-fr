@@ -28,7 +28,7 @@ Extrayez le fichier dans le dossier **C :\Users\Student\Downloads\04-dax-calcul
 
 Ouvrez le fichier **04-Starter-Sales Analysis.pbix**.
 
-> _**Remarque** : Vous pouvez ignorer la connexion en sélectionnant **Annuler**. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
+> _**Remarque** : Une boîte de dialogue de connexion peut s’afficher au fur et à mesure que le fichier se charge. Sélectionnez **Annuler** pour ignorer la boîte de dialogue de connexion. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
 
 ## Créer la table calculée Salesperson (Vendeur)
 
@@ -38,7 +38,7 @@ Pour créer une table calculée, commencez par entrer son nom, suivi du symbole 
 
 Vous entrez une formule DAX valide dans la _barre de formule_. La barre de formule comprend des fonctionnalités telles que la saisie semi-automatique, l'Intellisense et le code de couleurs, qui vous permettent de saisir la formule rapidement et avec précision.
 
-1. Dans Power BI Desktop, dans la vue Rapport, dans le ruban **Modélisation**, dans le groupe **Calculs**, sélectionnez **Nouvelle table**.
+1. Dans Power BI Desktop, dans la **vue Rapport**, dans le ruban **Modélisation**, dans le groupe **Calculs**, sélectionnez **Nouvelle table**.
 
     ![Image 1](Linked_image_Files/04-create-dax-calculations_image9.png)
 
@@ -58,7 +58,7 @@ Vous entrez une formule DAX valide dans la _barre de formule_. La barre de formu
     >
     > _Contrairement aux tables provenant de Power Query, les tables calculées ne permettent pas de charger des données à partir de sources externes. Elles ne peuvent transformer les données que sur la base de ce qui a déjà été chargé dans le modèle de données._
 
-1. Basculez vers la vue Modèle et notez que la table `Salesperson` est disponible.
+1. Basculez vers la **vue Modèle** et notez que la table `Salesperson` est disponible.
 
 1. Créez une relation entre la colonne `Salesperson | EmployeeKey` et la colonne `Sales | EmployeeKey`.
 
@@ -86,7 +86,7 @@ Vous entrez une formule DAX valide dans la _barre de formule_. La barre de formu
 
 Dans cette tâche, vous allez créer la table `Date`.
 
-1. Revenez à la vue Table. Dans le groupe **Calculs** de l’onglet de ruban **Accueil**, sélectionnez **Nouvelle table**.
+1. Revenez à la **vue Table**. Dans le groupe **Calculs** de l’onglet de ruban **Accueil**, sélectionnez **Nouvelle table**.
 
     ![Image 4](Linked_image_Files/04-create-dax-calculations_image15.png)
 
@@ -141,7 +141,7 @@ Au cours de cette tâche, vous allez ajouter des colonnes supplémentaires pour 
 
     ![Image 9](Linked_image_Files/04-create-dax-calculations_image21.png)
 
-1. Pour valider les calculs, basculez vers l’affichage Rapport.
+1. Pour valider les calculs, basculez vers la **vue Rapport**.
 
 1. Pour créer une page de rapport, sélectionnez l’icône plus en regard de **Page 1**.
 
@@ -169,7 +169,7 @@ Au cours de cette tâche, vous allez ajouter des colonnes supplémentaires pour 
 
     > _Par défaut, les valeurs de texte sont triées par ordre alphabétique, les nombres du plus petit au plus grand et les dates de la plus ancienne à la plus récente._
 
-1. Pour personnaliser l’ordre de tri du champ `Month`, basculez vers la vue Table.
+1. Pour personnaliser l’ordre de tri du champ `Month`, basculez vers la **vue Table**.
 
 1. Ajoutez la colonne `MonthKey` à la table `Date`.
 
@@ -180,11 +180,11 @@ Au cours de cette tâche, vous allez ajouter des colonnes supplémentaires pour 
 
     > _Cette formule calcule une valeur numérique pour chaque combinaison année/mois._
 
-1. Dans la vue Table, vérifiez que la nouvelle colonne contient des valeurs numériques (par exemple, 201707 pour juillet 2017, etc.).
+1. Dans la **vue Table**, vérifiez que la nouvelle colonne contient des valeurs numériques (par exemple, 201707 pour juillet 2017, etc.).
 
     ![Image 15](Linked_image_Files/04-create-dax-calculations_image28.png)
 
-1. Revenez dans la vue Rapport.
+1. Revenez dans la **vue Rapport**.
 
 1. Dans le volet **Données**, puis sélectionnez le champ `Month`.
 
@@ -200,7 +200,7 @@ Au cours de cette tâche, vous allez ajouter des colonnes supplémentaires pour 
 
 Dans cette tâche, vous allez procéder à la conception de la table `Date` en masquant une colonne et en créant une hiérarchie. Vous allez ensuite créer des relations avec les tables `Sales` et `Targets`.
 
-1. Basculez vers la vue Modèle.
+1. Basculez vers la vue **Modèle**.
 
 1. Dans le tableau `Date`, masquez la colonne `MonthKey` (définie **Est masquée** sur _Oui_).
 
@@ -230,7 +230,7 @@ Dans cette tâche, vous allez procéder à la conception de la table `Date` en m
 
 Au cours de cette tâche, vous allez marquer la table `Date` comme table de dates.
 
-1. Passez à l’affichage Report.
+1. Passez à l’affichage **Report**.
 
 1. Dans le volet **Données**, sélectionnez la table `Date` (et non le champ `Date`).
 
@@ -256,7 +256,7 @@ Au cours de cette tâche, vous allez marquer la table `Date` comme table de date
 
 Dans cette tâche, vous allez créer des mesures simples. Les mesures simples agrègent des valeurs dans une seule colonne ou comptent des lignes d’une table.
 
-1. Dans la vue Rapport, à la **Page 2**, dans le volet **Données**, faites glisser le champ `Sales | Unit Price` dans le visualisation de matrice.
+1. Dans la **vue Rapport**, à la **Page 2**, dans le volet **Données**, faites glisser le champ `Sales | Unit Price` dans le visualisation de matrice.
 
     ![Image 23](Linked_image_Files/04-create-dax-calculations_image35.png)
 
@@ -299,7 +299,7 @@ Dans cette tâche, vous allez créer des mesures simples. Les mesures simples ag
     >
     > _Dans le cas présent, le nombre de commandes est calculé en comptant les valeurs distinctes de la colonne `SalesOrderNumber` (Numéro de commande), tandis que le nombre de lignes de commande correspond simplement au nombre de lignes de la table (chaque ligne représentant une ligne de commande)._
 
-1. Basculez vers l’affichage Modèle, puis sélectionnez les quatre mesures de prix : `Avg Price`, `Max Price`, `Median Price`, et `Min Price`.
+1. Basculez vers la **vue Modèle**, puis sélectionnez les quatre mesures de prix : `Avg Price`, `Max Price`, `Median Price` et `Min Price`.
 
 1. Pour la sélection multiple de mesures, configurez les critères suivants :
 
@@ -319,7 +319,7 @@ Dans cette tâche, vous allez créer des mesures simples. Les mesures simples ag
 
     ![Image 27](Linked_image_Files/04-create-dax-calculations_image41.png)
 
-1. Dans la vue Rapport, dans la zone **Valeurs** du visuel matrice, sélectionnez **X** pour supprimer **Moyenne du prix unitaire**.
+1. Dans la **vue Rapport**, dans la zone **Valeurs** du visuel matrice, sélectionnez **X** pour supprimer **Moyenne du prix unitaire**.
 
     ![Image 28](Linked_image_Files/04-create-dax-calculations_image41a.png)
 
@@ -341,7 +341,7 @@ Dans cette tâche, vous allez créer des mesures simples. Les mesures simples ag
 
 Au cours de cette tâche, vous allez créer des mesures supplémentaires qui utilisent des formules plus complexes.
 
-1. Dans la vue Rapport, sélectionnez la **Page 1** et examinez le visuel de table des vendeurs (à droite), notant le total de la colonne **Somme de la cible**.
+1. Dans la **vue Rapport**, sélectionnez la **Page 1** et examinez le visuel de table des vendeurs (à droite), notant le total de la colonne **Somme de la cible**.
 
     ![Image 30](Linked_image_Files/04-create-dax-calculations_image45.png)
 
@@ -349,7 +349,7 @@ Au cours de cette tâche, vous allez créer des mesures supplémentaires qui uti
 
 1. Renommez la colonne `Targets | Target` en _TargetAmount_.
 
-    > _Conseil : Il existe plusieurs façons de renommer la colonne dans la vue Rapport : dans le volet **Données**, vous pouvez cliquer avec le bouton droit sur la colonne et sélectionner **Renommer**, ou double-cliquer sur la colonne, ou encore appuyer sur **F2**._
+    > _Conseil : Il existe plusieurs façons de renommer la colonne dans la **vue Rapport** : Dans le volet **Champs**, vous pouvez soit cliquer avec le bouton droit sur la colonne et sélectionner **Renommer**, soit double-cliquer sur la colonne, soit appuyer sur **F2**._
 
 1. Créez la mesure suivante sur la table `Targets` :
 
@@ -403,3 +403,12 @@ Au cours de cette tâche, vous allez créer des mesures supplémentaires qui uti
 1. Enregistrez le fichier Power BI Desktop.
 
 ## Labo terminé
+
+Vous pouvez choisir d’enregistrer votre rapport Power BI, même s’il n’est pas nécessaire pour ce labo. Dans l’exercice suivant, vous allez utiliser un fichier de démarrage prédéfini.
+
+1. Accédez au menu **« Fichier »** dans le coin supérieur gauche, puis sélectionnez **« Enregistrer sous ».** 
+1. Sélectionnez **Parcourir cet appareil**.
+1. Sélectionnez le dossier dans lequel vous souhaitez enregistrer le fichier et donnez-lui un nom descriptif. 
+1. Sélectionnez le bouton **Enregistrer** pour enregistrer votre rapport en tant que fichier .pbix. 
+1. Si une boîte de dialogue s’affiche pour vous inviter à appliquer des modifications de requête en attente, sélectionnez **Appliquer**.
+1. Fermez Power BI Desktop.

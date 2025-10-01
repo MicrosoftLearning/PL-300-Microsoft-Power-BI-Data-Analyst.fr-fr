@@ -28,7 +28,7 @@ Extrayez le fichier dans celui de **C:\Users\Student\Downloads\09-enhanced-repor
 
 Ouvrez le fichier **09-Starter-Sales Analysis.pbix**.
 
-> _**Remarque** : Vous pouvez ignorer la connexion en sélectionnant **Annuler**. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
+> _**Remarque** : Une boîte de dialogue de connexion peut s’afficher au fur et à mesure que le fichier se charge. Sélectionnez **Annuler** pour ignorer la boîte de dialogue de connexion. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
 
 ## Configurer une page d’extraction
 
@@ -249,7 +249,7 @@ Dans cet exercice, vous allez améliorer la page _My Performance_ avec des bouto
 
 Dans cet exercice, vous allez publier le rapport sur le service Power BI et explorer le comportement du rapport publié.
 
-> _**Note** : Vous aurez besoin d’au moins une licence gratuite **Power BI** pour publier le rapport. Ouvrez le navigateur Microsoft Edge, puis connectez-vous à l’adresse `https://app.powerbi.com`. Lorsque vous êtes invité à résoudre une énigme ou à commencer un essai gratuit de Fabric, vous pouvez ignorer cette étape et fermer le navigateur.
+> _**Remarque** : Vous aurez besoin d’au moins une licence gratuite **Power BI** pour publier le rapport. Ouvrez le navigateur Microsoft Edge et accédez à_ `https://app.powerbi.com`_.  Connectez-vous avec les informations d’identification du locataire Microsoft 365 fournies par votre hôte de laboratoire autorisé (ALH). Lorsque vous êtes invité à résoudre une énigme ou à commencer un essai gratuit de Fabric, vous pouvez ignorer cette étape et fermer le navigateur._
 
 > _**Remarque** : Vous pouvez passer en revue le reste de l’exercice, même si vous n’avez pas accès au service Power BI pour effectuer les tâches directement._
 
@@ -294,3 +294,6 @@ Dans cet exercice, vous allez publier le rapport sur le service Power BI et exp
 1. Sélectionnez chacun des boutons. Vous pouvez remarquer qu’un visuel différent s’affiche.
 
 ## Labo terminé
+
+1. Fermez le navigateur Microsoft Edge.
+1. Fermez Power BI Desktop.
