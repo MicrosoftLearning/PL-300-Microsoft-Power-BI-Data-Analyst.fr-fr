@@ -30,7 +30,7 @@ Extrayez le dossier dans celui de **C:\Users\Student\Downloads\03-model-data**.
 
 Ouvrez le fichier **03-Starter-Sales Analysis.pbix**.
 
-> _**Remarque** : Vous pouvez ignorer la connexion en sélectionnant **Annuler**. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
+> _**Remarque** : Une boîte de dialogue de connexion peut s’afficher au fur et à mesure que le fichier se charge. Sélectionnez **Annuler** pour ignorer la boîte de dialogue de connexion. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
 
 ## Créer des relations de modèle
 
@@ -50,7 +50,7 @@ Dans cette tâche, vous créez des relations de modèle. Le fichier a été conf
 
     > _Le problème est dû au fait que la table est basée sur des champs de tables différentes. Chaque catégorie de produit est censée afficher les ventes de cette catégorie. Toutefois, étant donné qu’il n’existe pas de relation de modèle entre ces tables, la table `Sales` n’est pas filtrée. Vous allez maintenant ajouter une relation pour propager les filtres entre les tables._
 
-1. Pour basculer vers le concepteur de modèles, à gauche, sélectionnez l’icône d’affichage Modèle.
+1. Pour basculer vers le concepteur de modèles, à gauche, sélectionnez l’icône de la **vue Modèle**.
 
     ![Image 2](Linked_image_Files/03-configure-semantic-model-model-view.png)
 
@@ -89,17 +89,17 @@ Dans cette tâche, vous créez des relations de modèle. Le fichier a été conf
     >
     > Conseil : Si vous placez le curseur sur la relation pour mettre en surbrillance les colonnes associées._
 
-1. Basculez dans la vue Rapport, puis notez que le visuel de table a été mis à jour de façon à afficher des valeurs différentes pour chaque catégorie de produit.
+1. Basculez dans la **vue Rapport**, puis notez que le visuel de table a été mis à jour de façon à afficher des valeurs différentes pour chaque catégorie de produit.
 
     > _Les filtres appliqués à la table `Product` se propagent désormais à la table `Sales`._
 
     ![Image 7](Linked_image_Files/03-configure-semantic-model-table-with-relationship.png)
 
-### Créer des relations supplémentaires
+## Créer des relations supplémentaires
 
 Il existe un moyen plus simple de créer une relation. Dans le diagramme du modèle, vous pouvez faire glisser-déposer des colonnes pour créer une relation entre elles.
 
-1. Pour créer une relation à l’aide d’une autre technique, basculez vers la vue Modèle.
+1. Pour créer une relation à l’aide d’une autre technique, basculez vers la **vue Modèle**.
 
 1. Dans la table `Reseller`, faites glisser la colonne `ResellerKey` sur la colonne `ResellerKey` de la table `Sales`.
 
@@ -124,7 +124,7 @@ Il existe un moyen plus simple de créer une relation. Dans le diagramme du mod�
 
 Dans cette tâche, vous allez configurer la table `Product` avec une hiérarchie et un dossier d’affichage.
 
-1. Basculez vers la vue Modèle.
+1. Basculez vers la vue **Modèle**.
 
 1. Dans le volet **Données**, développez si nécessaire la table `Product` pour afficher tous les champs.
 
@@ -258,9 +258,9 @@ Lors de cette tâche, vous allez mettre à jour plusieurs colonnes à l’aide u
 
 ## Explorer l’interface du modèle
 
-Dans cette tâche, vous allez passer à la vue Rapport, examiner l’interface du modèle de données et configurer le paramètre Date/heure automatique.
+Dans cette tâche, vous allez passer à la **vue Rapport**, examiner l’interface du modèle de données et configurer le paramètre Date/heure automatique.
 
-1. Passez à la vue Rapport.
+1. Passez à l’affichage **Report**.
 
 1. Dans le volet **Données**, notez les points suivants :
 
@@ -348,7 +348,7 @@ Lors de cette tâche, vous allez créer deux mesures rapides pour calculer le pr
 
 Dans cette tâche, vous allez créer une relation plusieurs à plusieurs entre la table `Salesperson` et la table `Sales`.
 
-1. Dans la vue Rapport, sélectionnez une zone vierge de la page du rapport.
+1. Dans la **vue Rapport**, sélectionnez une zone vierge de la page du rapport.
 
 1. Pour créer un visuel de table, dans le volet **Données**, vérifiez les deux champs suivants :
 
@@ -363,7 +363,7 @@ Dans cette tâche, vous allez créer une relation plusieurs à plusieurs entre l
 
 1. Notez que _Michael Blythe_ a généré près de 9 millions de dollars de ventes.
 
-1. Basculez vers la vue Modèle, puis faites glisser la table `SalespersonRegion` pour la positionner entre les tables `Salesperson` et `Region`.
+1. Basculez vers la **vue Modèle**, puis faites glisser la table `SalespersonRegion` pour la positionner entre les tables `Region` et `Salesperson`.
 
 1. Créez les deux relations de modèle suivantes par glisser-déposer :
 
@@ -372,9 +372,9 @@ Dans cette tâche, vous allez créer une relation plusieurs à plusieurs entre l
 
     > _La table `SalespersonRegion` peut être considérée comme une table de pontage._
 
-1. Si vous passez à la vue Rapport, vous pouvez noter que le visuel n’a pas été mis à jour. Le résultat des ventes de Michael Blythe est le même.
+1. Si vous passez à la **vue Rapport**, vous pouvez noter que le visuel n’a pas été mis à jour. Le résultat des ventes de Michael Blythe est le même.
 
-1. Revenez à la vue Modèle, puis suivez les directions du filtre de relation (pointe de flèche) à partir de la table `Salesperson`.
+1. Revenez à la **vue Modèle**, puis suivez les directions du filtre de relation (pointe de flèche) à partir de la table `Salesperson`.
 
     > _Considérez que la table `Salesperson` filtre la table `Sales`. Il filtre également la table `SalespersonRegion`, mais elle ne continue pas en propageant des filtres à la table `Region` (la pointe de flèche est orientée dans la mauvaise direction)._
 
@@ -394,11 +394,11 @@ Dans cette tâche, vous allez créer une relation plusieurs à plusieurs entre l
 
     ![Image 30](Linked_image_Files/03-configure-semantic-model_u_image14.png)
 
-1. Si vous passez à la vue Rapport, vous pouvez noter que les valeurs des ventes sont toujours les mêmes.
+1. Si vous passez à la **vue Rapport**, vous pouvez noter que les valeurs des ventes sont toujours les mêmes.
 
     > _Le problème vient maintenant du fait qu’il existe deux chemins de propagation de filtre possibles entre les tables `Salesperson` et `Sales`. Cette ambiguïté est résolue en interne selon une évaluation de type « plus petit nombre de tables ». Pour être clair, vous ne devez pas concevoir des modèles avec ce type d'ambiguïté. Nous traiterons ce problème en partie plus tard dans ce labo, puis durant le labo **Créer des calculs DAX dans Power BI Desktop**._
 
-1. Basculez vers la vue Modèle.
+1. Basculez vers la vue **Modèle**.
 
 1. Pour forcer la propagation du filtre par le biais de la table de pontage, modifiez (double-cliquez) la relation entre les tables `Salesperson` et `Sales`.
 
@@ -414,7 +414,7 @@ Dans cette tâche, vous allez créer une relation plusieurs à plusieurs entre l
 
     ![Image 32](Linked_image_Files/03-configure-semantic-model_u_image17.png)
 
-1. Si vous passez à la vue Rapport, vous pouvez noter que les ventes de Michael Blythe atteignent presque 22 millions de dollars.
+1. Si vous passez à la **vue Rapport**, vous pouvez noter que les ventes de Michael Blythe atteignent presque 22 millions de dollars.
 
 1. Notez également que la somme des ventes de chaque vendeur dépasse le total de la table.
 
@@ -422,7 +422,7 @@ Dans cette tâche, vous allez créer une relation plusieurs à plusieurs entre l
      >
      > _Bien que la relation plusieurs-à-plusieurs fonctionne, il est pour l’instant impossible d’analyser les ventes réalisées par un vendeur (car la relation est inactive). Dans le laboratoire **Créer des calculs DAX dans Power BI Desktop**, vous pourrez réactiver la relation quand vous introduirez une table calculée permettant d’analyser les performances des vendeurs dans leurs régions._
 
-1. Basculez vers la vue Modèle, puis, dans le diagramme de modèle, sélectionnez la table `Salesperson`.
+1. Basculez vers la **vue Modèle**, puis, dans le diagramme de modèle, sélectionnez la table `Salesperson`.
 
 1. Dans la zone **Nom** du volet **Propriétés**, remplacez le texte par _Salesperson (Performance)_.
 
@@ -434,7 +434,7 @@ Lors de cette tâche, vous allez créer une relation à la table `Targets`.
 
 1. Créez une relation à partir de la colonne `Salesperson (Performance) | EmployeeID` et de la colonne `Targets | EmployeeID`.
 
-1. Dans la vue Rapport, ajoutez le champ `Targets | Target` au visuel de table.
+1. Dans la **vue Rapport**, ajoutez le champ `Targets | Target` au visuel de table.
 
 1. Redimensionnez le visuel de table afin que toutes les colonnes soient visibles.
 
@@ -445,3 +445,12 @@ Lors de cette tâche, vous allez créer une relation à la table `Targets`.
 1. Enregistrez le fichier Power BI Desktop.
 
 ## Labo terminé
+
+Vous pouvez choisir d’enregistrer votre rapport Power BI, même s’il n’est pas nécessaire pour ce labo. Dans l’exercice suivant, vous allez utiliser un fichier de démarrage prédéfini.
+
+1. Accédez au menu **« Fichier »** dans le coin supérieur gauche, puis sélectionnez **« Enregistrer sous ».** 
+1. Sélectionnez **Parcourir cet appareil**.
+1. Sélectionnez le dossier dans lequel vous souhaitez enregistrer le fichier et donnez-lui un nom descriptif. 
+1. Sélectionnez le bouton **Enregistrer** pour enregistrer votre rapport en tant que fichier .pbix. 
+1. Si une boîte de dialogue s’affiche pour vous inviter à appliquer des modifications de requête en attente, sélectionnez **Appliquer**.
+1. Fermez Power BI Desktop.

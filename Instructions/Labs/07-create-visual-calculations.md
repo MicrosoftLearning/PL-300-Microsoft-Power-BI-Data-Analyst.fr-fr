@@ -6,7 +6,7 @@ lab:
 
 # Créer des calculs visuels dans Power BI Desktop
 
-## **Histoire du labo**
+## Histoire du labo
 
 Dans ce labo, vous allez créer des calculs visuels avec des expressions DAX (Data Analysis Expressions).
 
@@ -29,7 +29,7 @@ Extrayez le dossier vers **C:\Users\Student\Downloads\05b-visual-calculations**.
 
 Ouvrez le fichier **07-Starter-Sales Analysis.pbix**.
 
-> ***Remarque** : vous pouvez ignorer la connexion en sélectionnant **Annuler**. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**.
+> _**Remarque** : Une boîte de dialogue de connexion peut s’afficher au fur et à mesure que le fichier se charge. Sélectionnez **Annuler** pour ignorer la boîte de dialogue de connexion. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
 
 ## Créer un visuel de graphique à barres
 
@@ -51,7 +51,7 @@ Dans cette tâche, vous allez créer un graphique à barres affichant le montant
 
     > Vous disposez maintenant d’un graphique à barres montrant la somme des ventes et la somme des coûts par année, classées par ordre chronologique.
 
-### Ajouter des calculs
+## Ajouter des calculs
 
 1. Une fois le graphique à barres sélectionné, sélectionnez **Nouveau calcul visuel** dans le ruban :
 
@@ -119,7 +119,7 @@ Dans cette tâche, vous allez créer un visuel de matrice qui compare le montant
 
     > *Les labos utilisent une notation abrégée pour référencer un champ. Voici le résultat : **Date \| Year**. Dans cet exemple, **Date** est le nom de la table et **Year** correspond au nom du champ.*
 
-### Ajouter des calculs
+## Ajouter des calculs
 
 1. Une fois la matrice sélectionnée, sélectionnez **Nouveau calcul visuel** dans le ruban.
 
@@ -160,7 +160,7 @@ Dans cette tâche, vous allez créer un graphique en courbes qui affiche la somm
     - Axe X : **Date \| Année** et **Date \| Trimestre**
     - Axe des Y : **Sales \| Sales**
 
-### Ajouter une somme en cours d’exécution
+## Ajouter une somme en cours d’exécution
 
 1. Une fois le graphique en courbes sélectionné, développez le menu sous **Nouveau calcul visuel** et sélectionnez **Somme en cours d’exécution** dans les options de modèle.
 
@@ -168,7 +168,7 @@ Dans cette tâche, vous allez créer un graphique en courbes qui affiche la somm
 
    ![Image 09](Linked_image_Files/07-create-visual-calculations_image09.png)
 
-### Mettre à jour la somme en cours d’exécution pour redémarrer chaque nouvel exercice financier
+## Mettre à jour la somme en cours d’exécution pour redémarrer chaque nouvel exercice financier
 
 1. Toujours dans la fenêtre de modification des calculs visuels, sélectionnez le champ **Somme en cours d’exécution** sous l’**Axe Y** et mettez à jour l’expression pour ce calcul en ajoutant le paramètre de réinitialisation HIGHESTPARENT, puis validez les modifications :
 
@@ -181,3 +181,12 @@ Vérifiez que la somme en cours d’exécution redémarre effectivement pour cha
    ![Image 10](Linked_image_Files/07-create-visual-calculations_image10.png)
 
 ## Labo terminé
+
+Vous pouvez choisir d’enregistrer votre rapport Power BI, même s’il n’est pas nécessaire pour ce labo. Dans l’exercice suivant, vous allez utiliser un fichier de démarrage prédéfini.
+
+1. Accédez au menu **« Fichier »** dans le coin supérieur gauche, puis sélectionnez **« Enregistrer sous ».** 
+1. Sélectionnez **Parcourir cet appareil**.
+1. Sélectionnez le dossier dans lequel vous souhaitez enregistrer le fichier et donnez-lui un nom descriptif. 
+1. Sélectionnez le bouton **Enregistrer** pour enregistrer votre rapport en tant que fichier .pbix. 
+1. Si une boîte de dialogue s’affiche pour vous inviter à appliquer des modifications de requête en attente, sélectionnez **Appliquer**.
+1. Fermez Power BI Desktop.

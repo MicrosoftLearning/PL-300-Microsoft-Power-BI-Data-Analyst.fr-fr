@@ -26,13 +26,13 @@ Extrayez le fichier dans le dossier ** C:ousersStudentCownloadsC06-time-intellig
 
 Ouvrez le fichier **06-Starter-Sales Analysis.pbix**.
 
-> _**Remarque** : Vous pouvez ignorer la connexion en sélectionnant **Annuler**. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
+> _**Remarque** : Une boîte de dialogue de connexion peut s’afficher au fur et à mesure que le fichier se charge. Sélectionnez **Annuler** pour ignorer la boîte de dialogue de connexion. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
 
 ## Créer une mesure de ventes cumulées annuelles jusqu’à ce jour (YTD)
 
 Dans cette tâche, vous allez créer une mesure de ventes cumulées annuelles jusqu’à ce jour (YTD) à l’aide de fonctions Time Intelligence.
 
-1. Dans Power BI Desktop, en vue Rapport, à la **Page 2**, notez le visuel de la matrice qui affiche diverses mesures avec les années et les mois regroupés sur les lignes.
+1. Dans Power BI Desktop, en **vue Rapport**, à la **Page 2**, notez le visuel de la matrice qui affiche diverses mesures avec les années et les mois regroupés sur les lignes.
 
 2. Ajoutez une mesure à la table `Sales`, basée sur l’expression suivante et sans décimale :
 
@@ -122,10 +122,19 @@ Au cours de cette tâche, vous allez créer une mesure de croissance des ventes 
 
     > _La mesure de croissance en glissement annuel indique une augmentation de près de 400 % (ou une multiplication par quatre) des ventes au cours de la même période de l’année précédente._
 
-1. Dans l’affichage Modèle, placez les deux nouvelles mesures dans un dossier d’affichage nommé _Assistant Time Intelligence_.
+1. Dans la **vue Modèle**, placez les deux nouvelles mesures dans un dossier d’affichage nommé _Time Intelligence_.
 
     ![Image 4](Linked_image_Files/06-use-dax-time-intelligence-functions_image24.png)
 
 1. Enregistrez le fichier Power BI Desktop.
 
 ## Labo terminé
+
+Vous pouvez choisir d’enregistrer votre rapport Power BI, même s’il n’est pas nécessaire pour ce labo. Dans l’exercice suivant, vous allez utiliser un fichier de démarrage prédéfini.
+
+1. Accédez au menu **« Fichier »** dans le coin supérieur gauche, puis sélectionnez **« Enregistrer sous ».** 
+1. Sélectionnez **Parcourir cet appareil**.
+1. Sélectionnez le dossier dans lequel vous souhaitez enregistrer le fichier et donnez-lui un nom descriptif. 
+1. Sélectionnez le bouton **Enregistrer** pour enregistrer votre rapport en tant que fichier .pbix. 
+1. Si une boîte de dialogue s’affiche pour vous inviter à appliquer des modifications de requête en attente, sélectionnez **Appliquer**.
+1. Fermez Power BI Desktop.

@@ -26,7 +26,7 @@ Extrayez le fichier dans le dossier **C :\Users\Student\Downloads\05-modify-dax
 
 Ouvrez le fichier **05-Starter-Sales Analysis.pbix**.
 
-> _**Remarque** : Vous pouvez ignorer la connexion en sélectionnant **Annuler**. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
+> _**Remarque** : Une boîte de dialogue de connexion peut s’afficher au fur et à mesure que le fichier se charge. Sélectionnez **Annuler** pour ignorer la boîte de dialogue de connexion. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
 
 ## Créer un visuel matrice
 
@@ -212,7 +212,7 @@ Au cours de cette tâche, vous allez créer plusieurs mesures avec des expressio
 
 1. Comme vous pouvez le constater, la mesure `Sales % Group` ne retourne maintenant de valeur que si la région est comprise dans la portée.
 
-1. Dans l’affichage Modèle, placez les trois nouvelles mesures dans un dossier d’affichage nommé _Ratios_.
+1. Dans la **vue Modèle**, placez les trois nouvelles mesures dans un dossier d’affichage nommé _Ratios_.
 
     ![Image 10](Linked_image_Files/05-modify-dax-filter-context_image20.png)
 
@@ -221,3 +221,12 @@ Au cours de cette tâche, vous allez créer plusieurs mesures avec des expressio
 > _Les mesures ajoutées à la table `Sales` ont modifié le contexte de filtre pour produire une navigation hiérarchique. Comme vous pouvez le constater, le modèle permettant d’effectuer le calcul d’un sous-total implique de supprimer certaines colonnes du contexte de filtre ; pour obtenir le total général, vous devez supprimer toutes les colonnes._
 
 ## Labo terminé
+
+Vous pouvez choisir d’enregistrer votre rapport Power BI, même s’il n’est pas nécessaire pour ce labo. Dans l’exercice suivant, vous allez utiliser un fichier de démarrage prédéfini.
+
+1. Accédez au menu **« Fichier »** dans le coin supérieur gauche, puis sélectionnez **« Enregistrer sous ».** 
+1. Sélectionnez **Parcourir cet appareil**.
+1. Sélectionnez le dossier dans lequel vous souhaitez enregistrer le fichier et donnez-lui un nom descriptif. 
+1. Sélectionnez le bouton **Enregistrer** pour enregistrer votre rapport en tant que fichier .pbix. 
+1. Si une boîte de dialogue s’affiche pour vous inviter à appliquer des modifications de requête en attente, sélectionnez **Appliquer**.
+1. Fermez Power BI Desktop.

@@ -30,11 +30,11 @@ Extrayez le fichier vers le dossier **C:\Users\Student\Downloads\08-design-repor
 
 Ouvrez le fichier **08-Starter-Sales Analysis.pbix**.
 
-> _**Remarque** : Vous pouvez ignorer la connexion en sélectionnant **Annuler**. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
+> _**Remarque** : Une boîte de dialogue de connexion peut s’afficher au fur et à mesure que le fichier se charge. Sélectionnez **Annuler** pour ignorer la boîte de dialogue de connexion. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
 
 ## Créer la page 1
 
-Au cours de cet exercice, vous allez créer la première page du rapport. Une fois créée, la page se présentera comme suit :
+Au cours de cette tâche, vous allez créer la première page du rapport. Une fois créée, la page se présentera comme suit :
 
 ![Capture d’écran de la page 1, comprenant un logo, deux segments et trois visuels.](Linked_image_Files/06-finished-report-page.png)
 
@@ -62,7 +62,9 @@ Au cours de cet exercice, vous allez créer la première page du rapport. Une fo
 
     > _Les labos utilisent une notation abrégée pour référencer un champ. Voici le résultat :`Date | Year`. Dans cet exemple, `Date` est le nom de la table et `Year` le nom du champ._
 
-1. Pour convertir le segment d’une liste en liste déroulante, dans le volet **Visualisations**, sélectionnez **Mettre en forme votre visuel**. Développez **Paramètres du segment**, puis définissez la liste déroulante **Style** sur **Liste déroulante**.
+    ![Image 17](Linked_image_Files/08-design-power-bi-reports_image16.png)
+
+1. Pour convertir le segment d’une liste en liste déroulante, dans le volet **Visualisations**, sélectionnez **Format visuel**. Développez **Paramètres du segment**, puis définissez la liste déroulante **Style** sur **Liste déroulante**.
 
     ![Image 4](Linked_image_Files/08-design-power-bi-reports_slicer_style.png)
 
@@ -166,7 +168,7 @@ Au cours de cet exercice, vous allez créer la première page du rapport. Une fo
 
 ## Conception de page 2
 
-Au cours de cet exercice, vous allez créer la deuxième page du rapport. Une fois créée, la page se présentera comme suit :
+Au cours de cette tâche, vous allez créer la deuxième page du rapport. Une fois créée, la page se présentera comme suit :
 
 ![Capture d’écran de la page 2, comprenant un segment et une matrice.](Linked_image_Files/08-design-power-bi-reports_image37.png)
 
@@ -224,7 +226,7 @@ Au cours de cet exercice, vous allez créer la deuxième page du rapport. Une fo
 
 ## Conception de page 3
 
-Au cours de cet exercice, vous allez concevoir la troisième et dernière page du rapport. Une fois créée, la page se présentera comme suit :
+Au cours de cette tâche, vous allez concevoir la troisième et dernière page du rapport. Une fois créée, la page se présentera comme suit :
 
 ![Capture d’écran de la page 3, comprenant un segment et trois visuels.](Linked_image_Files/08-design-power-bi-reports_image47.png)
 
@@ -323,9 +325,9 @@ Dans cette tâche, vous allez synchroniser les segments _Année_ et _Région_.
 
 ## Publier et explorer le rapport
 
-Au cours de cet exercice, vous allez publier le rapport sur le service Power BI. Vous allez ensuite explorer le comportement du rapport publié.
+Au cours de cette tâche, vous allez publier le rapport sur le service Power BI. Vous allez ensuite explorer le comportement du rapport publié.
 
-> _**Note** : Vous aurez besoin d’au moins une licence gratuite **Power BI** pour publier le rapport. Ouvrez le navigateur Microsoft Edge, puis connectez-vous à l’adresse `https://app.powerbi.com`. Lorsque vous êtes invité à résoudre une énigme ou à commencer un essai gratuit de Fabric, vous pouvez ignorer cette étape et fermer le navigateur.
+> _**Remarque** : Vous aurez besoin d’au moins une licence gratuite **Power BI** pour publier le rapport. Ouvrez le navigateur Microsoft Edge et accédez à_ `https://app.powerbi.com`_.  Connectez-vous avec les informations d’identification du locataire Microsoft 365 fournies par votre hôte de laboratoire autorisé (ALH). Lorsque vous êtes invité à résoudre une énigme ou à commencer un essai gratuit de Fabric, vous pouvez ignorer cette étape et fermer le navigateur._
 
 > _**Remarque** : Vous pouvez passer en revue le reste de l’exercice, même si vous n’avez pas accès au service Power BI pour effectuer les tâches directement._
 
@@ -345,7 +347,7 @@ Au cours de cet exercice, vous allez publier le rapport sur le service Power BI
 
 1. Une fois la publication réussie, sélectionnez **Ok**.
 
-1. Ouvrez le navigateur Microsoft Edge, puis connectez-vous à l’adresse `https://app.powerbi.com`.
+1. Ouvrez le navigateur Microsoft Edge, puis accédez à `https://app.powerbi.com`.
 
 1. Dans la fenêtre du navigateur, dans le service Power BI, dans le volet **Navigation** (situé à gauche et éventuellement réduit), développez **Mon espace de travail**.
 
@@ -426,3 +428,6 @@ Au cours de cet exercice, vous allez publier le rapport sur le service Power BI
     ![Image 48](Linked_image_Files/08-design-power-bi-reports_image71.png)
 
 ## Labo terminé
+
+1. Fermez le navigateur Microsoft Edge.
+1. Fermez Power BI Desktop.
