@@ -12,29 +12,29 @@ demo:
 
 1. Ajoutez une nouvelle requête basée sur le fichier`D:\Demo\Data\**ManagerCategory**.xlsx`.
 
-1. Utilisez la table **ManagerCategory** dans le fichier.
+1. Utilisez la table**ManagerCategory** dans le fichier.
 
-1. Supprimez la colonne **Manager**.
+1. Supprimez la colonne**Manager**.
 
-1. Divisez la colonne **Catégorie** en utilisant le point-virgule comme délimiteur, puis divisez-la en lignes (options avancées).
+1. Divisez la colonne**Catégorie** en utilisant le point-virgule comme délimiteur, puis divisez-la en lignes (options avancées).
 
-1. Dans la colonne **E-mail**, remplacez la valeur **<ty-johnston@tailspintoys.com>** par le compte du destinataire (provenant du fichier MySettings.txt).
+1. Dans la colonne**E-mail**, remplacez la valeur**<ty-johnston@tailspintoys.com>** par le compte du destinataire (provenant du fichier MySettings.txt).
 
-1. Faites remarquer que cet utilisateur peut voir trois catégories de produits : **Collective pitch, Trainer et Warbird**.
+1. Faites remarquer que cet utilisateur peut voir trois catégories de produits :**Collective pitch, Trainer et Warbird**.
 
 1. Fermez et appliquez les requêtes.
 
-1. Dans la vue Modèle, créez une relation entre les tables **ManagerCategory** et Product pour les colonnes **Category**.
+1. Dans la vue Modèle, créez une relation entre les tables**ManagerCategory** et Product pour les colonnes**Category**.
 
 1. Définissez la direction du filtre croisé sur Single (**ManagerCategory** filtre Product).
 
-1. Masquez la table **ManagerCategory**.
+1. Masquez la table**ManagerCategory**.
 
 ## Ajouter un rôle
 
-1. Dans la vue Rapport, ouvrez Gérer les rôles, puis créez un rôle nommé **Manager**.
+1. Dans la vue Rapport, ouvrez Gérer les rôles, puis créez un rôle nommé**Manager**.
 
-1. Dans le rôle, filtrez la colonne Email address de la table **ManagerCategory** comme suit :
+1. Dans le rôle, filtrez la colonne Email address de la table**ManagerCategory** comme suit :
 
   ```dax
    [Email] = USERPRINCIPALNAME()
@@ -62,9 +62,9 @@ demo:
 
 ## Configurer la sécurité du modèle sémantique
 
-1. Dans le service Power BI pour l’instructeur, à partir du volet de navigation, ouvrez la page Sécurité du modèle sémantique **Sales Analysis**.
+1. Dans le service Power BI pour l’instructeur, à partir du volet de navigation, ouvrez la page Sécurité du modèle sémantique**Sales Analysis**.
 
-1. Dans la section Membres, entrez le compte du destinataire (qui représente **Ty Johnston**).
+1. Dans la section Membres, entrez le compte du destinataire (qui représente**Ty Johnston**).
 
 1. Ajouter et enregistrer.
 
@@ -72,4 +72,4 @@ demo:
 
 1. Dans le service Power BI pour le destinataire, actualisez le tableau de bord (laissé ouvert depuis la démonstration précédente).
 
-1. Dans la vignette du tableau de bord **Profit Margin**, vérifiez que seules trois catégories de produits sont visibles.
+1. Dans la vignette du tableau de bord**Profit Margin**, vérifiez que seules trois catégories de produits sont visibles.

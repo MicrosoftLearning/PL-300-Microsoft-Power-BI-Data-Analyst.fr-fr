@@ -1,10 +1,10 @@
 # PL-300 : Analyste Données Microsoft Power BI
 
-Ce référentiel contient des travaux pratiques en labo liés au cours Microsoft [PL-300 : Analyste Données Microsoft Power BI](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00). Les laboratoires sont conçus pour accompagner les supports de cours d'apprentissage et permettre aux apprenants de s’exercer à utiliser les technologies qu'ils décrivent.
+Ce référentiel contient des travaux pratiques en labo liés au cours Microsoft[PL-300 : Analyste Données Microsoft Power BI](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00). Les laboratoires sont conçus pour accompagner les supports de cours d'apprentissage et permettre aux apprenants de s’exercer à utiliser les technologies qu'ils décrivent.
 
-- **Êtes-vous un MCT ?** - Consultez notre [Guide de l’utilisateur GitHub pour MCT](https://microsoftlearning.github.io/MCT-User-Guide/)
-- **Vous devez générer manuellement les instructions de labo ?** - Les instructions sont disponibles dans le référentiel [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build)
-- **Avez-vous besoin d’un petit rappel pour savoir quels labos vont avec quelle présentation de cours ?** - Consultez la [page GitHub](https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/)
+- **Êtes-vous un MCT ?** - Consultez notre[Guide de l’utilisateur GitHub pour MCT](https://microsoftlearning.github.io/MCT-User-Guide/)
+- **Vous devez générer manuellement les instructions de labo ?** - Les instructions sont disponibles dans le référentiel[MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build)
+- **Avez-vous besoin d’un petit rappel pour savoir quels labos vont avec quelle présentation de cours ?** - Consultez la[page GitHub](https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/)
 
 ## Que faisons-nous ?
 

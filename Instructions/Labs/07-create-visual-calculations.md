@@ -25,27 +25,27 @@ Pour effectuer cet exercice, ouvrez d’abord un navigateur web et entrez l’UR
 
 `https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/07-create-visual-calculations/07-visual-calculations.zip`
 
-Extrayez le dossier vers **C:\Users\Student\Downloads\05b-visual-calculations**.
+Extrayez le dossier vers**C:\Users\Student\Downloads\05b-visual-calculations**.
 
-Ouvrez le fichier **07-Starter-Sales Analysis.pbix**.
+Ouvrez le fichier**07-Starter-Sales Analysis.pbix**.
 
-> _**Remarque** : Une boîte de dialogue de connexion peut s’afficher au fur et à mesure que le fichier se charge. Sélectionnez **Annuler** pour ignorer la boîte de dialogue de connexion. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez **Appliquer plus tard**_.
+> _**Remarque** : Une boîte de dialogue de connexion peut s’afficher au fur et à mesure que le fichier se charge. Sélectionnez**Annuler** pour ignorer la boîte de dialogue de connexion. Fermez toutes les autres fenêtres d’information ouvertes. Si vous êtes invité à appliquer les modifications, sélectionnez**Appliquer plus tard**_.
 
 ## Créer un visuel de graphique à barres
 
 Dans cette tâche, vous allez créer un graphique à barres affichant le montant des ventes, le coût total du produit et le profit par exercice financier, avec des métriques de comparaison sous forme d’info-bulles.
 
-1. Dans le volet **Visualisations**, sélectionnez le type de visuel Graphique à barres groupées.
+1. Dans le volet**Visualisations**, sélectionnez le type de visuel Graphique à barres groupées.
 
    ![Image 01](Linked_image_Files/07-create-visual-calculations_image01.png)
 
-1. Dans la table **Date** du volet **Données**, faites glisser le champ **Year** (Années) dans la barre d’outils/zone **Axe Y**.
+1. Dans la table**Date** du volet**Données**, faites glisser le champ**Year** (Années) dans la barre d’outils/zone**Axe Y**.
 
-1. Faites glisser les champs **Ventes** et **Coût** de la table **Ventes** dans la barre d’outils/zone **Axe X**.
+1. Faites glisser les champs**Ventes** et**Coût** de la table**Ventes** dans la barre d’outils/zone**Axe X**.
 
     > Notez que lorsque vous avez ajouté Ventes et Coût au visuel, la somme de chaque champ a été automatiquement calculée.
 
-1. Triez le graphique à barres obtenu par **Année** croissante en utilisant le menu à trois points et en sélectionnant **Année** suivi de **Tri croissant** :
+1. Triez le graphique à barres obtenu par**Année** croissante en utilisant le menu à trois points et en sélectionnant**Année** suivi de**Tri croissant** :
 
    ![Image 02](Linked_image_Files/07-create-visual-calculations_image02.png)
 
@@ -53,7 +53,7 @@ Dans cette tâche, vous allez créer un graphique à barres affichant le montant
 
 ## Ajouter des calculs
 
-1. Une fois le graphique à barres sélectionné, sélectionnez **Nouveau calcul visuel** dans le ruban :
+1. Une fois le graphique à barres sélectionné, sélectionnez**Nouveau calcul visuel** dans le ruban :
 
    ![Image 03](Linked_image_Files/07-create-visual-calculations_image03.png)
 
@@ -67,25 +67,25 @@ Dans cette tâche, vous allez créer un graphique à barres affichant le montant
 
    ![Image 04](Linked_image_Files/07-create-visual-calculations_image04.png)
 
-1. Développez le menu sous **Nouveau calcul visuel** et sélectionnez **Par rapport au précédent** dans les options de modèle :
+1. Développez le menu sous**Nouveau calcul visuel** et sélectionnez**Par rapport au précédent** dans les options de modèle :
 
     > **Par rapport au précédent** compare une valeur à une valeur précédente. Nous voyons donc le Profit comparé à la valeur précédente de l’Année.
 
    ![Image 05](Linked_image_Files/07-create-visual-calculations_image05.png)
 
-1. Dans la barre de formule, remplacez l’espace réservé `[Field]` par `[Profit]` deux fois et validez le calcul.
+1. Dans la barre de formule, remplacez l’espace réservé`[Field]` par`[Profit]` deux fois et validez le calcul.
 
-1. Sélectionnez **Somme en cours d’exécution** dans le menu des modèles et remplacez l’espace réservé `[Field]` par `[Profit]` et validez le calcul.
+1. Sélectionnez**Somme en cours d’exécution** dans le menu des modèles et remplacez l’espace réservé`[Field]` par`[Profit]` et validez le calcul.
 
-    > La **Somme en cours d’exécution** calcule la somme des valeurs, en ajoutant la valeur actuelle aux valeurs précédentes. Nous voyons donc le total des années actuelles et précédentes.
+    > La**Somme en cours d’exécution** calcule la somme des valeurs, en ajoutant la valeur actuelle aux valeurs précédentes. Nous voyons donc le total des années actuelles et précédentes.
 
-1. Sélectionnez **Moyenne mobile** dans le menu des modèles et remplacez l’espace réservé `[Field]` par `[Profit]` et l’espace réservé `WindowSize` par 2. Vous devez avoir la configuration suivante :
+1. Sélectionnez**Moyenne mobile** dans le menu des modèles et remplacez l’espace réservé`[Field]` par`[Profit]` et l’espace réservé`WindowSize` par 2. Vous devez avoir la configuration suivante :
 
-    > La **Moyenne mobile** calcule une moyenne d’un ensemble de valeurs dans une fenêtre donnée en divisant la somme des valeurs par la taille de la fenêtre. En définissant la taille de la fenêtre sur 2, nous calculons la moyenne de deux valeurs consécutives. Dans cet exemple, les valeurs sont des profits annuels. Nous voyons donc que la moyenne mobile pour FY2019 est la moyenne des profits pour FY2018 et FY2019.
+    > La**Moyenne mobile** calcule une moyenne d’un ensemble de valeurs dans une fenêtre donnée en divisant la somme des valeurs par la taille de la fenêtre. En définissant la taille de la fenêtre sur 2, nous calculons la moyenne de deux valeurs consécutives. Dans cet exemple, les valeurs sont des profits annuels. Nous voyons donc que la moyenne mobile pour FY2019 est la moyenne des profits pour FY2018 et FY2019.
 
    ![Image 06](Linked_image_Files/07-create-visual-calculations_image06.png)
 
-1. Dans la barre d’outils/zone **Axe X**, sélectionnez l’icône de visibilité des champs suivants pour les masquer du visuel :
+1. Dans la barre d’outils/zone**Axe X**, sélectionnez l’icône de visibilité des champs suivants pour les masquer du visuel :
 
     - Somme des ventes
     - Somme des coûts
@@ -95,33 +95,33 @@ Dans cette tâche, vous allez créer un graphique à barres affichant le montant
 
     > Notez que les champs et les calculs que vous masquez ne sont plus affichés sur le visuel.
 
-1. Dans le volet **Visualisations**, faites glisser **Somme en cours d’exécution** et **Moyenne mobile** vers la barre d’outils/zone **Info-bulles**.  
+1. Dans le volet**Visualisations**, faites glisser**Somme en cours d’exécution** et**Moyenne mobile** vers la barre d’outils/zone**Info-bulles**.  
 
 1. Vérifiez que le visuel répond désormais aux objectifs. Quittez l’écran de modification des calculs visuels pour accéder à votre rapport :
 
    ![Image 08](Linked_image_Files/07-create-visual-calculations_image08.png)
 
-    > Vous disposez maintenant d’un graphique à barres avec les valeurs suivantes : Somme des ventes, Somme des coûts, Profit et Profit *Par rapport au précédent* avec des info-bulles pour Profit *Somme en cours d’exécution* et Profit *Moyenne mobile*.
+    > Vous disposez maintenant d’un graphique à barres avec les valeurs suivantes : Somme des ventes, Somme des coûts, Profit et Profit*Par rapport au précédent* avec des info-bulles pour Profit*Somme en cours d’exécution* et Profit*Moyenne mobile*.
 
 ## Créer un visuel de matrice
 
 Dans cette tâche, vous allez créer un visuel de matrice qui compare le montant des ventes par catégorie au premier exercice financier pour chacune des années suivantes.
 
-1. Dans la **vue Rapport**, créez une page de rapport.
+1. Dans la**vue Rapport**, créez une page de rapport.
 
-1. Sur la **Page 2**, ajoutez un visuel matrice.
+1. Sur la**Page 2**, ajoutez un visuel matrice.
 
 1. Ajoutez les champs suivants aux barres d’outils/zones des visuels :
 
-    - Lignes : **Produit \| Catégorie**
-    - Colonnes : **Date \| Année**
-    - Valeurs : **Sales \| Sales**
+    - Lignes :**Produit \| Catégorie**
+    - Colonnes :**Date\| Année**
+    - Valeurs :**Sales\| Sales**
 
-    > *Les labos utilisent une notation abrégée pour référencer un champ. Voici le résultat : **Date \| Year**. Dans cet exemple, **Date** est le nom de la table et **Year** correspond au nom du champ.*
+    > *Les labos utilisent une notation abrégée pour référencer un champ. Voici le résultat :**Date\| Year**. Dans cet exemple,**Date** est le nom de la table et**Year** correspond au nom du champ.*
 
 ## Ajouter des calculs
 
-1. Une fois la matrice sélectionnée, sélectionnez **Nouveau calcul visuel** dans le ruban.
+1. Une fois la matrice sélectionnée, sélectionnez**Nouveau calcul visuel** dans le ruban.
 
 1. Dans la fenêtre de modification des calculs visuels, tapez et enregistrez le calcul suivant :
 
@@ -131,7 +131,7 @@ Dans cette tâche, vous allez créer un visuel de matrice qui compare le montant
 
     > Notez comment la matrice affiche la différence entre le montant des ventes de chaque catégorie et celui de la première catégorie.
 
-1. Sélectionnez le champ **Par rapport au premier** dans barre d’outils/zone **Valeurs** et mettez à jour votre calcul en ajoutant la valeur ROWS du paramètre Axe à FIRST :
+1. Sélectionnez le champ**Par rapport au premier** dans barre d’outils/zone**Valeurs** et mettez à jour votre calcul en ajoutant la valeur ROWS du paramètre Axe à FIRST :
 
     ```DAX
    Versus first = [Sum of Sales] - FIRST([Sum of Sales], ROWS)
@@ -143,7 +143,7 @@ Dans cette tâche, vous allez créer un visuel de matrice qui compare le montant
 
    ![Image 11](Linked_image_Files/07-create-visual-calculations_image11.png)
 
-    > Notez comment la colonne **Par rapport au premier** pour **Total des ventes** retourne zéro au lieu de la différence par rapport au premier exercice financier. Le **Total des ventes** est à un niveau hiérarchique différent de celui des sommes annuelles, et par conséquent, considéré comme la première colonne de ce niveau.
+    > Notez comment la colonne**Par rapport au premier** pour**Total des ventes** retourne zéro au lieu de la différence par rapport au premier exercice financier. Le**Total des ventes** est à un niveau hiérarchique différent de celui des sommes annuelles, et par conséquent, considéré comme la première colonne de ce niveau.
 
 1. Quittez l’écran de modification des calculs visuels pour accéder votre rapport.
 
@@ -151,26 +151,26 @@ Dans cette tâche, vous allez créer un visuel de matrice qui compare le montant
 
 Dans cette tâche, vous allez créer un graphique en courbes qui affiche la somme en cours d’exécution pour les ventes. Cette somme sera réinitialisée au début de chaque exercice financier.
 
-1. Dans la **vue Rapport**, créez une page de rapport.
+1. Dans la**vue Rapport**, créez une page de rapport.
 
-1. Sur la **Page 3**, ajoutez un visuel de graphique en courbes.
+1. Sur la**Page 3**, ajoutez un visuel de graphique en courbes.
 
 1. Ajoutez les champs suivants aux barres d’outils/zones des visuels :
 
-    - Axe X : **Date \| Année** et **Date \| Trimestre**
-    - Axe des Y : **Sales \| Sales**
+    - Axe X :**Date\| Année** et**Date\| Trimestre**
+    - Axe des Y :**Sales\| Sales**
 
 ## Ajouter une somme en cours d’exécution
 
-1. Une fois le graphique en courbes sélectionné, développez le menu sous **Nouveau calcul visuel** et sélectionnez **Somme en cours d’exécution** dans les options de modèle.
+1. Une fois le graphique en courbes sélectionné, développez le menu sous**Nouveau calcul visuel** et sélectionnez**Somme en cours d’exécution** dans les options de modèle.
 
-1. Remplacez l’espace réservé `[Field]` par `[Sum of Sales]` et validez la modification. Le visuel doit resembler à ceci :
+1. Remplacez l’espace réservé`[Field]` par`[Sum of Sales]` et validez la modification. Le visuel doit resembler à ceci :
 
    ![Image 09](Linked_image_Files/07-create-visual-calculations_image09.png)
 
 ## Mettre à jour la somme en cours d’exécution pour redémarrer chaque nouvel exercice financier
 
-1. Toujours dans la fenêtre de modification des calculs visuels, sélectionnez le champ **Somme en cours d’exécution** sous l’**Axe Y** et mettez à jour l’expression pour ce calcul en ajoutant le paramètre de réinitialisation HIGHESTPARENT, puis validez les modifications :
+1. Toujours dans la fenêtre de modification des calculs visuels, sélectionnez le champ**Somme en cours d’exécution** sous l’**Axe Y** et mettez à jour l’expression pour ce calcul en ajoutant le paramètre de réinitialisation HIGHESTPARENT, puis validez les modifications :
 
     ```DAX
    Running sum = RUNNINGSUM([Sum of Sales], HIGHESTPARENT)
@@ -185,8 +185,8 @@ Vérifiez que la somme en cours d’exécution redémarre effectivement pour cha
 Vous pouvez choisir d’enregistrer votre rapport Power BI, même s’il n’est pas nécessaire pour ce labo. Dans l’exercice suivant, vous allez utiliser un fichier de démarrage prédéfini.
 
 1. Accédez au menu **« Fichier »** dans le coin supérieur gauche, puis sélectionnez **« Enregistrer sous ».** 
-1. Sélectionnez **Parcourir cet appareil**.
+1. Sélectionnez**Parcourir cet appareil**.
 1. Sélectionnez le dossier dans lequel vous souhaitez enregistrer le fichier et donnez-lui un nom descriptif. 
-1. Sélectionnez le bouton **Enregistrer** pour enregistrer votre rapport en tant que fichier .pbix. 
-1. Si une boîte de dialogue s’affiche pour vous inviter à appliquer des modifications de requête en attente, sélectionnez **Appliquer**.
+1. Sélectionnez le bouton**Enregistrer** pour enregistrer votre rapport en tant que fichier .pbix. 
+1. Si une boîte de dialogue s’affiche pour vous inviter à appliquer des modifications de requête en attente, sélectionnez**Appliquer**.
 1. Fermez Power BI Desktop.
