@@ -8,7 +8,7 @@ lab:
 
 Dans l’idéal, vous devez suivre ces labos dans un environnement de labo hébergé. Si vous souhaitez les terminer sur votre propre ordinateur, vous pouvez le faire en installant le logiciel suivant.
 
-- Tous les fichiers d’installation et de ressources peuvent être [téléchargés à partir de GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/AllfilesDownload.zip).
+- Tous les fichiers d’installation et de ressources peuvent être[téléchargés à partir de GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/AllfilesDownload.zip).
   - Extrayez le dossier « AllFilesDownload » vers D:/ et renommez-le en D:\Allfiles\'.
 
 ***Vous pouvez rencontrer des boîtes de dialogue et des comportements inattendus lors de l’utilisation de votre propre environnement. En raison du large choix de configurations locales possibles, l’équipe du cours ne peut pas prendre en charge les problèmes que vous êtes susceptible de rencontrer dans votre propre environnement.***
@@ -19,23 +19,23 @@ Dans l’idéal, vous devez suivre ces labos dans un environnement de labo hébe
 
 ### Power BI Desktop
 
-1. Télécharger et installer à partir du Microsoft Store. Si vous n’avez pas accès au Microsoft Store, effectuez le téléchargement à partir du [web](https://www.microsoft.com/download/details.aspx?id=58494). Power BI Desktop est la principale application de ces labos.
+1. Télécharger et installer à partir du Microsoft Store. Si vous n’avez pas accès au Microsoft Store, effectuez le téléchargement à partir du[web](https://www.microsoft.com/download/details.aspx?id=58494). Power BI Desktop est la principale application de ces labos.
 
     - Utilisez les options par défaut dans le programme d’installation.
 
 ### Compte de développeur Microsoft 365
 
-Pour certains exercices, vous devrez vous connecter à Power BI avec un compte d’organisation. Vous pouvez utiliser votre propre compte, mais si vous n’y avez pas accès, vous pouvez créer un [compte de développeur Microsoft 365](https://developer.microsoft.com/microsoft-365/dev-program) gratuit.
+Pour certains exercices, vous devrez vous connecter à Power BI avec un compte d’organisation. Vous pouvez utiliser votre propre compte, mais si vous n’y avez pas accès, vous pouvez créer un[compte de développeur Microsoft 365](https://developer.microsoft.com/microsoft-365/dev-program) gratuit.
 
 ### Moteur de base de données SQL Server
 
 1. Le labo se connecte à une instance de SQL Server localhost. Les instructions suivantes vous aideront à installer SQL Server et à configurer les options par défaut. Il vous suffit d’installer la fonctionnalité Moteur de base de données.
 
-    - Télécharger la [copie Développeur gratuite du support d’installation](https://www.microsoft.com/sql-server/sql-server-downloads?SilentAuth=1&f=255&MSPPError=-2147217396&rtc=1)
+    - Télécharger la[copie Développeur gratuite du support d’installation](https://www.microsoft.com/sql-server/sql-server-downloads?SilentAuth=1&f=255&MSPPError=-2147217396&rtc=1)
     - [Installer SQL Server à partir de l’Assistant Installation (programme d’installation)](https://learn.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup)
 
 > Vous pouvez utiliser une instance SQL Server existante si vous y avez accès, au lieu d’installer une version locale. Toutefois, vous devrez remplacer la chaîne de connexion « localhost » par le nom de votre instance.
 
 ### Microsoft Edge
 
-1. Installez la dernière version de [Microsoft Edge](https://microsoft.com/edge) pour accéder au service Power BI en ligne.
+1. Installez la dernière version de[Microsoft Edge](https://microsoft.com/edge) pour accéder au service Power BI en ligne.

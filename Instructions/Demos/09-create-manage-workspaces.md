@@ -16,15 +16,15 @@ demo:
 
 1. Passez à la fenêtre du service de l’**instructeur** Power BI.
 
-1. Ouvrez le tableau de bord **Sales Monitoring**.
+1. Ouvrez le tableau de bord**Sales Monitoring**.
 
 1. Dans le menu, sélectionnez Partager.
 
 1. Partagez le tableau de bord avec le compte du destinataire.
 
-1. Passez à la fenêtre du service du **destinataire** Power BI.
+1. Passez à la fenêtre du service du**destinataire** Power BI.
 
-1. Ouvrez **Partagé avec moi** et ouvrez le tableau de bord Sales Monitoring.
+1. Ouvrez**Partagé avec moi** et ouvrez le tableau de bord Sales Monitoring.
 
 1. Faites remarquer que le tableau de bord est en lecture seule.
 
@@ -34,7 +34,7 @@ demo:
 
 1. Dans le volet de navigation, cliquez sur le nom de l’espace de travail.
 
-1. En haut à droite, sélectionnez **Créer l’application**.
+1. En haut à droite, sélectionnez**Créer l’application**.
 
 1. Dans la section Configuration, entrez du texte pour la description, puis choisissez éventuellement une couleur de thème.
 
@@ -46,7 +46,7 @@ demo:
 
 ## Obtenir et ouvrir l’application
 
-1. Passez à la fenêtre du service du **destinataire** Power BI.
+1. Passez à la fenêtre du service du**destinataire** Power BI.
 
 1. Ouvrez Applications, puis récupérez l’application que vous venez de publier.
 
